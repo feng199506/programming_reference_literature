@@ -1,0 +1,63 @@
+{
+ "id": "01X01",
+ "started": "2026-10-29T17:45:13Z",
+ "dropped_large_files": [
+  "norvig_pytudes_main_en/data/ngrams/ngrams-all.tsv.zip (10693 KiB)"
+ ],
+ "dropped_count": 1,
+ "download_url": "https://github.com/norvig/pytudes",
+ "ref": "(默认分支)",
+ "commit": "ffa0f1a818acd5d3ecafefa96a7ebb269d62ce94",
+ "commit_date": "2026-10-28T16:08:20-07:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：220 个文件（HTML 2，文档源 151）",
+ "info": {
+  "files": 220,
+  "html": 2,
+  "md_rst_ipynb": 151,
+  "top_ext": [
+   [
+    "ipynb",
+    115
+   ],
+   [
+    "txt",
+    31
+   ],
+   [
+    "py",
+    21
+   ],
+   [
+    "png",
+    14
+   ],
+   [
+    "tsv",
+    11
+   ],
+   [
+    "jpg",
+    7
+   ],
+   [
+    "md",
+    5
+   ],
+   [
+    "csv",
+    5
+   ]
+  ],
+  "license_files": [
+   "norvig_pytudes_main_en/LICENSE"
+  ]
+ },
+ "bytes": 185753600,
+ "sha256": "80ca64e5f48c7e2479a047b424f1ef591adac481d34acbe9a97f399b6505e3a2",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:19Z"
+}

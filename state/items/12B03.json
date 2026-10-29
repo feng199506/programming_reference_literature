@@ -1,0 +1,19 @@
+{
+ "id": "12B03",
+ "started": "2026-10-29T17:51:22Z",
+ "download_url": "https://github.com/dendibakh/perf-book/releases/download/2.0_release/PerformanceAnalysisAndTuningOnModernCPUs_SecondEdition.pdf",
+ "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/435609557/4ead32e9-8514-46b5-951b-97143b378de6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-29T18%3A48%3A13Z&rscd=attachment%3B+filename%3DPerformanceAnalysisAndTuningOnModernCPUs_SecondEdition.pdf&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-29T17%3A47%3A59Z&ske=2026-10-29T18%3A48%3A13Z&sks=b&skv=2018-11-09&sig=oTjdkrYuMzgtE%2F0kk1dd%2BksgQAMV1BY1N6I%2FZklnq8o%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MzI5ODA4MiwibmJmIjoxNzkzMjk2MjgyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Mr6MM9bbe_BoRXl19FpsRSv_J6Sc-wI1ntyiyDnotGY&response-content-disposition=attachment%3B%20filename%3DPerformanceAnalysisAndTuningOnModernCPUs_SecondEdition.pdf&response-content-type=application%2Foctet-stream",
+ "http_last_modified": "Tue, 03 Dec 2024 15:25:53 GMT",
+ "verify": "通过：pypdf 可解析 340 页；标题词匹配 1.0",
+ "info": {
+  "pages": 340,
+  "meta_title": "Performance Analysis and Tuning on Modern CPUs",
+  "body_sample_chars": 10478,
+  "title_match": 1.0
+ },
+ "bytes": 22119442,
+ "sha256": "0321688529ece42f64c39d14d9bbd97afec7e45d7c01298b2e503da4c64e7051",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:23Z"
+}

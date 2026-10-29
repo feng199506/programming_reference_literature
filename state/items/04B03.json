@@ -1,0 +1,16 @@
+{
+ "id": "04B03",
+ "reused_from": "/root/time_series_literature/books/files/Hardt_PatternsPredictionsActionsFoundationsMac_1steditionarXiv_2022_en.pdf",
+ "status": "ok",
+ "verify": "通过：pypdf 可解析 309 页；标题词匹配 1.0",
+ "info": {
+  "pages": 309,
+  "meta_title": "Patterns, Predictions, and Actions",
+  "body_sample_chars": 8627,
+  "title_match": 1.0
+ },
+ "bytes": 2002212,
+ "sha256": "0e5a127787d1e94e4b6828ee30fee5f8d5e1b14a2e8938a1b069f20454c32093",
+ "error": "",
+ "access_date": "2026-10-29"
+}

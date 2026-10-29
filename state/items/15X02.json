@@ -1,0 +1,63 @@
+{
+ "id": "15X02",
+ "started": "2026-10-29T17:32:21Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/facebookresearch/faiss",
+ "ref": "v1.15.1",
+ "commit": "75c755c5a1fc854756aaf3bd1131213aeb21d8d1",
+ "commit_date": "2026-09-16T09:06:59-07:00",
+ "sparse_paths": [
+  "tutorial",
+  "benchs",
+  "INSTALL.md"
+ ],
+ "verify": "通过：112 个文件（HTML 0，文档源 14）",
+ "info": {
+  "files": 112,
+  "html": 0,
+  "md_rst_ipynb": 14,
+  "top_ext": [
+   [
+    "py",
+    68
+   ],
+   [
+    "cpp",
+    24
+   ],
+   [
+    "md",
+    9
+   ],
+   [
+    "txt",
+    3
+   ],
+   [
+    "h",
+    2
+   ],
+   [
+    "bash",
+    2
+   ],
+   [
+    "ipynb",
+    2
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "license_files": [
+   "faiss_1.15.1_tutorial_en/LICENSE"
+  ]
+ },
+ "bytes": 1024000,
+ "sha256": "2cbcf29b3de9886e4a650c7d060429b844355bef3ed4089ca92685f68c939a5e",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:23Z"
+}

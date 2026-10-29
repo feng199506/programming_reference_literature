@@ -1,0 +1,66 @@
+{
+ "id": "02C01",
+ "started": "2026-10-29T17:46:02Z",
+ "download_url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/6.006-spring-2020.zip",
+ "final_url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/6.006-spring-2020.zip",
+ "http_last_modified": "Thu, 15 Oct 2026 13:16:13 GMT",
+ "verify": "通过：969 个文件（HTML 263，文档源 3）",
+ "info": {
+  "files": 969,
+  "html": 263,
+  "md_rst_ipynb": 3,
+  "top_ext": [
+   [
+    "json",
+    271
+   ],
+   [
+    "html",
+    263
+   ],
+   [
+    "pdf",
+    131
+   ],
+   [
+    "js",
+    92
+   ],
+   [
+    "vtt",
+    65
+   ],
+   [
+    "srt",
+    33
+   ],
+   [
+    "svg",
+    22
+   ],
+   [
+    "png",
+    19
+   ]
+  ],
+  "license_files": [
+   "static_shared/mathjax/LICENSE.42368b5a19b817284b3c"
+  ],
+  "link_sample": {
+   "links": 6472,
+   "broken": 299,
+   "examples": [
+    "../../index.html",
+    "../../index.html",
+    "../../index.html",
+    "../../index.html",
+    "../../index.html"
+   ]
+  }
+ },
+ "bytes": 42713767,
+ "sha256": "a740b5a2e4cf0afddd4fa3d2621da342054379b6bd9c442430fd10160246198b",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:02Z"
+}

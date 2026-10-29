@@ -1,0 +1,61 @@
+{
+ "id": "03B02",
+ "started": "2026-10-29T17:50:25Z",
+ "wget_rc": 0,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://wesmckinney.com/book/",
+ "mirror_scope": {
+  "start": [
+   "https://wesmckinney.com/book/"
+  ],
+  "include": [
+   "/book"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：109 个文件（HTML 17，文档源 1）",
+ "info": {
+  "files": 109,
+  "html": 17,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "png",
+    72
+   ],
+   [
+    "html",
+    17
+   ],
+   [
+    "js",
+    11
+   ],
+   [
+    "css",
+    7
+   ],
+   [
+    "woff?2ab2cbbe07fcebb53bdaa7313bb290f2",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 14209,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 13701120,
+ "sha256": "51872d5cc9327b0c32f01938d2b596040d3322c485d954467400821fd4211fac",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:28Z"
+}

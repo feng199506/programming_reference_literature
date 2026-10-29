@@ -1,0 +1,54 @@
+{
+ "id": "06D01",
+ "started": "2026-10-29T18:38:14Z",
+ "download_url": "https://docs.pytest.org/_/downloads/en/stable/htmlzip/",
+ "final_url": "https://docs.pytest.org/_/downloads/en/stable/htmlzip/",
+ "http_last_modified": "Tue, 27 Oct 2026 21:36:02 GMT",
+ "verify": "通过：42 个文件（HTML 1，文档源 1）",
+ "info": {
+  "files": 42,
+  "html": 1,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "svg",
+    11
+   ],
+   [
+    "js",
+    10
+   ],
+   [
+    "css",
+    9
+   ],
+   [
+    "png",
+    5
+   ],
+   [
+    "map",
+    3
+   ],
+   [
+    "buildinfo",
+    1
+   ],
+   [
+    "html",
+    1
+   ],
+   [
+    "inv",
+    1
+   ]
+  ],
+  "entry": "pytest-stable/index.html",
+  "license_files": []
+ },
+ "bytes": 775080,
+ "sha256": "85f64b456b9e0b1e8c3db1597ba1158eae0ce9fa5127994dc166f5e901375892",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:38:14Z"
+}

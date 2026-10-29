@@ -1,0 +1,62 @@
+{
+ "id": "14X10",
+ "started": "2026-10-29T17:48:40Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
+ "ref": "(默认分支)",
+ "commit": "52eb26dad1a3e9e8083a899bc854421eb4842a73",
+ "commit_date": "2025-04-09T23:11:35-07:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：36 个文件（HTML 0，文档源 18）",
+ "info": {
+  "files": 36,
+  "html": 0,
+  "md_rst_ipynb": 18,
+  "top_ext": [
+   [
+    "md",
+    16
+   ],
+   [
+    "service",
+    7
+   ],
+   [
+    "yaml",
+    5
+   ],
+   [
+    "conf",
+    3
+   ],
+   [
+    "txt",
+    2
+   ],
+   [
+    "gitignore",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "toml",
+    1
+   ]
+  ],
+  "license_files": [
+   "kubernetes_the_hard_way_master_en/COPYRIGHT.md",
+   "kubernetes_the_hard_way_master_en/LICENSE"
+  ]
+ },
+ "bytes": 153600,
+ "sha256": "396fd219155dd19ecd25c0f60fd3aea0634707e513e3f3d83d38e44593b8bb6e",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:40Z"
+}

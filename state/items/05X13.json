@@ -1,0 +1,61 @@
+{
+ "id": "05X13",
+ "started": "2026-10-29T17:30:24Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/huggingface/peft",
+ "ref": "v0.21.2",
+ "commit": "eaa35c777c7ba554a2a3639ac9c79bb690f39a57",
+ "commit_date": "2026-10-01T12:17:57+02:00",
+ "sparse_paths": [
+  "examples"
+ ],
+ "verify": "通过：243 个文件（HTML 0，文档源 115）",
+ "info": {
+  "files": 243,
+  "html": 0,
+  "md_rst_ipynb": 115,
+  "top_ext": [
+   [
+    "py",
+    99
+   ],
+   [
+    "md",
+    49
+   ],
+   [
+    "ipynb",
+    48
+   ],
+   [
+    "txt",
+    18
+   ],
+   [
+    "sh",
+    14
+   ],
+   [
+    "yaml",
+    7
+   ],
+   [
+    "png",
+    3
+   ],
+   [
+    "",
+    2
+   ]
+  ],
+  "license_files": [
+   "hf_peft_v0.21.2_examples_en/LICENSE"
+  ]
+ },
+ "bytes": 18145280,
+ "sha256": "c669f4b23026d0f962015323e0c413afc0b7c9055bcd7c7a1930cf8f513a5579",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:30:26Z"
+}

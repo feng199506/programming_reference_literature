@@ -1,0 +1,61 @@
+{
+ "id": "12D04",
+ "started": "2026-10-29T17:47:59Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://gitlab.kitware.com/cmake/cmake.git",
+ "ref": "(默认分支)",
+ "commit": "cda028d08c6d3148786fed9a8d9eb30eaf483e78",
+ "commit_date": "2026-10-29T11:08:49-04:00",
+ "sparse_paths": [
+  "Help"
+ ],
+ "verify": "通过：2799 个文件（HTML 0，文档源 2606）",
+ "info": {
+  "files": 2799,
+  "html": 0,
+  "md_rst_ipynb": 2606,
+  "top_ext": [
+   [
+    "rst",
+    2507
+   ],
+   [
+    "txt",
+    99
+   ],
+   [
+    "h",
+    70
+   ],
+   [
+    "cxx",
+    64
+   ],
+   [
+    "json",
+    29
+   ],
+   [
+    "cmake",
+    19
+   ],
+   [
+    "png",
+    5
+   ],
+   [
+    "cc",
+    2
+   ]
+  ],
+  "license_files": [
+   "cmake_help_src_en/LICENSE.rst"
+  ]
+ },
+ "bytes": 10229760,
+ "sha256": "a4713965de6fad65097a1b06b0624cad34dd1a449640470c876d1d363a9d7496",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:03Z"
+}

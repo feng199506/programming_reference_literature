@@ -1,0 +1,67 @@
+{
+ "id": "13X03",
+ "started": "2026-10-29T17:30:49Z",
+ "dropped_large_files": [
+  "deepspeed_examples_master_en/applications/DeepSpeed-Chat/assets/video/release_v3.mp4 (9009 KiB)"
+ ],
+ "dropped_count": 1,
+ "download_url": "https://github.com/deepspeedai/DeepSpeedExamples",
+ "ref": "(默认分支)",
+ "commit": "0c6dd5ed1ec0f0967ae0564534ecfa6f157c6746",
+ "commit_date": "2026-09-29T22:00:10-04:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：769 个文件（HTML 0，文档源 130）",
+ "info": {
+  "files": 769,
+  "html": 0,
+  "md_rst_ipynb": 130,
+  "top_ext": [
+   [
+    "py",
+    309
+   ],
+   [
+    "sh",
+    145
+   ],
+   [
+    "md",
+    95
+   ],
+   [
+    "json",
+    78
+   ],
+   [
+    "png",
+    45
+   ],
+   [
+    "txt",
+    35
+   ],
+   [
+    "jpg",
+    15
+   ],
+   [
+    "csv",
+    12
+   ]
+  ],
+  "license_files": [
+   "deepspeed_examples_master_en/LICENSE",
+   "deepspeed_examples_master_en/compression/reasoning_aware_compression/third_party_licenses/LICENSE.sparsegpt",
+   "deepspeed_examples_master_en/compression/reasoning_aware_compression/third_party_licenses/LICENSE.wanda",
+   "deepspeed_examples_master_en/training/BingBertSquad/NOTICE.txt",
+   "deepspeed_examples_master_en/training/bing_bert/NOTICE.txt"
+  ]
+ },
+ "bytes": 71925760,
+ "sha256": "597737979f7311635e5e589a849f7933e6a639afe4554ed093dc3e8238f8a508",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:30:54Z"
+}

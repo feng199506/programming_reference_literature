@@ -1,0 +1,75 @@
+{
+ "id": "08B05",
+ "started": "2026-10-29T18:22:54Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://opentextbc.ca/dbdesign01/",
+ "mirror_scope": {
+  "start": [
+   "https://opentextbc.ca/dbdesign01/"
+  ],
+  "include": [
+   "/dbdesign01"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：412 个文件（HTML 52，文档源 2）",
+ "info": {
+  "files": 412,
+  "html": 52,
+  "md_rst_ipynb": 2,
+  "top_ext": [
+   [
+    "jpg",
+    256
+   ],
+   [
+    "html",
+    52
+   ],
+   [
+    "",
+    27
+   ],
+   [
+    "png",
+    12
+   ],
+   [
+    "css",
+    5
+   ],
+   [
+    "svg",
+    4
+   ],
+   [
+    "js",
+    2
+   ],
+   [
+    "txt",
+    2
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 2588,
+   "broken": 50,
+   "examples": [
+    "Watt_DatabaseDesign_2ndEd_html_en/dbdesign01/wp-json/oembed/1.0/embed?url=https:%2F%2Fopentextbc.ca%2Fdbdesign01%2Fback-matter%2Fabout-the-author%2F&amp;format=xml",
+    "Watt_DatabaseDesign_2ndEd_html_en/dbdesign01/wp-json/oembed/1.0/embed?url=https:%2F%2Fopentextbc.ca%2Fdbdesign01%2Fback-matter%2Fappendix-a-university-registration-data-model-example%2F&amp;format=xml",
+    "Watt_DatabaseDesign_2ndEd_html_en/dbdesign01/wp-json/oembed/1.0/embed?url=https:%2F%2Fopentextbc.ca%2Fdbdesign01%2Fback-matter%2Fappendix-b-erd-exercises%2F&amp;format=xml",
+    "Watt_DatabaseDesign_2ndEd_html_en/dbdesign01/wp-json/oembed/1.0/embed?url=https:%2F%2Fopentextbc.ca%2Fdbdesign01%2Fback-matter%2Fappendix-d-sql-lab-with-solution%2F&amp;format=xml",
+    "Watt_DatabaseDesign_2ndEd_html_en/dbdesign01/wp-json/oembed/1.0/embed?url=https:%2F%2Fopentextbc.ca%2Fdbdesign01%2Fback-matter%2Fversioning-history%2F&amp;format=xml"
+   ]
+  }
+ },
+ "bytes": 19486720,
+ "sha256": "9e70475c7b7e43acff71bc0496b0da700a465ffb50de0ba3b7f810670abaf5b5",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:30:34Z"
+}

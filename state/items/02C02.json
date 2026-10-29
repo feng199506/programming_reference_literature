@@ -1,0 +1,66 @@
+{
+ "id": "02C02",
+ "started": "2026-10-29T17:46:02Z",
+ "download_url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/6.046j-spring-2015.zip",
+ "final_url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/6.046j-spring-2015.zip",
+ "http_last_modified": "Thu, 15 Oct 2026 11:56:21 GMT",
+ "verify": "通过：987 个文件（HTML 273，文档源 3）",
+ "info": {
+  "files": 987,
+  "html": 273,
+  "md_rst_ipynb": 3,
+  "top_ext": [
+   [
+    "json",
+    278
+   ],
+   [
+    "html",
+    273
+   ],
+   [
+    "pdf",
+    122
+   ],
+   [
+    "js",
+    92
+   ],
+   [
+    "vtt",
+    79
+   ],
+   [
+    "srt",
+    40
+   ],
+   [
+    "svg",
+    22
+   ],
+   [
+    "png",
+    18
+   ]
+  ],
+  "license_files": [
+   "static_shared/mathjax/LICENSE.42368b5a19b817284b3c"
+  ],
+  "link_sample": {
+   "links": 6976,
+   "broken": 240,
+   "examples": [
+    "../../index.html",
+    "../../index.html",
+    "../../index.html",
+    "../../index.html",
+    "../../index.html"
+   ]
+  }
+ },
+ "bytes": 102927835,
+ "sha256": "b2e72c5a1a0b254f4dcc8d9f8f263b3ec835cc4ec1b7aea4fe7fb79f7b05aecd",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:17Z"
+}

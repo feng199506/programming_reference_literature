@@ -1,0 +1,37 @@
+{
+ "id": "16D02",
+ "started": "2026-10-29T17:50:19Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/OWASP/ASVS",
+ "ref": "(默认分支)",
+ "commit": "9ccce0e3cf47abd6a412fc8a8deadd7fd6da501f",
+ "commit_date": "2026-10-26T22:30:07+02:00",
+ "sparse_paths": [
+  "5.0/en"
+ ],
+ "verify": "通过：35 个文件（HTML 0，文档源 34）",
+ "info": {
+  "files": 35,
+  "html": 0,
+  "md_rst_ipynb": 34,
+  "top_ext": [
+   [
+    "md",
+    34
+   ],
+   [
+    "yaml",
+    1
+   ]
+  ],
+  "license_files": [
+   "owasp_asvs_5.0_src_en/LICENSE.md"
+  ]
+ },
+ "bytes": 399360,
+ "sha256": "3be7d89d366932cec230db0daf0d4f52cfee930029ea2b099a8673ad2dc0e822",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:50:21Z"
+}

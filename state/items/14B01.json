@@ -1,0 +1,58 @@
+{
+ "id": "14B01",
+ "started": "2026-10-29T19:02:49Z",
+ "wget_rc": 0,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://sre.google/sre-book/table-of-contents/",
+ "mirror_scope": {
+  "start": [
+   "https://sre.google/sre-book/table-of-contents/"
+  ],
+  "include": [
+   "/sre-book",
+   "/img",
+   "/css"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：135 个文件（HTML 58，文档源 1）",
+ "info": {
+  "files": 135,
+  "html": 58,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "webp",
+    75
+   ],
+   [
+    "html",
+    58
+   ],
+   [
+    "css",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 4488,
+   "broken": 2,
+   "examples": [
+    "Beyer_SiteReliabilityEngineering_html_en/sre-book/bibliography/ https:/zookeeper.apache.org/doc/current/recipes.html",
+    "Beyer_SiteReliabilityEngineering_html_en/sre-book/ https:/zookeeper.apache.org/doc/current/recipes.html"
+   ]
+  }
+ },
+ "bytes": 5672960,
+ "sha256": "4d274cdfbb2f678c2245e27cf90ef8a94c5146a5efbe6332500b37c54cc7b8f1",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:03:48Z"
+}

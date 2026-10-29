@@ -1,0 +1,43 @@
+{
+ "id": "06D10",
+ "started": "2026-10-29T17:46:39Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/github/docs",
+ "ref": "(默认分支)",
+ "commit": "6cbe6413ac7177bb692a78c171a74ae8be50d721",
+ "commit_date": "2026-10-29T09:20:12Z",
+ "sparse_paths": [
+  "content/actions",
+  "data/reusables/actions"
+ ],
+ "verify": "通过：742 个文件（HTML 0，文档源 739）",
+ "info": {
+  "files": 742,
+  "html": 0,
+  "md_rst_ipynb": 739,
+  "top_ext": [
+   [
+    "md",
+    739
+   ],
+   [
+    "",
+    2
+   ],
+   [
+    "json",
+    1
+   ]
+  ],
+  "license_files": [
+   "github_actions_docs_main_src_en/LICENSE",
+   "github_actions_docs_main_src_en/LICENSE-CODE"
+  ]
+ },
+ "bytes": 3768320,
+ "sha256": "ec642ae154008932d346138ba63861c90475578ddf932eea44a7bdd9da730baf",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:41Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "12D02",
+ "started": "2026-10-29T17:51:34Z",
+ "download_url": "https://www.gnu.org/software/make/manual/make.pdf",
+ "final_url": "https://www.gnu.org/software/make/manual/make.pdf",
+ "http_last_modified": "Sun, 26 Feb 2023 19:58:01 GMT",
+ "verify": "通过：pypdf 可解析 229 页；标题词匹配 1.0",
+ "info": {
+  "pages": 229,
+  "meta_title": "",
+  "body_sample_chars": 9687,
+  "title_match": 1.0
+ },
+ "bytes": 952174,
+ "sha256": "a4bc06026984382815e392159e60a4bc356cac6c5b81e5ae84fa4f58f621f4d3",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:36Z"
+}

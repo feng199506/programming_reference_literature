@@ -1,0 +1,57 @@
+{
+ "id": "15D12",
+ "started": "2026-10-29T17:49:06Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/microsoft/vscode-docs",
+ "ref": "(默认分支)",
+ "commit": "8f7dbbdb68124b24e2c225273909255558fcb79d",
+ "commit_date": "2026-10-29T09:07:11-07:00",
+ "sparse_paths": [
+  "api"
+ ],
+ "verify": "通过：347 个文件（HTML 0，文档源 81）",
+ "info": {
+  "files": 347,
+  "html": 0,
+  "md_rst_ipynb": 81,
+  "top_ext": [
+   [
+    "png",
+    216
+   ],
+   [
+    "md",
+    81
+   ],
+   [
+    "gif",
+    40
+   ],
+   [
+    "json",
+    4
+   ],
+   [
+    "mp4",
+    4
+   ],
+   [
+    "gitignore",
+    1
+   ],
+   [
+    "template",
+    1
+   ]
+  ],
+  "license_files": [
+   "vscode_extension_api_docs_src_en/LICENSE.md"
+  ]
+ },
+ "bytes": 1976320,
+ "sha256": "00033364c5cbb5437f63760ecc9057811a2a6527d60b4dfbaf8d89b5c24d14d8",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:49:08Z"
+}

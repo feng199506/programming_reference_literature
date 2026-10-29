@@ -1,0 +1,69 @@
+{
+ "id": "16C03",
+ "started": "2026-10-29T18:52:10Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://css.csail.mit.edu/6.5660/2024/",
+ "mirror_scope": {
+  "start": [
+   "https://css.csail.mit.edu/6.5660/2024/"
+  ],
+  "include": [
+   "/6.5660/2024"
+  ],
+  "level": "2"
+ },
+ "verify": "通过：89 个文件（HTML 35，文档源 24）",
+ "info": {
+  "files": 89,
+  "html": 35,
+  "md_rst_ipynb": 24,
+  "top_ext": [
+   [
+    "html",
+    35
+   ],
+   [
+    "txt",
+    24
+   ],
+   [
+    "pdf",
+    22
+   ],
+   [
+    "js",
+    5
+   ],
+   [
+    "css",
+    2
+   ],
+   [
+    "png",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 695,
+   "broken": 100,
+   "examples": [
+    "MIT_6.5660_Spring2024_Materials_html_en/6.5660/2024/questions.html?q=q-firecracker&amp;lec=2.html",
+    "MIT_6.5660_Spring2024_Materials_html_en/6.5660/2024/questions.html?q=q-wasm&amp;lec=3.html",
+    "MIT_6.5660_Spring2024_Materials_html_en/6.5660/2024/questions.html?q=q-bitlocker&amp;lec=4.html",
+    "MIT_6.5660_Spring2024_Materials_html_en/6.5660/2024/questions.html?q=q-transient&amp;lec=5.html",
+    "MIT_6.5660_Spring2024_Materials_html_en/6.5660/2024/questions.html?q=q-openssh&amp;lec=6.html"
+   ]
+  }
+ },
+ "bytes": 30494720,
+ "sha256": "e746f472fe3b5eb8168c1d1403bf69d3fcf3d3ceff4f8af031756577fc9f0747",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:53:21Z",
+ "reverified": "2026-10-29T18:54:47Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "15P19",
+ "started": "2026-10-29T17:52:18Z",
+ "download_url": "https://arxiv.org/pdf/2004.04906v3",
+ "final_url": "https://arxiv.org/pdf/2004.04906v3",
+ "http_last_modified": "Mon, 23 Jan 2023 04:36:53 GMT",
+ "verify": "通过：pypdf 可解析 13 页；标题词匹配 1.0",
+ "info": {
+  "pages": 13,
+  "meta_title": "",
+  "body_sample_chars": 18056,
+  "title_match": 1.0
+ },
+ "bytes": 383508,
+ "sha256": "3e67fc1a9977715acf722d85f0b7d124b03715e975f6310a4d6c12094190912f",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:21Z"
+}

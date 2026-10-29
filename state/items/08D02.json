@@ -1,0 +1,62 @@
+{
+ "id": "08D02",
+ "started": "2026-10-29T17:50:12Z",
+ "download_url": "https://www.sqlite.org/2026/sqlite-doc-3540100.zip",
+ "final_url": "https://www.sqlite.org/2026/sqlite-doc-3540100.zip",
+ "http_last_modified": "Wed, 28 Oct 2026 19:36:36 GMT",
+ "verify": "通过：1036 个文件（HTML 847，文档源 0）",
+ "info": {
+  "files": 1036,
+  "html": 847,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "html",
+    847
+   ],
+   [
+    "gif",
+    120
+   ],
+   [
+    "jpg",
+    24
+   ],
+   [
+    "png",
+    19
+   ],
+   [
+    "svg",
+    10
+   ],
+   [
+    "css",
+    3
+   ],
+   [
+    "pikchr",
+    2
+   ],
+   [
+    "odg",
+    2
+   ]
+  ],
+  "license_files": [
+   "sqlite-doc-3540100/copyright.html",
+   "sqlite-doc-3540100/copyright-release.pdf",
+   "sqlite-doc-3540100/copyright-release.html"
+  ],
+  "link_sample": {
+   "links": 15314,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 11961740,
+ "sha256": "e9f634ac28a4c7b48f5c389e4b08c039654ec1487512092b330ccfcfdc0816e0",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:50:14Z"
+}

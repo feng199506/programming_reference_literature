@@ -1,0 +1,19 @@
+{
+ "id": "13P18",
+ "started": "2026-10-29T17:52:38Z",
+ "download_url": "https://www.eecs.harvard.edu/~htk/publication/2019-mapl-tillet-kung-cox.pdf",
+ "final_url": "https://www.eecs.harvard.edu/~htk/publication/2019-mapl-tillet-kung-cox.pdf",
+ "http_last_modified": "Fri, 10 May 2019 19:49:15 GMT",
+ "verify": "通过：pypdf 可解析 10 页；标题词匹配 1.0",
+ "info": {
+  "pages": 10,
+  "meta_title": "Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations",
+  "body_sample_chars": 20389,
+  "title_match": 1.0
+ },
+ "bytes": 1029483,
+ "sha256": "7c4d200693c223c4d4c53c98b22c2693bdcf6adf3c902436b070368be097a7c1",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:39Z"
+}

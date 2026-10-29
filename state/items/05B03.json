@@ -1,0 +1,19 @@
+{
+ "id": "05B03",
+ "started": "2026-10-29T18:05:32Z",
+ "download_url": "https://fleuret.org/public/lbdl.pdf",
+ "final_url": "https://fleuret.org/public/lbdl.pdf",
+ "http_last_modified": "Tue, 12 May 2026 10:44:17 GMT",
+ "verify": "通过：pypdf 可解析 189 页；标题词匹配 1.0",
+ "info": {
+  "pages": 189,
+  "meta_title": "The Little Book of Deep Learning",
+  "body_sample_chars": 4777,
+  "title_match": 1.0
+ },
+ "bytes": 4747258,
+ "sha256": "a5dcbff3eb090dc55bd05d969f610c97a63983d6c07bd736c06d24132019e5e6",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:05:33Z"
+}

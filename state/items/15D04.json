@@ -1,0 +1,62 @@
+{
+ "id": "15D04",
+ "started": "2026-10-29T17:32:27Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/run-llama/llama_index",
+ "ref": "v0.14.25",
+ "commit": "f12d46acab73f5b2243ef49c2f00101617b38ce4",
+ "commit_date": "2026-09-21T10:20:40-06:00",
+ "sparse_paths": [
+  "docs/src",
+  "docs/examples"
+ ],
+ "verify": "通过：1094 个文件（HTML 7，文档源 879）",
+ "info": {
+  "files": 1094,
+  "html": 7,
+  "md_rst_ipynb": 879,
+  "top_ext": [
+   [
+    "ipynb",
+    677
+   ],
+   [
+    "md",
+    165
+   ],
+   [
+    "png",
+    86
+   ],
+   [
+    "yml",
+    64
+   ],
+   [
+    "mdx",
+    27
+   ],
+   [
+    "txt",
+    10
+   ],
+   [
+    "json",
+    8
+   ],
+   [
+    "pdf",
+    7
+   ]
+  ],
+  "license_files": [
+   "llamaindex_0.14.25_docs_src_en/LICENSE"
+  ]
+ },
+ "bytes": 157378560,
+ "sha256": "beb6fba06ae7aaf62df8f91a887053de1be23b4a1da6aa4f7c1e01daf24a3c09",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:39Z"
+}

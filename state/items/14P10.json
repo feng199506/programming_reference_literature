@@ -1,0 +1,19 @@
+{
+ "id": "14P10",
+ "started": "2026-10-29T17:52:42Z",
+ "download_url": "https://lamport.azurewebsites.net/pubs/paxos-simple.pdf",
+ "final_url": "https://lamport.azurewebsites.net/pubs/paxos-simple.pdf",
+ "http_last_modified": "Tue, 15 Sep 2026 03:24:34 GMT",
+ "verify": "通过：pypdf 可解析 14 页；标题词匹配 1.0",
+ "info": {
+  "pages": 14,
+  "meta_title": "",
+  "body_sample_chars": 9860,
+  "title_match": 1.0
+ },
+ "bytes": 95019,
+ "sha256": "c83b5141257730d6fd20097ef17ebd02a02dfcb1809bad5873b7739659bb3f2b",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:43Z"
+}

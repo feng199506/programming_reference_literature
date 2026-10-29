@@ -1,0 +1,61 @@
+{
+ "id": "12X02",
+ "started": "2026-10-29T17:48:13Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/pybind/python_example",
+ "ref": "(默认分支)",
+ "commit": "3dc0f6efc437bd370f45cce19c2f24d5cf424b96",
+ "commit_date": "2026-10-13T16:47:37+05:30",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：18 个文件（HTML 0，文档源 3）",
+ "info": {
+  "files": 18,
+  "html": 0,
+  "md_rst_ipynb": 3,
+  "top_ext": [
+   [
+    "yml",
+    4
+   ],
+   [
+    "py",
+    3
+   ],
+   [
+    "gitignore",
+    2
+   ],
+   [
+    "",
+    2
+   ],
+   [
+    "rst",
+    2
+   ],
+   [
+    "yaml",
+    1
+   ],
+   [
+    "md",
+    1
+   ],
+   [
+    "bat",
+    1
+   ]
+  ],
+  "license_files": [
+   "pybind_python_example_master_en/LICENSE"
+  ]
+ },
+ "bytes": 92160,
+ "sha256": "ce82711ffa8c740911bbc5530fe85c4b85f29920e34f15719eb527c9fc598454",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:14Z"
+}

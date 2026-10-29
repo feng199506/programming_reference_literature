@@ -1,0 +1,62 @@
+{
+ "id": "04X52",
+ "started": "2026-10-29T17:46:10Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/drivendataorg/cookiecutter-data-science",
+ "ref": "(默认分支)",
+ "commit": "17c991b0b03668f6e36503a4416202900196f501",
+ "commit_date": "2026-10-03T10:38:15+01:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：82 个文件（HTML 2，文档源 17）",
+ "info": {
+  "files": 82,
+  "html": 2,
+  "md_rst_ipynb": 17,
+  "top_ext": [
+   [
+    "py",
+    22
+   ],
+   [
+    "md",
+    16
+   ],
+   [
+    "gitkeep",
+    10
+   ],
+   [
+    "sh",
+    7
+   ],
+   [
+    "yml",
+    4
+   ],
+   [
+    "",
+    4
+   ],
+   [
+    "json",
+    3
+   ],
+   [
+    "gitignore",
+    2
+   ]
+  ],
+  "license_files": [
+   "cookiecutter_data_science_master_en/LICENSE",
+   "cookiecutter_data_science_master_en/{{ cookiecutter.repo_name }}/LICENSE"
+  ]
+ },
+ "bytes": 757760,
+ "sha256": "6dd267096978f5f35e348586d99ab0e330cd28e7f079b1ba94d87dffc46ef842",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:11Z"
+}

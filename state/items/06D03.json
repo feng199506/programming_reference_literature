@@ -1,0 +1,57 @@
+{
+ "id": "06D03",
+ "started": "2026-10-29T17:32:50Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/microsoft/pyright",
+ "ref": "1.1.414",
+ "commit": "a28cce4077d87b80bead12de809f79845e39c8ba",
+ "commit_date": "2026-09-09T11:56:48-07:00",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：36 个文件（HTML 1，文档源 28）",
+ "info": {
+  "files": 36,
+  "html": 1,
+  "md_rst_ipynb": 28,
+  "top_ext": [
+   [
+    "md",
+    27
+   ],
+   [
+    "png",
+    4
+   ],
+   [
+    "txt",
+    1
+   ],
+   [
+    "nojekyll",
+    1
+   ],
+   [
+    "svg",
+    1
+   ],
+   [
+    "html",
+    1
+   ],
+   [
+    "json",
+    1
+   ]
+  ],
+  "license_files": [
+   "pyright_1.1.414_docs_src_en/LICENSE.txt"
+  ]
+ },
+ "bytes": 481280,
+ "sha256": "0e977326edb86a19b6613e7e09e6a1a361d360c9a0f3f0742ab510c1fb26f6a5",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:52Z"
+}

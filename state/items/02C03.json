@@ -1,0 +1,14 @@
+{
+ "id": "02C03",
+ "started": "2026-10-29T17:46:17Z",
+ "download_url": "https://www.cs.princeton.edu/courses/archive/spring25/cos226/lectures.php",
+ "verify": "通过：24 个章节 PDF 均可解析，共 1028 页",
+ "info": {
+  "chapters": 24,
+  "pages": 1028
+ },
+ "bytes": 448573005,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:50Z"
+}

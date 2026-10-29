@@ -1,0 +1,62 @@
+{
+ "id": "10C01",
+ "started": "2026-10-29T17:47:13Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/fullstack-hy2020/fullstack-hy2020.github.io",
+ "ref": "(默认分支)",
+ "commit": "9c24482abcf387699d0f36bcdff5811dbe2ce5a7",
+ "commit_date": "2026-10-17T15:57:21+03:00",
+ "sparse_paths": [
+  "src/content"
+ ],
+ "verify": "通过：1738 个文件（HTML 0，文档源 347）",
+ "info": {
+  "files": 1738,
+  "html": 0,
+  "md_rst_ipynb": 347,
+  "top_ext": [
+   [
+    "png",
+    1363
+   ],
+   [
+    "md",
+    346
+   ],
+   [
+    "jpg",
+    14
+   ],
+   [
+    "json",
+    5
+   ],
+   [
+    "svg",
+    4
+   ],
+   [
+    "js",
+    3
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [
+   "Helsinki_FullStackOpen_src_en/LICENSE",
+   "Helsinki_FullStackOpen_src_en/license.txt"
+  ]
+ },
+ "bytes": 191354880,
+ "sha256": "fb1c13da53312fd5f6f1cb42954c64947e8f3091a694b8d63278f56f8e9c80c0",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:23Z"
+}

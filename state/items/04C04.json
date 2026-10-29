@@ -1,0 +1,61 @@
+{
+ "id": "04C04",
+ "started": "2026-10-29T17:46:07Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/INRIA/scikit-learn-mooc",
+ "ref": "(默认分支)",
+ "commit": "1b294d95296e7e52dec5b9c69076f8010b2bc51f",
+ "commit_date": "2026-10-13T15:37:00+02:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：628 个文件（HTML 1，文档源 241）",
+ "info": {
+  "files": 628,
+  "html": 1,
+  "md_rst_ipynb": 241,
+  "top_ext": [
+   [
+    "svg",
+    186
+   ],
+   [
+    "md",
+    129
+   ],
+   [
+    "py",
+    126
+   ],
+   [
+    "ipynb",
+    107
+   ],
+   [
+    "csv",
+    21
+   ],
+   [
+    "png",
+    14
+   ],
+   [
+    "ttf",
+    12
+   ],
+   [
+    "yml",
+    8
+   ]
+  ],
+  "license_files": [
+   "Inria_scikit-learn_MOOC_src_en/LICENSE"
+  ]
+ },
+ "bytes": 43264000,
+ "sha256": "155c493e385e9dcd38f661f70f99de1e60f661dfb946b6573fb9c86a9e1dfec0",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:09Z"
+}

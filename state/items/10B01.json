@@ -1,0 +1,19 @@
+{
+ "id": "10B01",
+ "started": "2026-10-29T18:07:13Z",
+ "download_url": "https://eloquentjavascript.net/Eloquent_JavaScript.pdf",
+ "final_url": "https://eloquentjavascript.net/Eloquent_JavaScript.pdf",
+ "http_last_modified": "Tue, 28 Jul 2026 08:44:24 GMT",
+ "verify": "通过：pypdf 可解析 463 页；标题词匹配 1.0",
+ "info": {
+  "pages": 463,
+  "meta_title": "",
+  "body_sample_chars": 6009,
+  "title_match": 1.0
+ },
+ "bytes": 1994526,
+ "sha256": "766bc412d270dc3494667b8f96446dd415b4eaabdebffc33d404421f34deb163",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:07:14Z"
+}

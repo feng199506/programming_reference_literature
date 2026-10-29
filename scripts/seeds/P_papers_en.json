@@ -1,0 +1,3730 @@
+[
+ {
+  "id": "02P01",
+  "cat": "02",
+  "cross": [],
+  "type": "paper",
+  "title": "Breaking the Sorting Barrier for Directed Single-Source Shortest Paths",
+  "authors": "Ran Duan; Jiayi Mao; Xiao Mao; Xinkai Shu; Longhui Yin",
+  "school": "",
+  "year": "2025",
+  "version": "arXiv:2504.17033v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2504.17033",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 61,
+  "out": "papers/2025_Duan_BreakingSortingBarrierDirectedSingle_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2504.17033v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "breaking",
+    "sorting",
+    "barrier",
+    "directed",
+    "single",
+    "source",
+    "shortest",
+    "paths"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2504.17033",
+   "first_public": "2025-04-23",
+   "updated": "2025-07-30",
+   "venue": "17 pages",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "02P02",
+  "cat": "02",
+  "cross": [],
+  "type": "paper",
+  "title": "Maximum Flow and Minimum-Cost Flow in Almost-Linear Time",
+  "authors": "Li Chen; Rasmus Kyng; Yang P. Liu; Richard Peng; Maximilian Probst Gutenberg; Sushant Sachdeva",
+  "school": "",
+  "year": "2022",
+  "version": "arXiv:2203.00671v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2203.00671",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 62,
+  "out": "papers/2022_Chen_MaximumFlowMinimumCostFlow_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2203.00671v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "maximum",
+    "flow",
+    "minimum",
+    "cost",
+    "flow",
+    "almost",
+    "linear",
+    "time"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2203.00671",
+   "first_public": "2022-03-01",
+   "updated": "2022-04-22",
+   "venue": "",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "02P03",
+  "cat": "02",
+  "cross": [],
+  "type": "paper",
+  "title": "Universal Optimality of Dijkstra via Beyond-Worst-Case Heaps",
+  "authors": "Bernhard Haeupler; Richard Hladík; Václav Rozhoň; Robert E. Tarjan; Jakub Tětek",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2311.11793v4",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2311.11793",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 63,
+  "out": "papers/2023_Haeupler_UniversalOptimalityDijkstraBeyondWorst_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2311.11793v4"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "universal",
+    "optimality",
+    "dijkstra",
+    "via",
+    "beyond",
+    "worst",
+    "case",
+    "heaps"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2311.11793",
+   "first_public": "2023-11-20",
+   "updated": "2025-05-07",
+   "venue": "JACM submission",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "02P04",
+  "cat": "02",
+  "cross": [],
+  "type": "paper",
+  "title": "Optimal Bounds for Open Addressing Without Reordering",
+  "authors": "Martin Farach-Colton; Andrew Krapivin; William Kuszmaul",
+  "school": "",
+  "year": "2025",
+  "version": "arXiv:2501.02305v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2501.02305",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 64,
+  "out": "papers/2025_FarachColton_OptimalBoundsOpenAddressingWithout_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2501.02305v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "optimal",
+    "bounds",
+    "open",
+    "addressing",
+    "without",
+    "reordering"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2501.02305",
+   "first_public": "2025-01-04",
+   "updated": "2025-02-28",
+   "venue": "",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "02P05",
+  "cat": "02",
+  "cross": [],
+  "type": "paper",
+  "title": "Negative-Weight Single-Source Shortest Paths in Near-linear Time",
+  "authors": "Aaron Bernstein; Danupon Nanongkai; Christian Wulff-Nilsen",
+  "school": "",
+  "year": "2022",
+  "version": "arXiv:2203.03456v6",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2203.03456",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 65,
+  "out": "papers/2022_Bernstein_NegativeWeightSingleSourceShortest_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2203.03456v6"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "negative",
+    "weight",
+    "single",
+    "source",
+    "shortest",
+    "paths",
+    "near",
+    "linear"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2203.03456",
+   "first_public": "2022-03-07",
+   "updated": "2025-05-20",
+   "venue": "",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "02P06",
+  "cat": "02",
+  "cross": [],
+  "type": "paper",
+  "title": "Vectorized and performance-portable Quicksort",
+  "authors": "Mark Blacher; Joachim Giesen; Peter Sanders; Jan Wassenberg",
+  "school": "",
+  "year": "2022",
+  "version": "arXiv:2205.05982v1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2205.05982",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 66,
+  "out": "papers/2022_Blacher_VectorizedPerformancePortableQuicksort_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2205.05982v1"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "vectorized",
+    "performance",
+    "portable",
+    "quicksort"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2205.05982",
+   "first_public": "2022-05-12",
+   "updated": "2022-05-12",
+   "venue": "21 pages",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "02P07",
+  "cat": "02",
+  "cross": [],
+  "type": "paper",
+  "title": "Engineering In-place (Shared-memory) Sorting Algorithms",
+  "authors": "Michael Axtmann; Sascha Witt; Daniel Ferizovic; Peter Sanders",
+  "school": "",
+  "year": "2020",
+  "version": "arXiv:2009.13569v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2009.13569",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 67,
+  "out": "papers/2020_Axtmann_EngineeringPlaceSharedMemorySorting_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2009.13569v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "engineering",
+    "place",
+    "shared",
+    "memory",
+    "sorting",
+    "algorithms"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2009.13569",
+   "first_public": "2020-09-28",
+   "updated": "2021-02-03",
+   "venue": "",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "02P08",
+  "cat": "02",
+  "cross": [],
+  "type": "paper",
+  "title": "Pattern-defeating Quicksort",
+  "authors": "Orson R. L. Peters",
+  "school": "",
+  "year": "2021",
+  "version": "arXiv:2106.05123v1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2106.05123",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 68,
+  "out": "papers/2021_Peters_PatternDefeatingQuicksort_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2106.05123v1"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "pattern",
+    "defeating",
+    "quicksort"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2106.05123",
+   "first_public": "2021-06-09",
+   "updated": "2021-06-09",
+   "venue": "20 pages, 10 figures",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "02P09",
+  "cat": "02",
+  "cross": [],
+  "type": "paper",
+  "title": "Faster Matrix Multiplication via Asymmetric Hashing",
+  "authors": "Ran Duan; Hongxun Wu; Renfei Zhou",
+  "school": "",
+  "year": "2022",
+  "version": "arXiv:2210.10173v5",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2210.10173",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 69,
+  "out": "papers/2022_Duan_FasterMatrixMultiplicationAsymmetricHashing_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2210.10173v5"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "faster",
+    "matrix",
+    "multiplication",
+    "via",
+    "asymmetric",
+    "hashing"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2210.10173",
+   "first_public": "2022-10-18",
+   "updated": "2023-11-28",
+   "venue": "87 pages, in FOCS 2023",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "02P10",
+  "cat": "02",
+  "cross": [],
+  "type": "paper",
+  "title": "Tiny Pointers",
+  "authors": "Michael A. Bender; Alex Conway; Martín Farach-Colton; William Kuszmaul; Guido Tagliavini",
+  "school": "",
+  "year": "2021",
+  "version": "arXiv:2111.12800v1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2111.12800",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 70,
+  "out": "papers/2021_Bender_TinyPointers_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2111.12800v1"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "tiny",
+    "pointers"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2111.12800",
+   "first_public": "2021-11-24",
+   "updated": "2021-11-24",
+   "venue": "",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "02P11",
+  "cat": "02",
+  "cross": [],
+  "type": "paper",
+  "title": "The Case for Learned Index Structures",
+  "authors": "Tim Kraska; Alex Beutel; Ed H. Chi; Jeffrey Dean; Neoklis Polyzotis",
+  "school": "",
+  "year": "2017",
+  "version": "arXiv:1712.01208v3",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/1712.01208",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 71,
+  "out": "papers/2017_Kraska_CaseLearnedIndexStructures_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/1712.01208v3"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "case",
+    "learned",
+    "index",
+    "structures"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "1712.01208",
+   "first_public": "2017-12-04",
+   "updated": "2018-04-30",
+   "venue": "",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "02P12",
+  "cat": "02",
+  "cross": [],
+  "type": "paper",
+  "title": "Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs",
+  "authors": "Yu. A. Malkov; D. A. Yashunin",
+  "school": "",
+  "year": "2016",
+  "version": "arXiv:1603.09320v4",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/1603.09320",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 72,
+  "out": "papers/2016_Malkov_EfficientRobustApproximateNearestNeighbor_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/1603.09320v4"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "efficient",
+    "robust",
+    "approximate",
+    "nearest",
+    "neighbor",
+    "search",
+    "using",
+    "hierarchical"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "1603.09320",
+   "first_public": "2016-03-30",
+   "updated": "2018-08-14",
+   "venue": "13 pages, 15 figures",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "13P01",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+  "authors": "Tri Dao; Daniel Y. Fu; Stefano Ermon; Atri Rudra; Christopher Ré",
+  "school": "",
+  "year": "2022",
+  "version": "arXiv:2205.14135v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2205.14135",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 61,
+  "out": "papers/2022_Dao_FlashAttentionFastMemoryEfficientExact_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2205.14135v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "flashattention",
+    "fast",
+    "memory",
+    "efficient",
+    "exact",
+    "attention",
+    "awareness"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2205.14135",
+   "first_public": "2022-05-27",
+   "updated": "2022-06-23",
+   "venue": "",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "13P02",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+  "authors": "Tri Dao",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2307.08691v1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2307.08691",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 62,
+  "out": "papers/2023_Dao_FlashAttention2FasterAttentionBetter_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2307.08691v1"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "flashattention",
+    "faster",
+    "attention",
+    "better",
+    "parallelism",
+    "work",
+    "partitioning"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2307.08691",
+   "first_public": "2023-07-17",
+   "updated": "2023-07-17",
+   "venue": "",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "13P03",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision",
+  "authors": "Jay Shah; Ganesh Bikshandi; Ying Zhang; Vijay Thakkar; Pradeep Ramani; Tri Dao",
+  "school": "",
+  "year": "2024",
+  "version": "arXiv:2407.08608v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2407.08608",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 63,
+  "out": "papers/2024_Shah_FlashAttention3FastAccurateAttention_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2407.08608v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "flashattention",
+    "fast",
+    "accurate",
+    "attention",
+    "asynchrony",
+    "low",
+    "precision"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2407.08608",
+   "first_public": "2024-07-11",
+   "updated": "2024-07-12",
+   "venue": "",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "13P04",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "ThunderKittens: Simple, Fast, and Adorable AI Kernels",
+  "authors": "Benjamin F. Spector; Simran Arora; Aaryan Singhal; Daniel Y. Fu; Christopher Ré",
+  "school": "",
+  "year": "2024",
+  "version": "arXiv:2410.20399v1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2410.20399",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 64,
+  "out": "papers/2024_Spector_ThunderKittensSimpleFastAdorableAI_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2410.20399v1"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "thunderkittens",
+    "simple",
+    "fast",
+    "adorable",
+    "kernels"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2410.20399",
+   "first_public": "2024-10-27",
+   "updated": "2024-10-27",
+   "venue": "",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "13P05",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "Flex Attention: A Programming Model for Generating Optimized Attention Kernels",
+  "authors": "Juechu Dong; Boyuan Feng; Driss Guessous; Yanbo Liang; Horace He",
+  "school": "",
+  "year": "2024",
+  "version": "arXiv:2412.05496v1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2412.05496",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 65,
+  "out": "papers/2024_Dong_FlexAttentionProgrammingModelGenerating_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2412.05496v1"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "flex",
+    "attention",
+    "programming",
+    "model",
+    "generating",
+    "optimized",
+    "attention",
+    "kernels"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2412.05496",
+   "first_public": "2024-12-07",
+   "updated": "2024-12-07",
+   "venue": "",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "13P06",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "Liger Kernel: Efficient Triton Kernels for LLM Training",
+  "authors": "Pin-Lun Hsu; Yun Dai; Vignesh Kothapalli; Qingquan Song; Shao Tang; Siyu Zhu; Steven Shimizu; Shivam Sahni 等",
+  "school": "",
+  "year": "2024",
+  "version": "arXiv:2410.10989v3",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2410.10989",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 66,
+  "out": "papers/2024_Hsu_LigerKernelEfficientTritonKernels_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2410.10989v3"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "liger",
+    "kernel",
+    "efficient",
+    "triton",
+    "kernels",
+    "llm",
+    "training"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2410.10989",
+   "first_public": "2024-10-14",
+   "updated": "2025-01-24",
+   "venue": "17 pages, 12 figures",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "13P07",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "KernelBench: Can LLMs Write Efficient GPU Kernels?",
+  "authors": "Anne Ouyang; Simon Guo; Simran Arora; Alex L. Zhang; William Hu; Christopher Ré; Azalia Mirhoseini",
+  "school": "",
+  "year": "2025",
+  "version": "arXiv:2502.10517v1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2502.10517",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 67,
+  "out": "papers/2025_Ouyang_KernelBenchLLMsWriteEfficientGPU_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2502.10517v1"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "kernelbench",
+    "can",
+    "llms",
+    "write",
+    "efficient",
+    "gpu",
+    "kernels"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2502.10517",
+   "first_public": "2025-02-14",
+   "updated": "2025-02-14",
+   "venue": "",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "13P08",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "Benchmarking and Dissecting the Nvidia Hopper GPU Architecture",
+  "authors": "Weile Luo; Ruibo Fan; Zeyu Li; Dayou Du; Qiang Wang; Xiaowen Chu",
+  "school": "",
+  "year": "2024",
+  "version": "arXiv:2402.13499v1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2402.13499",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 68,
+  "out": "papers/2024_Luo_BenchmarkingDissectingNvidiaHopperGPU_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2402.13499v1"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "benchmarking",
+    "dissecting",
+    "nvidia",
+    "hopper",
+    "gpu",
+    "architecture"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2402.13499",
+   "first_public": "2024-02-21",
+   "updated": "2024-02-21",
+   "venue": "",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "13P09",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel",
+  "authors": "Yanli Zhao; Andrew Gu; Rohan Varma; Liang Luo; Chien-Chin Huang; Min Xu; Less Wright; Hamid Shojanazeri 等",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2304.11277v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2304.11277",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 69,
+  "out": "papers/2023_Zhao_PyTorchFSDPExperiencesScalingFully_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2304.11277v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "pytorch",
+    "fsdp",
+    "experiences",
+    "scaling",
+    "fully",
+    "sharded",
+    "data",
+    "parallel"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2304.11277",
+   "first_public": "2023-04-21",
+   "updated": "2023-09-12",
+   "venue": "",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "13P10",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "TorchTitan: One-stop PyTorch native solution for production ready LLM pre-training",
+  "authors": "Wanchao Liang; Tianyu Liu; Less Wright; Will Constable; Andrew Gu; Chien-Chin Huang; Iris Zhang; Wei Feng 等",
+  "school": "",
+  "year": "2024",
+  "version": "arXiv:2410.06511v3",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2410.06511",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 70,
+  "out": "papers/2024_Liang_TorchTitanOneStopPyTorchNative_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2410.06511v3"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "torchtitan",
+    "one",
+    "stop",
+    "pytorch",
+    "native",
+    "solution",
+    "production",
+    "ready"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2410.06511",
+   "first_public": "2024-10-09",
+   "updated": "2025-06-07",
+   "venue": "",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "13P11",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "FP8 Formats for Deep Learning",
+  "authors": "Paulius Micikevicius; Dusan Stosic; Neil Burgess; Marius Cornea; Pradeep Dubey; Richard Grisenthwaite; Sangwon Ha; Alexander Heinecke 等",
+  "school": "",
+  "year": "2022",
+  "version": "arXiv:2209.05433v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2209.05433",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 71,
+  "out": "papers/2022_Micikevicius_FP8FormatsDeepLearning_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2209.05433v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "fp8",
+    "formats",
+    "deep",
+    "learning"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2209.05433",
+   "first_public": "2022-09-12",
+   "updated": "2022-09-29",
+   "venue": "",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "13P12",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "DeepSeek-V3 Technical Report",
+  "authors": " DeepSeek-AI; Aixin Liu; Bei Feng; Bing Xue; Bingxuan Wang; Bochao Wu; Chengda Lu; Chenggang Zhao 等",
+  "school": "",
+  "year": "2024",
+  "version": "arXiv:2412.19437v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2412.19437",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 72,
+  "out": "papers/2024_DeepSeekAI_DeepSeekV3TechnicalReport_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2412.19437v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "deepseek",
+    "technical",
+    "report"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2412.19437",
+   "first_public": "2024-12-27",
+   "updated": "2025-02-18",
+   "venue": "",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "13P13",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM",
+  "authors": "Deepak Narayanan; Mohammad Shoeybi; Jared Casper; Patrick LeGresley; Mostofa Patwary; Vijay Anand Korthikanti; Dmitri Vainbrand; Prethvi Kashinkunti 等",
+  "school": "",
+  "year": "2021",
+  "version": "arXiv:2104.04473v5",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2104.04473",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 73,
+  "out": "papers/2021_Narayanan_EfficientLargeScaleLanguageModel_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2104.04473v5"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "efficient",
+    "large",
+    "scale",
+    "language",
+    "model",
+    "training",
+    "gpu",
+    "clusters"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2104.04473",
+   "first_public": "2021-04-09",
+   "updated": "2021-08-23",
+   "venue": "Accepted to SC 2021",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "13P14",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "PyTorch Distributed: Experiences on Accelerating Data Parallel Training",
+  "authors": "Shen Li; Yanli Zhao; Rohan Varma; Omkar Salpekar; Pieter Noordhuis; Teng Li; Adam Paszke; Jeff Smith 等",
+  "school": "",
+  "year": "2020",
+  "version": "arXiv:2006.15704v1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2006.15704",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 74,
+  "out": "papers/2020_Li_PyTorchDistributedExperiencesAcceleratingData_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2006.15704v1"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "pytorch",
+    "distributed",
+    "experiences",
+    "accelerating",
+    "data",
+    "parallel",
+    "training"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2006.15704",
+   "first_public": "2020-06-28",
+   "updated": "2020-06-28",
+   "venue": "To appear in VLDB 2020",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "13P15",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+  "authors": "Samyam Rajbhandari; Jeff Rasley; Olatunji Ruwase; Yuxiong He",
+  "school": "",
+  "year": "2019",
+  "version": "arXiv:1910.02054v3",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/1910.02054",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 75,
+  "out": "papers/2019_Rajbhandari_ZeROMemoryOptimizationsTowardTraining_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/1910.02054v3"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "zero",
+    "memory",
+    "optimizations",
+    "toward",
+    "training",
+    "trillion",
+    "parameter",
+    "models"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "1910.02054",
+   "first_public": "2019-10-04",
+   "updated": "2020-05-13",
+   "venue": "",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "13P16",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "Mixed Precision Training",
+  "authors": "Paulius Micikevicius; Sharan Narang; Jonah Alben; Gregory Diamos; Erich Elsen; David Garcia; Boris Ginsburg; Michael Houston 等",
+  "school": "",
+  "year": "2017",
+  "version": "arXiv:1710.03740v3",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/1710.03740",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 76,
+  "out": "papers/2017_Micikevicius_MixedPrecisionTraining_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/1710.03740v3"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "mixed",
+    "precision",
+    "training"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "1710.03740",
+   "first_public": "2017-10-10",
+   "updated": "2018-02-15",
+   "venue": "Published as a conference paper at ICLR 2018",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "13P17",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "Dissecting the NVIDIA Volta GPU Architecture via Microbenchmarking",
+  "authors": "Zhe Jia; Marco Maggioni; Benjamin Staiger; Daniele P. Scarpazza",
+  "school": "",
+  "year": "2018",
+  "version": "arXiv:1804.06826v1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/1804.06826",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 77,
+  "out": "papers/2018_Jia_DissectingNVIDIAVoltaGPUArchitecture_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/1804.06826v1"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "dissecting",
+    "nvidia",
+    "volta",
+    "gpu",
+    "architecture",
+    "via",
+    "microbenchmarking"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "1804.06826",
+   "first_public": "2018-04-18",
+   "updated": "2018-04-18",
+   "venue": "Technical report. First Edition. April 18th, 2018. 66 pages",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "14P01",
+  "cat": "14",
+  "cross": [],
+  "type": "paper",
+  "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+  "authors": "Woosuk Kwon; Zhuohan Li; Siyuan Zhuang; Ying Sheng; Lianmin Zheng; Cody Hao Yu; Joseph E. Gonzalez; Hao Zhang 等",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2309.06180v1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2309.06180",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 61,
+  "out": "papers/2023_Kwon_EfficientMemoryManagementLargeLanguage_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2309.06180v1"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "efficient",
+    "memory",
+    "management",
+    "large",
+    "language",
+    "model",
+    "serving",
+    "pagedattention"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2309.06180",
+   "first_public": "2023-09-12",
+   "updated": "2023-09-12",
+   "venue": "SOSP 2023",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "14P02",
+  "cat": "14",
+  "cross": [],
+  "type": "paper",
+  "title": "DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving",
+  "authors": "Yinmin Zhong; Shengyu Liu; Junda Chen; Jianbo Hu; Yibo Zhu; Xuanzhe Liu; Xin Jin; Hao Zhang",
+  "school": "",
+  "year": "2024",
+  "version": "arXiv:2401.09670v3",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2401.09670",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 62,
+  "out": "papers/2024_Zhong_DistServeDisaggregatingPrefillDecodingGoodput_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2401.09670v3"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "distserve",
+    "disaggregating",
+    "prefill",
+    "decoding",
+    "goodput",
+    "optimized",
+    "large",
+    "language"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2401.09670",
+   "first_public": "2024-01-18",
+   "updated": "2024-06-06",
+   "venue": "OSDI 2024",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "14P03",
+  "cat": "14",
+  "cross": [],
+  "type": "paper",
+  "title": "Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve",
+  "authors": "Amey Agrawal; Nitin Kedia; Ashish Panwar; Jayashree Mohan; Nipun Kwatra; Bhargav S. Gulavani; Alexey Tumanov; Ramachandran Ramjee",
+  "school": "",
+  "year": "2024",
+  "version": "arXiv:2403.02310v3",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2403.02310",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 63,
+  "out": "papers/2024_Agrawal_TamingThroughputLatencyTradeoffLLM_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2403.02310v3"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "taming",
+    "throughput",
+    "latency",
+    "tradeoff",
+    "llm",
+    "inference",
+    "sarathi",
+    "serve"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2403.02310",
+   "first_public": "2024-03-04",
+   "updated": "2024-06-17",
+   "venue": "",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "14P04",
+  "cat": "14",
+  "cross": [],
+  "type": "paper",
+  "title": "SGLang: Efficient Execution of Structured Language Model Programs",
+  "authors": "Lianmin Zheng; Liangsheng Yin; Zhiqiang Xie; Chuyue Sun; Jeff Huang; Cody Hao Yu; Shiyi Cao; Christos Kozyrakis 等",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2312.07104v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2312.07104",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 64,
+  "out": "papers/2023_Zheng_SGLangEfficientExecutionStructuredLanguage_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2312.07104v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "sglang",
+    "efficient",
+    "execution",
+    "structured",
+    "language",
+    "model",
+    "programs"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2312.07104",
+   "first_public": "2023-12-12",
+   "updated": "2024-06-06",
+   "venue": "",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "14P05",
+  "cat": "14",
+  "cross": [],
+  "type": "paper",
+  "title": "Splitwise: Efficient generative LLM inference using phase splitting",
+  "authors": "Pratyush Patel; Esha Choukse; Chaojie Zhang; Aashaka Shah; Íñigo Goiri; Saeed Maleki; Ricardo Bianchini",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2311.18677v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2311.18677",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 65,
+  "out": "papers/2023_Patel_SplitwiseEfficientGenerativeLLMInference_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2311.18677v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "splitwise",
+    "efficient",
+    "generative",
+    "llm",
+    "inference",
+    "using",
+    "phase",
+    "splitting"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2311.18677",
+   "first_public": "2023-11-30",
+   "updated": "2024-05-20",
+   "venue": "12 pages, 19 figures",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "14P06",
+  "cat": "14",
+  "cross": [],
+  "type": "paper",
+  "title": "Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving",
+  "authors": "Ruoyu Qin; Zheming Li; Weiran He; Mingxing Zhang; Yongwei Wu; Weimin Zheng; Xinran Xu",
+  "school": "",
+  "year": "2024",
+  "version": "arXiv:2407.00079v5",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2407.00079",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 66,
+  "out": "papers/2024_Qin_MooncakeKVCacheCentricDisaggregatedArchitecture_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2407.00079v5"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "mooncake",
+    "kvcache",
+    "centric",
+    "disaggregated",
+    "architecture",
+    "llm",
+    "serving"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2407.00079",
+   "first_public": "2024-06-24",
+   "updated": "2026-10-08",
+   "venue": "23 pages, 13 figures",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "14P07",
+  "cat": "14",
+  "cross": [],
+  "type": "paper",
+  "title": "Fast Inference from Transformers via Speculative Decoding",
+  "authors": "Yaniv Leviathan; Matan Kalman; Yossi Matias",
+  "school": "",
+  "year": "2022",
+  "version": "arXiv:2211.17192v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2211.17192",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 67,
+  "out": "papers/2022_Leviathan_FastInferenceFromTransformersSpeculative_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2211.17192v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "fast",
+    "inference",
+    "transformers",
+    "via",
+    "speculative",
+    "decoding"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2211.17192",
+   "first_public": "2022-11-30",
+   "updated": "2023-05-18",
+   "venue": "ICML 2023 Oral",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "14P08",
+  "cat": "14",
+  "cross": [],
+  "type": "paper",
+  "title": "DeepSpeed-FastGen: High-throughput Text Generation for LLMs via MII and DeepSpeed-Inference",
+  "authors": "Connor Holmes; Masahiro Tanaka; Michael Wyatt; Ammar Ahmad Awan; Jeff Rasley; Samyam Rajbhandari; Reza Yazdani Aminabadi; Heyang Qin 等",
+  "school": "",
+  "year": "2024",
+  "version": "arXiv:2401.08671v1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2401.08671",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 68,
+  "out": "papers/2024_Holmes_DeepSpeedFastGenHighThroughputText_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2401.08671v1"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "deepspeed",
+    "fastgen",
+    "high",
+    "throughput",
+    "text",
+    "generation",
+    "llms",
+    "via"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2401.08671",
+   "first_public": "2024-01-09",
+   "updated": "2024-01-09",
+   "venue": "",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "15P01",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "authors": "Patrick Lewis; Ethan Perez; Aleksandra Piktus; Fabio Petroni; Vladimir Karpukhin; Naman Goyal; Heinrich Küttler; Mike Lewis 等",
+  "school": "",
+  "year": "2020",
+  "version": "arXiv:2005.11401v4",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2005.11401",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 61,
+  "out": "papers/2020_Lewis_RetrievalAugmentedGenerationKnowledgeIntensive_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2005.11401v4"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "retrieval",
+    "augmented",
+    "generation",
+    "knowledge",
+    "intensive",
+    "nlp",
+    "tasks"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2005.11401",
+   "first_public": "2020-05-22",
+   "updated": "2021-04-12",
+   "venue": "Accepted at NeurIPS 2020",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "15P02",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+  "authors": "Shunyu Yao; Jeffrey Zhao; Dian Yu; Nan Du; Izhak Shafran; Karthik Narasimhan; Yuan Cao",
+  "school": "",
+  "year": "2022",
+  "version": "arXiv:2210.03629v3",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2210.03629",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 62,
+  "out": "papers/2022_Yao_ReActSynergizingReasoningActingLanguage_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2210.03629v3"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "react",
+    "synergizing",
+    "reasoning",
+    "acting",
+    "language",
+    "models"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2210.03629",
+   "first_public": "2022-10-06",
+   "updated": "2023-03-10",
+   "venue": "v3 is the ICLR camera ready version with some typos fixed. Project site with code: https://react-lm.github.io",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "15P03",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "authors": "Timo Schick; Jane Dwivedi-Yu; Roberto Dessì; Roberta Raileanu; Maria Lomeli; Luke Zettlemoyer; Nicola Cancedda; Thomas Scialom",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2302.04761v1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2302.04761",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 63,
+  "out": "papers/2023_Schick_ToolformerLanguageModelsTeachThemselves_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2302.04761v1"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "toolformer",
+    "language",
+    "models",
+    "can",
+    "teach",
+    "themselves",
+    "use",
+    "tools"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2302.04761",
+   "first_public": "2023-02-09",
+   "updated": "2023-02-09",
+   "venue": "",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "15P04",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+  "authors": "Carlos E. Jimenez; John Yang; Alexander Wettig; Shunyu Yao; Kexin Pei; Ofir Press; Karthik Narasimhan",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2310.06770v3",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2310.06770",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 64,
+  "out": "papers/2023_Jimenez_SWEBenchLanguageModelsResolve_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2310.06770v3"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "swe",
+    "bench",
+    "can",
+    "language",
+    "models",
+    "resolve",
+    "real",
+    "world"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2310.06770",
+   "first_public": "2023-10-10",
+   "updated": "2024-11-11",
+   "venue": "Data, code, and leaderboard are available at https://www.swebench.com ICLR 2024, https://openreview.net/forum?id=VTF8yNQM66",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "15P05",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+  "authors": "John Yang; Carlos E. Jimenez; Alexander Wettig; Kilian Lieret; Shunyu Yao; Karthik Narasimhan; Ofir Press",
+  "school": "",
+  "year": "2024",
+  "version": "arXiv:2405.15793v3",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2405.15793",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 65,
+  "out": "papers/2024_Yang_SWEAgentAgentComputerInterfaces_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2405.15793v3"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "swe",
+    "agent",
+    "agent",
+    "computer",
+    "interfaces",
+    "enable",
+    "automated",
+    "software"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2405.15793",
+   "first_public": "2024-05-06",
+   "updated": "2024-11-11",
+   "venue": "Code, data, and demo available at https://swe-agent.com",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "15P06",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "Agentless: Demystifying LLM-based Software Engineering Agents",
+  "authors": "Chunqiu Steven Xia; Yinlin Deng; Soren Dunn; Lingming Zhang",
+  "school": "",
+  "year": "2024",
+  "version": "arXiv:2407.01489v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2407.01489",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 66,
+  "out": "papers/2024_Xia_AgentlessDemystifyingLLMBasedSoftware_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2407.01489v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "agentless",
+    "demystifying",
+    "llm",
+    "based",
+    "software",
+    "engineering",
+    "agents"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2407.01489",
+   "first_public": "2024-07-01",
+   "updated": "2024-10-29",
+   "venue": "",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "15P07",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+  "authors": "Xingyao Wang; Boxuan Li; Yufan Song; Frank F. Xu; Xiangru Tang; Mingchen Zhuge; Jiayi Pan; Yueqi Song 等",
+  "school": "",
+  "year": "2024",
+  "version": "arXiv:2407.16741v3",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2407.16741",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 67,
+  "out": "papers/2024_Wang_OpenHandsOpenPlatformAISoftware_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2407.16741v3"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "openhands",
+    "open",
+    "platform",
+    "software",
+    "developers",
+    "generalist",
+    "agents"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2407.16741",
+   "first_public": "2024-07-23",
+   "updated": "2025-04-18",
+   "venue": "Accepted by ICLR 2025; Code: https://github.com/All-Hands-AI/OpenHands",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "15P08",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "Executable Code Actions Elicit Better LLM Agents",
+  "authors": "Xingyao Wang; Yangyi Chen; Lifan Yuan; Yizhe Zhang; Yunzhu Li; Hao Peng; Heng Ji",
+  "school": "",
+  "year": "2024",
+  "version": "arXiv:2402.01030v4",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2402.01030",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 68,
+  "out": "papers/2024_Wang_ExecutableCodeActionsElicitBetter_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2402.01030v4"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "executable",
+    "code",
+    "actions",
+    "elicit",
+    "better",
+    "llm",
+    "agents"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2402.01030",
+   "first_public": "2024-02-01",
+   "updated": "2024-06-07",
+   "venue": "Accepted by ICML 2024; Code, data, model, and demo are available at https://github.com/xingyaoww/code-act",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "15P09",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "Lost in the Middle: How Language Models Use Long Contexts",
+  "authors": "Nelson F. Liu; Kevin Lin; John Hewitt; Ashwin Paranjape; Michele Bevilacqua; Fabio Petroni; Percy Liang",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2307.03172v3",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2307.03172",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 69,
+  "out": "papers/2023_Liu_LostMiddleHowLanguageModels_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2307.03172v3"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "lost",
+    "middle",
+    "how",
+    "language",
+    "models",
+    "use",
+    "long",
+    "contexts"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2307.03172",
+   "first_public": "2023-07-06",
+   "updated": "2023-11-20",
+   "venue": "18 pages, 16 figures. Accepted for publication in Transactions of the Association for Computational Linguistics (TACL), 2023",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "15P10",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+  "authors": "Akari Asai; Zeqiu Wu; Yizhong Wang; Avirup Sil; Hannaneh Hajishirzi",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2310.11511v1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2310.11511",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 70,
+  "out": "papers/2023_Asai_SelfRAGLearningRetrieveGenerate_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2310.11511v1"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "self",
+    "rag",
+    "learning",
+    "retrieve",
+    "generate",
+    "critique",
+    "through",
+    "self"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2310.11511",
+   "first_public": "2023-10-17",
+   "updated": "2023-10-17",
+   "venue": "30 pages, 2 figures, 12 tables",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "15P11",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+  "authors": "Yunfan Gao; Yun Xiong; Xinyu Gao; Kangxiang Jia; Jinliu Pan; Yuxi Bi; Yi Dai; Jiawei Sun 等",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2312.10997v5",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2312.10997",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 71,
+  "out": "papers/2023_Gao_RetrievalAugmentedGenerationLargeLanguage_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2312.10997v5"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "retrieval",
+    "augmented",
+    "generation",
+    "large",
+    "language",
+    "models",
+    "survey"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2312.10997",
+   "first_public": "2023-12-18",
+   "updated": "2024-03-27",
+   "venue": "Ongoing Work",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "15P12",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "Ragas: Automated Evaluation of Retrieval Augmented Generation",
+  "authors": "Shahul Es; Jithin James; Luis Espinosa-Anke; Steven Schockaert",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2309.15217v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2309.15217",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 72,
+  "out": "papers/2023_Es_RagasAutomatedEvaluationRetrievalAugmented_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2309.15217v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "ragas",
+    "automated",
+    "evaluation",
+    "retrieval",
+    "augmented",
+    "generation"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2309.15217",
+   "first_public": "2023-09-26",
+   "updated": "2025-04-28",
+   "venue": "Reference-free (not tied to having ground truth available) evaluation framework for retrieval agumented generation",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "15P13",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+  "authors": "Lianmin Zheng; Wei-Lin Chiang; Ying Sheng; Siyuan Zhuang; Zhanghao Wu; Yonghao Zhuang; Zi Lin; Zhuohan Li 等",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2306.05685v4",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2306.05685",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 73,
+  "out": "papers/2023_Zheng_JudgingLLMAsJudgeMT_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2306.05685v4"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "judging",
+    "llm",
+    "judge",
+    "bench",
+    "chatbot",
+    "arena"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2306.05685",
+   "first_public": "2023-06-09",
+   "updated": "2023-12-24",
+   "venue": "NeurIPS 2023 Datasets and Benchmarks Track",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "15P14",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "authors": "Noah Shinn; Federico Cassano; Edward Berman; Ashwin Gopinath; Karthik Narasimhan; Shunyu Yao",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2303.11366v4",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2303.11366",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 74,
+  "out": "papers/2023_Shinn_ReflexionLanguageAgentsVerbalReinforcement_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2303.11366v4"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "reflexion",
+    "language",
+    "agents",
+    "verbal",
+    "reinforcement",
+    "learning"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2303.11366",
+   "first_public": "2023-03-20",
+   "updated": "2023-10-10",
+   "venue": "v4 contains a few additional experiments",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "15P15",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "MemGPT: Towards LLMs as Operating Systems",
+  "authors": "Charles Packer; Sarah Wooders; Kevin Lin; Vivian Fang; Shishir G. Patil; Ion Stoica; Joseph E. Gonzalez",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2310.08560v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2310.08560",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 75,
+  "out": "papers/2023_Packer_MemGPTTowardsLLMsAsOperating_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2310.08560v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "memgpt",
+    "towards",
+    "llms",
+    "operating",
+    "systems"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2310.08560",
+   "first_public": "2023-10-12",
+   "updated": "2024-02-12",
+   "venue": "Code and data available at https://research.memgpt.ai",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "15P16",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "$τ$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+  "authors": "Shunyu Yao; Noah Shinn; Pedram Razavi; Karthik Narasimhan",
+  "school": "",
+  "year": "2024",
+  "version": "arXiv:2406.12045v1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2406.12045",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 76,
+  "out": "papers/2024_Yao_BenchBenchmarkToolAgentUser_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2406.12045v1"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "bench",
+    "benchmark",
+    "tool",
+    "agent",
+    "user",
+    "interaction",
+    "real",
+    "world"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2406.12045",
+   "first_public": "2024-06-17",
+   "updated": "2024-06-17",
+   "venue": "",
+   "window": "近三年"
+  }
+ },
+ {
+  "id": "15P17",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "Gorilla: Large Language Model Connected with Massive APIs",
+  "authors": "Shishir G. Patil; Tianjun Zhang; Xin Wang; Joseph E. Gonzalez",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2305.15334v1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2305.15334",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 77,
+  "out": "papers/2023_Patil_GorillaLargeLanguageModelConnected_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2305.15334v1"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "gorilla",
+    "large",
+    "language",
+    "model",
+    "connected",
+    "massive",
+    "apis"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2305.15334",
+   "first_public": "2023-05-24",
+   "updated": "2023-05-24",
+   "venue": "",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "15P18",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT",
+  "authors": "Omar Khattab; Matei Zaharia",
+  "school": "",
+  "year": "2020",
+  "version": "arXiv:2004.12832v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2004.12832",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 78,
+  "out": "papers/2020_Khattab_ColBERTEfficientEffectivePassageSearch_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2004.12832v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "colbert",
+    "efficient",
+    "effective",
+    "passage",
+    "search",
+    "via",
+    "contextualized",
+    "late"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2004.12832",
+   "first_public": "2020-04-27",
+   "updated": "2020-06-04",
+   "venue": "Accepted at SIGIR 2020",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "15P19",
+  "cat": "15",
+  "cross": [],
+  "type": "paper",
+  "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+  "authors": "Vladimir Karpukhin; Barlas Oğuz; Sewon Min; Patrick Lewis; Ledell Wu; Sergey Edunov; Danqi Chen; Wen-tau Yih",
+  "school": "",
+  "year": "2020",
+  "version": "arXiv:2004.04906v3",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2004.04906",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 79,
+  "out": "papers/2020_Karpukhin_DensePassageRetrievalOpenDomain_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2004.04906v3"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "dense",
+    "passage",
+    "retrieval",
+    "open",
+    "domain",
+    "question",
+    "answering"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2004.04906",
+   "first_public": "2020-04-10",
+   "updated": "2020-09-30",
+   "venue": "EMNLP 2020",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "02P13",
+  "cat": "02",
+  "cross": [],
+  "type": "paper",
+  "title": "Faster sorting algorithms discovered using deep reinforcement learning",
+  "authors": "Daniel J. Mankowitz et al.",
+  "school": "",
+  "year": "2023",
+  "version": "Nature 618 (2023)",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://www.nature.com/articles/s41586-023-06004-9.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 73,
+  "out": "papers/2023_Mankowitz_FasterSortingAlgorithmsDiscoveredUsing_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.nature.com/articles/s41586-023-06004-9.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "faster",
+    "sorting",
+    "algorithms",
+    "discovered",
+    "using",
+    "deep",
+    "reinforcement",
+    "learning"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "Nature 618 (2023)",
+   "first_public": "2023",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "11P01",
+  "cat": "11",
+  "cross": [],
+  "type": "paper",
+  "title": "The QUIC Transport Protocol: Design and Internet-Scale Deployment",
+  "authors": "Adam Langley et al.",
+  "school": "",
+  "year": "2017",
+  "version": "SIGCOMM 2017",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/46403.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 61,
+  "out": "papers/2017_Langley_QUICTransportProtocolDesignInternet_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/46403.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "quic",
+    "transport",
+    "protocol",
+    "design",
+    "internet",
+    "scale",
+    "deployment"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "SIGCOMM 2017",
+   "first_public": "2017",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "11P02",
+  "cat": "11",
+  "cross": [],
+  "type": "paper",
+  "title": "Are You Sure You Want to Use MMAP in Your Database Management System?",
+  "authors": "Andrew Crotty, Viktor Leis, Andrew Pavlo",
+  "school": "",
+  "year": "2022",
+  "version": "CIDR 2022",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://www.cidrdb.org/cidr2022/papers/p13-crotty.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 62,
+  "out": "papers/2022_Crotty_YouSureYouWantUse_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.cidrdb.org/cidr2022/papers/p13-crotty.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "are",
+    "you",
+    "sure",
+    "you",
+    "want",
+    "use",
+    "mmap",
+    "your"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "CIDR 2022",
+   "first_public": "2022",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "11P03",
+  "cat": "11",
+  "cross": [],
+  "type": "paper",
+  "title": "The Linux Scheduler: a Decade of Wasted Cores",
+  "authors": "Jean-Pierre Lozi et al.",
+  "school": "",
+  "year": "2016",
+  "version": "EuroSys 2016",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://people.ece.ubc.ca/sasha/papers/eurosys16-final29.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 63,
+  "out": "papers/2016_Lozi_LinuxSchedulerDecadeWastedCores_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://people.ece.ubc.ca/sasha/papers/eurosys16-final29.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "linux",
+    "scheduler",
+    "decade",
+    "wasted",
+    "cores"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "EuroSys 2016",
+   "first_public": "2016",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "11P04",
+  "cat": "11",
+  "cross": [],
+  "type": "paper",
+  "title": "What Modern NVMe Storage Can Do, And How To Exploit It: High-Performance I/O for High-Performance Storage Engines",
+  "authors": "Gabriel Haas, Viktor Leis",
+  "school": "",
+  "year": "2023",
+  "version": "PVLDB 16(9) 2023",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://www.vldb.org/pvldb/vol16/p2090-haas.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 64,
+  "out": "papers/2023_Haas_WhatModernNVMeStorageDo_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.vldb.org/pvldb/vol16/p2090-haas.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "what",
+    "modern",
+    "nvme",
+    "storage",
+    "can",
+    "how",
+    "exploit",
+    "high"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "PVLDB 16(9) 2023",
+   "first_public": "2023",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "11P05",
+  "cat": "11",
+  "cross": [],
+  "type": "paper",
+  "title": "The Demikernel Datapath OS Architecture for Microsecond-scale Datacenter Systems",
+  "authors": "Irene Zhang et al.",
+  "school": "",
+  "year": "2021",
+  "version": "SOSP 2021",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://irenezhang.net/papers/demikernel-sosp21.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 65,
+  "out": "papers/2021_Zhang_DemikernelDatapathOSArchitectureMicrosecond_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://irenezhang.net/papers/demikernel-sosp21.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "demikernel",
+    "datapath",
+    "architecture",
+    "microsecond",
+    "scale",
+    "datacenter",
+    "systems"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "SOSP 2021",
+   "first_public": "2021",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "11P06",
+  "cat": "11",
+  "cross": [],
+  "type": "paper",
+  "title": "seL4: Formal Verification of an OS Kernel",
+  "authors": "Gerwin Klein et al.",
+  "school": "",
+  "year": "2009",
+  "version": "SOSP 2009",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://www.sigops.org/s/conferences/sosp/2009/papers/klein-sosp09.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 66,
+  "out": "papers/2009_Klein_SeL4FormalVerificationOSKernel_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.sigops.org/s/conferences/sosp/2009/papers/klein-sosp09.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "sel4",
+    "formal",
+    "verification",
+    "kernel"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "SOSP 2009",
+   "first_public": "2009",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "11P07",
+  "cat": "11",
+  "cross": [],
+  "type": "paper",
+  "title": "Profiling a warehouse-scale computer",
+  "authors": "Svilen Kanev et al.",
+  "school": "",
+  "year": "2015",
+  "version": "ISCA 2015",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44271.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 67,
+  "out": "papers/2015_Kanev_ProfilingWarehouseScaleComputer_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44271.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "profiling",
+    "warehouse",
+    "scale",
+    "computer"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "ISCA 2015",
+   "first_public": "2015",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "11P08",
+  "cat": "11",
+  "cross": [],
+  "type": "paper",
+  "title": "Spectre Attacks: Exploiting Speculative Execution",
+  "authors": "Paul Kocher et al.",
+  "school": "",
+  "year": "2019",
+  "version": "IEEE S&P 2019",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/pdf/1801.01203",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 68,
+  "out": "papers/2019_Kocher_SpectreAttacksExploitingSpeculativeExecution_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/1801.01203"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "spectre",
+    "attacks",
+    "exploiting",
+    "speculative",
+    "execution"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "IEEE S&P 2019",
+   "first_public": "2019",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "13P18",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations",
+  "authors": "Philippe Tillet, H. T. Kung, David Cox",
+  "school": "",
+  "year": "2019",
+  "version": "MAPL 2019",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://www.eecs.harvard.edu/~htk/publication/2019-mapl-tillet-kung-cox.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 78,
+  "out": "papers/2019_Tillet_TritonIntermediateLanguageCompilerTiled_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.eecs.harvard.edu/~htk/publication/2019-mapl-tillet-kung-cox.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "triton",
+    "intermediate",
+    "language",
+    "compiler",
+    "tiled",
+    "neural",
+    "network",
+    "computations"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "MAPL 2019",
+   "first_public": "2019",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "13P19",
+  "cat": "13",
+  "cross": [],
+  "type": "paper",
+  "title": "Roofline: An Insightful Visual Performance Model for Floating-Point Programs and Multicore Architectures",
+  "authors": "Samuel Williams, Andrew Waterman, David Patterson",
+  "school": "",
+  "year": "2008",
+  "version": "UC Berkeley EECS-2008-134（CACM 2009 论文的技术报告版）",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2008/EECS-2008-134.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 79,
+  "out": "papers/2008_Williams_RooflineInsightfulVisualPerformanceModel_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2008/EECS-2008-134.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "roofline",
+    "insightful",
+    "visual",
+    "performance",
+    "model",
+    "floating",
+    "point",
+    "programs"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "UC Berkeley EECS-2008-134（CACM 2009 论文的技术报告版）",
+   "first_public": "2008",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "14P09",
+  "cat": "14",
+  "cross": [],
+  "type": "paper",
+  "title": "Time, Clocks, and the Ordering of Events in a Distributed System",
+  "authors": "Leslie Lamport",
+  "school": "",
+  "year": "1978",
+  "version": "CACM 21(7) 1978",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 69,
+  "out": "papers/1978_Lamport_TimeClocksOrderingEventsDistributed_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://lamport.azurewebsites.net/pubs/time-clocks.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "time",
+    "clocks",
+    "ordering",
+    "events",
+    "distributed",
+    "system"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "CACM 21(7) 1978",
+   "first_public": "1978",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "14P10",
+  "cat": "14",
+  "cross": [],
+  "type": "paper",
+  "title": "Paxos Made Simple",
+  "authors": "Leslie Lamport",
+  "school": "",
+  "year": "2001",
+  "version": "ACM SIGACT News 2001",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://lamport.azurewebsites.net/pubs/paxos-simple.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 70,
+  "out": "papers/2001_Lamport_PaxosMadeSimple_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://lamport.azurewebsites.net/pubs/paxos-simple.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "paxos",
+    "made",
+    "simple"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "ACM SIGACT News 2001",
+   "first_public": "2001",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "14P11",
+  "cat": "14",
+  "cross": [],
+  "type": "paper",
+  "title": "In Search of an Understandable Consensus Algorithm",
+  "authors": "Diego Ongaro, John Ousterhout",
+  "school": "",
+  "year": "2014",
+  "version": "USENIX ATC 2014",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://raft.github.io/raft.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 71,
+  "out": "papers/2014_Ongaro_SearchUnderstandableConsensusAlgorithm_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://raft.github.io/raft.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "search",
+    "understandable",
+    "consensus",
+    "algorithm"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "USENIX ATC 2014",
+   "first_public": "2014",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "14P12",
+  "cat": "14",
+  "cross": [],
+  "type": "paper",
+  "title": "MapReduce: Simplified Data Processing on Large Clusters",
+  "authors": "Jeffrey Dean, Sanjay Ghemawat",
+  "school": "",
+  "year": "2004",
+  "version": "OSDI 2004",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 72,
+  "out": "papers/2004_Dean_MapReduceSimplifiedDataProcessingLarge_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "mapreduce",
+    "simplified",
+    "data",
+    "processing",
+    "large",
+    "clusters"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "OSDI 2004",
+   "first_public": "2004",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "14P13",
+  "cat": "14",
+  "cross": [],
+  "type": "paper",
+  "title": "Dynamo: Amazon's Highly Available Key-value Store",
+  "authors": "Giuseppe DeCandia et al.",
+  "school": "",
+  "year": "2007",
+  "version": "SOSP 2007",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 73,
+  "out": "papers/2007_DeCandia_DynamoAmazonSHighlyAvailable_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "dynamo",
+    "amazon",
+    "highly",
+    "available",
+    "key",
+    "value",
+    "store"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "SOSP 2007",
+   "first_public": "2007",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "14P14",
+  "cat": "14",
+  "cross": [],
+  "type": "paper",
+  "title": "Large-scale cluster management at Google with Borg",
+  "authors": "Abhishek Verma et al.",
+  "school": "",
+  "year": "2015",
+  "version": "EuroSys 2015",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43438.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 74,
+  "out": "papers/2015_Verma_LargeScaleClusterManagementAt_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43438.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "large",
+    "scale",
+    "cluster",
+    "management",
+    "google",
+    "borg"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "EuroSys 2015",
+   "first_public": "2015",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "14P15",
+  "cat": "14",
+  "cross": [],
+  "type": "paper",
+  "title": "The Tail at Scale",
+  "authors": "Jeffrey Dean, Luiz André Barroso",
+  "school": "",
+  "year": "2013",
+  "version": "CACM 56(2) 2013",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://www.barroso.org/publications/TheTailAtScale.pdf",
+  "license": "作者/机构公开版本",
+  "goal": "",
+  "order": 75,
+  "out": "papers/2013_Dean_TailAtScale_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.barroso.org/publications/TheTailAtScale.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "tail",
+    "scale"
+   ],
+   "min_pages": 2,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "venue": "CACM 56(2) 2013",
+   "first_public": "2013",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "11P09",
+  "cat": "11",
+  "cross": [],
+  "type": "paper",
+  "title": "Demystifying CXL Memory with Genuine CXL-Ready Systems and Devices",
+  "authors": "Yan Sun; Yifan Yuan; Zeduo Yu; Reese Kuper; Chihun Song; Jinghan Huang; Houxiang Ji; Siddharth Agarwal 等",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2303.15375v4",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2303.15375",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 69,
+  "out": "papers/2023_Sun_DemystifyingCXLMemoryGenuineCXL_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2303.15375v4"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "demystifying",
+    "cxl",
+    "memory",
+    "genuine",
+    "cxl",
+    "ready",
+    "systems",
+    "devices"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2303.15375",
+   "first_public": "2023-03-27",
+   "updated": "2023-10-05",
+   "venue": "This paper has been accepted by MICRO'23. Please refer to the https://doi.org/10.1145/3613424.3614256 for the official version of this paper",
+   "window": "经典/较早"
+  }
+ },
+ {
+  "id": "11P10",
+  "cat": "11",
+  "cross": [],
+  "type": "paper",
+  "title": "QUIC is not Quick Enough over Fast Internet",
+  "authors": "Xumiao Zhang; Shuowei Jin; Yi He; Ahmad Hassan; Z. Morley Mao; Feng Qian; Zhi-Li Zhang",
+  "school": "",
+  "year": "2023",
+  "version": "arXiv:2310.09423v2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://arxiv.org/abs/2310.09423",
+  "license": "arXiv（以论文页声明为准）",
+  "goal": "",
+  "order": 70,
+  "out": "papers/2023_Zhang_QUICNotQuickEnoughOver_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2310.09423v2"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "quic",
+    "not",
+    "quick",
+    "enough",
+    "over",
+    "fast",
+    "internet"
+   ],
+   "min_pages": 4,
+   "min_ratio": 0.6
+  },
+  "material": "论文",
+  "use": "精读/按需",
+  "note": "",
+  "complete": "完整",
+  "paper": {
+   "arxiv": "2310.09423",
+   "first_public": "2023-10-13",
+   "updated": "2024-09-30",
+   "venue": "Proceedings of the ACM Web Conference 2024 (WWW '24), Pages 2713-2722",
+   "window": "经典/较早"
+  }
+ }
+]

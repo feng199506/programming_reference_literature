@@ -1,0 +1,70 @@
+{
+ "id": "14D01",
+ "started": "2026-10-29T18:36:31Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://onnx.ai/onnx/",
+ "mirror_scope": {
+  "start": [
+   "https://onnx.ai/onnx/"
+  ],
+  "include": [
+   "/onnx"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：2860 个文件（HTML 1425，文档源 1400）",
+ "info": {
+  "files": 2860,
+  "html": 1425,
+  "md_rst_ipynb": 1400,
+  "top_ext": [
+   [
+    "html",
+    1425
+   ],
+   [
+    "txt",
+    1400
+   ],
+   [
+    "png",
+    15
+   ],
+   [
+    "css",
+    9
+   ],
+   [
+    "js",
+    4
+   ],
+   [
+    "js?v=a7894cd8",
+    1
+   ],
+   [
+    "js?v=f281be69",
+    1
+   ],
+   [
+    "js?v=9bcbadda",
+    1
+   ]
+  ],
+  "entry": "onnx_docs_site_mirror_en/onnx/index.html",
+  "license_files": [],
+  "link_sample": {
+   "links": 173148,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 356003840,
+ "sha256": "1dfebcff3b84f7ffea465aeabc0d8cb7d722f509f1eaa898e6ba59b01f5abe7e",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:58:15Z"
+}

@@ -1,0 +1,61 @@
+{
+ "id": "15D03",
+ "started": "2026-10-29T17:32:23Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/langchain-ai/docs",
+ "ref": "(默认分支)",
+ "commit": "1bbf747efe0a736e2320d0825c66fbe9e68b63ab",
+ "commit_date": "2026-10-29T13:29:07-04:00",
+ "sparse_paths": [
+  "src/oss"
+ ],
+ "verify": "通过：951 个文件（HTML 0，文档源 772）",
+ "info": {
+  "files": 951,
+  "html": 0,
+  "md_rst_ipynb": 772,
+  "top_ext": [
+   [
+    "mdx",
+    768
+   ],
+   [
+    "png",
+    141
+   ],
+   [
+    "mmd",
+    12
+   ],
+   [
+    "svg",
+    7
+   ],
+   [
+    "jpg",
+    6
+   ],
+   [
+    "gif",
+    6
+   ],
+   [
+    "md",
+    4
+   ],
+   [
+    "mp4",
+    3
+   ]
+  ],
+  "license_files": [
+   "langchain_docs_main_src_en/LICENSE"
+  ]
+ },
+ "bytes": 65843200,
+ "sha256": "0b2c88ab6d0909eb00c876142d79e28260fd9044c0f712dbb1784c58fe2ebba9",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:27Z"
+}

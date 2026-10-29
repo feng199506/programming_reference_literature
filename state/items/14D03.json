@@ -1,0 +1,58 @@
+{
+ "id": "14D03",
+ "started": "2026-10-29T17:30:56Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/microsoft/onnxruntime",
+ "ref": "gh-pages",
+ "commit": "e3d000e3fe1b113c4153e6250dd605c2d03da3f0",
+ "commit_date": "2026-10-14T12:06:54-07:00",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：240 个文件（HTML 50，文档源 179）",
+ "info": {
+  "files": 240,
+  "html": 50,
+  "md_rst_ipynb": 179,
+  "top_ext": [
+   [
+    "md",
+    179
+   ],
+   [
+    "html",
+    50
+   ],
+   [
+    "css",
+    3
+   ],
+   [
+    "js",
+    3
+   ],
+   [
+    "json",
+    3
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "nojekyll",
+    1
+   ]
+  ],
+  "entry": "onnxruntime_docs_ghpages_en/docs/index.md",
+  "license_files": [
+   "onnxruntime_docs_ghpages_en/LICENSE"
+  ]
+ },
+ "bytes": 2856960,
+ "sha256": "d071a0c136553b53090a0213c80a0c44de9eab44da52870252b4dc876a7116fa",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:30:58Z"
+}

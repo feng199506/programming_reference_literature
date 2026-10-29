@@ -1,0 +1,62 @@
+{
+ "id": "09X01",
+ "started": "2026-10-29T17:47:09Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/gothinkster/realworld",
+ "ref": "(默认分支)",
+ "commit": "ebbcdeb8d55b42a3a613c787560498b8ef10003f",
+ "commit_date": "2026-08-26T08:00:43+02:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：330 个文件（HTML 0，文档源 31）",
+ "info": {
+  "files": 330,
+  "html": 0,
+  "md_rst_ipynb": 31,
+  "top_ext": [
+   [
+    "bru",
+    156
+   ],
+   [
+    "png",
+    62
+   ],
+   [
+    "md",
+    29
+   ],
+   [
+    "ts",
+    24
+   ],
+   [
+    "hurl",
+    13
+   ],
+   [
+    "svg",
+    11
+   ],
+   [
+    "yml",
+    8
+   ],
+   [
+    "json",
+    8
+   ]
+  ],
+  "license_files": [
+   "realworld_spec_main_en/LICENSE",
+   "realworld_spec_main_en/docs/non-included/LICENSES_LOGOS.md"
+  ]
+ },
+ "bytes": 3205120,
+ "sha256": "9e3c7813461bc1af916a059a0f412fa8643a192cf0e24f0f3f6dbf1a4871e6b6",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:10Z"
+}

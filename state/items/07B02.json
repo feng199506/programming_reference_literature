@@ -1,0 +1,19 @@
+{
+ "id": "07B02",
+ "started": "2026-10-29T17:48:15Z",
+ "download_url": "https://github.com/progit/progit2/releases/download/2.1.450/progit.pdf",
+ "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/15400220/7230b56e-ddf0-4803-8429-0dbf44692485?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-29T18%3A41%3A34Z&rscd=attachment%3B+filename%3Dprogit.pdf&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-29T17%3A41%3A05Z&ske=2026-10-29T18%3A41%3A34Z&sks=b&skv=2018-11-09&sig=slQXqwGIDKK5C92zoUhMm63UQ3XBAiLzAxUez1iiG9s%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MzI5Nzg5NSwibmJmIjoxNzkzMjk2MDk1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.UJJbHqzOMAEBAhTfdOyKF5-0PvbyNVDT7teEcu_K3Ms&response-content-disposition=attachment%3B%20filename%3Dprogit.pdf&response-content-type=application%2Foctet-stream",
+ "http_last_modified": "Mon, 25 May 2026 08:09:17 GMT",
+ "verify": "通过：pypdf 可解析 501 页；标题词匹配 1.0",
+ "info": {
+  "pages": 501,
+  "meta_title": "Pro Git",
+  "body_sample_chars": 7726,
+  "title_match": 1.0
+ },
+ "bytes": 18847129,
+ "sha256": "403f4051cdca2c585361d85f6e87d5dd87d8c544fc91dced007711babe81e8ef",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:16Z"
+}

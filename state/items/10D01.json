@@ -1,0 +1,62 @@
+{
+ "id": "10D01",
+ "started": "2026-10-29T17:32:41Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/gradio-app/gradio",
+ "ref": "gradio@6.31.0",
+ "commit": "07341609c68bb98701e7db9ba9e2ad6c0fb2acb4",
+ "commit_date": "2026-10-27T23:27:38-04:00",
+ "sparse_paths": [
+  "guides",
+  "demo"
+ ],
+ "verify": "通过：798 个文件（HTML 0，文档源 258）",
+ "info": {
+  "files": 798,
+  "html": 0,
+  "md_rst_ipynb": 258,
+  "top_ext": [
+   [
+    "py",
+    466
+   ],
+   [
+    "md",
+    137
+   ],
+   [
+    "txt",
+    121
+   ],
+   [
+    "png",
+    18
+   ],
+   [
+    "wav",
+    8
+   ],
+   [
+    "json",
+    8
+   ],
+   [
+    "mp4",
+    6
+   ],
+   [
+    "jpg",
+    6
+   ]
+  ],
+  "license_files": [
+   "gradio_6.31.0_guides_src_en/LICENSE"
+  ]
+ },
+ "bytes": 27402240,
+ "sha256": "5b213262eef619ecf66784646284c6cfca3635fe2730382d48bb59a15dd88820",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:45Z"
+}

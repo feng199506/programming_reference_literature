@@ -1,0 +1,41 @@
+{
+ "id": "03C02",
+ "started": "2026-10-29T17:45:41Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/data-8/textbook",
+ "ref": "(默认分支)",
+ "commit": "41a47b89e03bf8edd1bed013b1ab225220212823",
+ "commit_date": "2026-10-27T10:29:35-07:00",
+ "sparse_paths": [
+  "chapters"
+ ],
+ "verify": "通过：104 个文件（HTML 0，文档源 104）",
+ "info": {
+  "files": 104,
+  "html": 0,
+  "md_rst_ipynb": 104,
+  "top_ext": [
+   [
+    "ipynb",
+    80
+   ],
+   [
+    "md",
+    23
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [
+   "Berkeley_Data8_Textbook_src_en/LICENSE.md"
+  ]
+ },
+ "bytes": 10014720,
+ "sha256": "c1e7ed81ea3946f17007e6cc73818a7be63dbad3ff0023568ced249a26f8bfdc",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:43Z"
+}

@@ -1,0 +1,55 @@
+{
+ "id": "05D26",
+ "started": "2026-10-29T17:55:57Z",
+ "download_url": "https://huggingface.co/datasets/hf-doc-build/doc-build/resolve/main/diffusers/v0.42.1.zip",
+ "final_url": "https://us.aws.cdn.hf.co/xet-bridge-us/6356b19985da6f13863228bd/21bf9cd7ad0c6135f79c438931d3e6e8f2f54db57855bdc7c825081035397480?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27v0.42.1.zip%3B+filename%3D%22v0.42.1.zip%22%3B&xip=vzlH9V57VH8&response-content-type=application%2Fzip&X-Xet-",
+ "http_last_modified": "",
+ "verify": "通过：1629 个文件（HTML 516，文档源 526）",
+ "info": {
+  "files": 1629,
+  "html": 516,
+  "md_rst_ipynb": 526,
+  "top_ext": [
+   [
+    "js",
+    561
+   ],
+   [
+    "html",
+    516
+   ],
+   [
+    "md",
+    516
+   ],
+   [
+    "txt",
+    10
+   ],
+   [
+    "yml",
+    6
+   ],
+   [
+    "css",
+    5
+   ],
+   [
+    "json",
+    5
+   ],
+   [
+    "inv",
+    5
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 15175836,
+ "sha256": "946419e8b4b60f3e382fbad6298d938a450caa15d598ed0ce4e409d3d3a4246a",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:55:58Z",
+ "error": "",
+ "reverified": "2026-10-29T18:05:44Z"
+}

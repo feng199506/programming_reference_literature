@@ -1,0 +1,76 @@
+{
+ "id": "03D01",
+ "started": "2026-10-29T17:25:53Z",
+ "dropped_large_files": [
+  "numpy_2.5_docs_html_en/2.5/numpy-html.zip (35601 KiB)"
+ ],
+ "dropped_count": 1,
+ "download_url": "https://github.com/numpy/doc",
+ "ref": "(默认分支)",
+ "commit": "be1a2c96dd1e28fd5492efb9e9f7e3bce33bd7ab",
+ "commit_date": "2026-06-28T11:34:24+03:00",
+ "sparse_paths": [
+  "2.5"
+ ],
+ "verify": "通过：5171 个文件（HTML 2682，文档源 1531）",
+ "info": {
+  "files": 5171,
+  "html": 2682,
+  "md_rst_ipynb": 1531,
+  "top_ext": [
+   [
+    "html",
+    2682
+   ],
+   [
+    "ipynb",
+    1508
+   ],
+   [
+    "js",
+    517
+   ],
+   [
+    "png",
+    186
+   ],
+   [
+    "json",
+    153
+   ],
+   [
+    "woff",
+    25
+   ],
+   [
+    "txt",
+    21
+   ],
+   [
+    "svg",
+    16
+   ]
+  ],
+  "entry": "numpy_2.5_docs_html_en/2.5/index.html",
+  "license_files": [
+   "numpy_2.5_docs_html_en/2.5/_static/scipy-mathjax/LICENSE",
+   "numpy_2.5_docs_html_en/2.5/license.html"
+  ],
+  "link_sample": {
+   "links": 16053,
+   "broken": 7,
+   "examples": [
+    "numpy_2.5_docs_html_en/2.5/_static/{{ pathto(",
+    "numpy_2.5_docs_html_en/2.5/_static/{{ pathto(",
+    "numpy_2.5_docs_html_en/2.5/_static/{{ pathto(",
+    "numpy_2.5_docs_html_en/2.5/_static/{{ pathto(",
+    "numpy_2.5_docs_html_en/2.5/_static/{{ pathto("
+   ]
+  }
+ },
+ "bytes": 169031680,
+ "sha256": "be49ecf5a0f2d7ab6b4ece0398751c192042e0d3f46c2d34b4fa248a2fa416a1",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:26:00Z"
+}

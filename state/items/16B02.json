@@ -1,0 +1,14 @@
+{
+ "id": "16B02",
+ "started": "2026-10-29T17:55:31Z",
+ "download_url": "https://www.cl.cam.ac.uk/archive/rja14/book.html",
+ "verify": "通过：32 个章节 PDF 均可解析，共 1066 页",
+ "info": {
+  "chapters": 32,
+  "pages": 1066
+ },
+ "bytes": 35276701,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:56:04Z"
+}

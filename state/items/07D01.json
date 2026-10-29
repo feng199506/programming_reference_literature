@@ -1,0 +1,19 @@
+{
+ "id": "07D01",
+ "started": "2026-10-29T17:48:28Z",
+ "download_url": "https://www.gnu.org/software/bash/manual/bash.pdf",
+ "final_url": "https://www.gnu.org/software/bash/manual/bash.pdf",
+ "http_last_modified": "Fri, 04 Jul 2025 16:22:01 GMT",
+ "verify": "通过：pypdf 可解析 214 页；标题词匹配 1.0",
+ "info": {
+  "pages": 214,
+  "meta_title": "",
+  "body_sample_chars": 13267,
+  "title_match": 1.0
+ },
+ "bytes": 855783,
+ "sha256": "6652f0353ee8027f5069afd3adabeeaa9a50347a212361736f18ad4efbe69de7",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:29Z"
+}

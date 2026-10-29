@@ -1,0 +1,50 @@
+{
+ "id": "05D12",
+ "started": "2026-10-29T17:22:14Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/albumentations-team/albumentations",
+ "ref": "2.0.8",
+ "commit": "4d2cf04b6635663275a747333754410ef255e54c",
+ "commit_date": "2025-05-27T13:55:21-07:00",
+ "sparse_paths": [
+  "docs",
+  "README.md"
+ ],
+ "verify": "通过：10 个文件（HTML 0，文档源 7）",
+ "info": {
+  "files": 10,
+  "html": 0,
+  "md_rst_ipynb": 7,
+  "top_ext": [
+   [
+    "md",
+    6
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "toml",
+    1
+   ],
+   [
+    "txt",
+    1
+   ],
+   [
+    "py",
+    1
+   ]
+  ],
+  "license_files": [
+   "albumentations_2.0.8_docs_src_en/LICENSE"
+  ]
+ },
+ "bytes": 112640,
+ "sha256": "1b5a163d9c562cf5a3a5f2d7dcc22b40c64caa6cf0f506c3333ce3fc489e4437",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:22:16Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "11B05",
+ "started": "2026-10-29T17:51:08Z",
+ "download_url": "https://beej.us/guide/bgnet/pdf/bgnet_usl_c_1.pdf",
+ "final_url": "https://beej.us/guide/bgnet/pdf/bgnet_usl_c_1.pdf",
+ "http_last_modified": "Thu, 15 Oct 2026 21:19:18 GMT",
+ "verify": "通过：pypdf 可解析 134 页；标题词匹配 1.0",
+ "info": {
+  "pages": 134,
+  "meta_title": "",
+  "body_sample_chars": 8429,
+  "title_match": 1.0
+ },
+ "bytes": 653985,
+ "sha256": "122cc3a5bfec86b728f6731cd8379455db2cd5ac07ab7073266c610a9573dc7c",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:10Z"
+}

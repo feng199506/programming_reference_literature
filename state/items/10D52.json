@@ -1,0 +1,46 @@
+{
+ "id": "10D52",
+ "started": "2026-10-29T17:47:31Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/microsoft/TypeScript-Website",
+ "ref": "v2",
+ "commit": "205122bb73dcbf6f3b373de5bdb0d9fa5434d015",
+ "commit_date": "2026-10-28T16:12:30-07:00",
+ "sparse_paths": [
+  "packages/documentation/copy/en"
+ ],
+ "verify": "通过：147 个文件（HTML 0，文档源 135）",
+ "info": {
+  "files": 147,
+  "html": 0,
+  "md_rst_ipynb": 135,
+  "top_ext": [
+   [
+    "md",
+    135
+   ],
+   [
+    "svg",
+    7
+   ],
+   [
+    "",
+    3
+   ],
+   [
+    "json",
+    2
+   ]
+  ],
+  "license_files": [
+   "typescript_handbook_src_en/LICENSE",
+   "typescript_handbook_src_en/LICENSE-CODE"
+  ]
+ },
+ "bytes": 2355200,
+ "sha256": "570f64791c2557aef2e0a9b4a7e844e3b7b3f3b928a230f85499f2df82967187",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:34Z"
+}

@@ -1,0 +1,73 @@
+{
+ "id": "13D03",
+ "started": "2026-10-29T17:30:41Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/triton-lang/triton",
+ "ref": "gh-pages",
+ "commit": "6e258198c33fb6b8d90d90b65057d0b8665ff788",
+ "commit_date": "2026-10-29T16:22:41Z",
+ "sparse_paths": [
+  "main"
+ ],
+ "verify": "通过：1922 个文件（HTML 595，文档源 602）",
+ "info": {
+  "files": 1922,
+  "html": 595,
+  "md_rst_ipynb": 602,
+  "top_ext": [
+   [
+    "html",
+    595
+   ],
+   [
+    "doctree",
+    592
+   ],
+   [
+    "txt",
+    592
+   ],
+   [
+    "png",
+    36
+   ],
+   [
+    "js",
+    16
+   ],
+   [
+    "woff",
+    13
+   ],
+   [
+    "woff2",
+    13
+   ],
+   [
+    "zip",
+    12
+   ]
+  ],
+  "entry": "triton_lang_docs_main_html_en/main/index.html",
+  "license_files": [],
+  "link_sample": {
+   "links": 8105,
+   "broken": 120,
+   "examples": [
+    "triton_lang_docs_main_html_en/main/_static/css/custom.css",
+    "triton_lang_docs_main_html_en/main/_static/css/custom.css",
+    "triton_lang_docs_main_html_en/main/_static/css/custom.css",
+    "triton_lang_docs_main_html_en/main/_static/css/custom.css",
+    "triton_lang_docs_main_html_en/main/_static/css/custom.css"
+   ]
+  }
+ },
+ "bytes": 45107200,
+ "sha256": "e6529c39c5f38ec8c49ba232a9cbf5e7ee483714cdd289f3656de3b8638c8d21",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:30:44Z",
+ "reverified": "2026-10-29T17:51:40Z"
+}

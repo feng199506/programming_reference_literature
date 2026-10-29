@@ -1,0 +1,79 @@
+{
+ "id": "03D04",
+ "started": "2026-10-29T17:26:01Z",
+ "dropped_large_files": [
+  "matplotlib_3.11.2_docs_html_en/3.11.2/Matplotlib.pdf (45451 KiB)"
+ ],
+ "dropped_count": 1,
+ "download_url": "https://github.com/matplotlib/matplotlib.github.com",
+ "ref": "(默认分支)",
+ "commit": "13eef99be6bc70f601507bda8ccce2c23bad2b59",
+ "commit_date": "2026-10-23T11:15:33-07:00",
+ "sparse_paths": [
+  "3.11.2"
+ ],
+ "verify": "通过：10762 个文件（HTML 2337，文档源 2651）",
+ "info": {
+  "files": 10762,
+  "html": 2337,
+  "md_rst_ipynb": 2651,
+  "top_ext": [
+   [
+    "png",
+    4087
+   ],
+   [
+    "html",
+    2337
+   ],
+   [
+    "txt",
+    2070
+   ],
+   [
+    "py",
+    836
+   ],
+   [
+    "zip",
+    587
+   ],
+   [
+    "ipynb",
+    581
+   ],
+   [
+    "svg",
+    185
+   ],
+   [
+    "js",
+    17
+   ]
+  ],
+  "entry": "matplotlib_3.11.2_docs_html_en/3.11.2/index.html",
+  "license_files": [
+   "matplotlib_3.11.2_docs_html_en/3.11.2/_sources/devel/license.rst.txt",
+   "matplotlib_3.11.2_docs_html_en/3.11.2/_sources/project/license.rst.txt",
+   "matplotlib_3.11.2_docs_html_en/3.11.2/_static/fa/LICENSE",
+   "matplotlib_3.11.2_docs_html_en/3.11.2/devel/license.html",
+   "matplotlib_3.11.2_docs_html_en/3.11.2/project/license.html"
+  ],
+  "link_sample": {
+   "links": 72937,
+   "broken": 7,
+   "examples": [
+    "matplotlib_3.11.2_docs_html_en/3.11.2/_static/{{ pathto(",
+    "matplotlib_3.11.2_docs_html_en/3.11.2/_static/{{ pathto(",
+    "matplotlib_3.11.2_docs_html_en/3.11.2/_static/{{ pathto(",
+    "matplotlib_3.11.2_docs_html_en/3.11.2/_static/{{ pathto(",
+    "matplotlib_3.11.2_docs_html_en/3.11.2/_static/{{ pathto("
+   ]
+  }
+ },
+ "bytes": 571719680,
+ "sha256": "ce69c11dad741dfdc13e69673ea2858313088fdba6a3e6d37e36596193fda77f",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:26:41Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "11P09",
+ "started": "2026-10-29T19:06:54Z",
+ "download_url": "https://arxiv.org/pdf/2303.15375v4",
+ "final_url": "https://arxiv.org/pdf/2303.15375v4",
+ "http_last_modified": "Fri, 06 Oct 2023 01:15:47 GMT",
+ "verify": "通过：pypdf 可解析 15 页；标题词匹配 1.0",
+ "info": {
+  "pages": 15,
+  "meta_title": "Demystifying CXL Memory with  Genuine CXL-Ready Systems and Devices",
+  "body_sample_chars": 27567,
+  "title_match": 1.0
+ },
+ "bytes": 801123,
+ "sha256": "32242277e548fe1feca695e7073040e629e037fe0c5c19d5a26497bce0efde31",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:06:55Z"
+}

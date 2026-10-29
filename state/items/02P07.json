@@ -1,0 +1,19 @@
+{
+ "id": "02P07",
+ "started": "2026-10-29T17:49:01Z",
+ "download_url": "https://arxiv.org/pdf/2009.13569v2",
+ "final_url": "https://arxiv.org/pdf/2009.13569v2",
+ "http_last_modified": "Mon, 23 Jan 2023 06:53:06 GMT",
+ "verify": "通过：pypdf 可解析 75 页；标题词匹配 1.0",
+ "info": {
+  "pages": 75,
+  "meta_title": "Engineering In-place (Shared-memory) Sorting Algorithms",
+  "body_sample_chars": 14418,
+  "title_match": 1.0
+ },
+ "bytes": 2463762,
+ "sha256": "f230f950f857c7d5a64fb17061db7407a7ebb202322f928da3972f0f7c5e6dd5",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:49:05Z"
+}

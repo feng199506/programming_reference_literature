@@ -1,0 +1,61 @@
+{
+ "id": "13D04",
+ "started": "2026-10-29T17:30:46Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/deepspeedai/DeepSpeed",
+ "ref": "v0.19.8",
+ "commit": "0eb3a8bcc6d9a8775478e5377482c4bf2dd23c1c",
+ "commit_date": "2026-10-19T13:31:24Z",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：308 个文件（HTML 31，文档源 123）",
+ "info": {
+  "files": 308,
+  "html": 31,
+  "md_rst_ipynb": 123,
+  "top_ext": [
+   [
+    "png",
+    105
+   ],
+   [
+    "md",
+    104
+   ],
+   [
+    "html",
+    31
+   ],
+   [
+    "rst",
+    18
+   ],
+   [
+    "",
+    11
+   ],
+   [
+    "svg",
+    11
+   ],
+   [
+    "scss",
+    9
+   ],
+   [
+    "pdf",
+    7
+   ]
+  ],
+  "license_files": [
+   "deepspeed_0.19.8_docs_src_en/LICENSE"
+  ]
+ },
+ "bytes": 45895680,
+ "sha256": "0f794239d3c286c405c6a7d993630927dd97d277fd2f7db86e4d2633e191ed59",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:30:49Z"
+}

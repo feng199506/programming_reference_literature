@@ -1,0 +1,19 @@
+{
+ "id": "13B02",
+ "started": "2026-10-29T17:51:39Z",
+ "download_url": "https://raw.githubusercontent.com/victorEijkhout/TheArtofHPC_pdfs/main/vol1/EijkhoutIntroToHPC.pdf",
+ "final_url": "https://raw.githubusercontent.com/victorEijkhout/TheArtofHPC_pdfs/main/vol1/EijkhoutIntroToHPC.pdf",
+ "http_last_modified": "",
+ "verify": "通过：pypdf 可解析 487 页；标题词匹配 1.0",
+ "info": {
+  "pages": 487,
+  "meta_title": "",
+  "body_sample_chars": 11179,
+  "title_match": 1.0
+ },
+ "bytes": 44879531,
+ "sha256": "df3797463664718bb500ca052e71e3a3fb98aa582c977a983deb46db60bd6ef2",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:42Z"
+}

@@ -1,0 +1,64 @@
+{
+ "id": "05D13",
+ "started": "2026-10-29T17:30:07Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/albumentations-team/AlbumentationsX",
+ "ref": "2.5.1",
+ "commit": "c046ae6f34933a8b37c233590c7e59cbad160599",
+ "commit_date": "2026-10-11T21:14:48+03:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：432 个文件（HTML 0，文档源 67）",
+ "info": {
+  "files": 432,
+  "html": 0,
+  "md_rst_ipynb": 67,
+  "top_ext": [
+   [
+    "py",
+    317
+   ],
+   [
+    "md",
+    66
+   ],
+   [
+    "yml",
+    16
+   ],
+   [
+    "json",
+    9
+   ],
+   [
+    "npz",
+    6
+   ],
+   [
+    "yaml",
+    4
+   ],
+   [
+    "toml",
+    2
+   ],
+   [
+    "gitignore",
+    2
+   ]
+  ],
+  "license_files": [
+   "albumentationsx_2.5.1_src_en/LICENSE",
+   "albumentationsx_2.5.1_src_en/LICENSE_POLICY.md",
+   "albumentationsx_2.5.1_src_en/docs/maintaining/license-provenance.md",
+   "albumentationsx_2.5.1_src_en/docs/maintaining/license-verification.md"
+  ]
+ },
+ "bytes": 7966720,
+ "sha256": "e00186e3c788597083d69c10ea34ec728046e7bc302721937574705c89479b53",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:30:09Z"
+}

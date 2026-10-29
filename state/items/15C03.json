@@ -1,0 +1,77 @@
+{
+ "id": "15C03",
+ "started": "2026-10-29T17:48:43Z",
+ "parts": [
+  {
+   "repo": "https://github.com/stanford-cs336/spring2025-lectures",
+   "commit": "b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b",
+   "commit_date": "2026-01-08T21:36:59-08:00",
+   "file": "spring2025-lectures_b98b08a_en.tar",
+   "files": 410,
+   "license_files": [
+    "spring2025-lectures_en/LICENSE"
+   ],
+   "dropped": 1
+  },
+  {
+   "repo": "https://github.com/stanford-cs336/assignment1-basics",
+   "commit": "a158843b20107949f1a8d7df1b05cd33b9166712",
+   "commit_date": "2026-04-07T13:49:07-07:00",
+   "file": "assignment1-basics_a158843_en.tar",
+   "files": 50,
+   "license_files": [
+    "assignment1-basics_en/LICENSE"
+   ],
+   "dropped": 1
+  },
+  {
+   "repo": "https://github.com/stanford-cs336/assignment2-systems",
+   "commit": "ca8bc81a59b70516f7ebb2da4808daade877c736",
+   "commit_date": "2026-05-01T09:36:13-07:00",
+   "file": "assignment2-systems_ca8bc81_en.tar",
+   "files": 28,
+   "license_files": [
+    "assignment2-systems_en/LICENSE"
+   ],
+   "dropped": 0
+  },
+  {
+   "repo": "https://github.com/stanford-cs336/assignment3-scaling",
+   "commit": "03e9372992e913061b9e78b5cfcb62ad8a87de35",
+   "commit_date": "2026-05-08T14:11:41-07:00",
+   "file": "assignment3-scaling_03e9372_en.tar",
+   "files": 60,
+   "license_files": [
+    "assignment3-scaling_en/LICENSE"
+   ],
+   "dropped": 0
+  },
+  {
+   "repo": "https://github.com/stanford-cs336/assignment4-data",
+   "commit": "0555bea66369872d912652debf10b115ca0688c8",
+   "commit_date": "2026-05-07T16:37:19-07:00",
+   "file": "assignment4-data_0555bea_en.tar",
+   "files": 52,
+   "license_files": [
+    "assignment4-data_en/LICENSE"
+   ],
+   "dropped": 0
+  },
+  {
+   "repo": "https://github.com/stanford-cs336/assignment5-alignment",
+   "commit": "c2734a26308710949fe13226960a1e8cece94b7e",
+   "commit_date": "2026-06-04T00:22:05-07:00",
+   "file": "assignment5-alignment_c2734a2_en.tar",
+   "files": 251,
+   "license_files": [],
+   "dropped": 6,
+   "excluded_no_license": true
+  }
+ ],
+ "download_url": "https://github.com/stanford-cs336/spring2025-lectures",
+ "bytes": 127068160,
+ "verify": "通过：5 个有许可证的仓库完整归档；assignment5-alignment 无许可证未收录",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:59Z"
+}

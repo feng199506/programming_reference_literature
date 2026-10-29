@@ -1,0 +1,61 @@
+{
+ "id": "03B05",
+ "started": "2026-10-29T17:56:13Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://clauswilke.com/dataviz/",
+ "mirror_scope": {
+  "start": [
+   "https://clauswilke.com/dataviz/"
+  ],
+  "include": [
+   "/dataviz"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：357 个文件（HTML 34，文档源 0）",
+ "info": {
+  "files": 357,
+  "html": 34,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "png",
+    306
+   ],
+   [
+    "html",
+    34
+   ],
+   [
+    "js",
+    8
+   ],
+   [
+    "css",
+    6
+   ],
+   [
+    "gif",
+    2
+   ],
+   [
+    "0",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 6126,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 47994880,
+ "sha256": "2d73dcd9997b756fe9df67a2452fd9fb4e93dce2795781d613efb106039d1bde",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:59:29Z"
+}

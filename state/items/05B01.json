@@ -1,0 +1,16 @@
+{
+ "id": "05B01",
+ "reused_from": "/root/time_series_literature/books/files/Zhang_DiveIntoDeepLearning_PyTorchPDF_2023_en.pdf",
+ "status": "ok",
+ "verify": "通过：pypdf 可解析 1151 页；标题词匹配 1.0",
+ "info": {
+  "pages": 1151,
+  "meta_title": "",
+  "body_sample_chars": 8958,
+  "title_match": 1.0
+ },
+ "bytes": 44685994,
+ "sha256": "b3129f44c4a26b534176bb0f83d85e1ed26a6cdf93ebebacb20104eab2d6bc00",
+ "error": "",
+ "access_date": "2026-10-29"
+}

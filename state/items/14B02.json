@@ -1,0 +1,55 @@
+{
+ "id": "14B02",
+ "started": "2026-10-29T19:03:48Z",
+ "wget_rc": 0,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://sre.google/workbook/table-of-contents/",
+ "mirror_scope": {
+  "start": [
+   "https://sre.google/workbook/table-of-contents/"
+  ],
+  "include": [
+   "/workbook",
+   "/img",
+   "/css"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：113 个文件（HTML 40，文档源 1）",
+ "info": {
+  "files": 113,
+  "html": 40,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "webp",
+    71
+   ],
+   [
+    "html",
+    40
+   ],
+   [
+    "css",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 3844,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 5632000,
+ "sha256": "60a8d017e3d281927dd1966be476f32566af83bc4516a2934dec5a7bb9b522a9",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:04:37Z"
+}

@@ -1,0 +1,65 @@
+{
+ "id": "09D02",
+ "started": "2026-10-29T17:47:05Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/pallets/flask",
+ "ref": "(默认分支)",
+ "commit": "d086db856be187255b8ec61ef409357393020f32",
+ "commit_date": "2026-10-07T07:02:54-07:00",
+ "sparse_paths": [
+  "docs",
+  "examples"
+ ],
+ "verify": "通过：133 个文件（HTML 11，文档源 85）",
+ "info": {
+  "files": 133,
+  "html": 11,
+  "md_rst_ipynb": 85,
+  "top_ext": [
+   [
+    "rst",
+    79
+   ],
+   [
+    "py",
+    18
+   ],
+   [
+    "html",
+    11
+   ],
+   [
+    "png",
+    5
+   ],
+   [
+    "txt",
+    4
+   ],
+   [
+    "toml",
+    4
+   ],
+   [
+    "svg",
+    3
+   ],
+   [
+    "md",
+    2
+   ]
+  ],
+  "license_files": [
+   "flask_docs_src_en/LICENSE.txt",
+   "flask_docs_src_en/docs/license.rst",
+   "flask_docs_src_en/examples/javascript/LICENSE.txt",
+   "flask_docs_src_en/examples/tutorial/LICENSE.txt"
+  ]
+ },
+ "bytes": 1208320,
+ "sha256": "6bad789556c5a40c80239a798e92afd678bcdf71bf212bc204669adc2fe146c5",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:06Z"
+}

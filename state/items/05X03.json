@@ -1,0 +1,61 @@
+{
+ "id": "05X03",
+ "started": "2026-10-29T17:46:23Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/karpathy/nanoGPT",
+ "ref": "(默认分支)",
+ "commit": "3adf61e154c3fe3fca428ad6bc3818b27a3b8291",
+ "commit_date": "2025-11-12T11:52:34-08:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：26 个文件（HTML 0，文档源 6）",
+ "info": {
+  "files": 26,
+  "html": 0,
+  "md_rst_ipynb": 6,
+  "top_ext": [
+   [
+    "py",
+    15
+   ],
+   [
+    "md",
+    4
+   ],
+   [
+    "ipynb",
+    2
+   ],
+   [
+    "gitattributes",
+    1
+   ],
+   [
+    "gitignore",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "png",
+    1
+   ],
+   [
+    "jpg",
+    1
+   ]
+  ],
+  "license_files": [
+   "karpathy_nanoGPT_master_en/LICENSE"
+  ]
+ },
+ "bytes": 645120,
+ "sha256": "56cd7c9bdd021c17ff453d394c51a9998c02d9de7b7c4569e29e263403e23cd3",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:24Z"
+}

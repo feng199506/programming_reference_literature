@@ -1,0 +1,72 @@
+{
+ "id": "14D04",
+ "started": "2026-10-29T18:58:15Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/index.html",
+ "mirror_scope": {
+  "start": [
+   "https://docs.nvidia.com/deeplearning/tensorrt/latest/index.html"
+  ],
+  "include": [
+   "/deeplearning/tensorrt/latest"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：1160 个文件（HTML 864，文档源 1）",
+ "info": {
+  "files": 1160,
+  "html": 864,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    864
+   ],
+   [
+    "png",
+    148
+   ],
+   [
+    "svg",
+    51
+   ],
+   [
+    "css",
+    30
+   ],
+   [
+    "js",
+    28
+   ],
+   [
+    "js?v=888ff710",
+    4
+   ],
+   [
+    "js?v=5fa4622c",
+    4
+   ],
+   [
+    "js?v=4825356b",
+    4
+   ]
+  ],
+  "entry": "tensorrt_docs_latest_mirror_en/deeplearning/tensorrt/latest/_static/c-api/index.html",
+  "license_files": [
+   "tensorrt_docs_latest_mirror_en/deeplearning/tensorrt/latest/reference/notices.html"
+  ],
+  "link_sample": {
+   "links": 13054,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 42741760,
+ "sha256": "f2497b5dc0334ace08fd754dd28ed322c4d20ef08fc8ee4f54c750a76e00f801",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:11:35Z"
+}

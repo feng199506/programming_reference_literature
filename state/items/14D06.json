@@ -1,0 +1,63 @@
+{
+ "id": "14D06",
+ "started": "2026-10-29T17:31:56Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/vllm-project/vllm",
+ "ref": "v0.32.0",
+ "commit": "5df63a7203cdb9328d824a27b682e77c7b9928be",
+ "commit_date": "2026-10-17T11:57:10-07:00",
+ "sparse_paths": [
+  "docs",
+  "examples"
+ ],
+ "verify": "通过：633 个文件（HTML 4，文档源 266）",
+ "info": {
+  "files": 633,
+  "html": 4,
+  "md_rst_ipynb": 266,
+  "top_ext": [
+   [
+    "md",
+    265
+   ],
+   [
+    "py",
+    164
+   ],
+   [
+    "png",
+    81
+   ],
+   [
+    "jinja",
+    46
+   ],
+   [
+    "yaml",
+    24
+   ],
+   [
+    "sh",
+    17
+   ],
+   [
+    "svg",
+    7
+   ],
+   [
+    "yml",
+    5
+   ]
+  ],
+  "entry": "vllm_0.32.0_docs_src_en/docs/README.md",
+  "license_files": [
+   "vllm_0.32.0_docs_src_en/LICENSE"
+  ]
+ },
+ "bytes": 39208960,
+ "sha256": "5e9d7768d4e61cfda1f5af9d32b6784d17630af3cd216b0a9ca591b61f7f09fa",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:31:59Z"
+}

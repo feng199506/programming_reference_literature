@@ -1,0 +1,61 @@
+{
+ "id": "04X02",
+ "started": "2026-10-29T17:27:15Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/dmlc/xgboost",
+ "ref": "v3.4.2",
+ "commit": "fdf0888bedddbd444d72994d845c59b3ca182c5b",
+ "commit_date": "2026-09-15T01:12:47-07:00",
+ "sparse_paths": [
+  "demo"
+ ],
+ "verify": "通过：104 个文件（HTML 0，文档源 24）",
+ "info": {
+  "files": 104,
+  "html": 0,
+  "md_rst_ipynb": 24,
+  "top_ext": [
+   [
+    "py",
+    54
+   ],
+   [
+    "md",
+    14
+   ],
+   [
+    "txt",
+    6
+   ],
+   [
+    "r",
+    6
+   ],
+   [
+    "rst",
+    4
+   ],
+   [
+    "",
+    3
+   ],
+   [
+    "gitignore",
+    3
+   ],
+   [
+    "c",
+    3
+   ]
+  ],
+  "license_files": [
+   "xgboost_3.4.2_demo_en/LICENSE"
+  ]
+ },
+ "bytes": 1669120,
+ "sha256": "3988fca208702d4608616d27d056b7ca4fe099c5f7046b38586ec791a84d0a11",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:27:17Z"
+}

@@ -1,0 +1,45 @@
+{
+ "id": "14X06",
+ "started": "2026-10-29T17:32:08Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/bentoml/BentoML",
+ "ref": "v1.4.40",
+ "commit": "0aa1aea52b63b82100ff93675eff25f6428fb841",
+ "commit_date": "2026-10-23T10:46:52-07:00",
+ "sparse_paths": [
+  "examples"
+ ],
+ "verify": "通过：10 个文件（HTML 0，文档源 7）",
+ "info": {
+  "files": 10,
+  "html": 0,
+  "md_rst_ipynb": 7,
+  "top_ext": [
+   [
+    "md",
+    7
+   ],
+   [
+    "cff",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "toml",
+    1
+   ]
+  ],
+  "license_files": [
+   "bentoml_1.4.40_examples_en/LICENSE"
+  ]
+ },
+ "bytes": 92160,
+ "sha256": "9a92d90756b385fb76726fe7163f7acc7ef2a262995b60860201f91d23fce213",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:10Z"
+}

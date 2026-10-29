@@ -1,0 +1,19 @@
+{
+ "id": "13D11",
+ "started": "2026-10-29T17:52:49Z",
+ "download_url": "https://www.mpi-forum.org/docs/mpi-4.1/mpi41-report.pdf",
+ "final_url": "https://www.mpi-forum.org/docs/mpi-4.1/mpi41-report.pdf",
+ "http_last_modified": "Fri, 16 Oct 2026 05:39:19 GMT",
+ "verify": "通过：pypdf 可解析 1166 页；标题词匹配 1.0",
+ "info": {
+  "pages": 1166,
+  "meta_title": "MPI: A Message-Passing Interface Standard",
+  "body_sample_chars": 11408,
+  "title_match": 1.0
+ },
+ "bytes": 5493750,
+ "sha256": "f32920662645ed9e51ce7ba266f10b4832d5f612ea14be698169cd6a81f1fee5",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:50Z"
+}

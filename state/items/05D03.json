@@ -1,0 +1,67 @@
+{
+ "id": "05D03",
+ "started": "2026-10-29T17:28:48Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/pytorch/vision",
+ "ref": "gh-pages",
+ "commit": "c3ffbffea8a000036c13c3d796c71e2e69633d16",
+ "commit_date": "2026-10-28T16:09:31Z",
+ "sparse_paths": [
+  "0.29"
+ ],
+ "verify": "通过：1427 个文件（HTML 673，文档源 559）",
+ "info": {
+  "files": 1427,
+  "html": 673,
+  "md_rst_ipynb": 559,
+  "top_ext": [
+   [
+    "html",
+    673
+   ],
+   [
+    "txt",
+    532
+   ],
+   [
+    "png",
+    85
+   ],
+   [
+    "svg",
+    29
+   ],
+   [
+    "ipynb",
+    26
+   ],
+   [
+    "js",
+    18
+   ],
+   [
+    "zip",
+    15
+   ],
+   [
+    "py",
+    13
+   ]
+  ],
+  "entry": "torchvision_0.29_docs_html_en/0.29/index.html",
+  "license_files": [],
+  "link_sample": {
+   "links": 6753,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 53913600,
+ "sha256": "8d322d1199ca74f7b855ebf2d50990a18f2ab57c749195936116803472cbc8d8",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:28:53Z",
+ "reverified": "2026-10-29T17:51:40Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "07B03",
+ "started": "2026-10-29T17:48:16Z",
+ "download_url": "https://tldp.org/LDP/abs/abs-guide.pdf",
+ "final_url": "https://tldp.org/LDP/abs/abs-guide.pdf",
+ "http_last_modified": "Fri, 07 Mar 2014 02:27:57 GMT",
+ "verify": "通过：pypdf 可解析 916 页；标题词匹配 1.0",
+ "info": {
+  "pages": 916,
+  "meta_title": "Advanced Bash-Scripting Guide",
+  "body_sample_chars": 8496,
+  "title_match": 1.0
+ },
+ "bytes": 2741648,
+ "sha256": "e36fca77351b221715567db4700cdb0041c8558d8db5c022e5dc2e2d35be4199",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:18Z"
+}

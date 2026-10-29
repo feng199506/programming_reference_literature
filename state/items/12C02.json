@@ -1,0 +1,75 @@
+{
+ "id": "12C02",
+ "started": "2026-10-29T19:00:24Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://web.stanford.edu/class/archive/cs/cs107/cs107.1272/",
+ "mirror_scope": {
+  "start": [
+   "https://web.stanford.edu/class/archive/cs/cs107/cs107.1272/"
+  ],
+  "include": [
+   "/class/archive/cs/cs107/cs107.1272"
+  ],
+  "level": "3"
+ },
+ "verify": "通过：137 个文件（HTML 62，文档源 2）",
+ "info": {
+  "files": 137,
+  "html": 62,
+  "md_rst_ipynb": 2,
+  "top_ext": [
+   [
+    "html",
+    62
+   ],
+   [
+    "pdf",
+    49
+   ],
+   [
+    "js",
+    6
+   ],
+   [
+    "png",
+    6
+   ],
+   [
+    "css",
+    4
+   ],
+   [
+    "jpg",
+    4
+   ],
+   [
+    "jpeg",
+    3
+   ],
+   [
+    "txt",
+    2
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 3185,
+   "broken": 13,
+   "examples": [
+    "Stanford_CS107_Guides_html_en/class/archive/cs/cs107/cs107.1272/restricted/midterm-grading.html",
+    "Stanford_CS107_Guides_html_en/class/archive/cs/cs107/cs107.1272/syllabus",
+    "Stanford_CS107_Guides_html_en/class/archive/cs/cs107/cs107.1272/img/nick troccoli.jpg",
+    "Stanford_CS107_Guides_html_en/class/archive/cs/cs107/cs107.1272/img/ola adekola.jpg",
+    "Stanford_CS107_Guides_html_en/class/archive/cs/cs107/cs107.1272/img/abraham yosef.jpg"
+   ]
+  }
+ },
+ "bytes": 28221440,
+ "sha256": "7f2a3f54aec938c286f2d6594d85a8393786dbaf6cfacceedfa42f0bd1436d5f",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:02:49Z"
+}

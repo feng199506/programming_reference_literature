@@ -1,0 +1,53 @@
+{
+ "id": "14D22",
+ "started": "2026-10-29T17:48:36Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/helm/helm-www",
+ "ref": "(默认分支)",
+ "commit": "b2ba4316b7d2e73e55d41646849a07ea4e715e51",
+ "commit_date": "2026-10-28T17:55:22-06:00",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：149 个文件（HTML 0，文档源 137）",
+ "info": {
+  "files": 149,
+  "html": 0,
+  "md_rst_ipynb": 137,
+  "top_ext": [
+   [
+    "md",
+    107
+   ],
+   [
+    "mdx",
+    30
+   ],
+   [
+    "png",
+    6
+   ],
+   [
+    "svg",
+    3
+   ],
+   [
+    "json",
+    2
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "license_files": [
+   "helm_docs_main_src_en/LICENSE"
+  ]
+ },
+ "bytes": 1515520,
+ "sha256": "a68ef7a8a2166682c3043b67f333b1f6d2c1f4a2f1a2d33dfae0f6dfbc25fcef",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:37Z"
+}

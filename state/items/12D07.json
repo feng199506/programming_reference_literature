@@ -1,0 +1,62 @@
+{
+ "id": "12D07",
+ "started": "2026-10-29T17:48:07Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/cython/cython",
+ "ref": "(默认分支)",
+ "commit": "68ba6a6db43cc5eec40401030063e1249e523759",
+ "commit_date": "2026-10-27T07:58:03Z",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：491 个文件（HTML 0，文档源 90）",
+ "info": {
+  "files": 491,
+  "html": 0,
+  "md_rst_ipynb": 90,
+  "top_ext": [
+   [
+    "pyx",
+    183
+   ],
+   [
+    "py",
+    165
+   ],
+   [
+    "rst",
+    76
+   ],
+   [
+    "pxd",
+    20
+   ],
+   [
+    "png",
+    10
+   ],
+   [
+    "txt",
+    9
+   ],
+   [
+    "h",
+    6
+   ],
+   [
+    "",
+    4
+   ]
+  ],
+  "license_files": [
+   "cython_docs_src_en/COPYING.txt",
+   "cython_docs_src_en/LICENSE.txt"
+  ]
+ },
+ "bytes": 3225600,
+ "sha256": "aa2a881ef599384291b9dea8f56f0e429c04c332e62c616b3e8f69d971f21df3",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:10Z"
+}

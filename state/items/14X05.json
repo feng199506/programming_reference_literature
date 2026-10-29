@@ -1,0 +1,61 @@
+{
+ "id": "14X05",
+ "started": "2026-10-29T17:32:06Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/triton-inference-server/tutorials",
+ "ref": "(默认分支)",
+ "commit": "15e2355bee80729ceb22d6f60d121d21e15ade5a",
+ "commit_date": "2026-10-07T09:18:26-07:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：304 个文件（HTML 0，文档源 59）",
+ "info": {
+  "files": 304,
+  "html": 0,
+  "md_rst_ipynb": 59,
+  "top_ext": [
+   [
+    "yaml",
+    69
+   ],
+   [
+    "py",
+    55
+   ],
+   [
+    "md",
+    52
+   ],
+   [
+    "pbtxt",
+    40
+   ],
+   [
+    "png",
+    18
+   ],
+   [
+    "sh",
+    12
+   ],
+   [
+    "json",
+    9
+   ],
+   [
+    "jpg",
+    7
+   ]
+  ],
+  "license_files": [
+   "triton_inference_server_tutorials_main_en/LICENSE"
+  ]
+ },
+ "bytes": 11130880,
+ "sha256": "549c345a272f7c30aed7ec2a4934c50beb5b68ebbd2291670e27263e2bc4eff2",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:08Z"
+}

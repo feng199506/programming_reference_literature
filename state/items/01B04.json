@@ -1,0 +1,53 @@
+{
+ "id": "01B04",
+ "started": "2026-10-29T17:46:55Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://inventwithpython.com/beyond/",
+ "mirror_scope": {
+  "start": [
+   "https://inventwithpython.com/beyond/"
+  ],
+  "include": [
+   "/beyond"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：55 个文件（HTML 19，文档源 1）",
+ "info": {
+  "files": 55,
+  "html": 19,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "png",
+    34
+   ],
+   [
+    "html",
+    19
+   ],
+   [
+    "css",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 252,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 3901440,
+ "sha256": "fdf9f5c439343909bd8f9c19e90ea845e8256f95995e34eee1409908323790b7",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:33Z"
+}

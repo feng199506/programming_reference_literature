@@ -1,0 +1,49 @@
+{
+ "id": "16D08",
+ "started": "2026-10-29T17:50:26Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/PyCQA/bandit",
+ "ref": "(默认分支)",
+ "commit": "48ef27bd1bbc32f4e585c92310f7a574e87f6b04",
+ "commit_date": "2026-10-26T17:31:09-07:00",
+ "sparse_paths": [
+  "doc"
+ ],
+ "verify": "通过：76 个文件（HTML 0，文档源 73）",
+ "info": {
+  "files": 76,
+  "html": 0,
+  "md_rst_ipynb": 73,
+  "top_ext": [
+   [
+    "rst",
+    67
+   ],
+   [
+    "md",
+    3
+   ],
+   [
+    "txt",
+    3
+   ],
+   [
+    "py",
+    2
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "license_files": [
+   "bandit_docs_src_en/LICENSE"
+  ]
+ },
+ "bytes": 245760,
+ "sha256": "796de1c2a6969fcffdb1a5f77708085de54d32ce56bca12ed0a41779f911ddf7",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:50:27Z"
+}

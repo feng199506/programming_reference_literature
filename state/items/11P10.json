@@ -1,0 +1,19 @@
+{
+ "id": "11P10",
+ "started": "2026-10-29T19:06:55Z",
+ "download_url": "https://arxiv.org/pdf/2310.09423v2",
+ "final_url": "https://arxiv.org/pdf/2310.09423v2",
+ "http_last_modified": "Wed, 02 Oct 2024 00:18:15 GMT",
+ "verify": "通过：pypdf 可解析 10 页；标题词匹配 1.0",
+ "info": {
+  "pages": 10,
+  "meta_title": "QUIC is not Quick Enough over Fast Internet",
+  "body_sample_chars": 29256,
+  "title_match": 1.0
+ },
+ "bytes": 839783,
+ "sha256": "c000afca3e29275cd5a091e8867461b54559a20b273487bf6ec70ac22dd9cd32",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:06:59Z"
+}

@@ -1,0 +1,61 @@
+{
+ "id": "16X01",
+ "started": "2026-10-29T19:21:18Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/juice-shop/juice-shop",
+ "ref": "(默认分支)",
+ "commit": "717f5efa886b0417eeecb52378b03cf10567b7e2",
+ "commit_date": "2026-10-23T14:57:35+05:30",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：1468 个文件（HTML 82，文档源 53）",
+ "info": {
+  "files": 1468,
+  "html": 82,
+  "md_rst_ipynb": 53,
+  "top_ext": [
+   [
+    "ts",
+    639
+   ],
+   [
+    "avif",
+    167
+   ],
+   [
+    "json",
+    110
+   ],
+   [
+    "yml",
+    97
+   ],
+   [
+    "scss",
+    83
+   ],
+   [
+    "html",
+    82
+   ],
+   [
+    "jpg",
+    64
+   ],
+   [
+    "md",
+    51
+   ]
+  ],
+  "license_files": [
+   "owasp_juice_shop_master_en/LICENSE"
+  ]
+ },
+ "bytes": 35246080,
+ "sha256": "10e8c7151fdd18fd6a83000a1b32432dc7e0b029e7574cce6c72b9aab1f3b0bc",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:21:20Z"
+}

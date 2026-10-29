@@ -1,0 +1,61 @@
+{
+ "id": "12D06",
+ "started": "2026-10-29T17:48:05Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/pybind/pybind11",
+ "ref": "(默认分支)",
+ "commit": "a7561726974ffdfb0919b7fae851fdf47d5bed32",
+ "commit_date": "2026-10-29T09:25:27-04:00",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：51 个文件（HTML 0，文档源 38）",
+ "info": {
+  "files": 51,
+  "html": 0,
+  "md_rst_ipynb": 38,
+  "top_ext": [
+   [
+    "rst",
+    32
+   ],
+   [
+    "md",
+    4
+   ],
+   [
+    "",
+    3
+   ],
+   [
+    "png",
+    3
+   ],
+   [
+    "txt",
+    2
+   ],
+   [
+    "py",
+    2
+   ],
+   [
+    "svg",
+    2
+   ],
+   [
+    "css",
+    1
+   ]
+  ],
+  "license_files": [
+   "pybind11_docs_src_en/LICENSE"
+  ]
+ },
+ "bytes": 1075200,
+ "sha256": "13254d10d802ed567cfd7e2084351e40c391ed47288f0ad2c0c222693affa777",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:07Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "16B03",
+ "started": "2026-10-29T17:56:04Z",
+ "download_url": "https://dwheeler.com/secure-programs/Secure-Programs-HOWTO.pdf",
+ "final_url": "https://dwheeler.com/secure-programs/Secure-Programs-HOWTO.pdf",
+ "http_last_modified": "Wed, 21 Oct 2026 20:54:13 GMT",
+ "verify": "通过：pypdf 可解析 194 页；标题词匹配 1.0",
+ "info": {
+  "pages": 194,
+  "meta_title": "",
+  "body_sample_chars": 10118,
+  "title_match": 1.0
+ },
+ "bytes": 1568943,
+ "sha256": "a5f6077b859bfb8a14e55e2d89a5a44f2ecba48bf033fe12c9cdeb52969a38f8",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:56:04Z"
+}

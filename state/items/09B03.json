@@ -1,0 +1,57 @@
+{
+ "id": "09B03",
+ "started": "2026-10-29T19:09:07Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/bagder/http2-explained",
+ "ref": "(默认分支)",
+ "commit": "6074829719e689c3eb9fc190bed138154c917ab2",
+ "commit_date": "2022-01-13T12:42:51+01:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：208 个文件（HTML 0，文档源 188）",
+ "info": {
+  "files": 208,
+  "html": 0,
+  "md_rst_ipynb": 188,
+  "top_ext": [
+   [
+    "md",
+    188
+   ],
+   [
+    "jpg",
+    8
+   ],
+   [
+    "png",
+    5
+   ],
+   [
+    "json",
+    3
+   ],
+   [
+    "css",
+    2
+   ],
+   [
+    "yaml",
+    1
+   ],
+   [
+    "odp",
+    1
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 2140160,
+ "sha256": "cefb63e4f586395683bc67a266c357290fe8ec59cfde74b5bbb21d0dc635bc9b",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:09:08Z",
+ "reverified": "2026-10-29T19:09:21Z"
+}

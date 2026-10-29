@@ -1,0 +1,62 @@
+{
+ "id": "01B03",
+ "started": "2026-10-29T17:45:22Z",
+ "wget_rc": 0,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://automatetheboringstuff.com/3e/",
+ "mirror_scope": {
+  "start": [
+   "https://automatetheboringstuff.com/3e/"
+  ],
+  "include": [
+   "/3e"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：143 个文件（HTML 28，文档源 1）",
+ "info": {
+  "files": 143,
+  "html": 28,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "jpg",
+    81
+   ],
+   [
+    "webp",
+    32
+   ],
+   [
+    "html",
+    28
+   ],
+   [
+    "css",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "entry": "Sweigart_AutomateTheBoringStuff_3rdEd_html_en/3e/index.html",
+  "license_files": [],
+  "link_sample": {
+   "links": 200,
+   "broken": 3,
+   "examples": [
+    "Sweigart_AutomateTheBoringStuff_3rdEd_html_en/3e/wow_such_zophie_thumb.webp",
+    "Sweigart_AutomateTheBoringStuff_3rdEd_html_en/3e/wow_such_zophie_thumb.webp",
+    "Sweigart_AutomateTheBoringStuff_3rdEd_html_en/3e/wow_such_zophie_thumb.webp"
+   ]
+  }
+ },
+ "bytes": 22282240,
+ "sha256": "b59fa22478c9f98b80a29b5def7a454d752cb0589a95c0981f9cf873f9609ea4",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:55Z"
+}

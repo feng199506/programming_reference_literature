@@ -1,0 +1,61 @@
+{
+ "id": "06B04",
+ "started": "2026-10-29T18:13:50Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://aosabook.org/en/index.html",
+ "mirror_scope": {
+  "start": [
+   "https://aosabook.org/en/index.html"
+  ],
+  "include": [
+   "/en"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：241 个文件（HTML 92，文档源 1）",
+ "info": {
+  "files": 241,
+  "html": 92,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "png",
+    137
+   ],
+   [
+    "html",
+    92
+   ],
+   [
+    "jpg",
+    11
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [
+   "Brown_ArchitectureOfOpenSourceApplications_html_en/en/license.html"
+  ],
+  "link_sample": {
+   "links": 1290,
+   "broken": 11,
+   "examples": [
+    "Brown_ArchitectureOfOpenSourceApplications_html_en/en/http:/graphite.example.com/render",
+    "Brown_ArchitectureOfOpenSourceApplications_html_en/en/v1/MontyLingua",
+    "Brown_ArchitectureOfOpenSourceApplications_html_en/en/v1/mootiro_web",
+    "Brown_ArchitectureOfOpenSourceApplications_html_en/en/v1/Mopidy",
+    "Brown_ArchitectureOfOpenSourceApplications_html_en/en/v1/mopowg"
+   ]
+  }
+ },
+ "bytes": 18923520,
+ "sha256": "65f3d6880fbeda532b2b3b769c7e95126e5c4fa649043d4c7966077da6059716",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:16:06Z"
+}

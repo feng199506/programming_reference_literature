@@ -1,0 +1,53 @@
+{
+ "id": "09B02",
+ "started": "2026-10-29T18:23:09Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/bagder/http3-explained",
+ "ref": "(默认分支)",
+ "commit": "315e04cdc74e209820e337027649dcf46e7e40ae",
+ "commit_date": "2024-08-07T22:27:12+02:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：446 个文件（HTML 0，文档源 434）",
+ "info": {
+  "files": 446,
+  "html": 0,
+  "md_rst_ipynb": 434,
+  "top_ext": [
+   [
+    "md",
+    434
+   ],
+   [
+    "png",
+    5
+   ],
+   [
+    "jpg",
+    3
+   ],
+   [
+    "json",
+    2
+   ],
+   [
+    "yaml",
+    1
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "license_files": [
+   "Stenberg_HTTP3Explained_src_en/LICENSE"
+  ]
+ },
+ "bytes": 2375680,
+ "sha256": "625b41a5207929df65c50d2d67101239304adf4d41ffb38bd6ecf4926142cf86",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:23:10Z"
+}

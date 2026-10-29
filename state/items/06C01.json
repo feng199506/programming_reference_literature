@@ -1,0 +1,71 @@
+{
+ "id": "06C01",
+ "started": "2026-10-29T18:16:06Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://web.mit.edu/6.031/www/sp22/",
+ "mirror_scope": {
+  "start": [
+   "https://web.mit.edu/6.031/www/sp22/"
+  ],
+  "include": [
+   "/6.031/www/sp22"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：283 个文件（HTML 105，文档源 1）",
+ "info": {
+  "files": 283,
+  "html": 105,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    105
+   ],
+   [
+    "png",
+    80
+   ],
+   [
+    "svg",
+    55
+   ],
+   [
+    "css",
+    18
+   ],
+   [
+    "js",
+    14
+   ],
+   [
+    "ico",
+    6
+   ],
+   [
+    "pdf",
+    4
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 9254,
+   "broken": 1,
+   "examples": [
+    "MIT_6.031_Spring2022_Readings_html_en/6.031/www/sp22/classes/28-ethics/mit-cert-required/https\\x3A\\x2F\\x2Fokta.mit.edu\\x2Flogin\\x2Ftoken\\x2Fredirect\\x3FstateToken\\x3DeyJ6aXAiOiJERUYiLCJhbGlhcyI6ImVuY3J5cHRpb25rZXkiLCJ2ZXIiOiIxIiwib2lkIjoiMDBvdzFkZ3B2a0Q1R2JVWlE2OTYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiZGlyIn0..mvIGfepJZDkkw6s2.gnGpsXMR37MssLaXf5jCbOJZeJkQH6VNrsmbXFSbTMfWYoByb7qN8BIcP5mxJWm_6O0aCTxWB0AwO9xZDK9G_FyW23wroG3veBuYOeSoDX9\\x2DjFi2ghC47JIsmyer2DuwHe8xIhA2RqtB_qX5eTEjriPyUS0JSrkhS1jKFpV3RjrzpUGPhRZoSfYdIMQrg1yuJwRg08UTAhVJU0yE0Q0cLo3_zVaxgBaFd_GU3rWXo3MungX44N_V6IOzlNcz4QNxkg_7nXl_4NCgcgg4lFMGFCRWIarIn_YJ0SQVAv2fc6iCc95i08gWq8oWRzeW5m1iOHwpy9qGYwpQS7VvNJrWhJT34yhFQ2EnMPSwS\\x2DZbPZuLAHQf4EuvaBO7UwtD4iA81iw0Sv6j0iC9etKc77FHYmRUDDskGbFnXaaFeFSVUAh38feC8LLW8IDe1BCQofPdsRGfdhVFpHzyF_2rc1A9FNPSVPIUbeUfClMwRqMRPy3bG4x8DG6tGmIHFpE1ewmlYGGfQUyOrywIsfsGaGl6oMIUJhfWj1Uz36IqTSp3IRnoVy7EVftFu41SZaAPxFxeiH_xMlsfE8yr8OB1tndGd5G7EglpVUlzCdBJkwuA5QpyBrP2DENZtMjrTjsaxF\\x2D1ZKhyLKlzI4GRUHAx19kEXJ3y5sQHvjsLBorge4V5_yjcsfJQCuKolHiEEPtZ74QYkM\\x2DRe_0LWFP8m5kXIDjswc1rcy6GtGosc0GhlUMPcjO78fEX5l5SgUYeuv3VfOpX5pT82dqlgsdR8QnewIDgPVs5FF37mp\\x2DS3fk6YPIT5ig3LqAR0JZor2nX1d1LN6dOn0eCO8wFDxqUus_6NfPjDL5HFzR\\x2DeLE4ULiPmgLQ8yO5uJ9ivjgIWV8s8\\x2DLIJy_8D5BeSNaL8edxfJcbosoUvONiStcYoNZP\\x2DKp9\\x2DUL78DMLH4BJIo\\x2Dl9tEF71pyqOCZtgG0K77SvQ5iwW7h3fqP9Y4cE3R02pz0cRKpe0QaTuXQ1W7VaNFZ7N6ziAoyCGDvSw7O6a2DzBXvuKTf3hxobJL26967QltIT0RWqIDScTzx683D5DUgDRqi\\x2D2YqpLnllPGVd1LxiO\\x2DKLL41opbyoashDW7jaATpoQjAxXm_aY7hYAu2DLTztKU8u3NjP0h8JEimSs7ooYNqzNF9Uw61op811mf\\x2DF\\x2DP4KDpsWW5VUIuH4G5d4wOVJTWCAm_DC8nMiHPUSEx2xXBspUd_78\\x2DwbqoLne1kLewPPEn9XdwzKm1eaiTG15OWjj_CFxf_ou9PLZk0GTVg\\x2DnXfp5bvtckqxAzD8mmkRjb_e8chDaF\\x2DdhgrT4zL7t4pw_Va4POOevm4QWPultDro3AygwsjDG4ixm5jUwxqqLUnO1H1id5SWmSIrXBGptsodWPIP60A5zJO7282yf8CTu9nQdg5lj9ckKOxEJF13qcbFSIZaGS77U4jc\\x2DDWhczTIhQ_Oi6I\\x2DqwyvMQgbdO3WP86EuL2lYDv1bnfcXApxIb\\x2D5n4BUSDXyx_\\x2DCVyKk2666SkvevJnkjK01je5\\x2DsLTE0xewLFOC7tVmJELeExQyqg\\x2DZazTBJX\\x2Dk9iyBYCXAxhrwLARZZEq8n4ub2VVnxYEntZx19MmZiWtTPxr4pVz9FJq6aw7dyd2xggGKFnfHi8J0Ks8xHNqhHmkJBuQbwLXNTxrh87A_FlJb5DakSnLL8wkwqNOif9j4dDP_Wdl7EEKKZapVdLJ42fPXz7Mi9GXDwUkiD\\x2DZjVXn99Aumd2so7HM6gTf3Ik5UPqyfil71LHO1wOcyQgBwyN\\x2DfKcbFJxARC8ii1bLIJi9Hn1i7GlRDTgK_uP80XRqkqebYw6iXYK9idPxE1kCPZDPG0sNgq\\x2Dz_YyI88Melc654wQbaAuiIkHPyAhJ7vdj05EcRo2vNlWSIHXgF\\x2DehkflVGgL7V4J0Nbw2DSCpeN2i2t4s5fkRq5ZUo6c1h2dB4ZvVjIH34gmdLJuRBsv46ktF7DfRJj9ZNaAjJ1SxLkffhdS9Kc9tlNmlNZsHZeACJv6AilUfy8sxXEH75AeLNbgq6y3TkVhV4sVgYDNY_5gC_7VSz5_V_9rqBshLcmVuVPQrVf33KuyGX3_5\\x2DM6Nvph_QtDAeZ1prCOKMMTovv0EUdIVZltv6t53u7bpJMgtms055MnOAutL8Uo3C\\x2DRRoLA3X4\\x2DI_TJofDO7ocwQmDXoGJ7A6NhY7E4VNPhCPiFKu6vIGQ0mS2\\x2D7gC4EmxpjDJDAtXkFMiuThe9bc1i8z5A2UeBh7AHnuGvwCtanh_J01tie6pRXYMG_2KI6ol\\x2DRKljvPCWdXSWbMAgY1ccZsbLLsHsMm6F26Gm\\x2DJ8Xp3t1H\\x2DV6YNatuF92xLWXPHRZR3HiozbvIjT0pMA8JamdBpa0rvO_6hXRMQWYc7L8rkZ8jodw2Tg5re\\x2DawTfR4cNQFWkxb_QZxYcRMpO6DTOqwn5l_P5PV9BIc1kUdyUUl36ZByPLPVx8_xqRXgjsRSCWm0yDFjYbSN0LaEyVAUO7fgmnUCH7XKOtG7PBFtyk0gpS2sbHKub8lfnzPgthy7k9Sj19kUg8b0PJubWKKHgXbTkBMHsq4H_iC0m_8inlEoLFEXs7Ykz2WVWSdeNm_P5Tq0ZdXWMl\\x2DdNq6vAp2AyaTYX71eSfkzomykqK3M2IxjEUvmE8XfBBBDmpSxdonsmUY5w7z_O2TiI06qEh\\x2DIAFGG2aIVL_94v1KzgYCWlMRUQCQP_2SQEADkkwdDFY1avWrxlkViyDmeewN0y7wusCMjKzc\\x2DfVQMattIgfeWyNBqUVtwm6LRtgpuRrwr1WXpAqhow7SxCsAO6f\\x2Dk3gfT5iGHF8ubYRan3Zpcr4Ve9N2BanUrheLd2vsnU4J\\x2DC_TZIaP_kmER9Ea37acjwEkJLIHVL\\x2DEz0byiV0UST0mJ1SdhmPL3IZSZtxYtaOBZU9BlK7reMp8aVFULV2n7FWuDn2eDdXrz3F7\\x2Du4L2S\\x2Dar_3BU3yrQroSTvT2yUMNojAw3W08eR3C7QCrpaQbvT\\x2D8s8B_KBe0f_wzBQwNI\\x2DVovy4pqz2TQ1ybTpHa_RNve7PvdPkI2mWg8LNSDuS5dCT6tF9_ccvuPvf1zJTKFrH9OjlZoWdEVfqRM8oPWH6pGfgBcUuLB2B0wpxFXMoKatA9p3QEcS6pcL6JLKekzZvjdEzhQMBTJF_eu6lNkCvs2\\x2D986NlaCxr\\x2DlksyNIftWEY7Vkp3YHvs\\x2DBpsAHPbqVqpumuVP29f_0YuZIqWoMqXX\\x2DCuwwo8cNTLvTlr5rYeM6CV9ZZa9MUpquWil3tajRo7gBRYud76RHGsr1NFqhpLwE89AJzUkgO4oe_wumNKasHBG4_jgHY\\x2DRfk0SMywwJ\\x2DW85G7Z2NT8S9zMBs6slb82hyNaJoOjEQ\\x2DHHS9iohZy\\x2DDF4IY2MIccO2Vvx2c8ebbOGsR6\\x2D39mpqp5aMnvVqj8mY1UVY7qLu778tFRP6P9hcUCud2SiwJ1nfHi8bNpXY0ZZc99DERKteEzB27ynjL1KkT5aA_fVoty\\x2DLDcwAIIs0nqKsN\\x2Dg3PEsLIz2EY8vS\\x2D8w52xMAFMpbuoNiANl9otsQln9xklOjr8vxRt3tvq\\x2DXKmHJHmRQxAwjcd38g3k3muAqdYdR1xs1rMhOHI0txwaN7SwWb1TkyO6\\x2Dif9iT_HBu4rjbyKbAMSZ72s3BnbEVBGVNcWbIvc60ddZHRXZ0VDssDD30HuhRrz3f3vKZzUDGm6pSsF8s5UbcNJDACFCwGHDVZI7DyFlNgXaQIR4dtbchQgb6k\\x2DnhCVyg_KwwBYezpSH8iEX2RFKH9t\\x2Dq0hD2tUQsyfWHEKkblnql62_5vnzwUnjdM2PfQJ7BeMy9t8M8w8zf2UVwr9Dt4AQo7d3niAkCtlaiSG7uLQIFk\\x2DQJzx_kxjvlo4eJ\\x2DmZWHCDJSoqHCkVkrJ9jGwyCJXAYPSF\\x2DrZMsFBJquOugHbnsDQaSwNbxxuXh0H86PS2BWEmSAcW\\x2DfXrbja2\\x2Dvicq2O7ph8ewxLhEGgrM7RPmnKKqePYIjTiLyDlg8tBqfg7sdEishu6gSFlhB7ycol_1F1anx\\x2DyRV4VxD35QaQ9iG9T0qaIEVfrpTYY6VtnQper0zjFfZgI5cO5rkSQ6\\x2DHhJf6l2CLtwAANaMbf8UfKunac\\x2DnooW7JhwJWqydJ24mDvFjnjZa66GYWyGVr6QEER3HJkb5D30kxAi1QAvw7BdnwB8ikHVdJu9Tj4_UpaBeXuNW8jR6m8peMKYZ6R2oIVcrAMjkk_YXlYeo2JwypnNqV8NVxvOLiIdupUutynfGFYIp9gJz9ngrxFsRwPrngPcCzPdMSXhlc3vLPq4NpdktLCnS36d5gIoF8Mg8YeMbmnctaJ_3APC38Coml1GKQv2SAHm0T1644EdU0Rk5LBPeXR3sW0Lfeon9HJ2yaj2WKp4LvIMjKjW1MH7AbMH0gJ1sDajPSQSa34PzlFObmNpZGhiWswCA1_nAT\\x2DZJvspbcRnue3vxxk2c.8GO2zGaDgn9xTLyDsGfsQw"
+   ]
+  }
+ },
+ "bytes": 12748800,
+ "sha256": "45ed34f29221d8f76ff0c40428bbfa474ab0eae643e806ea7aac8809398f3691",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:21:34Z"
+}

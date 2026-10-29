@@ -1,0 +1,55 @@
+{
+ "id": "05D25",
+ "started": "2026-10-29T17:55:56Z",
+ "download_url": "https://huggingface.co/datasets/hf-doc-build/doc-build/resolve/main/trl/v1.17.0.zip",
+ "final_url": "https://us.aws.cdn.hf.co/xet-bridge-us/6356b19985da6f13863228bd/5db65fbdec94fade195482d8308f35d829f3b191377e8bbf1914de1c7b5b8d99?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27v1.17.0.zip%3B+filename%3D%22v1.17.0.zip%22%3B&user_id=public&xip=vzlH9V57VH8&response-content-type=applicati",
+ "http_last_modified": "",
+ "verify": "通过：230 个文件（HTML 57，文档源 59）",
+ "info": {
+  "files": 230,
+  "html": 57,
+  "md_rst_ipynb": 59,
+  "top_ext": [
+   [
+    "js",
+    107
+   ],
+   [
+    "md",
+    57
+   ],
+   [
+    "html",
+    57
+   ],
+   [
+    "yml",
+    3
+   ],
+   [
+    "txt",
+    2
+   ],
+   [
+    "png",
+    1
+   ],
+   [
+    "css",
+    1
+   ],
+   [
+    "json",
+    1
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 3146977,
+ "sha256": "c64acee5d99373c6fc6614472b6f97f1c6f02d4f8fd80136b20146fe2f03d02e",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:55:57Z",
+ "error": "",
+ "reverified": "2026-10-29T18:05:44Z"
+}

@@ -1,0 +1,63 @@
+{
+ "id": "09C01",
+ "started": "2026-10-29T18:58:10Z",
+ "wget_rc": 0,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://cs50.harvard.edu/web/",
+ "mirror_scope": {
+  "start": [
+   "https://cs50.harvard.edu/web/"
+  ],
+  "include": [
+   "/web"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：214 个文件（HTML 42，文档源 0）",
+ "info": {
+  "files": 214,
+  "html": 42,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "png",
+    121
+   ],
+   [
+    "html",
+    42
+   ],
+   [
+    "gif",
+    35
+   ],
+   [
+    "js?1793205208",
+    13
+   ],
+   [
+    "css",
+    2
+   ],
+   [
+    "ico?1793205208",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 1886,
+   "broken": 1,
+   "examples": [
+    "Harvard_CS50W_NotesProjects_html_en/web/images/duck.jpeg"
+   ]
+  }
+ },
+ "bytes": 114083840,
+ "sha256": "0c23a052fb7a6a5e9ac4c6206b10198babab50454e1071cbcab9cc906305fff3",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:00:24Z"
+}

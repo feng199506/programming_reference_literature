@@ -123,7 +123,16 @@ def get_pdf(seed, st):
     out = ROOT / seed["out"]
     out.parent.mkdir(parents=True, exist_ok=True)
     errs = []
-    for url in g["urls"]:
+    urls = list(g.get("urls", []))
+    if g.get("page"):  # download page that presents the direct file link (normal user flow)
+        r = http(g["page"])
+        if r["status"] == 200:
+            m = re.search(g["link_pattern"], r["body"].decode("utf-8", "replace"))
+            if m:
+                urls.insert(0, m.group(0).replace("&amp;", "&"))
+        if not urls:
+            errs.append(f"{g['page']}: 未找到下载链接")
+    for url in urls:
         tmp = STAGING / (seed["id"] + ".pdf")
         r = http(url, dest=tmp, max_bytes=int(g.get("max_mb", 400)) * 1024 * 1024, timeout=300)
         if r["status"] != 200:
@@ -151,11 +160,22 @@ def get_pdfset(seed, st):
             st["error"] = f"index {r['status']} {r['err']}"
             return False
         html = r["body"].decode("utf-8", "replace")
+        pages = [(r["url"], html)]
+        if g.get("follow"):  # one level: lecture pages that each link their own PDF
+            seen = set()
+            for m in HREF_ANY.finditer(html):
+                u = urllib.parse.urljoin(r["url"], next(x for x in m.groups() if x))
+                if re.search(g["follow"], u) and u not in seen:
+                    seen.add(u)
+                    rr = http(u)
+                    if rr["status"] == 200:
+                        pages.append((rr["url"], rr["body"].decode("utf-8", "replace")))
         found = []
-        for m in re.finditer(r'href=["\']([^"\']+)["\']', html):
-            u = urllib.parse.urljoin(r["url"], m.group(1))
-            if re.search(g["pattern"], u) and u not in found:
-                found.append(u)
+        for base, body in pages:
+            for m in HREF_ANY.finditer(body):
+                u = urllib.parse.urljoin(base, next(x for x in m.groups() if x))
+                if re.search(g["pattern"], u) and u not in found:
+                    found.append(u)
         urls += found
     if len(urls) < int(g.get("min_files", 1)):
         st["error"] = f"只找到 {len(urls)} 个章节链接 < {g.get('min_files')}"
@@ -170,24 +190,32 @@ def get_pdfset(seed, st):
         if name in names:
             name = f"{len(names):03d}_{name}"
         dest = tmpdir / name
-        r = http(u, dest=dest, timeout=300)
+        r = http(urllib.parse.quote(u, safe=":/?=&%#~+@,;"), dest=dest, timeout=300)
         if r["status"] != 200:
             bad.append(f"{u}: {r['status']}")
             continue
-        ok, msg, info = pdf_check(dest, {"min_pages": 1, "allow_scan": True})
+        if name.lower().endswith(".txt"):
+            body = dest.read_bytes()
+            ok = len(body) > 5000 and (b"Request for Comments" in body[:20000] or b"RFC" in body[:3000])
+            info, msg = {"pages": 0}, "" if ok else "文本过短或非 RFC 文本"
+        else:
+            ok, msg, info = pdf_check(dest, {"min_pages": 1, "allow_scan": True})
         if not ok:
             bad.append(f"{name}: {msg}")
             continue
         names.append(name)
         pages += info.get("pages", 0)
-    if bad:
+    dead = [b for b in bad if b.endswith(": 404")]
+    if bad and (len(bad) != len(dead) or len(dead) > int(g.get("max_missing", 0))):
         st["error"] = f"{len(bad)} 个章节失败: " + "; ".join(bad)[:1200]
         return False
+    st["missing_upstream_404"] = dead
     (tmpdir / "_chapter_order_en.txt").write_text("\n".join(f"{n}\t{u}" for n, u in zip(names, urls)) + "\n")
     shutil.rmtree(outdir, ignore_errors=True)
     outdir.parent.mkdir(parents=True, exist_ok=True)
     shutil.move(tmpdir, outdir)
-    st.update(download_url=g.get("index") or urls[0], verify=f"通过：{len(names)} 个章节 PDF 均可解析，共 {pages} 页",
+    st.update(download_url=g.get("index") or urls[0], verify=f"通过：{len(names)} 个文件均可解析（PDF 共 {pages} 页）"
+              + (f"；课程站失效链接 {len(dead)} 个（404，已记录）" if dead else ""),
               info={"chapters": len(names), "pages": pages}, bytes=sum(p.stat().st_size for p in outdir.iterdir()))
     return True
 
@@ -212,18 +240,22 @@ def read_member(path, name):
         return f.read() if f else b""
 
 
+HREF_ANY = re.compile(r"""href\s*=\s*(?:"([^"]+)"|'([^']+)'|([^\s>"']+))""", re.I)
 HREF = re.compile(r'(?:href|src)=["\']([^"\'#?]+)', re.I)
 
 
 def check_tree(names, path, expect, kind_hint=""):
     """names: member list. Checks counts, entry, license, and local link integrity of a sample."""
+    raw_names = list(names)
+    names = [n[2:] if n.startswith("./") else n for n in names]
+    raw_of = dict(zip(names, raw_names))
     ext = {}
     for n in names:
         e = n.rsplit(".", 1)[-1].lower() if "." in n.split("/")[-1] else ""
         ext[e] = ext.get(e, 0) + 1
     html = ext.get("html", 0) + ext.get("htm", 0)
     docs = html + ext.get("md", 0) + ext.get("mdx", 0) + ext.get("rst", 0) + ext.get("ipynb", 0) + ext.get("txt", 0) \
-        + ext.get("adoc", 0) + ext.get("tex", 0)
+        + ext.get("adoc", 0) + ext.get("tex", 0) + ext.get("xml", 0) * bool(expect.get("count_xml"))
     info = {"files": len(names), "html": html, "md_rst_ipynb": docs - html,
             "top_ext": sorted(ext.items(), key=lambda kv: -kv[1])[:8]}
     nset = set(names)
@@ -253,9 +285,9 @@ def check_tree(names, path, expect, kind_hint=""):
         for n in pages[::step][:120]:
             try:
                 if isinstance(arc, zipfile.ZipFile):
-                    body = arc.read(n).decode("utf-8", "replace")
+                    body = arc.read(raw_of[n]).decode("utf-8", "replace")
                 else:
-                    body = arc.extractfile(n).read().decode("utf-8", "replace")
+                    body = arc.extractfile(raw_of[n]).read().decode("utf-8", "replace")
             except Exception:
                 continue
             base = n.rsplit("/", 1)[0] if "/" in n else ""
@@ -282,7 +314,9 @@ def get_file(seed, st):
     out.parent.mkdir(parents=True, exist_ok=True)
     errs = []
     for url in g.get("urls", [g.get("url")]):
-        tmp = STAGING / (seed["id"] + "_" + url.rstrip("/").split("/")[-1][-40:])
+        suffix = "".join(Path(seed["out"]).suffixes[-2:]) if seed["out"].endswith((".tar.gz", ".tar.bz2", ".tar.xz")) \
+            else Path(seed["out"]).suffix
+        tmp = STAGING / (seed["id"] + "_dl" + suffix)
         r = http(url, dest=tmp, max_bytes=int(g.get("max_mb", 800)) * 1024 * 1024, timeout=900)
         if r["status"] != 200:
             errs.append(f"{url}: {r['status']} {r['err']}")
@@ -341,7 +375,7 @@ def pack_dir(src, out, prefix, st):
         ti.uname = ti.gname = "root"
         return ti
     tmp = Path(str(out) + ".part")
-    with tarfile.open(tmp, "w") as t:
+    with tarfile.open(tmp, "w:gz" if str(out).endswith(".tar.gz") else "w") as t:
         t.add(src, arcname=prefix, filter=flt)
     os.replace(tmp, out)
     st["dropped_large_files"] = dropped[:200]
@@ -383,7 +417,7 @@ def get_git(seed, st):
     shutil.rmtree(work, ignore_errors=True)
     names, _ = list_archive(out)
     exp = dict(seed.get("expect", {}))
-    exp.setdefault("need_license", True)
+    exp.setdefault("need_license", not g.get("license_from_project"))
     exp.setdefault("link_check", bool(g.get("built_html")))
     ok, msg, info = check_tree(names, out, exp)
     st.update(download_url=repo, ref=g.get("ref") or "(默认分支)", commit=commit, commit_date=cdate,
@@ -398,13 +432,14 @@ def get_mirror(seed, st):
     g = seed["get"]
     out = ROOT / seed["out"]
     out.parent.mkdir(parents=True, exist_ok=True)
-    work = STAGING / (seed["id"] + "_mirror")
+    work = STAGING / (seed["id"] + "_m")
     shutil.rmtree(work, ignore_errors=True)
     work.mkdir(parents=True)
     starts = g["start"] if isinstance(g["start"], list) else [g["start"]]
     host = urllib.parse.urlparse(starts[0]).netloc
     incl = g.get("include", [])  # path prefixes allowed for recursion (wget -I)
-    cmd = ["wget", "-q", "-e", "robots=on", "--recursive", "--level", str(g.get("level", "inf")), "--no-parent",
+    cmd = ["wget", "-q", "-e", "robots=on", "--recursive", "--level", str(g.get("level", "inf"))] + \
+        (["--no-parent"] if g.get("no_parent", True) else []) + [
            "--page-requisites", "--convert-links", "--adjust-extension", "--no-host-directories", "--timeout", "60",
            "--tries", "2", "--wait", str(g.get("wait", 0.3)), "--random-wait", "--user-agent",
            "Mozilla/5.0 (compatible; programming_reference_literature/1.0; offline docs copy)",
@@ -422,6 +457,7 @@ def get_mirror(seed, st):
     st["wget_rc"] = r.returncode  # 8 = some 404s, normal for large sites
     prefix = out.name.rsplit(".tar", 1)[0]
     files = [p for p in work.rglob("*") if p.is_file()]
+    st["quota_hit"] = sum(p.stat().st_size for p in files) >= int(g.get("quota_mb", 600)) * 1024 * 1024 * 0.98
     if not files:
         st["error"] = f"wget 无输出 rc={r.returncode} {r.stderr[-300:]}"
         return False
@@ -429,6 +465,8 @@ def get_mirror(seed, st):
     shutil.rmtree(work, ignore_errors=True)
     names, _ = list_archive(out)
     ok, msg, info = check_tree(names, out, seed.get("expect", {}))
+    if st["quota_hit"]:
+        ok, msg = False, "镜像达到配额上限，可能不完整：" + msg
     st.update(download_url=starts[0], mirror_scope={"start": starts, "include": incl, "level": g.get("level", "inf")},
               verify=msg, info=info, bytes=out.stat().st_size, sha256=sha256(out))
     if not ok:
@@ -436,7 +474,36 @@ def get_mirror(seed, st):
     return ok
 
 
-KINDS = {"pdf": get_pdf, "pdfset": get_pdfset, "file": get_file, "hfdoc": get_hfdoc, "git": get_git,
+def get_multi_git(seed, st):
+    """Several complete repos (e.g. a course's assignment repos) -> <out>/<repo>_<commit7>_en.tar each."""
+    outdir = ROOT / seed["out"]
+    outdir.mkdir(parents=True, exist_ok=True)
+    parts, errs = [], []
+    for repo in seed["get"]["repos"]:
+        name = repo.rstrip("/").split("/")[-1]
+        sub = {"id": f"{seed['id']}_{name}", "out": str((outdir / f"{name}_en.tar").relative_to(ROOT)),
+               "get": {"kind": "git", "repo": repo}, "expect": {"need_license": False, "min_docs": 1}}
+        sst = {}
+        if get_git(sub, sst):
+            final = outdir / f"{name}_{sst['commit'][:7]}_en.tar"
+            os.replace(ROOT / sub["out"], final)
+            lic = sst["info"].get("license_files")
+            parts.append({"repo": repo, "commit": sst["commit"], "commit_date": sst["commit_date"], "file": final.name,
+                          "files": sst["info"]["files"], "license_files": lic, "dropped": sst.get("dropped_count", 0)})
+        else:
+            errs.append(f"{repo}: {sst.get('error', '')[:200]}")
+    st["parts"] = parts
+    st["download_url"] = seed["get"]["repos"][0]
+    st["bytes"] = sum(p.stat().st_size for p in outdir.iterdir())
+    if errs:
+        st["error"] = " | ".join(errs)
+        return False
+    nolic = [p["repo"] for p in parts if not p["license_files"]]
+    st["verify"] = f"通过：{len(parts)} 个仓库完整归档" + (f"；无许可证文件：{len(nolic)} 个（见 parts）" if nolic else "")
+    return True
+
+
+KINDS = {"multi_git": get_multi_git, "pdf": get_pdf, "pdfset": get_pdfset, "file": get_file, "hfdoc": get_hfdoc, "git": get_git,
          "mirror": get_mirror}
 
 
@@ -452,10 +519,28 @@ def select(seeds, a):
         out = [s for s in out if s["id"] in ids]
     if a.tool:
         out = [s for s in out if s.get("tool")]
+    if a.seedfile:
+        out = [s for s in out if s["_seedfile"].startswith(a.seedfile)]
+    if a.kind:
+        kinds = a.kind.split(",")
+        out = [s for s in out if s["get"]["kind"] in kinds or (s.get("reuse") and "reuse" in kinds)]
     return out
 
 
 def do_item(seed, redo=False, retry=False):
+    ITEMS.mkdir(parents=True, exist_ok=True)
+    lock = open(ITEMS / f"{seed['id']}.lock", "w")
+    try:
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        return {"status": "busy", "verify": "另一条通道正在处理此条目"}
+    try:
+        return _do_item(seed, redo, retry)
+    finally:
+        lock.close()
+
+
+def _do_item(seed, redo=False, retry=False):
     st = item_state(seed["id"])
     if seed.get("reuse"):
         return do_reuse(seed, st)
@@ -505,6 +590,29 @@ def do_reuse(seed, st):
     return st
 
 
+def reverify(seed):
+    """Re-run checks on an existing output (after a seed's expect/entry was corrected)."""
+    st = item_state(seed["id"])
+    out = ROOT / seed["out"]
+    if not st or not out.exists() or seed.get("reuse"):
+        return
+    kind = seed["get"]["kind"]
+    if out.is_dir() or kind == "pdf" or str(out).endswith(".pdf"):
+        return
+    exp = dict(seed.get("expect", {}))
+    if kind == "git":
+        exp.setdefault("need_license", not seed["get"].get("license_from_project"))
+        exp.setdefault("link_check", bool(seed["get"].get("built_html")))
+    if kind == "hfdoc":
+        exp.setdefault("link_check", False)
+    names, _ = list_archive(out)
+    ok, msg, info = check_tree(names, out, exp)
+    st.update(status="ok" if ok else "failed", verify=msg, info=info, error="" if ok else msg,
+              reverified=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()))
+    save_item_state(seed["id"], st)
+    print(f"{seed['id']:<14} {st['status']:<7} {msg[:150]}", flush=True)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("cmd", choices=["run", "status", "verify"])
@@ -512,6 +620,8 @@ def main():
     ap.add_argument("--ids")
     ap.add_argument("--type")
     ap.add_argument("--tool", action="store_true")
+    ap.add_argument("--seedfile", help="prefix of seed file name, e.g. C_ or T_")
+    ap.add_argument("--kind", help="comma list of get.kind; also selects the lock lane")
     ap.add_argument("--redo", action="store_true")
     ap.add_argument("--retry-failed", action="store_true")
     a = ap.parse_args()
@@ -526,13 +636,15 @@ def main():
         print(cnt)
         return
     STATE.mkdir(exist_ok=True)
-    lockf = open(STATE / "fetch.lock", "w")
+    lane = (a.seedfile or "") + re.sub(r"[^a-z,]", "", a.kind or "all").replace(",", "_")
+    lockf = open(STATE / f"fetch_{lane}.lock", "w")
     try:
         fcntl.flock(lockf, fcntl.LOCK_EX | fcntl.LOCK_NB)
     except BlockingIOError:
-        raise SystemExit("another fetch_en.py is running (state/fetch.lock)")
+        raise SystemExit(f"another fetch_en.py is running in lane {lane}")
     for s in seeds:
         if a.cmd == "verify":
+            reverify(s)
             continue
         st = do_item(s, redo=a.redo, retry=a.retry_failed)
         mb = (st.get("bytes") or 0) / 1e6

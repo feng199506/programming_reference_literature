@@ -1,0 +1,55 @@
+{
+ "id": "05D24",
+ "started": "2026-10-29T17:55:55Z",
+ "download_url": "https://huggingface.co/datasets/hf-doc-build/doc-build/resolve/main/peft/v0.21.0.zip",
+ "final_url": "https://us.aws.cdn.hf.co/xet-bridge-us/6356b19985da6f13863228bd/ca4e77acd1e6bfde01e69c54d6da4f31f069bf790d3fd33fb28cfb96605e45bf?xip=vzlH9V57VH8&response-content-type=application%2Fzip&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27v0.21.0.zip%3B+filename%3D%22v0.21.0.zip%22%3B&user_i",
+ "http_last_modified": "",
+ "verify": "通过：251 个文件（HTML 81，文档源 83）",
+ "info": {
+  "files": 251,
+  "html": 81,
+  "md_rst_ipynb": 83,
+  "top_ext": [
+   [
+    "html",
+    81
+   ],
+   [
+    "md",
+    81
+   ],
+   [
+    "js",
+    80
+   ],
+   [
+    "yml",
+    3
+   ],
+   [
+    "txt",
+    2
+   ],
+   [
+    "css",
+    1
+   ],
+   [
+    "json",
+    1
+   ],
+   [
+    "inv",
+    1
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 2387294,
+ "sha256": "daa2c57ecd0b8032d34f7ffee3128fe4376f0d189ddcf13e0da14e8b4514269a",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:55:56Z",
+ "error": "",
+ "reverified": "2026-10-29T18:05:43Z"
+}

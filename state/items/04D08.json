@@ -1,0 +1,62 @@
+{
+ "id": "04D08",
+ "started": "2026-10-29T17:27:52Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/tensorflow/tensorboard",
+ "ref": "2.21.0",
+ "commit": "7b57f56cb3f2075a41e9b886b902679eb39fa1a4",
+ "commit_date": "2026-06-27T00:40:58Z",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：76 个文件（HTML 0，文档源 30）",
+ "info": {
+  "files": 76,
+  "html": 0,
+  "md_rst_ipynb": 30,
+  "top_ext": [
+   [
+    "png",
+    36
+   ],
+   [
+    "md",
+    20
+   ],
+   [
+    "ipynb",
+    10
+   ],
+   [
+    "yaml",
+    3
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "yamllint",
+    1
+   ],
+   [
+    "gitattributes",
+    1
+   ],
+   [
+    "svg",
+    1
+   ]
+  ],
+  "entry": "tensorboard_2.21.0_docs_src_en/docs/get_started.ipynb",
+  "license_files": [
+   "tensorboard_2.21.0_docs_src_en/LICENSE"
+  ]
+ },
+ "bytes": 22302720,
+ "sha256": "9f364fa59e7fe8c191668462a302aa4ce6e266064b9ea900abf8fde1641fa4f9",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:27:55Z"
+}

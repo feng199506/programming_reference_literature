@@ -1,0 +1,68 @@
+{
+ "id": "14D07",
+ "started": "2026-10-29T17:31:59Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/ggml-org/llama.cpp",
+ "ref": "b11985",
+ "commit": "6d194531e1e5876d5d1a0641ce3ca7dae23f94ad",
+ "commit_date": "2026-10-29T10:11:29+02:00",
+ "sparse_paths": [
+  "docs",
+  "examples",
+  "tools",
+  "grammars",
+  "gguf-py/README.md"
+ ],
+ "verify": "通过：1470 个文件（HTML 1，文档源 172）",
+ "info": {
+  "files": 1470,
+  "html": 1,
+  "md_rst_ipynb": 172,
+  "top_ext": [
+   [
+    "ts",
+    469
+   ],
+   [
+    "svelte",
+    391
+   ],
+   [
+    "cpp",
+    134
+   ],
+   [
+    "md",
+    113
+   ],
+   [
+    "py",
+    71
+   ],
+   [
+    "txt",
+    58
+   ],
+   [
+    "h",
+    36
+   ],
+   [
+    "sh",
+    33
+   ]
+  ],
+  "license_files": [
+   "llama.cpp_b11985_docs_src_en/LICENSE",
+   "llama.cpp_b11985_docs_src_en/tools/ui/src/lib/vendors/big-integer/LICENSE",
+   "llama.cpp_b11985_docs_src_en/tools/ui/src/lib/vendors/decimal.js/LICENCE.md",
+   "llama.cpp_b11985_docs_src_en/tools/ui/src/lib/vendors/nerdamer-prime/LICENSE"
+  ]
+ },
+ "bytes": 58408960,
+ "sha256": "f377bbed8f84f182052356f974fdd3357e74962937a97adef4daaf25233db9d1",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:05Z"
+}

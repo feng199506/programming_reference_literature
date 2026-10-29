@@ -1,0 +1,19 @@
+{
+ "id": "02P08",
+ "started": "2026-10-29T17:49:05Z",
+ "download_url": "https://arxiv.org/pdf/2106.05123v1",
+ "final_url": "https://arxiv.org/pdf/2106.05123v1",
+ "http_last_modified": "Mon, 23 Jan 2023 10:14:01 GMT",
+ "verify": "通过：pypdf 可解析 20 页；标题词匹配 1.0",
+ "info": {
+  "pages": 20,
+  "meta_title": "",
+  "body_sample_chars": 6492,
+  "title_match": 1.0
+ },
+ "bytes": 357349,
+ "sha256": "c4aeba28e43e7742df3b546d3ef8de65c93b7729e3fc2293397d03173a212795",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:49:09Z"
+}

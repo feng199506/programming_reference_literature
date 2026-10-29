@@ -1,0 +1,53 @@
+{
+ "id": "04D07",
+ "started": "2026-10-29T17:27:34Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/wandb/docs",
+ "ref": "(默认分支)",
+ "commit": "86eefc342c347f15ce6a4cda3114e9daeaccd403",
+ "commit_date": "2026-09-30T07:04:16-07:00",
+ "sparse_paths": [
+  "models",
+  "guides",
+  "ref",
+  "get-started.mdx",
+  "index.mdx",
+  "quickstart.mdx",
+  "tutorials",
+  "support",
+  "platform"
+ ],
+ "verify": "通过：748 个文件（HTML 0，文档源 747）",
+ "info": {
+  "files": 748,
+  "html": 0,
+  "md_rst_ipynb": 747,
+  "top_ext": [
+   [
+    "mdx",
+    741
+   ],
+   [
+    "md",
+    5
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [
+   "wandb_docs_main_src_en/LICENSE"
+  ]
+ },
+ "bytes": 4485120,
+ "sha256": "bc68b59d54214a698234e8e218d7240240e6584737bd8204a57d777caba5def9",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:27:36Z"
+}

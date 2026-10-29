@@ -1,0 +1,64 @@
+{
+ "id": "04X04",
+ "started": "2026-10-29T17:27:22Z",
+ "dropped_large_files": [
+  "catboost_tutorials_master_en/events/2020_odsc_west/ODSC West 2020 Kirillov CatBoost.pptx (35456 KiB)",
+  "catboost_tutorials_master_en/events/2021_06_09_odsc_europe/ODSC_Europe_2021.pptx (35732 KiB)"
+ ],
+ "dropped_count": 2,
+ "download_url": "https://github.com/catboost/tutorials",
+ "ref": "(默认分支)",
+ "commit": "a8483f126b773d9107f0e258f29b57381a9479f6",
+ "commit_date": "2026-10-23T05:09:17+03:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：101 个文件（HTML 0，文档源 83）",
+ "info": {
+  "files": 101,
+  "html": 0,
+  "md_rst_ipynb": 83,
+  "top_ext": [
+   [
+    "ipynb",
+    61
+   ],
+   [
+    "md",
+    21
+   ],
+   [
+    "json",
+    2
+   ],
+   [
+    "cbm",
+    2
+   ],
+   [
+    "csv",
+    2
+   ],
+   [
+    "tsv",
+    2
+   ],
+   [
+    "pdf",
+    2
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "license_files": [
+   "catboost_tutorials_master_en/LICENSE"
+  ]
+ },
+ "bytes": 129136640,
+ "sha256": "7e6bde05cfafdca1046c6e22731e7c4ff9f5eb0cf6222552628fe8572c77610a",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:27:27Z"
+}

@@ -1,0 +1,37 @@
+{
+ "id": "14D12",
+ "started": "2026-10-29T18:10:29Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/moby/buildkit",
+ "ref": "(默认分支)",
+ "commit": "cd8ee2441a4cb4d29f816bab2b009eac131784d7",
+ "commit_date": "2026-10-29T17:02:36+01:00",
+ "sparse_paths": [
+  "frontend/dockerfile/docs"
+ ],
+ "verify": "通过：28 个文件（HTML 0，文档源 27）",
+ "info": {
+  "files": 28,
+  "html": 0,
+  "md_rst_ipynb": 27,
+  "top_ext": [
+   [
+    "md",
+    27
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "license_files": [
+   "dockerfile_reference_buildkit_master_en/LICENSE"
+  ]
+ },
+ "bytes": 286720,
+ "sha256": "e7b120300f02cb92d339713dc38216a9581d2e812608743293fe69109a246c8b",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:10:30Z"
+}

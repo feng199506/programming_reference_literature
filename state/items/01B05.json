@@ -1,0 +1,67 @@
+{
+ "id": "01B05",
+ "started": "2026-10-29T17:47:33Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://www.composingprograms.com/",
+ "mirror_scope": {
+  "start": [
+   "https://www.composingprograms.com/"
+  ],
+  "include": [],
+  "level": "inf"
+ },
+ "verify": "通过：269 个文件（HTML 105，文档源 1）",
+ "info": {
+  "files": 269,
+  "html": 105,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    105
+   ],
+   [
+    "png",
+    77
+   ],
+   [
+    "js",
+    38
+   ],
+   [
+    "py",
+    20
+   ],
+   [
+    "css",
+    18
+   ],
+   [
+    "gleam",
+    5
+   ],
+   [
+    "svg",
+    4
+   ],
+   [
+    "ico",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 4871,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 18821120,
+ "sha256": "6640b8b7bd5b851cb12c1e3c01d4f84efa0a8056752a4a5db06497ac1a42d434",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:50:24Z"
+}

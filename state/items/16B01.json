@@ -1,0 +1,51 @@
+{
+ "id": "16B01",
+ "started": "2026-10-29T18:50:21Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://google.github.io/building-secure-and-reliable-systems/raw/toc.html",
+ "mirror_scope": {
+  "start": [
+   "https://google.github.io/building-secure-and-reliable-systems/raw/toc.html"
+  ],
+  "include": [
+   "/building-secure-and-reliable-systems"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：76 个文件（HTML 36，文档源 0）",
+ "info": {
+  "files": 76,
+  "html": 36,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "png",
+    39
+   ],
+   [
+    "html",
+    36
+   ],
+   [
+    "css",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 3314,
+   "broken": 1,
+   "examples": [
+    "Adkins_BuildingSecureReliableSystems_html_en/building-secure-and-reliable-systems/raw/{$url}"
+   ]
+  }
+ },
+ "bytes": 5283840,
+ "sha256": "5496040bb75dc25959349103d07a5201acb1c9e6dcd54683a14deee2749a2c3e",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:51:06Z"
+}

@@ -1,0 +1,65 @@
+{
+ "id": "14X04",
+ "started": "2026-10-29T17:31:29Z",
+ "dropped_large_files": [
+  "openvino_notebooks_latest_en/notebooks/ace-step-music-generation/ace-step-music-generation.ipynb (37520 KiB)"
+ ],
+ "dropped_count": 1,
+ "download_url": "https://github.com/openvinotoolkit/openvino_notebooks",
+ "ref": "latest",
+ "commit": "c0ec1fc08d01f1537b249e5000fffdf7ae152eef",
+ "commit_date": "2026-10-29T18:16:18+01:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：887 个文件（HTML 2，文档源 372）",
+ "info": {
+  "files": 887,
+  "html": 2,
+  "md_rst_ipynb": 372,
+  "top_ext": [
+   [
+    "py",
+    239
+   ],
+   [
+    "ipynb",
+    178
+   ],
+   [
+    "md",
+    172
+   ],
+   [
+    "css",
+    91
+   ],
+   [
+    "txt",
+    22
+   ],
+   [
+    "png",
+    22
+   ],
+   [
+    "yml",
+    21
+   ],
+   [
+    "tsx",
+    20
+   ]
+  ],
+  "license_files": [
+   "openvino_notebooks_latest_en/LICENSE",
+   "openvino_notebooks_latest_en/notebooks/vision-background-removal/model/LICENSE",
+   "openvino_notebooks_latest_en/selector/src/@spark-design/LICENSE.txt"
+  ]
+ },
+ "bytes": 271216640,
+ "sha256": "8301a517c977a9b9dff71cf1b5884a714fd575cea8860a32d048b387923ecb19",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:31:56Z"
+}

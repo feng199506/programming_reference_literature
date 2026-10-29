@@ -1,0 +1,65 @@
+{
+ "id": "10X01",
+ "started": "2026-10-29T17:47:41Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/tastejs/todomvc",
+ "ref": "(默认分支)",
+ "commit": "ff43b02e59dfa604386bb382034b2cd07c2bcd8a",
+ "commit_date": "2026-05-02T18:06:21-07:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：4477 个文件（HTML 272，文档源 281）",
+ "info": {
+  "files": 4477,
+  "html": 272,
+  "md_rst_ipynb": 281,
+  "top_ext": [
+   [
+    "js",
+    2572
+   ],
+   [
+    "json",
+    405
+   ],
+   [
+    "html",
+    272
+   ],
+   [
+    "md",
+    257
+   ],
+   [
+    "",
+    144
+   ],
+   [
+    "css",
+    129
+   ],
+   [
+    "yml",
+    96
+   ],
+   [
+    "ts",
+    95
+   ]
+  ],
+  "license_files": [
+   "todomvc_master_en/bower_components/bootstrap/LICENSE",
+   "todomvc_master_en/bower_components/polymer/LICENSE.txt",
+   "todomvc_master_en/examples/elm/LICENSE",
+   "todomvc_master_en/examples/polymer/LICENSE",
+   "todomvc_master_en/examples/typescript-react/node_modules/@types/classnames/LICENSE"
+  ]
+ },
+ "bytes": 101519360,
+ "sha256": "ecb34c127e12ba36b6e86f4dd397cf7eed4acd24d41246911d45c51e84f2a7f7",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:44Z"
+}

@@ -1,0 +1,14 @@
+{
+ "id": "09D03",
+ "started": "2026-10-29T18:07:04Z",
+ "download_url": "https://www.rfc-editor.org/rfc/rfc9110.pdf",
+ "verify": "通过：9 个文件均可解析（PDF 共 410 页）",
+ "info": {
+  "chapters": 9,
+  "pages": 410
+ },
+ "bytes": 7156486,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:07:13Z"
+}

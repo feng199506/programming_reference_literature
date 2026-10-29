@@ -1,0 +1,63 @@
+{
+ "id": "06X03",
+ "started": "2026-10-29T17:46:37Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/cjolowicz/cookiecutter-hypermodern-python",
+ "ref": "(默认分支)",
+ "commit": "af0fd99e72e3afac2dc2b20406b1bee689260be1",
+ "commit_date": "2023-07-08T23:38:46Z",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：72 个文件（HTML 0，文档源 22）",
+ "info": {
+  "files": 72,
+  "html": 0,
+  "md_rst_ipynb": 22,
+  "top_ext": [
+   [
+    "yml",
+    19
+   ],
+   [
+    "md",
+    18
+   ],
+   [
+    "py",
+    12
+   ],
+   [
+    "txt",
+    4
+   ],
+   [
+    "gitattributes",
+    2
+   ],
+   [
+    "gitignore",
+    2
+   ],
+   [
+    "yaml",
+    2
+   ],
+   [
+    "json",
+    2
+   ]
+  ],
+  "license_files": [
+   "cjolowicz_cookiecutter_hypermodern_python_main_en/LICENSE",
+   "cjolowicz_cookiecutter_hypermodern_python_main_en/docs/license.md",
+   "cjolowicz_cookiecutter_hypermodern_python_main_en/{{cookiecutter.project_name}}/docs/license.md"
+  ]
+ },
+ "bytes": 2682880,
+ "sha256": "43550ff46afb6bf0b97a1fd5f9ce2b97ae0ced9d5e0275b0649aabb02a27526d",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:39Z"
+}

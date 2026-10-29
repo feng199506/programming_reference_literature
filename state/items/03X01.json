@@ -1,0 +1,61 @@
+{
+ "id": "03X01",
+ "started": "2026-10-29T17:26:00Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/numpy/numpy-tutorials",
+ "ref": "(默认分支)",
+ "commit": "dfc643bd322bbf81fdb3a0b03ce6e48bdd93d10c",
+ "commit_date": "2026-10-18T15:31:31+03:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：52 个文件（HTML 0，文档源 17）",
+ "info": {
+  "files": 52,
+  "html": 0,
+  "md_rst_ipynb": 17,
+  "top_ext": [
+   [
+    "png",
+    18
+   ],
+   [
+    "md",
+    14
+   ],
+   [
+    "yml",
+    7
+   ],
+   [
+    "txt",
+    3
+   ],
+   [
+    "csv",
+    3
+   ],
+   [
+    "svg",
+    2
+   ],
+   [
+    "jpg",
+    2
+   ],
+   [
+    "gitignore",
+    1
+   ]
+  ],
+  "license_files": [
+   "numpy_tutorials_main_en/LICENSE.txt"
+  ]
+ },
+ "bytes": 6574080,
+ "sha256": "6ff8aa7a80dd54be465748e214a8a6b118c3bfedd11fba943e973ca930a0480b",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:26:01Z"
+}

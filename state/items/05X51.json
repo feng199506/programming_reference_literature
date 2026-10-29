@@ -1,0 +1,61 @@
+{
+ "id": "05X51",
+ "started": "2026-10-29T17:46:22Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/karpathy/micrograd",
+ "ref": "(默认分支)",
+ "commit": "7bc720e951fe422b8f8814aa5aa1b64121d26b4c",
+ "commit_date": "2026-08-02T21:04:01-07:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：13 个文件（HTML 0，文档源 3）",
+ "info": {
+  "files": 13,
+  "html": 0,
+  "md_rst_ipynb": 3,
+  "top_ext": [
+   [
+    "py",
+    5
+   ],
+   [
+    "ipynb",
+    2
+   ],
+   [
+    "gitignore",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "md",
+    1
+   ],
+   [
+    "svg",
+    1
+   ],
+   [
+    "png",
+    1
+   ],
+   [
+    "jpg",
+    1
+   ]
+  ],
+  "license_files": [
+   "karpathy_micrograd_master_en/LICENSE"
+  ]
+ },
+ "bytes": 184320,
+ "sha256": "463c20ecea08456ed1b37a212686704c44aafbdb0b24dd49de7025f2f5bd3ac0",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:22Z"
+}

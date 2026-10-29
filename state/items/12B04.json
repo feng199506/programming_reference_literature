@@ -1,0 +1,19 @@
+{
+ "id": "12B04",
+ "started": "2026-10-29T17:51:23Z",
+ "download_url": "https://people.freebsd.org/~lstewart/articles/cpumemory.pdf",
+ "final_url": "https://people.freebsd.org/~lstewart/articles/cpumemory.pdf",
+ "http_last_modified": "Thu, 02 Oct 2008 14:04:36 GMT",
+ "verify": "通过：pypdf 可解析 114 页；标题词匹配 1.0",
+ "info": {
+  "pages": 114,
+  "meta_title": "What Every Programmer Should Know About Memory",
+  "body_sample_chars": 18512,
+  "title_match": 1.0
+ },
+ "bytes": 934051,
+ "sha256": "2902dddcadb1ec97eeabd338bfaabf80f1fa2ff4e4d769b4052da88bfbb20387",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:30Z"
+}

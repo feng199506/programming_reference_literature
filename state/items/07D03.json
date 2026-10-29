@@ -1,0 +1,45 @@
+{
+ "id": "07D03",
+ "started": "2026-10-29T18:06:27Z",
+ "download_url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-htmldocs-2.56.0.tar.xz",
+ "final_url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-htmldocs-2.56.0.tar.xz",
+ "http_last_modified": "Mon, 28 Sep 2026 16:02:03 GMT",
+ "verify": "通过：1135 个文件（HTML 272，文档源 862）",
+ "info": {
+  "files": 1135,
+  "html": 272,
+  "md_rst_ipynb": 862,
+  "top_ext": [
+   [
+    "adoc",
+    862
+   ],
+   [
+    "html",
+    272
+   ],
+   [
+    "css",
+    1
+   ]
+  ],
+  "entry": "git.html",
+  "license_files": [],
+  "link_sample": {
+   "links": 1493,
+   "broken": 7,
+   "examples": [
+    "git-web&",
+    "git-fsmonitor&",
+    "git-web&",
+    "git-web&",
+    "git-web&"
+   ]
+  }
+ },
+ "bytes": 1740420,
+ "sha256": "c20a04cffce877e29ec532c5453f3fd2ce1f3daaf7f3b65d1f2fa73e95986d11",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:06:29Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "14P15",
+ "started": "2026-10-29T17:52:46Z",
+ "download_url": "https://www.barroso.org/publications/TheTailAtScale.pdf",
+ "final_url": "https://www.barroso.org/publications/TheTailAtScale.pdf",
+ "http_last_modified": "Fri, 24 Feb 2023 18:16:59 GMT",
+ "verify": "通过：pypdf 可解析 7 页；标题词匹配 1.0",
+ "info": {
+  "pages": 7,
+  "meta_title": "The tail at scale",
+  "body_sample_chars": 9674,
+  "title_match": 1.0
+ },
+ "bytes": 4363787,
+ "sha256": "fffb9132a10c001692f3017ad2ef6fd872a96851638554497ebd23dfbefcc0da",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:47Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "02P09",
+ "started": "2026-10-29T17:49:09Z",
+ "download_url": "https://arxiv.org/pdf/2210.10173v5",
+ "final_url": "https://arxiv.org/pdf/2210.10173v5",
+ "http_last_modified": "Wed, 29 Nov 2023 02:49:56 GMT",
+ "verify": "通过：pypdf 可解析 87 页；标题词匹配 1.0",
+ "info": {
+  "pages": 87,
+  "meta_title": "",
+  "body_sample_chars": 7983,
+  "title_match": 1.0
+ },
+ "bytes": 1721944,
+ "sha256": "c4efd2ade954f2fed5fca3bce71473060253681d512e5b48f4df848b99853544",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:49:13Z"
+}

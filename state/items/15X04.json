@@ -1,0 +1,61 @@
+{
+ "id": "15X04",
+ "started": "2026-10-29T17:50:11Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/SWE-agent/mini-swe-agent",
+ "ref": "(默认分支)",
+ "commit": "04d809ceab9df28f9adaed044884180159172930",
+ "commit_date": "2026-09-03T01:05:59-04:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：221 个文件（HTML 2，文档源 63）",
+ "info": {
+  "files": 221,
+  "html": 2,
+  "md_rst_ipynb": 63,
+  "top_ext": [
+   [
+    "py",
+    113
+   ],
+   [
+    "md",
+    62
+   ],
+   [
+    "yaml",
+    15
+   ],
+   [
+    "css",
+    7
+   ],
+   [
+    "yml",
+    6
+   ],
+   [
+    "json",
+    4
+   ],
+   [
+    "js",
+    2
+   ],
+   [
+    "svg",
+    2
+   ]
+  ],
+  "license_files": [
+   "mini_swe_agent_main_en/LICENSE.md"
+  ]
+ },
+ "bytes": 1986560,
+ "sha256": "3746a75360aca00f7917b7359a98ff0af0c5a2f3733d2aac47100000654a0464",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:50:12Z"
+}

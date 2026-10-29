@@ -1,0 +1,19 @@
+{
+ "id": "02P11",
+ "started": "2026-10-29T17:49:17Z",
+ "download_url": "https://arxiv.org/pdf/1712.01208v3",
+ "final_url": "https://arxiv.org/pdf/1712.01208v3",
+ "http_last_modified": "Sun, 22 Jan 2023 19:59:36 GMT",
+ "verify": "通过：pypdf 可解析 30 页；标题词匹配 1.0",
+ "info": {
+  "pages": 30,
+  "meta_title": "",
+  "body_sample_chars": 13596,
+  "title_match": 1.0
+ },
+ "bytes": 1114498,
+ "sha256": "392f604ddcdf26dc4905fc7649dc6e68aa843d50cddcc4fcb5f1b0eed23679a0",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:49:21Z"
+}

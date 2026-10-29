@@ -1,0 +1,61 @@
+{
+ "id": "15X03",
+ "started": "2026-10-29T17:50:10Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/SWE-bench/SWE-bench",
+ "ref": "(默认分支)",
+ "commit": "02e7a74ffd0b707aab73d203fe87bdc7c76afc8e",
+ "commit_date": "2026-09-02T01:50:34Z",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：679 个文件（HTML 0，文档源 25）",
+ "info": {
+  "files": 679,
+  "html": 0,
+  "md_rst_ipynb": 25,
+  "top_ext": [
+   [
+    "yml",
+    507
+   ],
+   [
+    "py",
+    109
+   ],
+   [
+    "md",
+    25
+   ],
+   [
+    "lock",
+    17
+   ],
+   [
+    "sh",
+    4
+   ],
+   [
+    "png",
+    4
+   ],
+   [
+    "svg",
+    4
+   ],
+   [
+    "yaml",
+    2
+   ]
+  ],
+  "license_files": [
+   "swe_bench_main_en/LICENSE"
+  ]
+ },
+ "bytes": 6840320,
+ "sha256": "6b7f1186a34737a8bd7c8178ebbdc9540da2961f1677cb8b69e7b795d2cf2f70",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:50:11Z"
+}

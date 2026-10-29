@@ -1,0 +1,19 @@
+{
+ "id": "08B03",
+ "started": "2026-10-29T18:07:04Z",
+ "download_url": "http://webdam.inria.fr/Alice/pdfs/all.pdf",
+ "final_url": "http://webdam.inria.fr/Alice/pdfs/all.pdf",
+ "http_last_modified": "Tue, 29 Mar 2016 08:17:11 GMT",
+ "verify": "通过：pypdf 可解析 678 页；标题词匹配 1.0",
+ "info": {
+  "pages": 678,
+  "meta_title": "",
+  "body_sample_chars": 9121,
+  "title_match": 1.0
+ },
+ "bytes": 3112558,
+ "sha256": "5d633e4514799a123616c565beeaa498d9900f615969273b320a969fb0c336a0",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:07:04Z"
+}

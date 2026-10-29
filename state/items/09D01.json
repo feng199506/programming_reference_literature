@@ -1,0 +1,64 @@
+{
+ "id": "09D01",
+ "started": "2026-10-29T17:32:39Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/fastapi/fastapi",
+ "ref": "0.162.0",
+ "commit": "7a0a3f0b286c6c865cf4398ea0e957a87b8bffa4",
+ "commit_date": "2026-10-23T20:45:33+02:00",
+ "sparse_paths": [
+  "docs/en",
+  "docs_src"
+ ],
+ "verify": "通过：913 个文件（HTML 6，文档源 157）",
+ "info": {
+  "files": 913,
+  "html": 6,
+  "md_rst_ipynb": 157,
+  "top_ext": [
+   [
+    "py",
+    485
+   ],
+   [
+    "png",
+    184
+   ],
+   [
+    "md",
+    157
+   ],
+   [
+    "svg",
+    56
+   ],
+   [
+    "yml",
+    11
+   ],
+   [
+    "html",
+    6
+   ],
+   [
+    "jpg",
+    4
+   ],
+   [
+    "js",
+    4
+   ]
+  ],
+  "entry": "fastapi_0.162.0_docs_src_en/docs/en/docs/index.md",
+  "license_files": [
+   "fastapi_0.162.0_docs_src_en/LICENSE",
+   "fastapi_0.162.0_docs_src_en/docs/en/overrides/partials/copyright.html"
+  ]
+ },
+ "bytes": 20848640,
+ "sha256": "9b9d047e45bade37f40e2e5f9de9c254a4f4a38d0a4efcca32ee4667e7422382",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:41Z"
+}

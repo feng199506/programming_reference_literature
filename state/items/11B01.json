@@ -1,0 +1,14 @@
+{
+ "id": "11B01",
+ "started": "2026-10-29T18:07:14Z",
+ "download_url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+ "verify": "通过：68 个文件均可解析（PDF 共 835 页）",
+ "info": {
+  "chapters": 68,
+  "pages": 835
+ },
+ "bytes": 7357323,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:08:26Z"
+}

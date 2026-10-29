@@ -1,0 +1,19 @@
+{
+ "id": "07D02",
+ "started": "2026-10-29T18:06:25Z",
+ "download_url": "https://www.gnu.org/software/coreutils/manual/coreutils.pdf",
+ "final_url": "https://www.gnu.org/software/coreutils/manual/coreutils.pdf",
+ "http_last_modified": "Mon, 14 Sep 2026 16:08:01 GMT",
+ "verify": "通过：pypdf 可解析 326 页；标题词匹配 1.0",
+ "info": {
+  "pages": 326,
+  "meta_title": "",
+  "body_sample_chars": 15840,
+  "title_match": 1.0
+ },
+ "bytes": 1196024,
+ "sha256": "5a11417f40dd8799f55e0efc83e9c7f212ea3d98b34a5a4957494cfb70726d85",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:06:27Z"
+}

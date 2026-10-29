@@ -1,0 +1,61 @@
+{
+ "id": "08X02",
+ "started": "2026-10-29T17:47:00Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+ "ref": "(默认分支)",
+ "commit": "8207266ca9fb30f0578cd5ffc4701cb8c3f7a52e",
+ "commit_date": "2026-09-16T14:45:08+02:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：952 个文件（HTML 0，文档源 231）",
+ "info": {
+  "files": 952,
+  "html": 0,
+  "md_rst_ipynb": 231,
+  "top_ext": [
+   [
+    "jpg",
+    216
+   ],
+   [
+    "md",
+    208
+   ],
+   [
+    "png",
+    162
+   ],
+   [
+    "py",
+    72
+   ],
+   [
+    "yaml",
+    50
+   ],
+   [
+    "svg",
+    48
+   ],
+   [
+    "json",
+    45
+   ],
+   [
+    "yml",
+    20
+   ]
+  ],
+  "license_files": [
+   "datatalksclub_de_zoomcamp_main_en/07-streaming/extras/extras/pyflink/LICENSE"
+  ]
+ },
+ "bytes": 47206400,
+ "sha256": "f4200505206649d010258c3ec3d72dc9350a87765c82230861455200e50080a8",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:03Z"
+}

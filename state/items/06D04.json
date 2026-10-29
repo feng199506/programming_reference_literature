@@ -1,0 +1,61 @@
+{
+ "id": "06D04",
+ "started": "2026-10-29T17:32:52Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/astral-sh/ruff",
+ "ref": "0.17.3",
+ "commit": "ba65abf8ba7bfbcc059f7fb9712be5ba9cab6abc",
+ "commit_date": "2026-10-26T20:14:27-04:00",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：35 个文件（HTML 3，文档源 22）",
+ "info": {
+  "files": 35,
+  "html": 3,
+  "md_rst_ipynb": 22,
+  "top_ext": [
+   [
+    "md",
+    22
+   ],
+   [
+    "html",
+    3
+   ],
+   [
+    "js",
+    2
+   ],
+   [
+    "css",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "gitignore",
+    1
+   ],
+   [
+    "svg",
+    1
+   ],
+   [
+    "ico",
+    1
+   ]
+  ],
+  "license_files": [
+   "ruff_0.17.3_docs_src_en/LICENSE"
+  ]
+ },
+ "bytes": 522240,
+ "sha256": "71df8580d5f0c0d38c4fcdde58f8592916715f3560338837a9df18a2984b3a18",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:54Z"
+}

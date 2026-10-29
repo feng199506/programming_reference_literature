@@ -1,0 +1,61 @@
+{
+ "id": "11B03",
+ "started": "2026-10-29T17:47:47Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/SystemsApproach/book",
+ "ref": "(默认分支)",
+ "commit": "ed40b37e5e5845ddc22671c231b57764753fb213",
+ "commit_date": "2026-10-20T12:16:51+11:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：655 个文件（HTML 0，文档源 83）",
+ "info": {
+  "files": 655,
+  "html": 0,
+  "md_rst_ipynb": 83,
+  "top_ext": [
+   [
+    "eps",
+    270
+   ],
+   [
+    "png",
+    267
+   ],
+   [
+    "rst",
+    80
+   ],
+   [
+    "ppt",
+    9
+   ],
+   [
+    "pptx",
+    7
+   ],
+   [
+    "",
+    4
+   ],
+   [
+    "css",
+    4
+   ],
+   [
+    "txt",
+    3
+   ]
+  ],
+  "license_files": [
+   "Peterson_ComputerNetworksSystemsApproach_src_en/LICENSE"
+  ]
+ },
+ "bytes": 280606720,
+ "sha256": "3e9d968ba9322252cb9bf9cadf9494af4d58302b242ac92d14315bd23e65a256",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:54Z"
+}

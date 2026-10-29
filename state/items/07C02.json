@@ -1,0 +1,14 @@
+{
+ "id": "07C02",
+ "started": "2026-10-29T18:06:16Z",
+ "download_url": "https://www.cl.cam.ac.uk/teaching/2425/UnixTools/materials.html",
+ "verify": "通过：8 个文件均可解析（PDF 共 833 页）",
+ "info": {
+  "chapters": 8,
+  "pages": 833
+ },
+ "bytes": 4408716,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:06:25Z"
+}

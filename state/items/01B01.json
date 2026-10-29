@@ -1,0 +1,19 @@
+{
+ "id": "01B01",
+ "started": "2026-10-29T17:45:42Z",
+ "download_url": "https://greenteapress.com/thinkpython2/thinkpython2.pdf",
+ "final_url": "https://greenteapress.com/thinkpython2/thinkpython2.pdf",
+ "http_last_modified": "Sat, 10 Oct 2026 18:21:05 GMT",
+ "verify": "通过：pypdf 可解析 244 页；标题词匹配 1.0",
+ "info": {
+  "pages": 244,
+  "meta_title": "",
+  "body_sample_chars": 8780,
+  "title_match": 1.0
+ },
+ "bytes": 907689,
+ "sha256": "6033000bac3f9268ad75ee041bf8e5d9a3bc8a33bb156399cbd014918cb59f94",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:44Z"
+}

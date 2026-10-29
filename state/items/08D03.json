@@ -1,0 +1,67 @@
+{
+ "id": "08D03",
+ "started": "2026-10-29T17:46:48Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/apache/kafka-site",
+ "ref": "asf-site",
+ "commit": "8bca8df8c41f309adb84696cc31430182968c01e",
+ "commit_date": "2026-10-28T19:19:16Z",
+ "sparse_paths": [
+  "/*.html",
+  "41",
+  "40",
+  "css",
+  "js",
+  "images"
+ ],
+ "verify": "通过：2559 个文件（HTML 2064，文档源 5）",
+ "info": {
+  "files": 2559,
+  "html": 2064,
+  "md_rst_ipynb": 5,
+  "top_ext": [
+   [
+    "html",
+    2064
+   ],
+   [
+    "png",
+    258
+   ],
+   [
+    "jpg",
+    103
+   ],
+   [
+    "svg",
+    46
+   ],
+   [
+    "js",
+    29
+   ],
+   [
+    "xml",
+    28
+   ],
+   [
+    "",
+    8
+   ],
+   [
+    "css",
+    7
+   ]
+  ],
+  "license_files": [
+   "apache_kafka_site_docs_en/40/javadoc/legal/LICENSE",
+   "apache_kafka_site_docs_en/41/javadoc/legal/LICENSE"
+  ]
+ },
+ "bytes": 128798720,
+ "sha256": "e1f6c83a284a938cfee03c8b5b397ff66333c3035262e9711abd15b008bc4881",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:56Z"
+}

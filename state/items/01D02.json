@@ -1,0 +1,59 @@
+{
+ "id": "01D02",
+ "started": "2026-10-29T17:25:48Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/pypa/pip",
+ "ref": "26.2.2",
+ "commit": "b3b696fe2122f2339d782517559bfade2cb6b879",
+ "commit_date": "2026-10-20T11:22:24-04:00",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：119 个文件（HTML 0，文档源 114）",
+ "info": {
+  "files": 119,
+  "html": 0,
+  "md_rst_ipynb": 114,
+  "top_ext": [
+   [
+    "rst",
+    70
+   ],
+   [
+    "md",
+    42
+   ],
+   [
+    "txt",
+    2
+   ],
+   [
+    "py",
+    2
+   ],
+   [
+    "dot",
+    1
+   ],
+   [
+    "png",
+    1
+   ],
+   [
+    "toml",
+    1
+   ]
+  ],
+  "entry": "pip_26.2.2_docs_src_en/docs/html/index.md",
+  "license_files": [
+   "pip_26.2.2_docs_src_en/LICENSE.txt",
+   "pip_26.2.2_docs_src_en/docs/html/copyright.rst"
+  ]
+ },
+ "bytes": 1034240,
+ "sha256": "51c2e3e941e6d9c734651931fe7a5f1c3ab421c549be97142a070369b2fc0189",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:25:49Z"
+}

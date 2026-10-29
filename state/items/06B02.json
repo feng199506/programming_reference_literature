@@ -1,0 +1,49 @@
+{
+ "id": "06B02",
+ "started": "2026-10-29T18:02:51Z",
+ "wget_rc": 0,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://www.cosmicpython.com/book/preface.html",
+ "mirror_scope": {
+  "start": [
+   "https://www.cosmicpython.com/book/preface.html"
+  ],
+  "include": [
+   "/book"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：74 个文件（HTML 23，文档源 1）",
+ "info": {
+  "files": 74,
+  "html": 23,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "png",
+    50
+   ],
+   [
+    "html",
+    23
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 1120,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 6983680,
+ "sha256": "9ff69cbbf401ba28da41d81af968774d5b2368c8fe06b868e54178fe3b7ea588",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:03:35Z"
+}

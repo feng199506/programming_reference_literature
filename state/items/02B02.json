@@ -1,0 +1,19 @@
+{
+ "id": "02B02",
+ "started": "2026-10-29T17:45:55Z",
+ "download_url": "https://opendatastructures.org/ods-python.pdf",
+ "final_url": "https://opendatastructures.org/ods-python.pdf",
+ "http_last_modified": "Mon, 26 Jan 2015 16:16:33 GMT",
+ "verify": "通过：pypdf 可解析 326 页；标题词匹配 1.0",
+ "info": {
+  "pages": 326,
+  "meta_title": "Open Data Structures",
+  "body_sample_chars": 5459,
+  "title_match": 1.0
+ },
+ "bytes": 1457027,
+ "sha256": "2bdd7e8129fff83daf04cd594fce5236d72b1d8b8c72832fde22ea762a7e014f",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:57Z"
+}

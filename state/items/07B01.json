@@ -1,0 +1,19 @@
+{
+ "id": "07B01",
+ "started": "2026-10-29T18:22:29Z",
+ "download_url": "https://downloads.sourceforge.net/project/linuxcommand/TLCL/19.01/TLCL-19.01.pdf?ts=gAAAAABq447lZ8-dqiFz4E2VbvZG2kpnmewBEY6NeUYAqWkwzWb9Po39Pns3Qk_1W4ssydBaXrezJUBBzAPpxgZDYoRXcPRAfA%3D%3D&use_mirror=altushost-swe&r=",
+ "final_url": "https://altushost-swe.dl.sourceforge.net/project/linuxcommand/TLCL/19.01/TLCL-19.01.pdf?viasf=1&fid=132f1a1e8eebdb67&e=1793384549&st=2xG-1GTg54HRIs_ShZ3zcw",
+ "http_last_modified": "Mon, 28 Jan 2019 11:13:21 GMT",
+ "verify": "通过：pypdf 可解析 555 页；标题词匹配 1.0",
+ "info": {
+  "pages": 555,
+  "meta_title": "The Linux Command Line",
+  "body_sample_chars": 9849,
+  "title_match": 1.0
+ },
+ "bytes": 2120211,
+ "sha256": "deb86645911b629619134dac6e2c9cbdec6ae28a8faa56bd99381f1ee7112113",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:22:33Z"
+}

@@ -1,0 +1,61 @@
+{
+ "id": "05C51",
+ "started": "2026-10-29T17:30:30Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/huggingface/diffusion-models-class",
+ "ref": "(默认分支)",
+ "commit": "72bf3dd739da641075dcff0ee54ce28e7a38a8ab",
+ "commit_date": "2026-10-06T11:21:07+02:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：31 个文件（HTML 0，文档源 15）",
+ "info": {
+  "files": 31,
+  "html": 0,
+  "md_rst_ipynb": 15,
+  "top_ext": [
+   [
+    "ipynb",
+    8
+   ],
+   [
+    "md",
+    7
+   ],
+   [
+    "yml",
+    5
+   ],
+   [
+    "png",
+    5
+   ],
+   [
+    "jpg",
+    2
+   ],
+   [
+    "gitignore",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "py",
+    1
+   ]
+  ],
+  "license_files": [
+   "hf_diffusion_models_class_main_src_en/LICENSE"
+  ]
+ },
+ "bytes": 56801280,
+ "sha256": "f989de14575cd2ce234300a05f8cbc156490db568a50dd1253d883032a159d96",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:30:35Z"
+}

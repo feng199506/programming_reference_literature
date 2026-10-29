@@ -1,0 +1,75 @@
+{
+ "id": "04D01",
+ "started": "2026-10-29T17:26:46Z",
+ "dropped_large_files": [
+  "scikit-learn_1.9_docs_html_en/1.9/_downloads/scikit-learn-docs.zip (97451 KiB)"
+ ],
+ "dropped_count": 1,
+ "download_url": "https://github.com/scikit-learn/scikit-learn.github.io",
+ "ref": "(默认分支)",
+ "commit": "bf4bc9d4ba8656bc3212be1b2a731937c230d0be",
+ "commit_date": "2026-10-28T12:04:59Z",
+ "sparse_paths": [
+  "1.9"
+ ],
+ "verify": "通过：5353 个文件（HTML 1124，文档源 1933）",
+ "info": {
+  "files": 5353,
+  "html": 1124,
+  "md_rst_ipynb": 1933,
+  "top_ext": [
+   [
+    "html",
+    1124
+   ],
+   [
+    "txt",
+    1080
+   ],
+   [
+    "png",
+    1046
+   ],
+   [
+    "ipynb",
+    850
+   ],
+   [
+    "js",
+    354
+   ],
+   [
+    "zip",
+    283
+   ],
+   [
+    "py",
+    281
+   ],
+   [
+    "json",
+    159
+   ]
+  ],
+  "entry": "scikit-learn_1.9_docs_html_en/1.9/index.html",
+  "license_files": [],
+  "link_sample": {
+   "links": 66292,
+   "broken": 9,
+   "examples": [
+    "scikit-learn_1.9_docs_html_en/1.9/_static/{{ pathto(",
+    "scikit-learn_1.9_docs_html_en/1.9/_static/{{ pathto(",
+    "scikit-learn_1.9_docs_html_en/1.9/_static/{{ pathto(",
+    "scikit-learn_1.9_docs_html_en/1.9/_static/{{ pathto(",
+    "scikit-learn_1.9_docs_html_en/1.9/_static/{{ pathto("
+   ]
+  }
+ },
+ "bytes": 276183040,
+ "sha256": "aa7c172ab1dd21667d45731e64fa27b22ba8c56ced8799bb0c38413f38095028",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:27:13Z",
+ "reverified": "2026-10-29T17:29:46Z"
+}

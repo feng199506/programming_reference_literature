@@ -1,0 +1,19 @@
+{
+ "id": "11B04",
+ "started": "2026-10-29T17:51:07Z",
+ "download_url": "https://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf",
+ "final_url": "https://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf",
+ "http_last_modified": "Wed, 07 Oct 2026 20:07:50 GMT",
+ "verify": "通过：pypdf 可解析 291 页；标题词匹配 1.0",
+ "info": {
+  "pages": 291,
+  "meta_title": "",
+  "body_sample_chars": 5016,
+  "title_match": 1.0
+ },
+ "bytes": 1307311,
+ "sha256": "25f1a7e82418be28bf200fa480bd060de1b7abbd2f46f7c215f0b682a9950a17",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:08Z"
+}

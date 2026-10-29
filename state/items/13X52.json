@@ -1,0 +1,64 @@
+{
+ "id": "13X52",
+ "started": "2026-10-29T17:48:18Z",
+ "dropped_large_files": [
+  "gpu_mode_lectures_main_en/lecture_035/SGLang-Performance-Optimization-YinengZhang.pdf (40170 KiB)",
+  "gpu_mode_lectures_main_en/lecture_075/ThunderKittens.pdf (36039 KiB)"
+ ],
+ "dropped_count": 2,
+ "download_url": "https://github.com/gpu-mode/lectures",
+ "ref": "(默认分支)",
+ "commit": "77a8df418834e5789c12da23e7d2719e0efabef1",
+ "commit_date": "2026-09-08T17:33:47-07:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：192 个文件（HTML 0，文档源 23）",
+ "info": {
+  "files": 192,
+  "html": 0,
+  "md_rst_ipynb": 23,
+  "top_ext": [
+   [
+    "png",
+    35
+   ],
+   [
+    "py",
+    32
+   ],
+   [
+    "pdf",
+    24
+   ],
+   [
+    "cu",
+    23
+   ],
+   [
+    "md",
+    14
+   ],
+   [
+    "json",
+    10
+   ],
+   [
+    "ipynb",
+    8
+   ],
+   [
+    "0model_hyperparameters_initial",
+    6
+   ]
+  ],
+  "license_files": [
+   "gpu_mode_lectures_main_en/LICENSE"
+  ]
+ },
+ "bytes": 184739840,
+ "sha256": "f94537ad4109f7d1b873e4e3e0ca4ef238e7a8cd6305f9cba71fdec0e56c05ac",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:29Z"
+}

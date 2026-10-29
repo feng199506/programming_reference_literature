@@ -1,0 +1,46 @@
+{
+ "id": "05D06",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "status": "ok",
+ "verify": "部分镜像（wget 超时停止后打包）：通过：3904 个文件（HTML 3903，文档源 1）",
+ "info": {
+  "files": 3904,
+  "html": 3903,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    3903
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "entry": "tensorflow_api_docs_python_mirror_en/api_docs/python/tf.html",
+  "license_files": [],
+  "link_sample": {
+   "links": 94019,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "download_url": "https://www.tensorflow.org/api_docs/python/tf",
+ "mirror_scope": {
+  "start": "https://www.tensorflow.org/api_docs/python/tf",
+  "include": [
+   "/api_docs/python",
+   "/static",
+   "/_static"
+  ],
+  "exclude": [
+   "/api_docs/python/tf/compat"
+  ]
+ },
+ "bytes": 264734325,
+ "sha256": "2ea2b698b5431488b458b51fc7c525a1b8d870094c02abe2662f5346756470da",
+ "access_date": "2026-10-29",
+ "error": "",
+ "finished": "2026-10-29T20:38:20Z"
+}

@@ -1,0 +1,14 @@
+{
+ "id": "11X04",
+ "started": "2026-10-29T17:51:17Z",
+ "download_url": "https://www.nand2tetris.org/project01",
+ "verify": "通过：2 个章节 PDF 均可解析，共 71 页",
+ "info": {
+  "chapters": 2,
+  "pages": 71
+ },
+ "bytes": 954014,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:20Z"
+}

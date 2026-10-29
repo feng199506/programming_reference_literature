@@ -1,0 +1,62 @@
+{
+ "id": "14D02",
+ "started": "2026-10-29T17:22:17Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/onnx/onnx",
+ "ref": "v1.23.2",
+ "commit": "e1ac8e74b620bbdc7ba07f0440806bd93f651a28",
+ "commit_date": "2026-10-05T19:03:09-04:00",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：123 个文件（HTML 0，文档源 93）",
+ "info": {
+  "files": 123,
+  "html": 0,
+  "md_rst_ipynb": 93,
+  "top_ext": [
+   [
+    "md",
+    85
+   ],
+   [
+    "png",
+    17
+   ],
+   [
+    "txt",
+    8
+   ],
+   [
+    "",
+    3
+   ],
+   [
+    "svg",
+    2
+   ],
+   [
+    "css",
+    2
+   ],
+   [
+    "py",
+    2
+   ],
+   [
+    "bat",
+    1
+   ]
+  ],
+  "license_files": [
+   "onnx_1.23.2_spec_docs_en/LICENSE",
+   "onnx_1.23.2_spec_docs_en/NOTICE"
+  ]
+ },
+ "bytes": 5693440,
+ "sha256": "bc08e5e4762cb6827270de3290cfe7ce861e2fac87cf7ca26c8d6cb97a905d53",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:22:19Z"
+}

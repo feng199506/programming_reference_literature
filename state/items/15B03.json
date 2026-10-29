@@ -1,0 +1,19 @@
+{
+ "id": "15B03",
+ "started": "2026-10-29T18:12:24Z",
+ "download_url": "https://arxiv.org/pdf/2501.09223",
+ "final_url": "https://arxiv.org/pdf/2501.09223",
+ "http_last_modified": "Fri, 09 Oct 2026 02:07:18 GMT",
+ "verify": "通过：pypdf 可解析 315 页；标题词匹配 1.0",
+ "info": {
+  "pages": 315,
+  "meta_title": "Foundations of Large Language Models",
+  "body_sample_chars": 8417,
+  "title_match": 1.0
+ },
+ "bytes": 2260055,
+ "sha256": "427b44ea2acbdefe7b31f29f99ddc9a48620e1deae8793de6044cf778ed6154a",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:12:25Z"
+}

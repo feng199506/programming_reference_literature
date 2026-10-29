@@ -1,0 +1,8 @@
+﻿资料编号,类别,类型,标题,尝试来源,状态,原因,访问日期
+03B04,03 科学计算与数据处理,教材/参考书,Scientific Visualization: Python + Matplotlib,https://inria.hal.science/hal-03427242/document,下载/核验失败,https://inria.hal.science/hal-03427242/document: 不是 PDF 文件头 | https://hal.science/hal-03427242/document: 不是 PDF 文件头,2026-10-29
+04C03,04 机器学习编程,大学课程资料,Stanford CS 329S Machine Learning Systems Design (Winter 2022) 讲义,https://stanford-cs329s.github.io/syllabus.html,下载/核验失败,课程讲义与课件全部为 Google Docs/Slides 链接，课程站无可下载文件；按规则（视频/外链不算已下载课程）不计入,2026-10-29
+05X21,05 深度学习编程,实验/习题/参考项目,CMU DLSys needle 作业框架（hw0–hw4 公开模板）,,下载/核验失败,"各作业仓库均无许可证文件；按""许可证允许时保存源码""规则未收录（已移出库目录）",2026-10-29
+08B02,08 数据库与数据工程,教材/参考书,Architecture of a Database System,http://dsf.berkeley.edu/papers/fntdb07-architecture.pdf,下载/核验失败,http://dsf.berkeley.edu/papers/fntdb07-architecture.pdf: 404 HTTP 404 | https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf: 0 URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>,2026-10-29
+12B01,12 C/C++ 与性能优化,教材/参考书,Modern C,https://inria.hal.science/hal-02383654/document,下载/核验失败,https://inria.hal.science/hal-02383654/document: 不是 PDF 文件头,2026-10-29
+13X10,13 GPU 与并行计算,实验/习题/参考项目,Stanford CS149 编程作业（asst1–asst4 公开仓库）,,下载/核验失败,"各作业仓库均无许可证文件；按""许可证允许时保存源码""规则未收录（已移出库目录）",2026-10-29
+15B01,15 AI 应用与智能体开发,教材/参考书,Introduction to Information Retrieval,https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf,下载/核验失败,https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf: 0 URLError: <urlopen error [Errno 113] No route to host>,2026-10-29

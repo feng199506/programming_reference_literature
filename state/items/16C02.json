@@ -1,0 +1,59 @@
+{
+ "id": "16C02",
+ "started": "2026-10-29T18:51:06Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [
+  "Berkeley_CS161_Textbook_html_en/textbook_full.pdf (29952 KiB)"
+ ],
+ "dropped_count": 1,
+ "download_url": "https://textbook.cs161.org/",
+ "mirror_scope": {
+  "start": [
+   "https://textbook.cs161.org/"
+  ],
+  "include": [],
+  "level": "inf"
+ },
+ "verify": "通过：112 个文件（HTML 46，文档源 0）",
+ "info": {
+  "files": 112,
+  "html": 46,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "png",
+    60
+   ],
+   [
+    "html",
+    46
+   ],
+   [
+    "js",
+    3
+   ],
+   [
+    "css",
+    2
+   ],
+   [
+    "svg",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 3386,
+   "broken": 1,
+   "examples": [
+    "Berkeley_CS161_Textbook_html_en/textbook_full.pdf"
+   ]
+  }
+ },
+ "bytes": 8069120,
+ "sha256": "44da640620fb6c01a7e92829584187acd9a882c86ba902414df02b05faddfef3",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:52:10Z"
+}

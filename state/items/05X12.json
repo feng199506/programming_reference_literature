@@ -1,0 +1,61 @@
+{
+ "id": "05X12",
+ "started": "2026-10-29T17:30:22Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/huggingface/diffusers",
+ "ref": "v0.42.1",
+ "commit": "2a1433913c7044f34fa4767dd84b28bba0bb0ecf",
+ "commit_date": "2026-10-27T11:12:15+05:30",
+ "sparse_paths": [
+  "examples"
+ ],
+ "verify": "通过：483 个文件（HTML 0，文档源 156）",
+ "info": {
+  "files": 483,
+  "html": 0,
+  "md_rst_ipynb": 156,
+  "top_ext": [
+   [
+    "py",
+    311
+   ],
+   [
+    "md",
+    92
+   ],
+   [
+    "txt",
+    61
+   ],
+   [
+    "sh",
+    6
+   ],
+   [
+    "yaml",
+    4
+   ],
+   [
+    "ipynb",
+    3
+   ],
+   [
+    "cff",
+    1
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "license_files": [
+   "hf_diffusers_v0.42.1_examples_en/LICENSE"
+  ]
+ },
+ "bytes": 15994880,
+ "sha256": "18f99cfe0a689279fde573775ae71b77437be24aab32a6575b49ded2be926cd7",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:30:24Z"
+}

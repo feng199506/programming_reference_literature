@@ -1,0 +1,62 @@
+{
+ "id": "15X01",
+ "started": "2026-10-29T17:32:17Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/UKPLab/sentence-transformers",
+ "ref": "v6.2.0",
+ "commit": "0b6937d55981e3486caf9b64ad2664c9a9edb51d",
+ "commit_date": "2026-10-21T13:15:54+02:00",
+ "sparse_paths": [
+  "examples"
+ ],
+ "verify": "通过：263 个文件（HTML 0，文档源 82）",
+ "info": {
+  "files": 263,
+  "html": 0,
+  "md_rst_ipynb": 82,
+  "top_ext": [
+   [
+    "py",
+    175
+   ],
+   [
+    "md",
+    68
+   ],
+   [
+    "ipynb",
+    8
+   ],
+   [
+    "rst",
+    5
+   ],
+   [
+    "jpg",
+    4
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "txt",
+    1
+   ],
+   [
+    "toml",
+    1
+   ]
+  ],
+  "license_files": [
+   "sentence_transformers_6.2.0_examples_en/LICENSE",
+   "sentence_transformers_6.2.0_examples_en/NOTICE.txt"
+  ]
+ },
+ "bytes": 20285440,
+ "sha256": "2b95125092c0ad7778aa9d80ce500685d13d91f1b80487548008d3c50e371ef4",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:20Z"
+}

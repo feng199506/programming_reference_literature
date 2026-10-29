@@ -1,0 +1,61 @@
+{
+ "id": "14X08",
+ "started": "2026-10-29T17:32:17Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/kubernetes/examples",
+ "ref": "(默认分支)",
+ "commit": "22934a040acbb0c0aa103023ccbd871507bf17f6",
+ "commit_date": "2026-10-27T18:21:20Z",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：457 个文件（HTML 4，文档源 75）",
+ "info": {
+  "files": 457,
+  "html": 4,
+  "md_rst_ipynb": 75,
+  "top_ext": [
+   [
+    "yaml",
+    246
+   ],
+   [
+    "md",
+    75
+   ],
+   [
+    "",
+    38
+   ],
+   [
+    "sh",
+    35
+   ],
+   [
+    "json",
+    14
+   ],
+   [
+    "go",
+    7
+   ],
+   [
+    "gitignore",
+    6
+   ],
+   [
+    "conf",
+    4
+   ]
+  ],
+  "license_files": [
+   "kubernetes_examples_master_en/LICENSE"
+  ]
+ },
+ "bytes": 1996800,
+ "sha256": "9efc17b47f2f0b5532cfb51deaee26c9d8b93cca6c211d8c226b70e4f288ea75",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:17Z"
+}

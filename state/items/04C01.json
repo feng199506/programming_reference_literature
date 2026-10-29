@@ -1,0 +1,77 @@
+{
+ "id": "04C01",
+ "started": "2026-10-29T19:06:02Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://introml.mit.edu/notes/",
+ "mirror_scope": {
+  "start": [
+   "https://introml.mit.edu/notes/"
+  ],
+  "include": [
+   "/notes",
+   "/_static",
+   "/_images"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：78 个文件（HTML 15，文档源 0）",
+ "info": {
+  "files": 78,
+  "html": 15,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "png",
+    32
+   ],
+   [
+    "html",
+    15
+   ],
+   [
+    "js",
+    14
+   ],
+   [
+    "css",
+    12
+   ],
+   [
+    "svg",
+    2
+   ],
+   [
+    "gif",
+    1
+   ],
+   [
+    "jpg",
+    1
+   ],
+   [
+    "woff?2820a3852bdb9a5832199cc61cec4e65",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 1105,
+   "broken": 11,
+   "examples": [
+    "MIT_6390_LectureNotes_html_en/notes/${href}",
+    "MIT_6390_LectureNotes_html_en/notes/${href}",
+    "MIT_6390_LectureNotes_html_en/notes/${href}",
+    "MIT_6390_LectureNotes_html_en/notes/${href}",
+    "MIT_6390_LectureNotes_html_en/notes/${href}"
+   ]
+  }
+ },
+ "bytes": 18288640,
+ "sha256": "d6c86b8c02c7e460d346abe23938086aa7cef2d062674f253260917d3d2c859a",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:06:54Z"
+}

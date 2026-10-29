@@ -1,0 +1,42 @@
+{
+ "id": "04D06",
+ "started": "2026-10-29T17:27:32Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/iterative/dvc.org",
+ "ref": "(默认分支)",
+ "commit": "21fabba8d66bf81e3cfcbcb9e061d4a5363399ad",
+ "commit_date": "2026-10-01T09:52:31+05:45",
+ "sparse_paths": [
+  "content/docs"
+ ],
+ "verify": "通过：206 个文件（HTML 0，文档源 203）",
+ "info": {
+  "files": 206,
+  "html": 0,
+  "md_rst_ipynb": 203,
+  "top_ext": [
+   [
+    "md",
+    203
+   ],
+   [
+    "json",
+    2
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "entry": "dvc_docs_main_src_en/content/docs/index.md",
+  "license_files": [
+   "dvc_docs_main_src_en/LICENSE"
+  ]
+ },
+ "bytes": 1474560,
+ "sha256": "ec5c9476e06514b4a503b7dfacf0576caedf57b1969148135ce450275b5ae7de",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:27:33Z"
+}

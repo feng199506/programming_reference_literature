@@ -1,0 +1,53 @@
+{
+ "id": "06B01",
+ "started": "2026-10-29T18:01:53Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://abseil.io/resources/swe-book/html/toc.html",
+ "mirror_scope": {
+  "start": [
+   "https://abseil.io/resources/swe-book/html/toc.html"
+  ],
+  "include": [
+   "/resources/swe-book"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：77 个文件（HTML 35，文档源 1）",
+ "info": {
+  "files": 77,
+  "html": 35,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "png",
+    40
+   ],
+   [
+    "html",
+    35
+   ],
+   [
+    "css",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 3034,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 6359040,
+ "sha256": "0e641066560965acea3f7ab3892df9d95e94dc60d8335ecaed16c335c7e63b9d",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:02:51Z"
+}

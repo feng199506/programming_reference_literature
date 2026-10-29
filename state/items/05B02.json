@@ -1,0 +1,16 @@
+{
+ "id": "05B02",
+ "reused_from": "/root/time_series_literature/books/files/Prince_UnderstandingDeepLearning_PDFv503GitHubrelease20260209_2023_en.pdf",
+ "status": "ok",
+ "verify": "通过：pypdf 可解析 541 页；标题词匹配 1.0",
+ "info": {
+  "pages": 541,
+  "meta_title": "",
+  "body_sample_chars": 8273,
+  "title_match": 1.0
+ },
+ "bytes": 22344992,
+ "sha256": "f8237d393163900fa8e43210e680a3f987b45ccac7750b372e156fae3df0bf32",
+ "error": "",
+ "access_date": "2026-10-29"
+}

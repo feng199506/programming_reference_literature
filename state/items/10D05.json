@@ -1,0 +1,61 @@
+{
+ "id": "10D05",
+ "started": "2026-10-29T17:47:38Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/d3/d3",
+ "ref": "(默认分支)",
+ "commit": "3d1a90c30805c17b79eb24c13c5aa45454534850",
+ "commit_date": "2026-10-21T22:24:11Z",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：157 个文件（HTML 0，文档源 119）",
+ "info": {
+  "files": 157,
+  "html": 0,
+  "md_rst_ipynb": 119,
+  "top_ext": [
+   [
+    "md",
+    119
+   ],
+   [
+    "vue",
+    21
+   ],
+   [
+    "js",
+    7
+   ],
+   [
+    "ts",
+    3
+   ],
+   [
+    "json",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "css",
+    1
+   ],
+   [
+    "csv",
+    1
+   ]
+  ],
+  "license_files": [
+   "d3_docs_main_src_en/LICENSE"
+  ]
+ },
+ "bytes": 1617920,
+ "sha256": "fc20b2d8c06de0cbe3c51968812e0d6475e390576b9083b410be6f014e4b97b4",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:41Z"
+}

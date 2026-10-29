@@ -1,0 +1,19 @@
+{
+ "id": "14P11",
+ "started": "2026-10-29T17:52:43Z",
+ "download_url": "https://raft.github.io/raft.pdf",
+ "final_url": "https://raft.github.io/raft.pdf",
+ "http_last_modified": "Mon, 06 Jul 2026 06:48:51 GMT",
+ "verify": "通过：pypdf 可解析 18 页；标题词匹配 1.0",
+ "info": {
+  "pages": 18,
+  "meta_title": "In Search of an Understandable Consensus Algorithm",
+  "body_sample_chars": 20493,
+  "title_match": 1.0
+ },
+ "bytes": 567533,
+ "sha256": "5a5c679b6a7c88007faeff8c3eef19a77e9e5caa8bd7390922584fe8ecf0ce1f",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:44Z"
+}

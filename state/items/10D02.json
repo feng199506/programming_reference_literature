@@ -1,0 +1,67 @@
+{
+ "id": "10D02",
+ "started": "2026-10-29T17:32:45Z",
+ "dropped_large_files": [
+  "streamlit_docs_main_src_en/python/api-examples-source/charts.video3/sintel-short.mp4 (21783 KiB)",
+  "streamlit_docs_main_src_en/python/streamlit.json (45920 KiB)"
+ ],
+ "dropped_count": 2,
+ "download_url": "https://github.com/streamlit/docs",
+ "ref": "(默认分支)",
+ "commit": "9cedd224478c36e485210be8882d2ac7e8bf188a",
+ "commit_date": "2026-10-29T07:40:15+01:00",
+ "sparse_paths": [
+  "content",
+  "python"
+ ],
+ "verify": "通过：889 个文件（HTML 7，文档源 444）",
+ "info": {
+  "files": 889,
+  "html": 7,
+  "md_rst_ipynb": 444,
+  "top_ext": [
+   [
+    "md",
+    409
+   ],
+   [
+    "py",
+    363
+   ],
+   [
+    "txt",
+    35
+   ],
+   [
+    "ttf",
+    24
+   ],
+   [
+    "toml",
+    9
+   ],
+   [
+    "png",
+    8
+   ],
+   [
+    "js",
+    8
+   ],
+   [
+    "html",
+    7
+   ]
+  ],
+  "license_files": [
+   "streamlit_docs_main_src_en/LICENSE",
+   "streamlit_docs_main_src_en/NOTICES",
+   "streamlit_docs_main_src_en/python/api-examples-source/st-experimental-connection/LICENSE"
+  ]
+ },
+ "bytes": 9267200,
+ "sha256": "f2891f4553604542d8a72adaf6ca12e99f7015a982b21f44e4468f8661230e00",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:50Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "13P19",
+ "started": "2026-10-29T18:37:39Z",
+ "download_url": "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2008/EECS-2008-134.pdf",
+ "final_url": "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2008/Archive/EECS-2008-134.pdf",
+ "http_last_modified": "Fri, 17 Oct 2008 21:47:04 GMT",
+ "verify": "通过：pypdf 可解析 16 页；标题词匹配 1.0",
+ "info": {
+  "pages": 16,
+  "meta_title": "",
+  "body_sample_chars": 16328,
+  "title_match": 1.0
+ },
+ "bytes": 2430563,
+ "sha256": "c92f852eed1070b140302114339271dc1a4d6d665814ac9000be6ce06a7d6bcb",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:37:44Z"
+}

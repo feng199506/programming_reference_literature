@@ -1,0 +1,61 @@
+{
+ "id": "05B04",
+ "started": "2026-10-29T17:46:11Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/stas00/ml-engineering",
+ "ref": "(默认分支)",
+ "commit": "adab2fa8732e13029acd8ab992c1941604f5f94d",
+ "commit_date": "2026-10-26T19:35:46-07:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：243 个文件（HTML 0，文档源 64）",
+ "info": {
+  "files": 243,
+  "html": 0,
+  "md_rst_ipynb": 64,
+  "top_ext": [
+   [
+    "png",
+    90
+   ],
+   [
+    "md",
+    62
+   ],
+   [
+    "py",
+    58
+   ],
+   [
+    "slurm",
+    9
+   ],
+   [
+    "",
+    6
+   ],
+   [
+    "sh",
+    5
+   ],
+   [
+    "txt",
+    2
+   ],
+   [
+    "cu",
+    2
+   ]
+  ],
+  "license_files": [
+   "Bekman_MachineLearningEngineeringOpenBook_src_en/LICENSE-CC-BY-SA"
+  ]
+ },
+ "bytes": 26798080,
+ "sha256": "c16e0b266cac50abcf25dcccca58efa595b6dd40cc35a62cddc0c47a9bdfad2d",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:13Z"
+}

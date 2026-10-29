@@ -1,0 +1,64 @@
+{
+ "id": "01X02",
+ "started": "2026-10-29T17:45:19Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/exercism/python",
+ "ref": "(默认分支)",
+ "commit": "6105f6d9d3ef66ce3d5c8f529d2882af3d76b706",
+ "commit_date": "2026-09-30T13:13:24-07:00",
+ "sparse_paths": [
+  "exercises",
+  "concepts",
+  "reference",
+  "docs"
+ ],
+ "verify": "通过：2188 个文件（HTML 0，文档源 1019）",
+ "info": {
+  "files": 2188,
+  "html": 0,
+  "md_rst_ipynb": 1019,
+  "top_ext": [
+   [
+    "md",
+    902
+   ],
+   [
+    "py",
+    516
+   ],
+   [
+    "json",
+    369
+   ],
+   [
+    "toml",
+    136
+   ],
+   [
+    "j2",
+    125
+   ],
+   [
+    "txt",
+    117
+   ],
+   [
+    "png",
+    9
+   ],
+   [
+    "svg",
+    6
+   ]
+  ],
+  "license_files": [
+   "exercism_python_main_en/LICENSE"
+  ]
+ },
+ "bytes": 9830400,
+ "sha256": "49c0aefdaa380fd80d3f9fa2a84edfad9520a73f192f18a44fdc911473fb9ca9",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:21Z"
+}

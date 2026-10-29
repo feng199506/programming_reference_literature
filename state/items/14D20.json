@@ -1,0 +1,42 @@
+{
+ "id": "14D20",
+ "started": "2026-10-29T17:48:32Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/prometheus/docs",
+ "ref": "(默认分支)",
+ "commit": "529a03b7e2b6201f52b7ee0c61d059efa5fb2051",
+ "commit_date": "2026-10-29T12:51:30Z",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：79 个文件（HTML 0，文档源 76）",
+ "info": {
+  "files": 79,
+  "html": 0,
+  "md_rst_ipynb": 76,
+  "top_ext": [
+   [
+    "md",
+    76
+   ],
+   [
+    "",
+    2
+   ],
+   [
+    "json",
+    1
+   ]
+  ],
+  "license_files": [
+   "prometheus_docs_main_src_en/LICENSE",
+   "prometheus_docs_main_src_en/NOTICE"
+  ]
+ },
+ "bytes": 1024000,
+ "sha256": "7171d5b553bafe62996652af70a8ef5c97d5820c552ea2b90e2e317e42e251f3",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:34Z"
+}

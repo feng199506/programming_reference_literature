@@ -1,0 +1,74 @@
+{
+ "id": "05D01",
+ "started": "2026-10-29T17:27:55Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/pytorch/docs",
+ "ref": "site",
+ "commit": "3a29da2a0e1cd63842f930fd6835250a2db5b393",
+ "commit_date": "2026-10-29T00:49:16Z",
+ "sparse_paths": [
+  "2.15"
+ ],
+ "verify": "通过：10829 个文件（HTML 3565，文档源 7000）",
+ "info": {
+  "files": 10829,
+  "html": 3565,
+  "md_rst_ipynb": 7000,
+  "top_ext": [
+   [
+    "html",
+    3565
+   ],
+   [
+    "txt",
+    3500
+   ],
+   [
+    "md",
+    3500
+   ],
+   [
+    "png",
+    164
+   ],
+   [
+    "js",
+    25
+   ],
+   [
+    "svg",
+    18
+   ],
+   [
+    "scss",
+    18
+   ],
+   [
+    "css",
+    15
+   ]
+  ],
+  "entry": "pytorch_2.15_docs_html_en/2.15/index.html",
+  "license_files": [
+   "pytorch_2.15_docs_html_en/2.15/_static/vendor/fontawesome/6.5.2/LICENSE.txt",
+   "pytorch_2.15_docs_html_en/LICENSE.md"
+  ],
+  "link_sample": {
+   "links": 98660,
+   "broken": 119,
+   "examples": [
+    "pytorch_2.15_docs_html_en/2.15/_static/webfonts/all.min.css",
+    "pytorch_2.15_docs_html_en/2.15/_static/webfonts/all.min.css",
+    "pytorch_2.15_docs_html_en/2.15/_static/webfonts/all.min.css",
+    "pytorch_2.15_docs_html_en/2.15/_static/webfonts/all.min.css",
+    "pytorch_2.15_docs_html_en/2.15/_static/webfonts/all.min.css"
+   ]
+  }
+ },
+ "bytes": 831068160,
+ "sha256": "231124a424f7574d2f3dbf87e03d11324eb5c51910c4e75d33f7a627aed84bcc",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:28:24Z"
+}

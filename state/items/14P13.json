@@ -1,0 +1,19 @@
+{
+ "id": "14P13",
+ "started": "2026-10-29T17:52:44Z",
+ "download_url": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+ "final_url": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+ "http_last_modified": "Wed, 26 Aug 2026 16:00:16 GMT",
+ "verify": "通过：pypdf 可解析 16 页；标题词匹配 1.0",
+ "info": {
+  "pages": 16,
+  "meta_title": "Microsoft Word - sosp067-decandia1.doc",
+  "body_sample_chars": 25092,
+  "title_match": 1.0
+ },
+ "bytes": 900468,
+ "sha256": "5cacd624cd7bfd37e3d22e04d8c2e347a49579d2927dbb06f40a89c0bcd40bd4",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:44Z"
+}

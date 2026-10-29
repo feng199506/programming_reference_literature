@@ -1,0 +1,19 @@
+{
+ "id": "14P14",
+ "started": "2026-10-29T17:52:44Z",
+ "download_url": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43438.pdf",
+ "final_url": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43438.pdf",
+ "http_last_modified": "Tue, 03 Mar 2020 20:15:00 GMT",
+ "verify": "通过：pypdf 可解析 18 页；标题词匹配 1.0",
+ "info": {
+  "pages": 18,
+  "meta_title": "",
+  "body_sample_chars": 19858,
+  "title_match": 1.0
+ },
+ "bytes": 856540,
+ "sha256": "2fdacd3b69f8af91477412fc91d1d858a43e764929a4edb646bd517ededdad94",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:46Z"
+}

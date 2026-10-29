@@ -1,0 +1,50 @@
+{
+ "id": "15D11",
+ "started": "2026-10-29T17:49:04Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/microsoft/language-server-protocol",
+ "ref": "gh-pages",
+ "commit": "112d978951f2223a962bf19516637862f587bf55",
+ "commit_date": "2026-10-26T20:13:31-07:00",
+ "sparse_paths": [
+  "_specifications"
+ ],
+ "verify": "通过：283 个文件（HTML 0，文档源 259）",
+ "info": {
+  "files": 283,
+  "html": 0,
+  "md_rst_ipynb": 259,
+  "top_ext": [
+   [
+    "md",
+    256
+   ],
+   [
+    "png",
+    15
+   ],
+   [
+    "json",
+    6
+   ],
+   [
+    "txt",
+    3
+   ],
+   [
+    "ts",
+    3
+   ]
+  ],
+  "license_files": [
+   "lsp_specification_en/License-code.txt",
+   "lsp_specification_en/License.txt"
+  ]
+ },
+ "bytes": 4648960,
+ "sha256": "6a50f015968a54b2f734720373dfc21d8957df260770ee386cfea2c490045412",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:49:06Z"
+}

@@ -1,0 +1,14 @@
+{
+ "id": "13D01",
+ "started": "2026-10-29T17:56:03Z",
+ "download_url": "https://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf",
+ "verify": "通过：5 个章节 PDF 均可解析，共 2325 页",
+ "info": {
+  "chapters": 5,
+  "pages": 2325
+ },
+ "bytes": 30006820,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:56:08Z"
+}

@@ -1,0 +1,62 @@
+{
+ "id": "16X02",
+ "started": "2026-10-29T17:50:29Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/WebGoat/WebGoat",
+ "ref": "(默认分支)",
+ "commit": "e7b131360d74336c0c94ab5c8a21259503f59be8",
+ "commit_date": "2026-10-12T21:50:06+02:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：1391 个文件（HTML 76，文档源 337）",
+ "info": {
+  "files": 1391,
+  "html": 76,
+  "md_rst_ipynb": 337,
+  "top_ext": [
+   [
+    "java",
+    498
+   ],
+   [
+    "adoc",
+    313
+   ],
+   [
+    "properties",
+    142
+   ],
+   [
+    "png",
+    97
+   ],
+   [
+    "js",
+    96
+   ],
+   [
+    "html",
+    76
+   ],
+   [
+    "css",
+    36
+   ],
+   [
+    "jpg",
+    28
+   ]
+  ],
+  "license_files": [
+   "owasp_webgoat_main_en/COPYRIGHT.txt",
+   "owasp_webgoat_main_en/LICENSE.txt"
+  ]
+ },
+ "bytes": 24801280,
+ "sha256": "20cf82d144c75959f18725e91b7b75b0f6689da5ba06bccd3132c48748e7ed72",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:50:31Z"
+}

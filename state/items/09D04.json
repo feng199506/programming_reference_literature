@@ -1,0 +1,42 @@
+{
+ "id": "09D04",
+ "started": "2026-10-29T17:47:06Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/OAI/OpenAPI-Specification",
+ "ref": "(默认分支)",
+ "commit": "4f86429f134f7e48b6351563549b4502fc69de52",
+ "commit_date": "2026-10-18T18:34:56+01:00",
+ "sparse_paths": [
+  "versions",
+  "src"
+ ],
+ "verify": "通过：36 个文件（HTML 0，文档源 34）",
+ "info": {
+  "files": 36,
+  "html": 0,
+  "md_rst_ipynb": 34,
+  "top_ext": [
+   [
+    "md",
+    34
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "json",
+    1
+   ]
+  ],
+  "license_files": [
+   "openapi_specification_main_en/LICENSE"
+  ]
+ },
+ "bytes": 2119680,
+ "sha256": "59097c3681faaa1fe0ccc69a6b1126c755346c72fda9094130d89a4535dbbd5b",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:08Z"
+}

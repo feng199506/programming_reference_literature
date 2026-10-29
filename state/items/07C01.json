@@ -1,0 +1,61 @@
+{
+ "id": "07C01",
+ "started": "2026-10-29T17:46:41Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/missing-semester/missing-semester",
+ "ref": "(默认分支)",
+ "commit": "1d695c94ccafdce3f06d6b9dfe3e6f106097693a",
+ "commit_date": "2026-10-08T09:45:32-07:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：120 个文件（HTML 11，文档源 49）",
+ "info": {
+  "files": 120,
+  "html": 11,
+  "md_rst_ipynb": 49,
+  "top_ext": [
+   [
+    "md",
+    47
+   ],
+   [
+    "png",
+    27
+   ],
+   [
+    "html",
+    11
+   ],
+   [
+    "yml",
+    5
+   ],
+   [
+    "mp4",
+    5
+   ],
+   [
+    "",
+    4
+   ],
+   [
+    "sbv",
+    4
+   ],
+   [
+    "xml",
+    2
+   ]
+  ],
+  "license_files": [
+   "MIT_MissingSemester_src_en/license.md"
+  ]
+ },
+ "bytes": 17192960,
+ "sha256": "cce7a4e29da29296abe2f7848482e4a7455dd214b058a551b92ab14a76548081",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:42Z"
+}

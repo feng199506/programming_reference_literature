@@ -1,0 +1,19 @@
+{
+ "id": "02B04",
+ "started": "2026-10-29T17:45:58Z",
+ "download_url": "https://people.cs.vt.edu/shaffer/Book/C++3e20120605.pdf",
+ "final_url": "https://people.cs.vt.edu/shaffer/Book/C++3e20120605.pdf",
+ "http_last_modified": "Tue, 05 Jun 2012 14:17:02 GMT",
+ "verify": "通过：pypdf 可解析 613 页；标题词匹配 1.0",
+ "info": {
+  "pages": 613,
+  "meta_title": "",
+  "body_sample_chars": 8966,
+  "title_match": 1.0
+ },
+ "bytes": 2681651,
+ "sha256": "23732ecfd9fce8d3773e228f013cc09b33131a1e0a71c377d3fc1db57145d5a1",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:59Z"
+}

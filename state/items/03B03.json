@@ -1,0 +1,71 @@
+{
+ "id": "03B03",
+ "started": "2026-10-29T17:51:28Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html",
+ "mirror_scope": {
+  "start": [
+   "https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html"
+  ],
+  "include": [
+   "/notebooks",
+   "/_static",
+   "/_images"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：432 个文件（HTML 161，文档源 0）",
+ "info": {
+  "files": 432,
+  "html": 161,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "png",
+    173
+   ],
+   [
+    "html",
+    161
+   ],
+   [
+    "jpg",
+    33
+   ],
+   [
+    "woff",
+    15
+   ],
+   [
+    "woff2",
+    15
+   ],
+   [
+    "css",
+    12
+   ],
+   [
+    "js",
+    11
+   ],
+   [
+    "eot",
+    3
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 27839,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 51793920,
+ "sha256": "b1fa6e634337345ee3ad66b1d758984d7d717d886f1560b2f65ed930095c3e53",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:56:13Z"
+}

@@ -1,0 +1,61 @@
+{
+ "id": "12B05",
+ "started": "2026-10-29T18:43:20Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://en.algorithmica.org/hpc/",
+ "mirror_scope": {
+  "start": [
+   "https://en.algorithmica.org/hpc/"
+  ],
+  "include": [
+   "/hpc"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：277 个文件（HTML 151，文档源 0）",
+ "info": {
+  "files": 277,
+  "html": 151,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "html",
+    151
+   ],
+   [
+    "svg",
+    83
+   ],
+   [
+    "png",
+    36
+   ],
+   [
+    "jpg",
+    5
+   ],
+   [
+    "ppm",
+    1
+   ],
+   [
+    "webp",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 11334,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 12830720,
+ "sha256": "ac960e59508a18822dff525f16772208d40243339306e179a0ccca15fed60b8c",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:47:52Z"
+}

@@ -1,0 +1,62 @@
+{
+ "id": "03D10",
+ "started": "2026-10-29T17:45:43Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/scipy-lectures/scientific-python-lectures",
+ "ref": "(默认分支)",
+ "commit": "817a97d8d9a26eeb4e735a402420cd34dd7e89fc",
+ "commit_date": "2026-02-03T07:31:08-08:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：426 个文件（HTML 1，文档源 101）",
+ "info": {
+  "files": 426,
+  "html": 1,
+  "md_rst_ipynb": 101,
+  "top_ext": [
+   [
+    "py",
+    191
+   ],
+   [
+    "md",
+    68
+   ],
+   [
+    "png",
+    53
+   ],
+   [
+    "txt",
+    33
+   ],
+   [
+    "svg",
+    12
+   ],
+   [
+    "yml",
+    8
+   ],
+   [
+    "",
+    6
+   ],
+   [
+    "c",
+    6
+   ]
+  ],
+  "license_files": [
+   "scientific_python_lectures_main_src_en/LICENSE.md",
+   "scientific_python_lectures_main_src_en/data/LICENCE.txt"
+  ]
+ },
+ "bytes": 6440960,
+ "sha256": "d4d2d0758ae6bede3750eff30798b530c8a8780ee9b0291372061bb995aeff88",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:44Z"
+}

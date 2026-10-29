@@ -1,0 +1,64 @@
+{
+ "id": "05X02",
+ "started": "2026-10-29T17:30:01Z",
+ "dropped_large_files": [
+  "opencv_5.0.0_samples_en/samples/data/vtest.avi (7941 KiB)"
+ ],
+ "dropped_count": 1,
+ "download_url": "https://github.com/opencv/opencv",
+ "ref": "5.0.0",
+ "commit": "40738fb16ceddb5fb3fea747585f7ce6abb0605b",
+ "commit_date": "2026-06-05T21:50:05+03:00",
+ "sparse_paths": [
+  "samples"
+ ],
+ "verify": "通过：1162 个文件（HTML 4，文档源 63）",
+ "info": {
+  "files": 1162,
+  "html": 4,
+  "md_rst_ipynb": 63,
+  "top_ext": [
+   [
+    "cpp",
+    289
+   ],
+   [
+    "py",
+    174
+   ],
+   [
+    "png",
+    151
+   ],
+   [
+    "java",
+    82
+   ],
+   [
+    "jpg",
+    75
+   ],
+   [
+    "txt",
+    56
+   ],
+   [
+    "xml",
+    54
+   ],
+   [
+    "h",
+    53
+   ]
+  ],
+  "license_files": [
+   "opencv_5.0.0_samples_en/LICENSE",
+   "opencv_5.0.0_samples_en/samples/data/licenseplate_motion.jpg"
+  ]
+ },
+ "bytes": 32471040,
+ "sha256": "aac4a98edf389f7fd774352d9378d216e4c300ebfa3923c820b5279918703ebe",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:30:07Z"
+}

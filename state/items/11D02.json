@@ -1,0 +1,65 @@
+{
+ "id": "11D02",
+ "started": "2026-10-29T18:23:19Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/torvalds/linux",
+ "ref": "(默认分支)",
+ "commit": "c339f4010dea8b0d754f84ace70cd1b089878ef8",
+ "commit_date": "2026-10-28T07:36:32-10:00",
+ "sparse_paths": [
+  "Documentation"
+ ],
+ "verify": "通过：11611 个文件（HTML 2，文档源 4754）",
+ "info": {
+  "files": 11611,
+  "html": 2,
+  "md_rst_ipynb": 4754,
+  "top_ext": [
+   [
+    "yaml",
+    5908
+   ],
+   [
+    "rst",
+    4087
+   ],
+   [
+    "",
+    738
+   ],
+   [
+    "txt",
+    667
+   ],
+   [
+    "svg",
+    87
+   ],
+   [
+    "dot",
+    24
+   ],
+   [
+    "py",
+    14
+   ],
+   [
+    "litmus",
+    12
+   ]
+  ],
+  "license_files": [
+   "linux_kernel_documentation_master_src_en/COPYING",
+   "linux_kernel_documentation_master_src_en/Documentation/images/COPYING-logo",
+   "linux_kernel_documentation_master_src_en/Documentation/process/license-rules.rst",
+   "linux_kernel_documentation_master_src_en/Documentation/scsi/LICENSE.FlashPoint",
+   "linux_kernel_documentation_master_src_en/Documentation/translations/it_IT/process/license-rules.rst"
+  ]
+ },
+ "bytes": 81295360,
+ "sha256": "5a401b99e93095824c828fb603f94a88fb21e1a768031ad25141701d434f5ae7",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:28:26Z"
+}

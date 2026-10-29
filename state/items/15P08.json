@@ -1,0 +1,19 @@
+{
+ "id": "15P08",
+ "started": "2026-10-29T17:51:34Z",
+ "download_url": "https://arxiv.org/pdf/2402.01030v4",
+ "final_url": "https://arxiv.org/pdf/2402.01030v4",
+ "http_last_modified": "Mon, 10 Jun 2024 01:03:25 GMT",
+ "verify": "通过：pypdf 可解析 25 页；标题词匹配 1.0",
+ "info": {
+  "pages": 25,
+  "meta_title": " Executable Code Actions Elicit Better LLM Agents ",
+  "body_sample_chars": 11501,
+  "title_match": 1.0
+ },
+ "bytes": 4345392,
+ "sha256": "749a45e36cf89fc7e1b701a2a72f6609ce8d3697577ceb0fff5ce9339ce8539e",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:39Z"
+}

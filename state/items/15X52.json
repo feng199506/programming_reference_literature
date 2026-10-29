@@ -1,0 +1,72 @@
+{
+ "id": "15X52",
+ "started": "2026-10-29T17:49:23Z",
+ "dropped_large_files": [
+  "openai_cookbook_main_en/examples/data/fine_food_reviews_with_embeddings_1k.csv (34224 KiB)",
+  "openai_cookbook_main_en/examples/data/recommendations_embeddings_cache.pkl (54827 KiB)",
+  "openai_cookbook_main_en/examples/data/sample_clothes/sample_styles_with_embeddings.csv (67363 KiB)",
+  "openai_cookbook_main_en/examples/data/winemag/winemag-data-130k-v2.csv (51668 KiB)",
+  "openai_cookbook_main_en/examples/data/winter_olympics_2022.csv (71685 KiB)",
+  "openai_cookbook_main_en/examples/gpt4o/data/keynote_recap.mp4 (8322 KiB)",
+  "openai_cookbook_main_en/examples/partners/macro_evals_for_agentic_systems/data/trace_bundles.zip (36063 KiB)",
+  "openai_cookbook_main_en/examples/voice_solutions/sounds/keynote_recap.wav (36348 KiB)"
+ ],
+ "dropped_count": 8,
+ "download_url": "https://github.com/openai/openai-cookbook",
+ "ref": "(默认分支)",
+ "commit": "f5819076643583e2c2a77268e7fe522e927499d0",
+ "commit_date": "2026-10-29T09:53:35-07:00",
+ "sparse_paths": [
+  "examples",
+  "articles",
+  "registry.yaml"
+ ],
+ "verify": "通过：3157 个文件（HTML 16，文档源 540）",
+ "info": {
+  "files": 3157,
+  "html": 16,
+  "md_rst_ipynb": 540,
+  "top_ext": [
+   [
+    "jpg",
+    1216
+   ],
+   [
+    "py",
+    490
+   ],
+   [
+    "ipynb",
+    277
+   ],
+   [
+    "json",
+    238
+   ],
+   [
+    "md",
+    158
+   ],
+   [
+    "txt",
+    98
+   ],
+   [
+    "png",
+    90
+   ],
+   [
+    "pdf",
+    66
+   ]
+  ],
+  "license_files": [
+   "openai_cookbook_main_en/LICENSE"
+  ]
+ },
+ "bytes": 420853760,
+ "sha256": "a34fba52521d5ee17f592b8d561042a3d1c8583f920006fe1160bbd5ef19942a",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:50:10Z"
+}

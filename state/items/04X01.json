@@ -1,0 +1,57 @@
+{
+ "id": "04X01",
+ "started": "2026-10-29T17:27:13Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/scikit-learn/scikit-learn",
+ "ref": "1.9.1",
+ "commit": "866c0f51e7560ef0303cbcc5f159df5382ea9e3f",
+ "commit_date": "2026-09-10T07:14:20+02:00",
+ "sparse_paths": [
+  "examples"
+ ],
+ "verify": "通过：324 个文件（HTML 0，文档源 40）",
+ "info": {
+  "files": 324,
+  "html": 0,
+  "md_rst_ipynb": 40,
+  "top_ext": [
+   [
+    "py",
+    281
+   ],
+   [
+    "txt",
+    35
+   ],
+   [
+    "md",
+    4
+   ],
+   [
+    "cff",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "rst",
+    1
+   ],
+   [
+    "toml",
+    1
+   ]
+  ],
+  "license_files": [
+   "scikit-learn_1.9.1_examples_en/COPYING"
+  ]
+ },
+ "bytes": 2478080,
+ "sha256": "30aeca3aeb89304f062e3baa83bf12f6087c89aee49e126bb0d781260334700d",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:27:15Z"
+}

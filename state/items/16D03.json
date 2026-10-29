@@ -1,0 +1,53 @@
+{
+ "id": "16D03",
+ "started": "2026-10-29T17:50:21Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/OWASP/wstg",
+ "ref": "(默认分支)",
+ "commit": "ea6e8c986b3d0889d8cc96da77f4c875ffddd891",
+ "commit_date": "2026-10-29T09:53:35-04:00",
+ "sparse_paths": [
+  "document"
+ ],
+ "verify": "通过：228 个文件（HTML 0，文档源 174）",
+ "info": {
+  "files": 228,
+  "html": 0,
+  "md_rst_ipynb": 174,
+  "top_ext": [
+   [
+    "md",
+    174
+   ],
+   [
+    "png",
+    37
+   ],
+   [
+    "jpg",
+    11
+   ],
+   [
+    "gif",
+    4
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "jpeg",
+    1
+   ]
+  ],
+  "license_files": [
+   "owasp_wstg_master_src_en/LICENSE"
+  ]
+ },
+ "bytes": 6164480,
+ "sha256": "308937e993df9f2e8fda1b87ce7352595e28678496383556aae9060cd5141815",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:50:23Z"
+}

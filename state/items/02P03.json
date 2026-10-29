@@ -1,0 +1,19 @@
+{
+ "id": "02P03",
+ "started": "2026-10-29T17:48:46Z",
+ "download_url": "https://arxiv.org/pdf/2311.11793v4",
+ "final_url": "https://arxiv.org/pdf/2311.11793v4",
+ "http_last_modified": "Thu, 08 May 2025 01:02:34 GMT",
+ "verify": "通过：pypdf 可解析 35 页；标题词匹配 1.0",
+ "info": {
+  "pages": 35,
+  "meta_title": "Universal Optimality of Dijkstra via Beyond-Worst-Case Heaps",
+  "body_sample_chars": 16900,
+  "title_match": 1.0
+ },
+ "bytes": 828456,
+ "sha256": "4e518e2d55b26e871a78d6d94fc48b8d31aee1c8893366adc73fcaf80d24ca63",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:49Z"
+}

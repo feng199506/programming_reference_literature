@@ -1,0 +1,49 @@
+{
+ "id": "10B02",
+ "started": "2026-10-29T17:47:11Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/getify/You-Dont-Know-JS",
+ "ref": "(默认分支)",
+ "commit": "044120ef55564939cd35f5ddaf3f6c0a45d7b02c",
+ "commit_date": "2026-01-18T09:36:11-06:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：82 个文件（HTML 0，文档源 56）",
+ "info": {
+  "files": 82,
+  "html": 0,
+  "md_rst_ipynb": 56,
+  "top_ext": [
+   [
+    "md",
+    55
+   ],
+   [
+    "png",
+    15
+   ],
+   [
+    "svg",
+    10
+   ],
+   [
+    "editorconfig",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [
+   "Simpson_YouDontKnowJSYet_2ndEd_src_en/LICENSE.txt"
+  ]
+ },
+ "bytes": 10096640,
+ "sha256": "ae51daa7a7c9d3ed33a8a1500d33d84d4f9494bf033fea53873558edc3711508",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:12Z"
+}

@@ -1,0 +1,61 @@
+{
+ "id": "07X01",
+ "started": "2026-10-29T17:46:42Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/swcarpentry/shell-novice",
+ "ref": "(默认分支)",
+ "commit": "b91d85b848405a4a2fe0a297d8cedb71d68ab9bd",
+ "commit_date": "2026-10-08T10:48:26+03:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：286 个文件（HTML 0，文档源 70）",
+ "info": {
+  "files": 286,
+  "html": 0,
+  "md_rst_ipynb": 70,
+  "top_ext": [
+   [
+    "xml",
+    103
+   ],
+   [
+    "pdb",
+    60
+   ],
+   [
+    "txt",
+    49
+   ],
+   [
+    "md",
+    21
+   ],
+   [
+    "yaml",
+    10
+   ],
+   [
+    "",
+    8
+   ],
+   [
+    "svg",
+    8
+   ],
+   [
+    "dat",
+    5
+   ]
+  ],
+  "license_files": [
+   "swcarpentry_shell_novice_main_en/LICENSE.md"
+  ]
+ },
+ "bytes": 3215360,
+ "sha256": "1d71ad642347b518ab6a02e0a3aafc62a921c68f49739e9c442b60024af88c22",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:44Z"
+}

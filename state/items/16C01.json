@@ -1,0 +1,14 @@
+{
+ "id": "16C01",
+ "started": "2026-10-29T18:30:53Z",
+ "download_url": "https://web.stanford.edu/class/cs253/",
+ "verify": "通过：19 个文件均可解析（PDF 共 1548 页）",
+ "info": {
+  "chapters": 19,
+  "pages": 1548
+ },
+ "bytes": 296528528,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:37:39Z"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "15D02",
+ "started": "2026-10-29T17:32:20Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/facebookresearch/faiss.wiki",
+ "ref": "(默认分支)",
+ "commit": "7f5bf798ab1d07e0a04a79b78714f0db19e653e4",
+ "commit_date": "2026-10-06T14:17:29+02:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：176 个文件（HTML 1，文档源 58）",
+ "info": {
+  "files": 176,
+  "html": 1,
+  "md_rst_ipynb": 58,
+  "top_ext": [
+   [
+    "png",
+    102
+   ],
+   [
+    "md",
+    58
+   ],
+   [
+    "jpg",
+    14
+   ],
+   [
+    "pdf",
+    1
+   ],
+   [
+    "html",
+    1
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 21043200,
+ "sha256": "1b11b885101f1389583d42e3f0dbb27bf3c93ed71df49671b9a687afe57cd61d",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:21Z"
+}

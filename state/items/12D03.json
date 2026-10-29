@@ -1,0 +1,19 @@
+{
+ "id": "12D03",
+ "started": "2026-10-29T17:51:36Z",
+ "download_url": "https://sourceware.org/gdb/current/onlinedocs/gdb.pdf",
+ "final_url": "https://sourceware.org/gdb/current/onlinedocs/gdb.pdf",
+ "http_last_modified": "Thu, 29 Oct 2026 02:08:08 GMT",
+ "verify": "通过：pypdf 可解析 1008 页；标题词匹配 1.0",
+ "info": {
+  "pages": 1008,
+  "meta_title": "",
+  "body_sample_chars": 13230,
+  "title_match": 1.0
+ },
+ "bytes": 3205513,
+ "sha256": "6c61f4d19b03badd3ed1ef70196f2dce4c92c0e5d57659cd4922e88b32097641",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:38Z"
+}

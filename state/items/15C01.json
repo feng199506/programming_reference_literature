@@ -1,0 +1,14 @@
+{
+ "id": "15C01",
+ "started": "2026-10-29T17:53:23Z",
+ "download_url": "https://rdi.berkeley.edu/llm-agents/f24",
+ "verify": "通过：17 个章节 PDF 均可解析，共 1119 页",
+ "info": {
+  "chapters": 17,
+  "pages": 1119
+ },
+ "bytes": 217867524,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:54:48Z"
+}

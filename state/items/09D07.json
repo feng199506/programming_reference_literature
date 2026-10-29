@@ -1,0 +1,41 @@
+{
+ "id": "09D07",
+ "started": "2026-10-29T18:23:11Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/aip-dev/google.aip.dev",
+ "ref": "(默认分支)",
+ "commit": "2ccc61a4e09882bdd63aea1a42dceebc37bf3bd5",
+ "commit_date": "2026-10-15T22:32:30Z",
+ "sparse_paths": [
+  "aip"
+ ],
+ "verify": "通过：129 个文件（HTML 0，文档源 122）",
+ "info": {
+  "files": 129,
+  "html": 0,
+  "md_rst_ipynb": 122,
+  "top_ext": [
+   [
+    "md",
+    121
+   ],
+   [
+    "yaml",
+    7
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [
+   "google_aip_master_en/LICENSE.md"
+  ]
+ },
+ "bytes": 1024000,
+ "sha256": "4339b424f5fc6f2dbb8dc04e1a8f6b52b01c6f576f65737098363257d8ec9a49",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:23:13Z"
+}

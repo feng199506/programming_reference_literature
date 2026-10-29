@@ -1,0 +1,19 @@
+{
+ "id": "08B01",
+ "started": "2026-10-29T17:48:32Z",
+ "download_url": "http://www.redbook.io/pdf/redbook-5th-edition.pdf",
+ "final_url": "http://www.redbook.io/pdf/redbook-5th-edition.pdf",
+ "http_last_modified": "Thu, 18 Feb 2016 11:00:45 GMT",
+ "verify": "通过：pypdf 可解析 54 页；标题词匹配 1.0",
+ "info": {
+  "pages": 54,
+  "meta_title": "",
+  "body_sample_chars": 16308,
+  "title_match": 1.0
+ },
+ "bytes": 378664,
+ "sha256": "300b71b68649f79c4200acd740ba5c042efa5e69366e7a852f4b7eada4768497",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:33Z"
+}

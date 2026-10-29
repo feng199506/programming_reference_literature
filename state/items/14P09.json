@@ -1,0 +1,19 @@
+{
+ "id": "14P09",
+ "started": "2026-10-29T17:52:40Z",
+ "download_url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
+ "final_url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
+ "http_last_modified": "Tue, 15 Sep 2026 03:24:34 GMT",
+ "verify": "通过：pypdf 可解析 8 页；标题词匹配 1.0",
+ "info": {
+  "pages": 8,
+  "meta_title": "",
+  "body_sample_chars": 15489,
+  "title_match": 1.0
+ },
+ "bytes": 854562,
+ "sha256": "c55e7cab4230aa3d7126748a149b2db6f0d7a67296d5eccfdd50a210299a96b2",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:42Z"
+}

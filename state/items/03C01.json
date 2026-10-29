@@ -1,0 +1,71 @@
+{
+ "id": "03C01",
+ "started": "2026-10-29T17:45:26Z",
+ "dropped_large_files": [
+  "Berkeley_Data100_CourseNotes_src_en/content/_pca_2/data/train-images-idx3-ubyte.gz (25802 KiB)",
+  "Berkeley_Data100_CourseNotes_src_en/content/eda/data/babynames.zip (7231 KiB)",
+  "Berkeley_Data100_CourseNotes_src_en/content/new_eda_2/data/babynamesbystate.zip (22812 KiB)",
+  "Berkeley_Data100_CourseNotes_src_en/content/pandas_2/data/babynamesbystate.zip (22812 KiB)",
+  "Berkeley_Data100_CourseNotes_src_en/content/pandas_3/babynamesbystate.zip (22812 KiB)",
+  "Berkeley_Data100_CourseNotes_src_en/content/pandas_3/data/babynames.zip (7232 KiB)",
+  "Berkeley_Data100_CourseNotes_src_en/content/pandas_3/data/babynamesbystate.zip (22812 KiB)",
+  "Berkeley_Data100_CourseNotes_src_en/content/pca/data/train-images-idx3-ubyte.gz (25802 KiB)",
+  "Berkeley_Data100_CourseNotes_src_en/content/sampling/data/1936_votes.zip (8133 KiB)"
+ ],
+ "dropped_count": 9,
+ "download_url": "https://github.com/DS-100/course-notes",
+ "ref": "(默认分支)",
+ "commit": "125f7b81a0bad79a7240faf016014a35f08daca1",
+ "commit_date": "2026-10-26T23:33:13-07:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：760 个文件（HTML 2，文档源 93）",
+ "info": {
+  "files": 760,
+  "html": 2,
+  "md_rst_ipynb": 93,
+  "top_ext": [
+   [
+    "png",
+    539
+   ],
+   [
+    "txt",
+    56
+   ],
+   [
+    "csv",
+    52
+   ],
+   [
+    "ipynb",
+    30
+   ],
+   [
+    "js",
+    19
+   ],
+   [
+    "css",
+    12
+   ],
+   [
+    "db",
+    8
+   ],
+   [
+    "md",
+    7
+   ]
+  ],
+  "license_files": [
+   "Berkeley_Data100_CourseNotes_src_en/LICENSE"
+  ]
+ },
+ "bytes": 367861760,
+ "sha256": "e6878cc38d4590886fb8e2561ca0a5ee35d285e47cb0214b6a8ce5c4065dccef",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:41Z"
+}

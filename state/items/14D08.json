@@ -1,0 +1,63 @@
+{
+ "id": "14D08",
+ "started": "2026-10-29T17:32:05Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/triton-inference-server/server",
+ "ref": "v2.73.0",
+ "commit": "818762530159ad144f7eee99bd264adcd9389e44",
+ "commit_date": "2026-09-28T21:05:22-07:00",
+ "sparse_paths": [
+  "docs",
+  "qa/README.md"
+ ],
+ "verify": "通过：138 个文件（HTML 1，文档源 86）",
+ "info": {
+  "files": 138,
+  "html": 1,
+  "md_rst_ipynb": 86,
+  "top_ext": [
+   [
+    "md",
+    63
+   ],
+   [
+    "rst",
+    17
+   ],
+   [
+    "png",
+    12
+   ],
+   [
+    "pbtxt",
+    10
+   ],
+   [
+    "txt",
+    6
+   ],
+   [
+    "onnx",
+    5
+   ],
+   [
+    "",
+    3
+   ],
+   [
+    "svg",
+    3
+   ]
+  ],
+  "entry": "triton_inference_server_2.73.0_docs_src_en/docs/index.md",
+  "license_files": [
+   "triton_inference_server_2.73.0_docs_src_en/LICENSE"
+  ]
+ },
+ "bytes": 2088960,
+ "sha256": "37f27188f564e09d7c42a352382400bff1972f0a22f30bd88af9d2fa4bb52b12",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:06Z"
+}

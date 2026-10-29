@@ -1,0 +1,19 @@
+{
+ "id": "15P05",
+ "started": "2026-10-29T17:51:21Z",
+ "download_url": "https://arxiv.org/pdf/2405.15793v3",
+ "final_url": "https://arxiv.org/pdf/2405.15793v3",
+ "http_last_modified": "Wed, 13 Nov 2024 01:04:43 GMT",
+ "verify": "通过：pypdf 可解析 118 页；标题词匹配 1.0",
+ "info": {
+  "pages": 118,
+  "meta_title": "",
+  "body_sample_chars": 12189,
+  "title_match": 1.0
+ },
+ "bytes": 4963538,
+ "sha256": "d171e0693060b910ceb2cddd0fd4bc7cae302005d42d0d8059bfdbe056c3adba",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:25Z"
+}

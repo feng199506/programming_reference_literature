@@ -1,0 +1,61 @@
+{
+ "id": "05C04",
+ "started": "2026-10-29T18:06:00Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/MITDeepLearning/introtodeeplearning",
+ "ref": "(默认分支)",
+ "commit": "e44754eac7a61d489fb07a68245bfbb290823228",
+ "commit_date": "2026-01-04T16:14:10-05:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：88 个文件（HTML 0，文档源 30）",
+ "info": {
+  "files": 88,
+  "html": 0,
+  "md_rst_ipynb": 30,
+  "top_ext": [
+   [
+    "png",
+    39
+   ],
+   [
+    "ipynb",
+    24
+   ],
+   [
+    "py",
+    10
+   ],
+   [
+    "md",
+    4
+   ],
+   [
+    "",
+    4
+   ],
+   [
+    "txt",
+    2
+   ],
+   [
+    "gitignore",
+    1
+   ],
+   [
+    "jpg",
+    1
+   ]
+  ],
+  "license_files": [
+   "MIT_6S191_Labs_src_en/LICENSE.md"
+  ]
+ },
+ "bytes": 10854400,
+ "sha256": "54c593ebf95412751c9c0e94cb62d24992f101bf54e076f9ff5ef0b34da9f461",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:06:01Z"
+}

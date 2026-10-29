@@ -1,0 +1,63 @@
+{
+ "id": "13X01",
+ "started": "2026-10-29T17:30:35Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/NVIDIA/cuda-samples",
+ "ref": "v13.4",
+ "commit": "5443602d89ed99aede2e4b7bf329daddeadb320e",
+ "commit_date": "2026-09-09T17:07:08-05:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：1442 个文件（HTML 0，文档源 452）",
+ "info": {
+  "files": 1442,
+  "html": 0,
+  "md_rst_ipynb": 452,
+  "top_ext": [
+   [
+    "txt",
+    230
+   ],
+   [
+    "md",
+    222
+   ],
+   [
+    "h",
+    193
+   ],
+   [
+    "cu",
+    175
+   ],
+   [
+    "cpp",
+    144
+   ],
+   [
+    "hpp",
+    106
+   ],
+   [
+    "ppm",
+    54
+   ],
+   [
+    "cuh",
+    46
+   ]
+  ],
+  "license_files": [
+   "cuda_samples_v13.4_en/LICENSE"
+  ]
+ },
+ "bytes": 219289600,
+ "sha256": "65ddf01b6fcdc5d2f91f6537c4246e678c880287cb874030dfd2eaefe4d49bfd",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:30:41Z",
+ "reverified": "2026-10-29T17:51:40Z"
+}

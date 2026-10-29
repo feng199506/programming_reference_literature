@@ -1,0 +1,86 @@
+{
+ "id": "05D02",
+ "started": "2026-10-29T17:28:24Z",
+ "dropped_large_files": [
+  "pytorch_tutorials_html_en/_static/mnist.pkl.gz (15789 KiB)",
+  "pytorch_tutorials_html_en/beginner/dcgan_faces_tutorial.html (36185 KiB)"
+ ],
+ "dropped_count": 2,
+ "download_url": "https://github.com/pytorch/tutorials",
+ "ref": "gh-pages",
+ "commit": "ddaa52104aaddd221cb41105f329aaa88be6864e",
+ "commit_date": "2026-10-29T01:16:55Z",
+ "sparse_paths": [
+  "*.html",
+  "_static",
+  "_images",
+  "_sources",
+  "beginner",
+  "intermediate",
+  "advanced",
+  "recipes",
+  "prototype",
+  "unstable",
+  "_sphinx_design_static"
+ ],
+ "verify": "通过：2304 个文件（HTML 338，文档源 681）",
+ "info": {
+  "files": 2304,
+  "html": 338,
+  "md_rst_ipynb": 681,
+  "top_ext": [
+   [
+    "png",
+    987
+   ],
+   [
+    "txt",
+    394
+   ],
+   [
+    "html",
+    338
+   ],
+   [
+    "md",
+    285
+   ],
+   [
+    "svg",
+    48
+   ],
+   [
+    "js",
+    41
+   ],
+   [
+    "jpg",
+    33
+   ],
+   [
+    "gif",
+    30
+   ]
+  ],
+  "entry": "pytorch_tutorials_html_en/beginner/basics/index.html",
+  "license_files": [
+   "pytorch_tutorials_html_en/_static/vendor/fontawesome/6.5.2/LICENSE.txt"
+  ],
+  "link_sample": {
+   "links": 31605,
+   "broken": 365,
+   "examples": [
+    "pytorch_tutorials_html_en/beginner/dcgan_faces_tutorial.html",
+    "pytorch_tutorials_html_en/beginner/dcgan_faces_tutorial.html",
+    "pytorch_tutorials_html_en/beginner/dcgan_faces_tutorial.html",
+    "pytorch_tutorials_html_en/beginner/dcgan_faces_tutorial.html",
+    "pytorch_tutorials_html_en/beginner/dcgan_faces_tutorial.html"
+   ]
+  }
+ },
+ "bytes": 328519680,
+ "sha256": "881eec784abcd495fe27822231c3934b39179898a320743ffad191d88d693fcc",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:28:47Z"
+}

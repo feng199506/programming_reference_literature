@@ -1,0 +1,19 @@
+{
+ "id": "12B02",
+ "started": "2026-10-29T17:51:20Z",
+ "download_url": "https://beej.us/guide/bgc/pdf/bgc_usl_c_1.pdf",
+ "final_url": "https://beej.us/guide/bgc/pdf/bgc_usl_c_1.pdf",
+ "http_last_modified": "Thu, 15 Oct 2026 23:27:29 GMT",
+ "verify": "通过：pypdf 可解析 352 页；标题词匹配 1.0",
+ "info": {
+  "pages": 352,
+  "meta_title": "",
+  "body_sample_chars": 7488,
+  "title_match": 1.0
+ },
+ "bytes": 1481068,
+ "sha256": "ee0ad6de22d2370bc34a3162d9c56713f53078bee13322f1bad6d617a7e68a7c",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:22Z"
+}

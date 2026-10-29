@@ -1,0 +1,61 @@
+{
+ "id": "05X15",
+ "started": "2026-10-29T17:30:27Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/huggingface/accelerate",
+ "ref": "v1.15.0",
+ "commit": "6afc1e5ee217051fde702b23de2813344dc0fd33",
+ "commit_date": "2026-09-09T14:56:56+02:00",
+ "sparse_paths": [
+  "examples"
+ ],
+ "verify": "通过：76 个文件（HTML 0，文档源 13）",
+ "info": {
+  "files": 76,
+  "html": 0,
+  "md_rst_ipynb": 13,
+  "top_ext": [
+   [
+    "py",
+    39
+   ],
+   [
+    "md",
+    11
+   ],
+   [
+    "yaml",
+    10
+   ],
+   [
+    "json",
+    6
+   ],
+   [
+    "sh",
+    5
+   ],
+   [
+    "txt",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "yml",
+    1
+   ]
+  ],
+  "license_files": [
+   "hf_accelerate_v1.15.0_examples_en/LICENSE"
+  ]
+ },
+ "bytes": 604160,
+ "sha256": "ae5a1efb777d0a3dead4ee934c77cbe318278d65acadd9f1f21c67a3d6d90280",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:30:29Z"
+}

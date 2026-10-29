@@ -1,0 +1,61 @@
+{
+ "id": "06X02",
+ "started": "2026-10-29T17:46:36Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/swcarpentry/python-novice-inflammation",
+ "ref": "(默认分支)",
+ "commit": "c789bb6f0e5fd719601498515a99380023c62891",
+ "commit_date": "2026-10-13T17:31:53+01:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：141 个文件（HTML 0，文档源 30）",
+ "info": {
+  "files": 141,
+  "html": 0,
+  "md_rst_ipynb": 30,
+  "top_ext": [
+   [
+    "md",
+    27
+   ],
+   [
+    "png",
+    24
+   ],
+   [
+    "svg",
+    23
+   ],
+   [
+    "py",
+    20
+   ],
+   [
+    "csv",
+    15
+   ],
+   [
+    "yaml",
+    10
+   ],
+   [
+    "odg",
+    9
+   ],
+   [
+    "txt",
+    3
+   ]
+  ],
+  "license_files": [
+   "swcarpentry_python_novice_inflammation_main_en/LICENSE.md"
+  ]
+ },
+ "bytes": 4608000,
+ "sha256": "bfa90a1f9d8c2f085f0665063effacb9a7205698521b132f38b890ca39e9c3a2",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:37Z"
+}

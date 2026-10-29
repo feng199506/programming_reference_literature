@@ -1,0 +1,53 @@
+{
+ "id": "06D05",
+ "started": "2026-10-29T17:32:54Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/python/typing",
+ "ref": "(默认分支)",
+ "commit": "d0af36bbe9eb8a6fa188bf920e1426620182fe10",
+ "commit_date": "2026-10-29T16:35:56+01:00",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：51 个文件（HTML 0，文档源 46）",
+ "info": {
+  "files": 51,
+  "html": 0,
+  "md_rst_ipynb": 46,
+  "top_ext": [
+   [
+    "rst",
+    45
+   ],
+   [
+    "",
+    2
+   ],
+   [
+    "md",
+    1
+   ],
+   [
+    "py",
+    1
+   ],
+   [
+    "bat",
+    1
+   ],
+   [
+    "toml",
+    1
+   ]
+  ],
+  "license_files": [
+   "python_typing_docs_main_src_en/LICENSE"
+  ]
+ },
+ "bytes": 716800,
+ "sha256": "073182460c6df3e36949efedc58b66ca25791c453ed90a3f0ed46efc3b4c0c64",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:56Z"
+}

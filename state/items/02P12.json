@@ -1,0 +1,19 @@
+{
+ "id": "02P12",
+ "started": "2026-10-29T17:49:21Z",
+ "download_url": "https://arxiv.org/pdf/1603.09320v4",
+ "final_url": "https://arxiv.org/pdf/1603.09320v4",
+ "http_last_modified": "Wed, 11 Aug 2021 00:05:22 GMT",
+ "verify": "通过：pypdf 可解析 13 页；标题词匹配 1.0",
+ "info": {
+  "pages": 13,
+  "meta_title": "Transaction / Regular Paper Title",
+  "body_sample_chars": 23493,
+  "title_match": 1.0
+ },
+ "bytes": 2636958,
+ "sha256": "f78da128a3ea9ac08d37cfe6c4b641f371f88adb677d6d2bf637d90bad8d414a",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:49:26Z"
+}

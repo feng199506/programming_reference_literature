@@ -1,0 +1,19 @@
+{
+ "id": "13D10",
+ "started": "2026-10-29T17:52:48Z",
+ "download_url": "https://www.openmp.org/wp-content/uploads/OpenMP-API-Specification-6-0.pdf",
+ "final_url": "https://www.openmp.org/wp-content/uploads/OpenMP-API-Specification-6-0.pdf",
+ "http_last_modified": "Wed, 13 Aug 2025 12:44:50 GMT",
+ "verify": "通过：pypdf 可解析 964 页；标题词匹配 1.0",
+ "info": {
+  "pages": 964,
+  "meta_title": "OpenMP Application Programming Interface Specification Version 6.0 November 2024",
+  "body_sample_chars": 7502,
+  "title_match": 1.0
+ },
+ "bytes": 4712625,
+ "sha256": "bcadeebbc13e99a0b7cd4e58099875bd94411d1ae3c7817d5db82968874132db",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:49Z"
+}

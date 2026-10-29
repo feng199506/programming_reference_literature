@@ -1,0 +1,54 @@
+{
+ "id": "06D02",
+ "started": "2026-10-29T18:38:14Z",
+ "download_url": "https://mypy.readthedocs.io/_/downloads/en/stable/htmlzip/",
+ "final_url": "https://mypy.readthedocs.io/_/downloads/en/stable/htmlzip/",
+ "http_last_modified": "Wed, 28 Oct 2026 18:57:09 GMT",
+ "verify": "通过：28 个文件（HTML 1，文档源 1）",
+ "info": {
+  "files": 28,
+  "html": 1,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "js",
+    10
+   ],
+   [
+    "css",
+    7
+   ],
+   [
+    "map",
+    3
+   ],
+   [
+    "png",
+    3
+   ],
+   [
+    "buildinfo",
+    1
+   ],
+   [
+    "html",
+    1
+   ],
+   [
+    "inv",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "entry": "mypy-stable/index.html",
+  "license_files": []
+ },
+ "bytes": 427239,
+ "sha256": "61bfe37e6cc4dd98b838c30ce992c59804c13846410dd6d9c5e38114b163d215",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:38:14Z"
+}

@@ -1,0 +1,54 @@
+{
+ "id": "05D09",
+ "started": "2026-10-29T18:38:14Z",
+ "download_url": "https://docs.jax.dev/_/downloads/en/latest/htmlzip/",
+ "final_url": "https://docs.jax.dev/_/downloads/en/latest/htmlzip/",
+ "http_last_modified": "Thu, 29 Oct 2026 18:04:38 GMT",
+ "verify": "通过：323 个文件（HTML 3，文档源 2）",
+ "info": {
+  "files": 323,
+  "html": 3,
+  "md_rst_ipynb": 2,
+  "top_ext": [
+   [
+    "svg",
+    105
+   ],
+   [
+    "png",
+    71
+   ],
+   [
+    "mo",
+    45
+   ],
+   [
+    "po",
+    45
+   ],
+   [
+    "js",
+    15
+   ],
+   [
+    "css",
+    12
+   ],
+   [
+    "py",
+    8
+   ],
+   [
+    "map",
+    5
+   ]
+  ],
+  "entry": "jax-latest/index.html",
+  "license_files": []
+ },
+ "bytes": 11940591,
+ "sha256": "b91eb1efa889944a0c8a2d68d271224731d1ab0e3fb6799afcb8d8defd0ce0b6",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:38:14Z"
+}

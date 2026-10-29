@@ -1,0 +1,63 @@
+{
+ "id": "11X02",
+ "started": "2026-10-29T17:47:57Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/mit-pdos/xv6-riscv",
+ "ref": "(默认分支)",
+ "commit": "e93dabeb98431235c6e1a101cb96c73c923fdbc4",
+ "commit_date": "2026-10-26T17:16:16-04:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：82 个文件（HTML 0，文档源 0）",
+ "info": {
+  "files": 82,
+  "html": 0,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "c",
+    47
+   ],
+   [
+    "h",
+    18
+   ],
+   [
+    "s",
+    4
+   ],
+   [
+    "",
+    3
+   ],
+   [
+    "ld",
+    2
+   ],
+   [
+    "clang-format",
+    1
+   ],
+   [
+    "el",
+    1
+   ],
+   [
+    "editorconfig",
+    1
+   ]
+  ],
+  "license_files": [
+   "mit_xv6_riscv_en/LICENSE"
+  ]
+ },
+ "bytes": 450560,
+ "sha256": "879979a628a7bf65d9728574e52e9d648a961ae8c4da1d008c7b2b9c6c6e09b3",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:59Z",
+ "reverified": "2026-10-29T17:50:44Z"
+}

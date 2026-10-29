@@ -1,0 +1,64 @@
+{
+ "id": "01B06",
+ "started": "2026-10-29T17:45:07Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/realpython/python-guide",
+ "ref": "(默认分支)",
+ "commit": "a4d4fa63489b4fcce30c34a9a4aba7599969afe1",
+ "commit_date": "2026-07-27T00:52:34-05:00",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：119 个文件（HTML 4，文档源 59）",
+ "info": {
+  "files": 119,
+  "html": 4,
+  "md_rst_ipynb": 59,
+  "top_ext": [
+   [
+    "rst",
+    52
+   ],
+   [
+    "jpg",
+    45
+   ],
+   [
+    "txt",
+    5
+   ],
+   [
+    "",
+    4
+   ],
+   [
+    "html",
+    4
+   ],
+   [
+    "md",
+    2
+   ],
+   [
+    "png",
+    2
+   ],
+   [
+    "py",
+    2
+   ]
+  ],
+  "license_files": [
+   "Reitz_HitchhikersGuideToPython_src_en/LICENSE",
+   "Reitz_HitchhikersGuideToPython_src_en/docs/_themes/LICENSE",
+   "Reitz_HitchhikersGuideToPython_src_en/docs/notes/license.rst",
+   "Reitz_HitchhikersGuideToPython_src_en/docs/writing/license.rst"
+  ]
+ },
+ "bytes": 5171200,
+ "sha256": "a9aa37258ebb6750aded31812dbed52cb0ce2910902bdabcff8728c9632edcbf",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:09Z"
+}

@@ -1,0 +1,14 @@
+{
+ "id": "15C02",
+ "started": "2026-10-29T18:30:38Z",
+ "download_url": "https://rdi.berkeley.edu/adv-llm-agents/sp25",
+ "verify": "通过：14 个文件均可解析（PDF 共 1269 页）",
+ "info": {
+  "chapters": 14,
+  "pages": 1269
+ },
+ "bytes": 146604282,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:30:53Z"
+}

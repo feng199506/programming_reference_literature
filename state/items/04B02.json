@@ -1,0 +1,19 @@
+{
+ "id": "04B02",
+ "started": "2026-10-29T18:04:43Z",
+ "download_url": "https://people.smp.uq.edu.au/DirkKroese/DSML/DSML.pdf",
+ "final_url": "https://people.smp.uq.edu.au/DirkKroese/DSML/DSML.pdf",
+ "http_last_modified": "Thu, 22 Aug 2024 05:42:07 GMT",
+ "verify": "通过：pypdf 可解析 533 页；标题词匹配 1.0",
+ "info": {
+  "pages": 533,
+  "meta_title": "",
+  "body_sample_chars": 6506,
+  "title_match": 1.0
+ },
+ "bytes": 21072005,
+ "sha256": "841e4441ec94f39c3f70967ba1c9198c0ec3d3323d98c786f677e5a913be66b3",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:05:11Z"
+}

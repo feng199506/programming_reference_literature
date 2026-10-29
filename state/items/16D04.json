@@ -1,0 +1,19 @@
+{
+ "id": "16D04",
+ "started": "2026-10-29T18:04:36Z",
+ "download_url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf",
+ "final_url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf",
+ "http_last_modified": "Wed, 02 Feb 2022 15:49:00 GMT",
+ "verify": "通过：pypdf 可解析 36 页；标题词匹配 1.0",
+ "info": {
+  "pages": 36,
+  "meta_title": "Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities",
+  "body_sample_chars": 7217,
+  "title_match": 1.0
+ },
+ "bytes": 739891,
+ "sha256": "617746e553a9e2da49bfbd4eef0dfc3094758a39b869314e4173ac36605cde22",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:04:37Z"
+}

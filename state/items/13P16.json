@@ -1,0 +1,19 @@
+{
+ "id": "13P16",
+ "started": "2026-10-29T17:50:25Z",
+ "download_url": "https://arxiv.org/pdf/1710.03740v3",
+ "final_url": "https://arxiv.org/pdf/1710.03740v3",
+ "http_last_modified": "Sun, 22 Jan 2023 19:29:31 GMT",
+ "verify": "通过：pypdf 可解析 12 页；标题词匹配 1.0",
+ "info": {
+  "pages": 12,
+  "meta_title": "",
+  "body_sample_chars": 12077,
+  "title_match": 1.0
+ },
+ "bytes": 1404641,
+ "sha256": "3bbff2f757abdcfe4c5a4cee338f7b7d888110b9013ec4a934e334016f527c78",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:50:29Z"
+}

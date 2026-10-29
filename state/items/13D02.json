@@ -1,0 +1,73 @@
+{
+ "id": "13D02",
+ "started": "2026-10-29T18:30:40Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://docs.nvidia.com/nsight-compute/index.html",
+ "mirror_scope": {
+  "start": [
+   "https://docs.nvidia.com/nsight-compute/index.html",
+   "https://docs.nvidia.com/nsight-systems/index.html"
+  ],
+  "include": [
+   "/nsight-compute",
+   "/nsight-systems",
+   "/_static"
+  ],
+  "level": "4"
+ },
+ "verify": "通过：549 个文件（HTML 24，文档源 1）",
+ "info": {
+  "files": 549,
+  "html": 24,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "png",
+    443
+   ],
+   [
+    "html",
+    24
+   ],
+   [
+    "svg",
+    23
+   ],
+   [
+    "css",
+    16
+   ],
+   [
+    "js?digest=8878045cc6db502f8baf",
+    6
+   ],
+   [
+    "ttf",
+    6
+   ],
+   [
+    "woff2",
+    6
+   ],
+   [
+    "js",
+    4
+   ]
+  ],
+  "entry": "nsight_profiling_docs_mirror_en/nsight-compute/Archives/index.html",
+  "license_files": [],
+  "link_sample": {
+   "links": 6106,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 58593280,
+ "sha256": "34e3d032706bb1e2da479dd470221e88709fc1f7311ba0e79c12efe7cc598ea6",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:34:12Z"
+}

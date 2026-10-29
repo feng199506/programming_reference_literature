@@ -1,0 +1,62 @@
+{
+ "id": "05D08",
+ "started": "2026-10-29T18:25:13Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://keras.io/api/",
+ "mirror_scope": {
+  "start": [
+   "https://keras.io/api/"
+  ],
+  "include": [
+   "/api",
+   "/css",
+   "/js",
+   "/img",
+   "/getting_started"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：354 个文件（HTML 344，文档源 0）",
+ "info": {
+  "files": 354,
+  "html": 344,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "html",
+    344
+   ],
+   [
+    "css",
+    6
+   ],
+   [
+    "png",
+    2
+   ],
+   [
+    "ico",
+    1
+   ],
+   [
+    "js",
+    1
+   ]
+  ],
+  "entry": "keras_api_reference_mirror_en/api/index.html",
+  "license_files": [],
+  "link_sample": {
+   "links": 10434,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 12032000,
+ "sha256": "a3a19d49c046d0f4ab069ce5f1a5f7a0b69b0977ede1f7d3094d86a076aeacae",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:30:40Z"
+}

@@ -1,0 +1,53 @@
+{
+ "id": "07D04",
+ "started": "2026-10-29T17:48:31Z",
+ "download_url": "https://mirrors.edge.kernel.org/pub/linux/docs/man-pages/man-pages-6.20.tar.xz",
+ "final_url": "https://mirrors.edge.kernel.org/pub/linux/docs/man-pages/man-pages-6.20.tar.xz",
+ "http_last_modified": "Wed, 21 Oct 2026 13:08:23 GMT",
+ "verify": "通过：3393 个文件（HTML 0，文档源 14）",
+ "info": {
+  "files": 3393,
+  "html": 0,
+  "md_rst_ipynb": 14,
+  "top_ext": [
+   [
+    "3",
+    1729
+   ],
+   [
+    "2",
+    513
+   ],
+   [
+    "2const",
+    362
+   ],
+   [
+    "5",
+    180
+   ],
+   [
+    "7",
+    172
+   ],
+   [
+    "mk",
+    146
+   ],
+   [
+    "3type",
+    88
+   ],
+   [
+    "",
+    42
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 1914692,
+ "sha256": "180f0d16a2142dd9671760ac0afeadcc25e861f695eb420293e1206a87ca083f",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:32Z"
+}

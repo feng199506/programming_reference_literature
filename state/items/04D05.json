@@ -1,0 +1,63 @@
+{
+ "id": "04D05",
+ "started": "2026-10-29T17:27:27Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/mlflow/mlflow",
+ "ref": "v3.17.2",
+ "commit": "d0b397f85b602e8f146be0d0373b28bba2ca2b74",
+ "commit_date": "2026-10-20T16:16:12+08:00",
+ "sparse_paths": [
+  "docs/docs",
+  "docs/api_reference/source"
+ ],
+ "verify": "通过：449 个文件（HTML 0，文档源 432）",
+ "info": {
+  "files": 449,
+  "html": 0,
+  "md_rst_ipynb": 432,
+  "top_ext": [
+   [
+    "mdx",
+    320
+   ],
+   [
+    "rst",
+    74
+   ],
+   [
+    "ipynb",
+    28
+   ],
+   [
+    "md",
+    9
+   ],
+   [
+    "svg",
+    6
+   ],
+   [
+    "png",
+    3
+   ],
+   [
+    "py",
+    3
+   ],
+   [
+    "js",
+    2
+   ]
+  ],
+  "entry": "mlflow_3.17.2_docs_src_en/docs/docs/classic-ml/index.mdx",
+  "license_files": [
+   "mlflow_3.17.2_docs_src_en/LICENSE.txt"
+  ]
+ },
+ "bytes": 6840320,
+ "sha256": "fd0c23c0bb9706c58a22596ef6c8e327aff4d17ed80b9496a8f4acba567e17c4",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:27:30Z"
+}

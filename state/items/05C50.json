@@ -1,0 +1,55 @@
+{
+ "id": "05C50",
+ "started": "2026-10-29T17:56:00Z",
+ "download_url": "https://huggingface.co/datasets/hf-doc-build/doc-build/resolve/main/course/main.zip",
+ "final_url": "https://us.aws.cdn.hf.co/xet-bridge-us/6356b19985da6f13863228bd/d885aeb46b7f78a020f0b0a25cbf849bc4b946bb06566f6fffed30c3d553791e?response-content-type=application%2Fzip&user_id=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27main.zip%3B+filename%3D%22main.zip%22%3B&X-Xet-Cas-Uid",
+ "http_last_modified": "",
+ "verify": "通过：5174 个文件（HTML 1042，文档源 1094）",
+ "info": {
+  "files": 5174,
+  "html": 1042,
+  "md_rst_ipynb": 1094,
+  "top_ext": [
+   [
+    "js",
+    2907
+   ],
+   [
+    "html",
+    1042
+   ],
+   [
+    "md",
+    1042
+   ],
+   [
+    "txt",
+    52
+   ],
+   [
+    "css",
+    52
+   ],
+   [
+    "yml",
+    27
+   ],
+   [
+    "png",
+    26
+   ],
+   [
+    "json",
+    26
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 52989450,
+ "sha256": "cff6de78581c09231c592070b40c56463baa8e3caf8ea778678dcdffb0698da3",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:56:03Z",
+ "error": "",
+ "reverified": "2026-10-29T18:05:44Z"
+}

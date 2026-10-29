@@ -1,0 +1,19 @@
+{
+ "id": "02B05",
+ "started": "2026-10-29T17:45:59Z",
+ "download_url": "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
+ "final_url": "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
+ "http_last_modified": "Wed, 06 Jun 2018 17:43:45 GMT",
+ "verify": "通过：pypdf 可解析 1048 页；标题词匹配 1.0",
+ "info": {
+  "pages": 1048,
+  "meta_title": "",
+  "body_sample_chars": 3404,
+  "title_match": 1.0
+ },
+ "bytes": 13269308,
+ "sha256": "ea4ced500d4a4bae7beb7a72ae9784abb96ed656ad905976f54c828cf6337dc1",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:02Z"
+}

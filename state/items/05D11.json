@@ -1,0 +1,19 @@
+{
+ "id": "05D11",
+ "started": "2026-10-29T18:10:26Z",
+ "download_url": "https://pillow.readthedocs.io/_/downloads/en/stable/pdf/",
+ "final_url": "https://pillow.readthedocs.io/_/downloads/en/stable/pdf/",
+ "http_last_modified": "Fri, 16 Oct 2026 20:11:57 GMT",
+ "verify": "通过：pypdf 可解析 369 页；标题词匹配 1.0",
+ "info": {
+  "pages": 369,
+  "meta_title": "Pillow (PIL Fork)",
+  "body_sample_chars": 9084,
+  "title_match": 1.0
+ },
+ "bytes": 1470840,
+ "sha256": "5aa33331c6ac405b8423474e80fbd1a6a09dfbe6a74df40ddd1e818e9a541cab",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:10:26Z"
+}

@@ -1,0 +1,66 @@
+{
+ "id": "01C01",
+ "started": "2026-10-29T17:45:45Z",
+ "download_url": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6.100l-fall-2022.zip",
+ "final_url": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6.100l-fall-2022.zip",
+ "http_last_modified": "Thu, 15 Oct 2026 10:02:10 GMT",
+ "verify": "通过：806 个文件（HTML 230，文档源 3）",
+ "info": {
+  "files": 806,
+  "html": 230,
+  "md_rst_ipynb": 3,
+  "top_ext": [
+   [
+    "json",
+    241
+   ],
+   [
+    "html",
+    230
+   ],
+   [
+    "js",
+    92
+   ],
+   [
+    "pdf",
+    82
+   ],
+   [
+    "webvtt",
+    26
+   ],
+   [
+    "py",
+    23
+   ],
+   [
+    "svg",
+    22
+   ],
+   [
+    "zip",
+    18
+   ]
+  ],
+  "license_files": [
+   "static_shared/mathjax/LICENSE.42368b5a19b817284b3c"
+  ],
+  "link_sample": {
+   "links": 7437,
+   "broken": 318,
+   "examples": [
+    "../../index.html",
+    "../../index.html",
+    "../../index.html",
+    "../../index.html",
+    "../../index.html"
+   ]
+  }
+ },
+ "bytes": 72953879,
+ "sha256": "4493e3a05c5fa59a445c27a15ee98e3674f97219fb3a5efff25662ef92a1c7df",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:46Z"
+}

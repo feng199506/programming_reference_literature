@@ -1,0 +1,53 @@
+{
+ "id": "07B04",
+ "started": "2026-10-29T18:56:34Z",
+ "wget_rc": 0,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://debian-handbook.info/browse/stable/",
+ "mirror_scope": {
+  "start": [
+   "https://debian-handbook.info/browse/stable/"
+  ],
+  "include": [
+   "/browse/stable"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：211 个文件（HTML 127，文档源 1）",
+ "info": {
+  "files": 211,
+  "html": 127,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    127
+   ],
+   [
+    "png",
+    78
+   ],
+   [
+    "css",
+    5
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 2867,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 7546880,
+ "sha256": "54d655007a967b9753d5b79574525951e8db12b2a523b51f0e52c4d032e5e46b",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:58:10Z"
+}

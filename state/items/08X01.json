@@ -1,0 +1,65 @@
+{
+ "id": "08X01",
+ "started": "2026-10-29T17:46:58Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/cmu-db/bustub",
+ "ref": "(默认分支)",
+ "commit": "e42a66f171093c138464b8302f5c3677a08e2ce4",
+ "commit_date": "2026-10-26T01:05:27-04:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：1255 个文件（HTML 3，文档源 142）",
+ "info": {
+  "files": 1255,
+  "html": 3,
+  "md_rst_ipynb": 142,
+  "top_ext": [
+   [
+    "h",
+    298
+   ],
+   [
+    "cpp",
+    263
+   ],
+   [
+    "cc",
+    152
+   ],
+   [
+    "md",
+    70
+   ],
+   [
+    "txt",
+    69
+   ],
+   [
+    "c",
+    51
+   ],
+   [
+    "py",
+    44
+   ],
+   [
+    "slt",
+    40
+   ]
+  ],
+  "license_files": [
+   "cmu_bustub_master_en/LICENSE",
+   "cmu_bustub_master_en/third_party/argparse/LICENSE",
+   "cmu_bustub_master_en/third_party/backward-cpp/LICENSE.txt",
+   "cmu_bustub_master_en/third_party/cpp_random_distributions/LICENSE.md",
+   "cmu_bustub_master_en/third_party/fmt/LICENSE"
+  ]
+ },
+ "bytes": 37263360,
+ "sha256": "1f1cf8fd2739fb4a9d978f41aab72fa9f436992cead8baa18de312d1078c467f",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:00Z"
+}

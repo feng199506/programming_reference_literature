@@ -1,0 +1,65 @@
+{
+ "id": "14D05",
+ "started": "2026-10-29T17:31:21Z",
+ "dropped_large_files": [
+  "openvino_2026.4.1_docs_src_en/docs/articles_en/physical-ai/assets/inference_rerun.webp (35402 KiB)"
+ ],
+ "dropped_count": 1,
+ "download_url": "https://github.com/openvinotoolkit/openvino",
+ "ref": "2026.4.1",
+ "commit": "e213a14725769a6a2bf86fc86650aa78a9c05d3e",
+ "commit_date": "2026-09-23T16:20:47+02:00",
+ "sparse_paths": [
+  "docs/articles_en",
+  "docs/snippets",
+  "docs/optimization_guide"
+ ],
+ "verify": "通过：800 个文件（HTML 0，文档源 561）",
+ "info": {
+  "files": 800,
+  "html": 0,
+  "md_rst_ipynb": 561,
+  "top_ext": [
+   [
+    "rst",
+    517
+   ],
+   [
+    "svg",
+    65
+   ],
+   [
+    "cpp",
+    57
+   ],
+   [
+    "png",
+    50
+   ],
+   [
+    "py",
+    46
+   ],
+   [
+    "md",
+    41
+   ],
+   [
+    "gif",
+    13
+   ],
+   [
+    "txt",
+    3
+   ]
+  ],
+  "license_files": [
+   "openvino_2026.4.1_docs_src_en/LICENSE"
+  ]
+ },
+ "bytes": 13168640,
+ "sha256": "7c440ae34da5c9652f1f1ecedb91b1ffc3dd73da3dd14c4518ef3b936d6477fc",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:31:29Z"
+}

@@ -1,0 +1,53 @@
+{
+ "id": "05D20",
+ "started": "2026-10-29T18:10:26Z",
+ "download_url": "https://huggingface.co/datasets/hf-doc-build/doc-build/resolve/main/transformers/v5.21.1.zip",
+ "final_url": "https://us.aws.cdn.hf.co/xet-bridge-us/6356b19985da6f13863228bd/76fe7082e5b7d631b39a8ca9213807107e86911443d838aa00d31e60fe6ccc87?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27v5.21.1.zip%3B+filename%3D%22v5.21.1.zip%22%3B&user_id=public&X-Xet-Cas-Uid=public&xip=vzlH9V57VH8&response-c",
+ "http_last_modified": "",
+ "verify": "通过：4174 个文件（HTML 1373，文档源 1399）",
+ "info": {
+  "files": 4174,
+  "html": 1373,
+  "md_rst_ipynb": 1399,
+  "top_ext": [
+   [
+    "html",
+    1373
+   ],
+   [
+    "md",
+    1373
+   ],
+   [
+    "js",
+    1335
+   ],
+   [
+    "txt",
+    26
+   ],
+   [
+    "yml",
+    15
+   ],
+   [
+    "png",
+    13
+   ],
+   [
+    "css",
+    13
+   ],
+   [
+    "json",
+    13
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 61008921,
+ "sha256": "bf17e479496eba90bcb1e9a03404647aa9600b1a980715dd329a67526a3226f5",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:10:29Z"
+}

@@ -1,0 +1,7472 @@
+[
+ {
+  "id": "01B01",
+  "cat": "01",
+  "cross": [],
+  "type": "book",
+  "title": "Think Python: How to Think Like a Computer Scientist (2nd ed.)",
+  "authors": "Allen B. Downey",
+  "school": "",
+  "year": "2015",
+  "version": "2nd ed. 2.4.0",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "Python 3",
+  "source": "https://greenteapress.com/thinkpython2/thinkpython2.pdf",
+  "license": "CC BY-NC 3.0",
+  "goal": "Python 语法、函数、递归、对象、类与调试习惯",
+  "order": 1,
+  "out": "books/Downey_ThinkPython_2ndEd_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://greenteapress.com/thinkpython2/thinkpython2.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Think",
+    "Python"
+   ],
+   "min_pages": 200
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "经典第 2 版；第 3 版（2024）仅以笔记本形式开放，未重复收录",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "01B02",
+  "cat": "01",
+  "cross": [],
+  "type": "book",
+  "title": "Python for Everybody: Exploring Data in Python 3",
+  "authors": "Charles R. Severance",
+  "school": "",
+  "year": "2016",
+  "version": "PDF 当前版",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "Python 3",
+  "source": "https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf",
+  "license": "CC BY-NC-SA",
+  "goal": "零基础 Python、文件、正则、网络、数据库与数据可视化入门",
+  "order": 2,
+  "out": "books/Severance_PythonForEverybody_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Python",
+    "Everybody"
+   ],
+   "min_pages": 200
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "01B03",
+  "cat": "01",
+  "cross": [],
+  "type": "book",
+  "title": "Automate the Boring Stuff with Python (3rd ed., online)",
+  "authors": "Al Sweigart",
+  "school": "",
+  "year": "2025",
+  "version": "3rd ed. online",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "Python 3",
+  "source": "https://automatetheboringstuff.com/3e/",
+  "license": "CC BY-NC-SA",
+  "goal": "以自动化脚本练习 Python：文件、正则、表格、PDF、网页抓取",
+  "order": 3,
+  "out": "books/Sweigart_AutomateTheBoringStuff_3rdEd_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://automatetheboringstuff.com/3e/",
+   "quota_mb": 200,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/3e"
+   ]
+  },
+  "expect": {
+   "min_docs": 20,
+   "entry": "3e/index.html"
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "01B04",
+  "cat": "01",
+  "cross": [],
+  "type": "book",
+  "title": "Beyond the Basic Stuff with Python",
+  "authors": "Al Sweigart",
+  "school": "",
+  "year": "2020",
+  "version": "online",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Python 基础",
+  "stack": "Python 3",
+  "source": "https://inventwithpython.com/beyond/",
+  "license": "CC BY-NC-SA",
+  "goal": "代码风格、调试、命名、OOP、项目组织与 Git 的进阶习惯",
+  "order": 4,
+  "out": "books/Sweigart_BeyondTheBasicStuff_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://inventwithpython.com/beyond/",
+   "quota_mb": 100,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/beyond"
+   ]
+  },
+  "expect": {
+   "min_docs": 15
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "01B05",
+  "cat": "01",
+  "cross": [
+   "02"
+  ],
+  "type": "book",
+  "title": "Composing Programs（UC Berkeley CS 61A 教材）",
+  "authors": "John DeNero（基于 SICP）",
+  "school": "UC Berkeley",
+  "year": "2024",
+  "version": "online",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "无",
+  "stack": "Python 3",
+  "source": "https://www.composingprograms.com/",
+  "license": "CC BY-SA",
+  "goal": "函数抽象、高阶函数、迭代器/生成器、对象、解释器",
+  "order": 5,
+  "out": "books/DeNero_ComposingPrograms_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://www.composingprograms.com/",
+   "quota_mb": 100,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "domains": [
+    "www.composingprograms.com",
+    "composingprograms.com"
+   ],
+   "span": true
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "01B06",
+  "cat": "01",
+  "cross": [
+   "06"
+  ],
+  "type": "book",
+  "title": "The Hitchhiker's Guide to Python（项目组织、打包与工具最佳实践）",
+  "authors": "Kenneth Reitz, Tanya Schlusser 等",
+  "school": "",
+  "year": "2024",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Python 基础",
+  "stack": "Python 3",
+  "source": "https://github.com/realpython/python-guide",
+  "license": "CC BY-NC-SA",
+  "goal": "项目结构、虚拟环境、测试、文档、打包与常见库选择",
+  "order": 6,
+  "out": "books/Reitz_HitchhikersGuideToPython_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/realpython/python-guide",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "教材/参考书",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "01C01",
+  "cat": "01",
+  "cross": [],
+  "type": "course",
+  "title": "MIT 6.100L Introduction to CS and Programming Using Python (Fall 2022) OCW 课程包",
+  "authors": "Ana Bell",
+  "school": "MIT",
+  "year": "2022",
+  "version": "Fall 2022",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "Python 3",
+  "source": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6.100l-fall-2022.zip",
+  "license": "CC BY-NC-SA 4.0",
+  "goal": "Python 编程与计算思维完整课程：讲义、课件、作业与解答",
+  "order": 10,
+  "out": "courses/MIT_6.100L_Fall2022_OCW_en.zip",
+  "get": {
+   "kind": "file",
+   "urls": [
+    "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6.100l-fall-2022.zip"
+   ],
+   "max_mb": 800
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "课件+讲义+作业（OCW 静态站点包，不含视频文件）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "01C02",
+  "cat": "01",
+  "cross": [],
+  "type": "course",
+  "title": "Harvard CS50's Introduction to Programming with Python (CS50P) 讲义与习题",
+  "authors": "David J. Malan",
+  "school": "Harvard",
+  "year": "2026",
+  "version": "当前版（/python/，2022 版 URL 已重定向至此，页面年份为准）",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "Python 3",
+  "source": "https://cs50.harvard.edu/python/",
+  "license": "CC BY-NC-SA 4.0",
+  "goal": "函数、条件、循环、异常、库、单元测试、文件 I/O、正则、OOP",
+  "order": 11,
+  "out": "courses/Harvard_CS50P_NotesProblems_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://cs50.harvard.edu/python/",
+   "quota_mb": 150,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/python"
+   ]
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "讲义（notes）+ 习题集（problems）；视频仅为链接未下载",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "01C03",
+  "cat": "01",
+  "cross": [],
+  "type": "course",
+  "title": "University of Helsinki Python Programming MOOC 2024 课程材料（源仓库）",
+  "authors": "University of Helsinki MOOC Center",
+  "school": "University of Helsinki",
+  "year": "2024",
+  "version": "programming-24 main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "Python 3",
+  "source": "https://github.com/rage/programming-24",
+  "license": "CC BY-NC-SA 4.0",
+  "goal": "14 个部分的入门到进阶 Python 课程正文与练习说明",
+  "order": 12,
+  "out": "courses/Helsinki_PythonProgrammingMOOC_2024_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/rage/programming-24",
+   "paths": [
+    "data"
+   ]
+  },
+  "expect": {
+   "min_docs": 50,
+   "need_license": false
+  },
+  "material": "课程正文（Markdown）+ 练习说明",
+  "use": "通读",
+  "note": "仓库无 LICENSE 文件；许可依据 mooc.fi 课程站声明",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "01X01",
+  "cat": "01",
+  "cross": [
+   "02"
+  ],
+  "type": "practice",
+  "title": "pytudes（Peter Norvig 的 Python 练习与编程问题集）",
+  "authors": "Peter Norvig",
+  "school": "",
+  "year": "2025",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Python 基础",
+  "stack": "Python 3",
+  "source": "https://github.com/norvig/pytudes",
+  "license": "MIT",
+  "goal": "用简洁 Python 解决谜题与算法问题，学习惯用法",
+  "order": 20,
+  "out": "practice/norvig_pytudes_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/norvig/pytudes"
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "01X02",
+  "cat": "01",
+  "cross": [],
+  "type": "practice",
+  "title": "Exercism Python track（练习题、测试与说明）",
+  "authors": "Exercism",
+  "school": "",
+  "year": "2025",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "Python 3",
+  "source": "https://github.com/exercism/python",
+  "license": "MIT",
+  "goal": "按概念递进的 Python 练习，每题附测试",
+  "order": 21,
+  "out": "practice/exercism_python_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/exercism/python",
+   "paths": [
+    "exercises",
+    "concepts",
+    "reference",
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 100
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "02B01",
+  "cat": "02",
+  "cross": [],
+  "type": "book",
+  "title": "Algorithms",
+  "authors": "Jeff Erickson",
+  "school": "UIUC",
+  "year": "2019",
+  "version": "1st ed. (June 2019)",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "离散数学、一门编程语言",
+  "stack": "",
+  "source": "https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf",
+  "license": "CC BY 4.0",
+  "goal": "递归、回溯、动态规划、贪心、图算法、NP 难度；配套随机算法讲义",
+  "order": 1,
+  "out": "books/Erickson_Algorithms_1stEd_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Algorithms",
+    "Erickson"
+   ],
+   "min_pages": 400
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "02B02",
+  "cat": "02",
+  "cross": [],
+  "type": "book",
+  "title": "Open Data Structures (Python edition)",
+  "authors": "Pat Morin",
+  "school": "",
+  "year": "2013",
+  "version": "0.1Gβ",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Python 基础",
+  "stack": "Python",
+  "source": "https://opendatastructures.org/ods-python.pdf",
+  "license": "CC BY 2.5",
+  "goal": "数组、链表、跳表、哈希、二叉树、堆、图的实现与分析",
+  "order": 2,
+  "out": "books/Morin_OpenDataStructures_Python_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://opendatastructures.org/ods-python.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Open",
+    "Data",
+    "Structures"
+   ],
+   "min_pages": 200
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "02B03",
+  "cat": "02",
+  "cross": [],
+  "type": "book",
+  "title": "Competitive Programmer's Handbook",
+  "authors": "Antti Laaksonen",
+  "school": "",
+  "year": "2018",
+  "version": "July 2018",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "C++ 或 Python",
+  "stack": "C++",
+  "source": "https://cses.fi/book/book.pdf",
+  "license": "CC BY-NC-SA 4.0",
+  "goal": "竞赛式算法实现：排序、搜索、DP、图、树查询、数论",
+  "order": 3,
+  "out": "books/Laaksonen_CompetitiveProgrammersHandbook_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://cses.fi/book/book.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Competitive",
+    "Programmer",
+    "Handbook"
+   ],
+   "min_pages": 250
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "02B04",
+  "cat": "02",
+  "cross": [],
+  "type": "book",
+  "title": "Data Structures and Algorithm Analysis (C++ Edition, 3.2)",
+  "authors": "Clifford A. Shaffer",
+  "school": "Virginia Tech",
+  "year": "2012",
+  "version": "Edition 3.2",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "C++ 基础",
+  "stack": "C++",
+  "source": "https://people.cs.vt.edu/shaffer/Book/C++3e20120605.pdf",
+  "license": "作者免费分发（版权保留）",
+  "goal": "复杂度分析、线性结构、树、排序、文件处理、索引、图",
+  "order": 4,
+  "out": "books/Shaffer_DataStructuresAlgorithmAnalysis_Cpp_3.2_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://people.cs.vt.edu/shaffer/Book/C++3e20120605.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Data",
+    "Structures",
+    "Algorithm",
+    "Analysis"
+   ],
+   "min_pages": 500
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "02B05",
+  "cat": "02",
+  "cross": [],
+  "type": "book",
+  "title": "Mathematics for Computer Science",
+  "authors": "Eric Lehman, F. Thomson Leighton, Albert R. Meyer",
+  "school": "MIT",
+  "year": "2017",
+  "version": "2017 revision",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "高中数学",
+  "stack": "",
+  "source": "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
+  "license": "CC BY-SA 3.0",
+  "goal": "证明、归纳、图论、计数、离散概率（随机算法分析基础）",
+  "order": 5,
+  "out": "books/Lehman_MathematicsForComputerScience_2017_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Mathematics",
+    "Computer",
+    "Science"
+   ],
+   "min_pages": 900
+  },
+  "material": "教材/参考书",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "02C01",
+  "cat": "02",
+  "cross": [],
+  "type": "course",
+  "title": "MIT 6.006 Introduction to Algorithms (Spring 2020) OCW 课程包",
+  "authors": "Erik Demaine, Jason Ku, Justin Solomon",
+  "school": "MIT",
+  "year": "2020",
+  "version": "Spring 2020",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Python、离散数学",
+  "stack": "",
+  "source": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/6.006-spring-2020.zip",
+  "license": "CC BY-NC-SA 4.0",
+  "goal": "数据结构、排序、图搜索、最短路、动态规划；讲义、习题与解答",
+  "order": 10,
+  "out": "courses/MIT_6.006_Spring2020_OCW_en.zip",
+  "get": {
+   "kind": "file",
+   "urls": [
+    "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/6.006-spring-2020.zip"
+   ],
+   "max_mb": 800
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "讲义+课件+习题/解答（OCW 包，不含视频文件）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "02C02",
+  "cat": "02",
+  "cross": [],
+  "type": "course",
+  "title": "MIT 6.046J Design and Analysis of Algorithms (Spring 2015) OCW 课程包",
+  "authors": "Erik Demaine, Srini Devadas, Nancy Lynch",
+  "school": "MIT",
+  "year": "2015",
+  "version": "Spring 2015",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "6.006",
+  "stack": "",
+  "source": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/6.046j-spring-2015.zip",
+  "license": "CC BY-NC-SA 4.0",
+  "goal": "分治、摊还分析、随机算法、网络流、近似算法、分布式算法",
+  "order": 11,
+  "out": "courses/MIT_6.046J_Spring2015_OCW_en.zip",
+  "get": {
+   "kind": "file",
+   "urls": [
+    "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/6.046j-spring-2015.zip"
+   ],
+   "max_mb": 800
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "讲义+习题/解答（OCW 包）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "02C03",
+  "cat": "02",
+  "cross": [],
+  "type": "course",
+  "title": "Princeton COS 226 Algorithms and Data Structures (Spring 2025) 课件",
+  "authors": "Robert Sedgewick, Kevin Wayne 等",
+  "school": "Princeton",
+  "year": "2025",
+  "version": "Spring 2025",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Java 基础",
+  "stack": "Java",
+  "source": "",
+  "license": "课程网站公开课件（版权保留）",
+  "goal": "并查集、排序、优先队列、符号表、平衡树、哈希、图、字符串算法",
+  "order": 12,
+  "out": "courses/Princeton_COS226_Spring2025_Slides_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 15,
+   "index": "https://www.cs.princeton.edu/courses/archive/spring25/cos226/lectures.php",
+   "pattern": "/lectures/.*\\.pdf$"
+  },
+  "expect": {},
+  "material": "课件 PDF（不含作业与视频）",
+  "use": "通读",
+  "note": "",
+  "complete": "部分",
+  "scope": "仅课件 PDF；作业规格在课程站另行发布，未下载"
+ },
+ {
+  "id": "02X01",
+  "cat": "02",
+  "cross": [],
+  "type": "practice",
+  "title": "TheAlgorithms/Python（算法参考实现集）",
+  "authors": "The Algorithms 社区",
+  "school": "",
+  "year": "2025",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Python",
+  "stack": "Python",
+  "source": "https://github.com/TheAlgorithms/Python",
+  "license": "MIT",
+  "goal": "按主题查阅排序、图、DP、数据结构的 Python 实现",
+  "order": 20,
+  "out": "practice/TheAlgorithms_Python_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/TheAlgorithms/Python"
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "material": "实践项目",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "02X02",
+  "cat": "02",
+  "cross": [],
+  "type": "practice",
+  "title": "algs4：Sedgewick & Wayne《Algorithms, 4th ed.》配套 Java 源码",
+  "authors": "Robert Sedgewick, Kevin Wayne",
+  "school": "",
+  "year": "2024",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Java",
+  "stack": "Java",
+  "source": "https://github.com/kevin-wayne/algs4",
+  "license": "GPL-3.0",
+  "goal": "教科书级数据结构与算法参考实现",
+  "order": 21,
+  "out": "practice/algs4_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/kevin-wayne/algs4"
+  },
+  "expect": {
+   "min_docs": 1
+  },
+  "material": "实践项目",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "03B01",
+  "cat": "03",
+  "cross": [
+   "04"
+  ],
+  "type": "book",
+  "title": "Python Data Science Handbook（笔记本全文）",
+  "authors": "Jake VanderPlas",
+  "school": "",
+  "year": "2016",
+  "version": "1st ed. notebooks（master 提交）",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Python 基础",
+  "stack": "NumPy/pandas/Matplotlib",
+  "source": "https://github.com/jakevdp/PythonDataScienceHandbook",
+  "license": "文本 CC BY-NC-ND 3.0，代码 MIT",
+  "goal": "IPython、NumPy、pandas、Matplotlib、scikit-learn 全书",
+  "order": 1,
+  "out": "books/VanderPlas_PythonDataScienceHandbook_notebooks_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/jakevdp/PythonDataScienceHandbook",
+   "paths": [
+    "notebooks"
+   ]
+  },
+  "expect": {
+   "min_docs": 40
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "03B02",
+  "cat": "03",
+  "cross": [],
+  "type": "book",
+  "title": "Python for Data Analysis (3rd ed., Open Access 网页版)",
+  "authors": "Wes McKinney",
+  "school": "",
+  "year": "2022",
+  "version": "3rd ed.",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Python 基础",
+  "stack": "pandas/NumPy",
+  "source": "https://wesmckinney.com/book/",
+  "license": "免费在线阅读（版权保留，个人离线保存）",
+  "goal": "pandas 作者撰写的数据清洗、分组、时间序列与 NumPy 基础",
+  "order": 2,
+  "out": "books/McKinney_PythonForDataAnalysis_3rdEd_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://wesmckinney.com/book/",
+   "quota_mb": 150,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/book"
+   ]
+  },
+  "expect": {
+   "min_docs": 12
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "03B03",
+  "cat": "03",
+  "cross": [],
+  "type": "book",
+  "title": "Python Programming and Numerical Methods: A Guide for Engineers and Scientists",
+  "authors": "Qingkai Kong, Timmy Siauw, Alexandre Bayen",
+  "school": "UC Berkeley",
+  "year": "2020",
+  "version": "online（Berkeley）",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "微积分、线性代数",
+  "stack": "Python/NumPy/SciPy",
+  "source": "https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html",
+  "license": "CC BY-NC-ND（以站点声明为准）",
+  "goal": "数值误差与浮点、线性代数、插值、数值微积分、ODE、傅里叶",
+  "order": 3,
+  "out": "books/Kong_PythonProgrammingNumericalMethods_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html",
+   "quota_mb": 300,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/notebooks",
+    "/_static",
+    "/_images"
+   ]
+  },
+  "expect": {
+   "min_docs": 100
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "03B04",
+  "cat": "03",
+  "cross": [],
+  "type": "book",
+  "title": "Scientific Visualization: Python + Matplotlib",
+  "authors": "Nicolas P. Rougier",
+  "school": "",
+  "year": "2021",
+  "version": "1st ed.",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "NumPy、Matplotlib 基础",
+  "stack": "Matplotlib",
+  "source": "https://inria.hal.science/hal-03427242/document",
+  "license": "CC BY-NC-SA 4.0",
+  "goal": "Matplotlib 进阶：布局、色彩、动画、出版级图表",
+  "order": 4,
+  "out": "books/Rougier_ScientificVisualizationPythonMatplotlib_2021_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://inria.hal.science/hal-03427242/document",
+    "https://hal.science/hal-03427242/document"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Scientific",
+    "Visualization",
+    "Matplotlib"
+   ],
+   "min_pages": 150
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "03B05",
+  "cat": "03",
+  "cross": [
+   "10"
+  ],
+  "type": "book",
+  "title": "Fundamentals of Data Visualization",
+  "authors": "Claus O. Wilke",
+  "school": "",
+  "year": "2019",
+  "version": "online",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "（与工具无关）",
+  "source": "https://clauswilke.com/dataviz/",
+  "license": "CC BY-NC-ND 4.0",
+  "goal": "可视化原则：映射、色彩、比例、分布与不确定性表达",
+  "order": 5,
+  "out": "books/Wilke_FundamentalsOfDataVisualization_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://clauswilke.com/dataviz/",
+   "quota_mb": 200,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/dataviz"
+   ]
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "03C01",
+  "cat": "03",
+  "cross": [
+   "04"
+  ],
+  "type": "course",
+  "title": "UC Berkeley Data 100 Principles and Techniques of Data Science 课程讲义",
+  "authors": "Data 100 Course Staff",
+  "school": "UC Berkeley",
+  "year": "2025",
+  "version": "course-notes main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Python、Data 8",
+  "stack": "pandas/Matplotlib/scikit-learn",
+  "source": "https://github.com/DS-100/course-notes",
+  "license": "CC BY-NC-SA 4.0",
+  "goal": "pandas、数据清洗、可视化、SQL、建模、交叉验证、特征工程",
+  "order": 10,
+  "out": "courses/Berkeley_Data100_CourseNotes_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/DS-100/course-notes"
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "课程讲义（Quarto 源与笔记本）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "03C02",
+  "cat": "03",
+  "cross": [],
+  "type": "course",
+  "title": "UC Berkeley Data 8 教材 Computational and Inferential Thinking",
+  "authors": "Ani Adhikari, John DeNero, David Wagner",
+  "school": "UC Berkeley",
+  "year": "2022",
+  "version": "2nd ed.（textbook main 提交）",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "Python/datascience",
+  "source": "https://github.com/data-8/textbook",
+  "license": "CC BY-NC-ND 4.0",
+  "goal": "表格计算、可视化、随机化、推断、回归与分类入门",
+  "order": 11,
+  "out": "courses/Berkeley_Data8_Textbook_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/data-8/textbook",
+   "paths": [
+    "chapters"
+   ]
+  },
+  "expect": {
+   "min_docs": 50
+  },
+  "material": "课程教材（笔记本源）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "03D10",
+  "cat": "03",
+  "cross": [],
+  "type": "docs",
+  "title": "Scientific Python Lectures（社区系统教程）",
+  "authors": "Scientific Python 社区（G. Varoquaux 等）",
+  "school": "",
+  "year": "2025",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Python 基础",
+  "stack": "NumPy/SciPy",
+  "source": "https://github.com/scipy-lectures/scientific-python-lectures",
+  "license": "CC BY",
+  "goal": "NumPy、SciPy、Matplotlib、优化、图像处理、性能技巧的系统教程",
+  "order": 20,
+  "out": "official_docs/scientific_python_lectures_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/scipy-lectures/scientific-python-lectures"
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "系统教程（社区维护）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "03D11",
+  "cat": "03",
+  "cross": [
+   "08"
+  ],
+  "type": "docs",
+  "title": "Apache Parquet 格式规范",
+  "authors": "Apache Software Foundation",
+  "school": "",
+  "year": "2025",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "数据处理基础",
+  "stack": "Parquet",
+  "source": "https://github.com/apache/parquet-format",
+  "license": "Apache-2.0",
+  "goal": "列式存储格式：编码、压缩、元数据、逻辑类型",
+  "order": 21,
+  "out": "official_docs/apache_parquet_format_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/apache/parquet-format"
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "03X51",
+  "cat": "03",
+  "cross": [],
+  "type": "practice",
+  "title": "100 NumPy exercises",
+  "authors": "Nicolas P. Rougier",
+  "school": "",
+  "year": "2025",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "NumPy 基础",
+  "stack": "NumPy",
+  "source": "https://github.com/rougier/numpy-100",
+  "license": "MIT",
+  "goal": "100 道向量化练习（附提示与答案）",
+  "order": 30,
+  "out": "practice/rougier_numpy_100_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/rougier/numpy-100"
+  },
+  "expect": {
+   "min_docs": 3
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "03X02",
+  "cat": "03",
+  "cross": [],
+  "type": "practice",
+  "title": "pandas_exercises",
+  "authors": "Guilherme Samora",
+  "school": "",
+  "year": "2023",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "pandas 基础",
+  "stack": "pandas",
+  "source": "https://github.com/guipsamora/pandas_exercises",
+  "license": "BSD-3-Clause",
+  "goal": "按主题的 pandas 练习（筛选、分组、合并、时间序列、可视化）",
+  "order": 31,
+  "out": "practice/guipsamora_pandas_exercises_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/guipsamora/pandas_exercises"
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "03X03",
+  "cat": "03",
+  "cross": [],
+  "type": "practice",
+  "title": "From Python to Numpy（向量化专题书与示例）",
+  "authors": "Nicolas P. Rougier",
+  "school": "",
+  "year": "2017",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "NumPy",
+  "stack": "NumPy",
+  "source": "https://github.com/rougier/from-python-to-numpy",
+  "license": "CC BY-NC-SA 4.0（文本）/ BSD（代码）",
+  "goal": "从循环到向量化的思维转换与案例",
+  "order": 32,
+  "out": "practice/rougier_from_python_to_numpy_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/rougier/from-python-to-numpy"
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "04B01",
+  "cat": "04",
+  "cross": [],
+  "type": "book",
+  "title": "An Introduction to Statistical Learning with Applications in Python",
+  "authors": "G. James, D. Witten, T. Hastie, R. Tibshirani, J. Taylor",
+  "school": "",
+  "year": "2023",
+  "version": "1st ed. (Python)",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "概率统计、Python",
+  "stack": "Python/scikit-learn/ISLP",
+  "source": "https://www.statlearning.com/",
+  "license": "作者网站免费 PDF（版权保留）",
+  "goal": "重抽样、交叉验证、模型选择、树模型、深度学习的 Python 实验",
+  "order": 1,
+  "out": "books/James_IntroductionStatisticalLearningPython_1stEd_en.pdf",
+  "get": {
+   "kind": "reuse"
+  },
+  "expect": {
+   "title_words": [
+    "Statistical",
+    "Learning",
+    "Python"
+   ],
+   "min_pages": 500
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": "",
+  "reuse": {
+   "path": "/root/industrial_process_monitoring_literature/books/James_IntroductionStatisticalLearningPython_1stEd_en.pdf",
+   "source": "https://www.statlearning.com/"
+  }
+ },
+ {
+  "id": "04B02",
+  "cat": "04",
+  "cross": [],
+  "type": "book",
+  "title": "Data Science and Machine Learning: Mathematical and Statistical Methods",
+  "authors": "D. P. Kroese, Z. I. Botev, T. Taimre, R. Vaisman",
+  "school": "",
+  "year": "2019",
+  "version": "1st ed.（作者修订 PDF）",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "线性代数、概率",
+  "stack": "Python/NumPy",
+  "source": "https://people.smp.uq.edu.au/DirkKroese/DSML/DSML.pdf",
+  "license": "作者网站免费 PDF（版权保留）",
+  "goal": "统计学习与 Python 代码并行讲解：模型评估、正则化、核方法、深度学习",
+  "order": 2,
+  "out": "books/Kroese_DataScienceAndMachineLearning_2019_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://people.smp.uq.edu.au/DirkKroese/DSML/DSML.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Data",
+    "Science",
+    "Machine",
+    "Learning"
+   ],
+   "min_pages": 500
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "04B03",
+  "cat": "04",
+  "cross": [],
+  "type": "book",
+  "title": "Patterns, Predictions, and Actions: Foundations of Machine Learning",
+  "authors": "Moritz Hardt, Benjamin Recht",
+  "school": "",
+  "year": "2022",
+  "version": "1st ed.",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "概率统计",
+  "stack": "",
+  "source": "https://mlstory.org/",
+  "license": "CC BY-NC-ND 4.0",
+  "goal": "数据集、基准、泛化与留出法、因果与序贯决策；理解数据泄漏与评测偏差",
+  "order": 3,
+  "out": "books/Hardt_PatternsPredictionsActions_2022_en.pdf",
+  "get": {
+   "kind": "reuse"
+  },
+  "expect": {
+   "title_words": [
+    "Patterns",
+    "Predictions",
+    "Actions"
+   ],
+   "min_pages": 250
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": "",
+  "reuse": {
+   "path": "/root/time_series_literature/books/files/Hardt_PatternsPredictionsActionsFoundationsMac_1steditionarXiv_2022_en.pdf",
+   "source": "https://mlstory.org/"
+  }
+ },
+ {
+  "id": "04B04",
+  "cat": "04",
+  "cross": [
+   "14",
+   "06"
+  ],
+  "type": "book",
+  "title": "Machine Learning in Production: From Models to Products",
+  "authors": "Christian Kästner",
+  "school": "Carnegie Mellon University",
+  "year": "2025",
+  "version": "online（CMU 课程教材）",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "机器学习基础、软件工程基础",
+  "stack": "",
+  "source": "https://mlip-cmu.github.io/book/",
+  "license": "CC BY-NC-ND 4.0（以站点声明为准）",
+  "goal": "需求、数据质量、模型评估、部署、监控、MLOps、负责任工程",
+  "order": 4,
+  "out": "books/Kastner_MachineLearningInProduction_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://mlip-cmu.github.io/book/",
+   "quota_mb": 200,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/book"
+   ]
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "04C01",
+  "cat": "04",
+  "cross": [],
+  "type": "course",
+  "title": "MIT 6.390 Introduction to Machine Learning 讲义",
+  "authors": "MIT 6.390 Staff",
+  "school": "MIT",
+  "year": "2024",
+  "version": "online notes",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "线性代数、Python",
+  "stack": "",
+  "source": "https://introml.mit.edu/notes/",
+  "license": "MIT 课程网站公开讲义",
+  "goal": "回归、分类、特征表示、神经网络、交叉验证的讲义",
+  "order": 10,
+  "out": "courses/MIT_6390_LectureNotes_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://introml.mit.edu/notes/",
+   "quota_mb": 150,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/notes",
+    "/_static",
+    "/_images"
+   ]
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "material": "讲义",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "04C02",
+  "cat": "04",
+  "cross": [
+   "14"
+  ],
+  "type": "course",
+  "title": "CMU 17-445/645 Machine Learning in Production（课件与实验）",
+  "authors": "Christian Kästner 等",
+  "school": "Carnegie Mellon University",
+  "year": "2025",
+  "version": "Spring 2025（仓库提交）",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "ML 基础、Python",
+  "stack": "",
+  "source": "https://github.com/mlip-cmu/s2025",
+  "license": "CC BY-NC-SA 4.0（以仓库为准）",
+  "goal": "ML 系统工程：数据管线、测试、部署、监控、安全与公平；含实验说明",
+  "order": 11,
+  "out": "courses/CMU_17645_MLinProduction_2025_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/mlip-cmu/s2025"
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "课件 + 实验（labs）+ 阅读材料",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "04C03",
+  "cat": "04",
+  "cross": [],
+  "type": "course",
+  "title": "Stanford CS 329S Machine Learning Systems Design (Winter 2022) 讲义",
+  "authors": "Chip Huyen",
+  "school": "Stanford",
+  "year": "2022",
+  "version": "Winter 2022",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "ML 基础",
+  "stack": "",
+  "source": "https://stanford-cs329s.github.io/syllabus.html",
+  "license": "课程网站公开讲义（版权保留）",
+  "goal": "数据工程、特征、模型开发与离线评估、部署、监控与持续学习",
+  "order": 12,
+  "out": "courses/Stanford_CS329S_2022_Notes_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://stanford-cs329s.github.io/syllabus.html",
+   "quota_mb": 200,
+   "level": "2",
+   "wait": 0.4,
+   "no_parent": true
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "material": "讲义（lecture notes）+ 课件链接页",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "04C04",
+  "cat": "04",
+  "cross": [],
+  "type": "course",
+  "title": "Inria scikit-learn MOOC: Machine learning in Python with scikit-learn",
+  "authors": "Inria（G. Varoquaux, O. Grisel 等）",
+  "school": "Inria（研究机构）",
+  "year": "2024",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Python、NumPy、pandas",
+  "stack": "scikit-learn",
+  "source": "https://github.com/INRIA/scikit-learn-mooc",
+  "license": "CC BY 4.0",
+  "goal": "预处理管线、交叉验证、超参数调优、模型评估与数据泄漏防范的完整课程（研究机构课程）",
+  "order": 13,
+  "out": "courses/Inria_scikit-learn_MOOC_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/INRIA/scikit-learn-mooc"
+  },
+  "expect": {
+   "min_docs": 50
+  },
+  "material": "课程笔记本 + 测验 + 讲解（研究机构官方课程，非大学）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "04X51",
+  "cat": "04",
+  "cross": [
+   "14"
+  ],
+  "type": "practice",
+  "title": "Made With ML（MLOps 端到端课程项目）",
+  "authors": "Goku Mohandas",
+  "school": "",
+  "year": "2024",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Python、ML 基础",
+  "stack": "PyTorch/Ray/MLflow",
+  "source": "https://github.com/GokuMohandas/Made-With-ML",
+  "license": "MIT",
+  "goal": "数据处理、训练、调优、评估、服务化、CI/CD 的完整参考项目",
+  "order": 20,
+  "out": "practice/madewithml_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/GokuMohandas/Made-With-ML"
+  },
+  "expect": {
+   "min_docs": 3
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "04X52",
+  "cat": "04",
+  "cross": [
+   "06"
+  ],
+  "type": "practice",
+  "title": "Cookiecutter Data Science（项目结构模板 v2）",
+  "authors": "DrivenData",
+  "school": "",
+  "year": "2025",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Python",
+  "stack": "",
+  "source": "https://github.com/drivendataorg/cookiecutter-data-science",
+  "license": "MIT",
+  "goal": "数据科学项目目录、数据分层与可复现约定",
+  "order": 21,
+  "out": "practice/cookiecutter_data_science_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/drivendataorg/cookiecutter-data-science"
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "05B01",
+  "cat": "05",
+  "cross": [],
+  "type": "book",
+  "title": "Dive into Deep Learning",
+  "authors": "Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola",
+  "school": "",
+  "year": "2023",
+  "version": "PyTorch 版 PDF",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Python、线性代数",
+  "stack": "PyTorch",
+  "source": "https://d2l.ai/",
+  "license": "CC BY-SA 4.0",
+  "goal": "从张量、自动微分到 CNN/RNN/Transformer、优化与计算性能（多 GPU）的可运行教材",
+  "order": 1,
+  "out": "books/Zhang_DiveIntoDeepLearning_2023_en.pdf",
+  "get": {
+   "kind": "reuse"
+  },
+  "expect": {
+   "title_words": [
+    "Dive",
+    "Deep",
+    "Learning"
+   ],
+   "min_pages": 800
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": "",
+  "reuse": {
+   "path": "/root/time_series_literature/books/files/Zhang_DiveIntoDeepLearning_PyTorchPDF_2023_en.pdf",
+   "source": "https://d2l.ai/"
+  }
+ },
+ {
+  "id": "05B02",
+  "cat": "05",
+  "cross": [],
+  "type": "book",
+  "title": "Understanding Deep Learning",
+  "authors": "Simon J. D. Prince",
+  "school": "",
+  "year": "2023",
+  "version": "MIT Press 2023（作者 PDF）",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "线性代数、概率",
+  "stack": "",
+  "source": "https://udlbook.github.io/udlbook/",
+  "license": "CC BY-NC-ND（作者网站）",
+  "goal": "网络结构、损失、训练、初始化、正则化的原理（配套笔记本）",
+  "order": 2,
+  "out": "books/Prince_UnderstandingDeepLearning_2023_en.pdf",
+  "get": {
+   "kind": "reuse"
+  },
+  "expect": {
+   "title_words": [
+    "Understanding",
+    "Deep",
+    "Learning"
+   ],
+   "min_pages": 400
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": "",
+  "reuse": {
+   "path": "/root/time_series_literature/books/files/Prince_UnderstandingDeepLearning_PDFv503GitHubrelease20260209_2023_en.pdf",
+   "source": "https://udlbook.github.io/udlbook/"
+  }
+ },
+ {
+  "id": "05B03",
+  "cat": "05",
+  "cross": [],
+  "type": "book",
+  "title": "The Little Book of Deep Learning",
+  "authors": "François Fleuret",
+  "school": "",
+  "year": "2023",
+  "version": "v1.2",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "",
+  "source": "https://fleuret.org/public/lbdl.pdf",
+  "license": "CC BY-NC-SA 4.0",
+  "goal": "深度学习核心组件的简明速查",
+  "order": 3,
+  "out": "books/Fleuret_LittleBookOfDeepLearning_2023_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://fleuret.org/public/lbdl.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Little",
+    "Book",
+    "Deep",
+    "Learning"
+   ],
+   "min_pages": 100
+  },
+  "material": "教材/参考书",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "05B04",
+  "cat": "05",
+  "cross": [
+   "13",
+   "14"
+  ],
+  "type": "book",
+  "title": "Machine Learning Engineering Open Book",
+  "authors": "Stas Bekman",
+  "school": "",
+  "year": "2025",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶-高级",
+  "prereq": "PyTorch",
+  "stack": "PyTorch/NCCL/SLURM",
+  "source": "https://github.com/stas00/ml-engineering",
+  "license": "CC BY-SA 4.0",
+  "goal": "大模型训练工程：调试、检查点、混合精度、网络与存储、分布式训练故障排查",
+  "order": 4,
+  "out": "books/Bekman_MachineLearningEngineeringOpenBook_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/stas00/ml-engineering"
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "教材/参考书",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "05C01",
+  "cat": "05",
+  "cross": [],
+  "type": "course",
+  "title": "Stanford CS231n Deep Learning for Computer Vision 课程讲义",
+  "authors": "Fei-Fei Li, Justin Johnson 等",
+  "school": "Stanford",
+  "year": "2025",
+  "version": "online notes",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Python、线性代数",
+  "stack": "",
+  "source": "https://cs231n.github.io/",
+  "license": "课程网站公开讲义（MIT 许可仓库）",
+  "goal": "反向传播、CNN、训练技巧、PyTorch 实现",
+  "order": 10,
+  "out": "courses/Stanford_CS231n_Online_LectureNotes_en",
+  "get": {
+   "kind": "reuse"
+  },
+  "expect": {},
+  "material": "讲义",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": "",
+  "reuse": {
+   "path": "/root/ai_undergraduate_graduate_curriculum_literature/courses/Stanford_CS231n_Online_CourseNotes_html_en",
+   "source": "https://cs231n.github.io/"
+  }
+ },
+ {
+  "id": "05C02",
+  "cat": "05",
+  "cross": [
+   "13"
+  ],
+  "type": "course",
+  "title": "CMU 10-414/714 Deep Learning Systems: Algorithms and Implementation 课件与作业",
+  "authors": "Zico Kolter, Tianqi Chen",
+  "school": "Carnegie Mellon University",
+  "year": "2024",
+  "version": "Fall 2024 / online",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Python、C++、ML 基础",
+  "stack": "",
+  "source": "",
+  "license": "课程网站公开课件（版权保留）",
+  "goal": "自动微分、needle 框架实现、GPU 加速、CNN/RNN/Transformer 实现与优化",
+  "order": 11,
+  "out": "courses/CMU_10714_DLSys_Lectures_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 10,
+   "index": "https://dlsyscourse.org/lectures/",
+   "pattern": "\\.pdf$"
+  },
+  "expect": {},
+  "material": "课件 PDF（作业框架见实践项目 05X21）",
+  "use": "通读",
+  "note": "",
+  "complete": "部分",
+  "scope": "课程站全部课件 PDF；实现类讲次以 GitHub 笔记本发布（lecture5/8/13 等仓库），未下载"
+ },
+ {
+  "id": "05C03",
+  "cat": "05",
+  "cross": [],
+  "type": "course",
+  "title": "University of Amsterdam Deep Learning Course 教程笔记本（UvA DL Notebooks）",
+  "authors": "Phillip Lippe 等",
+  "school": "University of Amsterdam",
+  "year": "2024",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Python、DL 基础",
+  "stack": "PyTorch/JAX",
+  "source": "https://github.com/phlippe/uvadlc_notebooks",
+  "license": "MIT",
+  "goal": "PyTorch/JAX 实现：激活、优化、Transformer、GNN、自监督、多 GPU 训练",
+  "order": 12,
+  "out": "courses/UvA_DL_Notebooks_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/phlippe/uvadlc_notebooks",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "教程笔记本（课程官方）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "05C04",
+  "cat": "05",
+  "cross": [],
+  "type": "course",
+  "title": "MIT 6.S191 Introduction to Deep Learning 实验（labs 仓库，PyTorch 与 TensorFlow 双版本）",
+  "authors": "Alexander Amini, Ava Amini",
+  "school": "MIT",
+  "year": "2026",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Python、DL 基础",
+  "stack": "PyTorch/TensorFlow",
+  "source": "https://github.com/MITDeepLearning/introtodeeplearning",
+  "license": "MIT",
+  "goal": "MIT 官方课程实验：音乐生成 RNN、人脸检测去偏、LLM 微调等，分别提供 PyTorch 与 TensorFlow 笔记本",
+  "order": 13,
+  "out": "courses/MIT_6S191_Labs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/MITDeepLearning/introtodeeplearning"
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "material": "实验笔记本 + 课程工具包（课件/视频在课程站，未下载）",
+  "use": "通读",
+  "note": "",
+  "complete": "部分",
+  "scope": "仅实验仓库（labs）；讲座课件与视频未下载"
+ },
+ {
+  "id": "05X51",
+  "cat": "05",
+  "cross": [],
+  "type": "practice",
+  "title": "micrograd（最小自动微分引擎）",
+  "authors": "Andrej Karpathy",
+  "school": "",
+  "year": "2020",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Python",
+  "stack": "Python",
+  "source": "https://github.com/karpathy/micrograd",
+  "license": "MIT",
+  "goal": "手写标量自动微分与小型神经网络",
+  "order": 20,
+  "out": "practice/karpathy_micrograd_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/karpathy/micrograd"
+  },
+  "expect": {
+   "min_docs": 1
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "05X52",
+  "cat": "05",
+  "cross": [],
+  "type": "practice",
+  "title": "Neural Networks: Zero to Hero（笔记本与练习）",
+  "authors": "Andrej Karpathy",
+  "school": "",
+  "year": "2024",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Python",
+  "stack": "PyTorch",
+  "source": "https://github.com/karpathy/nn-zero-to-hero",
+  "license": "MIT",
+  "goal": "从 micrograd 到 makemore 到 GPT 的逐步实现",
+  "order": 21,
+  "out": "practice/karpathy_nn_zero_to_hero_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/karpathy/nn-zero-to-hero"
+  },
+  "expect": {
+   "min_docs": 3
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "05X03",
+  "cat": "05",
+  "cross": [
+   "13"
+  ],
+  "type": "practice",
+  "title": "nanoGPT",
+  "authors": "Andrej Karpathy",
+  "school": "",
+  "year": "2024",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "PyTorch",
+  "stack": "PyTorch",
+  "source": "https://github.com/karpathy/nanoGPT",
+  "license": "MIT",
+  "goal": "最小 GPT 训练/微调代码：数据管线、训练循环、混合精度、DDP、检查点",
+  "order": 22,
+  "out": "practice/karpathy_nanoGPT_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/karpathy/nanoGPT"
+  },
+  "expect": {
+   "min_docs": 1
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "05X21",
+  "cat": "05",
+  "cross": [
+   "13"
+  ],
+  "type": "practice",
+  "title": "CMU DLSys needle 作业框架（hw0–hw4 公开模板）",
+  "authors": "CMU DLSys Course Staff",
+  "school": "",
+  "year": "2024",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Python、C++、CUDA 基础",
+  "stack": "Python/C++/CUDA",
+  "source": "",
+  "license": "以各仓库许可为准",
+  "goal": "实现自动微分、NN 模块、CPU/GPU 后端与模型",
+  "order": 23,
+  "out": "practice/dlsys_needle_homework_en",
+  "get": {
+   "kind": "multi_git",
+   "repos": [
+    "https://github.com/dlsyscourse/hw0",
+    "https://github.com/dlsyscourse/hw1",
+    "https://github.com/dlsyscourse/hw2",
+    "https://github.com/dlsyscourse/hw3",
+    "https://github.com/dlsyscourse/hw4"
+   ]
+  },
+  "expect": {},
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "06B01",
+  "cat": "06",
+  "cross": [],
+  "type": "book",
+  "title": "Software Engineering at Google: Lessons Learned from Programming Over Time",
+  "authors": "Titus Winters, Tom Manshreck, Hyrum Wright",
+  "school": "",
+  "year": "2020",
+  "version": "online",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "编程经验",
+  "stack": "",
+  "source": "https://abseil.io/resources/swe-book/html/toc.html",
+  "license": "CC BY-NC-ND 4.0",
+  "goal": "代码评审、测试（单元/集成/大型）、依赖管理、构建系统、CI/CD、弃用",
+  "order": 1,
+  "out": "books/Winters_SoftwareEngineeringAtGoogle_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://abseil.io/resources/swe-book/html/toc.html",
+   "quota_mb": 200,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/resources/swe-book"
+   ]
+  },
+  "expect": {
+   "min_docs": 25
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "06B02",
+  "cat": "06",
+  "cross": [
+   "09"
+  ],
+  "type": "book",
+  "title": "Architecture Patterns with Python（Cosmic Python）",
+  "authors": "Harry Percival, Bob Gregory",
+  "school": "",
+  "year": "2020",
+  "version": "online",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Python、Flask/SQLAlchemy 基础",
+  "stack": "Python",
+  "source": "https://www.cosmicpython.com/book/preface.html",
+  "license": "CC BY-NC-ND 4.0",
+  "goal": "领域模型、仓储、服务层、单元工作、事件、依赖注入与测试金字塔",
+  "order": 2,
+  "out": "books/Percival_ArchitecturePatternsWithPython_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://www.cosmicpython.com/book/preface.html",
+   "quota_mb": 100,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/book"
+   ]
+  },
+  "expect": {
+   "min_docs": 15
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "06B03",
+  "cat": "06",
+  "cross": [
+   "09"
+  ],
+  "type": "book",
+  "title": "Test-Driven Development with Python (3rd ed., online)",
+  "authors": "Harry Percival",
+  "school": "",
+  "year": "2025",
+  "version": "3rd ed. online",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Python 基础",
+  "stack": "Python/Django",
+  "source": "https://www.obeythetestinggoat.com/book/preface.html",
+  "license": "CC BY-NC-ND（以站点声明为准）",
+  "goal": "TDD、功能测试、单元测试、Django、部署与 CI",
+  "order": 3,
+  "out": "books/Percival_TDDWithPython_3rdEd_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://www.obeythetestinggoat.com/book/preface.html",
+   "quota_mb": 150,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/book"
+   ]
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "06B04",
+  "cat": "06",
+  "cross": [],
+  "type": "book",
+  "title": "The Architecture of Open Source Applications (Vol. I & II)",
+  "authors": "Amy Brown, Greg Wilson（编）",
+  "school": "",
+  "year": "2012",
+  "version": "online",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "编程经验",
+  "stack": "",
+  "source": "https://aosabook.org/en/index.html",
+  "license": "CC BY 3.0",
+  "goal": "真实开源系统（如 Git、LLVM、Mercurial、NumPy 等）的架构剖析",
+  "order": 4,
+  "out": "books/Brown_ArchitectureOfOpenSourceApplications_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://aosabook.org/en/index.html",
+   "quota_mb": 200,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/en"
+   ]
+  },
+  "expect": {
+   "min_docs": 40
+  },
+  "material": "教材/参考书",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "06B05",
+  "cat": "06",
+  "cross": [
+   "07"
+  ],
+  "type": "book",
+  "title": "Producing Open Source Software (2nd ed.)",
+  "authors": "Karl Fogel",
+  "school": "",
+  "year": "2023",
+  "version": "2.3xxx（PDF 内版本为准）",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "",
+  "source": "https://producingoss.com/en/producingoss-a4.pdf",
+  "license": "CC BY-SA 4.0",
+  "goal": "协作流程、版本控制、发布、沟通与社区治理",
+  "order": 5,
+  "out": "books/Fogel_ProducingOpenSourceSoftware_2ndEd_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://producingoss.com/en/producingoss-a4.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Producing",
+    "Open",
+    "Source",
+    "Software"
+   ],
+   "min_pages": 150
+  },
+  "material": "教材/参考书",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "06C01",
+  "cat": "06",
+  "cross": [],
+  "type": "course",
+  "title": "MIT 6.031 Software Construction (Spring 2022) 阅读讲义",
+  "authors": "MIT 6.031 Staff",
+  "school": "MIT",
+  "year": "2022",
+  "version": "Spring 2022",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "一门编程语言",
+  "stack": "TypeScript",
+  "source": "https://web.mit.edu/6.031/www/sp22/",
+  "license": "CC BY-SA 4.0",
+  "goal": "规格、测试、抽象数据类型、不变量、并发、递归数据类型、代码评审",
+  "order": 10,
+  "out": "courses/MIT_6.031_Spring2022_Readings_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://web.mit.edu/6.031/www/sp22/",
+   "quota_mb": 200,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/6.031/www/sp22"
+   ]
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "完整阅读讲义（readings）+ 课程页面",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "06C02",
+  "cat": "06",
+  "cross": [],
+  "type": "course",
+  "title": "CMU 17-313 Foundations of Software Engineering（课件、作业与讲习）",
+  "authors": "CMU 17-313 Course Staff",
+  "school": "Carnegie Mellon University",
+  "year": "2026",
+  "version": "Fall 2026（main 提交）",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "一门编程语言、Git",
+  "stack": "",
+  "source": "https://github.com/CMU-313/CMU-313.github.io",
+  "license": "以仓库 LICENSE 为准",
+  "goal": "需求、架构、测试与 CI、代码评审、开源协作、DevOps、AI 辅助开发的软件工程课程",
+  "order": 11,
+  "out": "courses/CMU_17313_FoundationsSE_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/CMU-313/CMU-313.github.io",
+   "paths": [
+    "slides",
+    "assignments",
+    "recitations",
+    "specs",
+    "17-313 Fall 2026 Schedule - Lecture Schedule.csv"
+   ]
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "material": "课件 + 作业规格 + 讲习材料（课程官方仓库；不含历史学期归档）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "06X01",
+  "cat": "06",
+  "cross": [
+   "01"
+  ],
+  "type": "practice",
+  "title": "500 Lines or Less（AOSA 小型完整项目集）",
+  "authors": "Michael DiBernardo（编）",
+  "school": "",
+  "year": "2016",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Python",
+  "stack": "",
+  "source": "https://github.com/aosabook/500lines",
+  "license": "CC BY 3.0（文本）/ MIT（代码，以子项目为准）",
+  "goal": "阅读 20+ 个小型但完整的系统实现（模板引擎、数据库、爬虫、CI 系统等）",
+  "order": 20,
+  "out": "practice/aosabook_500lines_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/aosabook/500lines"
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "06X02",
+  "cat": "06",
+  "cross": [
+   "01"
+  ],
+  "type": "practice",
+  "title": "Software Carpentry: Programming with Python（含防御式编程与测试）",
+  "authors": "The Carpentries",
+  "school": "",
+  "year": "2025",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "Python",
+  "source": "https://github.com/swcarpentry/python-novice-inflammation",
+  "license": "CC BY 4.0",
+  "goal": "函数、错误处理、防御式编程、调试与测试的课堂练习",
+  "order": 21,
+  "out": "practice/swcarpentry_python_novice_inflammation_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/swcarpentry/python-novice-inflammation"
+  },
+  "expect": {
+   "min_docs": 15
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "06X03",
+  "cat": "06",
+  "cross": [],
+  "type": "practice",
+  "title": "Hypermodern Python Cookiecutter（打包、类型检查、测试与 CI 模板）",
+  "authors": "Claudio Jolowicz",
+  "school": "",
+  "year": "2024",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Python 打包基础",
+  "stack": "",
+  "source": "https://github.com/cjolowicz/cookiecutter-hypermodern-python",
+  "license": "MIT",
+  "goal": "src 布局、pytest、mypy、ruff/pre-commit、nox、GitHub Actions 发布流程",
+  "order": 22,
+  "out": "practice/cjolowicz_cookiecutter_hypermodern_python_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/cjolowicz/cookiecutter-hypermodern-python"
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "06D10",
+  "cat": "06",
+  "cross": [
+   "14",
+   "16"
+  ],
+  "type": "docs",
+  "title": "GitHub Actions 官方文档（github/docs content/actions）",
+  "authors": "GitHub",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Git",
+  "stack": "GitHub Actions",
+  "source": "https://github.com/github/docs",
+  "license": "CC BY 4.0",
+  "goal": "工作流语法、运行器、缓存、制品、密钥、部署与安全加固",
+  "order": 30,
+  "out": "official_docs/github_actions_docs_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/github/docs",
+   "paths": [
+    "content/actions",
+    "data/reusables/actions"
+   ]
+  },
+  "expect": {
+   "min_docs": 100
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "07B01",
+  "cat": "07",
+  "cross": [],
+  "type": "book",
+  "title": "The Linux Command Line (5th Internet Edition)",
+  "authors": "William E. Shotts",
+  "school": "",
+  "year": "2019",
+  "version": "19.01",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "bash",
+  "source": "",
+  "license": "CC BY-NC-ND 3.0",
+  "goal": "文件系统、权限、进程、环境、文本处理、Shell 脚本",
+  "order": 1,
+  "out": "books/Shotts_TheLinuxCommandLine_19.01_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [],
+   "page": "https://sourceforge.net/projects/linuxcommand/files/TLCL/19.01/TLCL-19.01.pdf/download",
+   "link_pattern": "https://downloads\\.sourceforge\\.net/project/linuxcommand/TLCL/19\\.01/TLCL-19\\.01\\.pdf\\?[^\\\"']+"
+  },
+  "expect": {
+   "title_words": [
+    "Linux",
+    "Command",
+    "Line"
+   ],
+   "min_pages": 400
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "07B02",
+  "cat": "07",
+  "cross": [],
+  "type": "book",
+  "title": "Pro Git (2nd ed.)",
+  "authors": "Scott Chacon, Ben Straub",
+  "school": "",
+  "year": "2014",
+  "version": "2.1.450（GitHub release）",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "命令行基础",
+  "stack": "Git",
+  "source": "https://github.com/progit/progit2/releases/download/2.1.450/progit.pdf",
+  "license": "CC BY-NC-SA 3.0",
+  "goal": "Git 基础、分支、远程协作、GitHub、内部原理与故障恢复",
+  "order": 2,
+  "out": "books/Chacon_ProGit_2ndEd_2.1.450_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://github.com/progit/progit2/releases/download/2.1.450/progit.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Pro",
+    "Git"
+   ],
+   "min_pages": 400
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "07B03",
+  "cat": "07",
+  "cross": [],
+  "type": "book",
+  "title": "Advanced Bash-Scripting Guide",
+  "authors": "Mendel Cooper",
+  "school": "",
+  "year": "2014",
+  "version": "10",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Shell 基础",
+  "stack": "bash",
+  "source": "https://tldp.org/LDP/abs/abs-guide.pdf",
+  "license": "公有领域（作者声明）",
+  "goal": "Bash 脚本语法、引用、I/O 重定向、调试与大量示例",
+  "order": 3,
+  "out": "books/Cooper_AdvancedBashScriptingGuide_10_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://tldp.org/LDP/abs/abs-guide.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Advanced",
+    "Bash",
+    "Scripting",
+    "Guide"
+   ],
+   "min_pages": 500
+  },
+  "material": "教材/参考书",
+  "use": "按需查询",
+  "note": "经典版本，部分写法已过时，对照 GNU Bash 手册使用",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "07B04",
+  "cat": "07",
+  "cross": [],
+  "type": "book",
+  "title": "The Debian Administrator's Handbook（Debian 12 bookworm）",
+  "authors": "Raphaël Hertzog, Roland Mas",
+  "school": "",
+  "year": "2023",
+  "version": "stable",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "命令行基础",
+  "stack": "Debian/Linux",
+  "source": "https://debian-handbook.info/browse/stable/",
+  "license": "CC BY-SA 3.0 / GPL-2.0+",
+  "goal": "系统安装、包管理、服务、网络、安全与故障排查",
+  "order": 4,
+  "out": "books/Hertzog_DebianAdministratorsHandbook_stable_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://debian-handbook.info/browse/stable/",
+   "quota_mb": 200,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/browse/stable"
+   ]
+  },
+  "expect": {
+   "min_docs": 100
+  },
+  "material": "教材/参考书",
+  "use": "按需查询",
+  "note": "官网 PDF 链接 404，改存官方在线 HTML 版（browse/stable）",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "07C01",
+  "cat": "07",
+  "cross": [],
+  "type": "course",
+  "title": "MIT The Missing Semester of Your CS Education（讲义源）",
+  "authors": "Anish Athalye, Jon Gjengset, Jose Javier Gonzalez Ortiz",
+  "school": "MIT",
+  "year": "2020",
+  "version": "master 提交（含 2020 及后续更新）",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "",
+  "source": "https://github.com/missing-semester/missing-semester",
+  "license": "CC BY-NC-SA 4.0",
+  "goal": "Shell、脚本、编辑器、数据整理、命令行环境、版本控制、调试与性能分析、安全",
+  "order": 10,
+  "out": "courses/MIT_MissingSemester_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/missing-semester/missing-semester"
+  },
+  "expect": {
+   "min_docs": 15
+  },
+  "material": "讲义正文 + 练习（视频仅链接未下载）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "07C02",
+  "cat": "07",
+  "cross": [],
+  "type": "course",
+  "title": "University of Cambridge Unix Tools 课件",
+  "authors": "Markus Kuhn",
+  "school": "University of Cambridge",
+  "year": "2024",
+  "version": "Michaelmas 2024",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "",
+  "source": "",
+  "license": "课程网站公开课件（版权保留）",
+  "goal": "Unix 工具链、Shell、正则、构建与版本控制",
+  "order": 11,
+  "out": "courses/Cambridge_UnixTools_Slides_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 1,
+   "index": "https://www.cl.cam.ac.uk/teaching/2425/UnixTools/materials.html",
+   "pattern": "(?<!answers)\\.pdf$"
+  },
+  "expect": {},
+  "material": "课件 PDF",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "07D01",
+  "cat": "07",
+  "cross": [],
+  "type": "docs",
+  "title": "GNU Bash Reference Manual",
+  "authors": "Free Software Foundation",
+  "school": "",
+  "year": "2025",
+  "version": "当前版（PDF 内为准）",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "bash",
+  "source": "https://www.gnu.org/software/bash/manual/bash.pdf",
+  "license": "GFDL",
+  "goal": "Bash 语法、展开、重定向、内建命令的权威参考",
+  "order": 20,
+  "out": "official_docs/gnu_bash_manual_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.gnu.org/software/bash/manual/bash.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Bash",
+    "Reference",
+    "Manual"
+   ],
+   "min_pages": 150
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "07D02",
+  "cat": "07",
+  "cross": [],
+  "type": "docs",
+  "title": "GNU Coreutils Manual",
+  "authors": "Free Software Foundation",
+  "school": "",
+  "year": "2025",
+  "version": "当前版",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "",
+  "source": "https://www.gnu.org/software/coreutils/manual/coreutils.pdf",
+  "license": "GFDL",
+  "goal": "ls/cp/sort/cut 等核心工具参考",
+  "order": 21,
+  "out": "official_docs/gnu_coreutils_manual_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.gnu.org/software/coreutils/manual/coreutils.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Core",
+    "GNU",
+    "utilities"
+   ],
+   "min_pages": 150
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "07D03",
+  "cat": "07",
+  "cross": [],
+  "type": "docs",
+  "title": "Git 官方参考文档 HTML 包（git-htmldocs 2.56.0）",
+  "authors": "Git 项目",
+  "school": "",
+  "year": "2026",
+  "version": "2.56.0",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "Git",
+  "source": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-htmldocs-2.56.0.tar.xz",
+  "license": "GPL-2.0",
+  "goal": "全部 git 命令手册页、gittutorial、gitworkflows、gitglossary",
+  "order": 22,
+  "out": "official_docs/git_htmldocs_2.56.0_en.tar.xz",
+  "get": {
+   "kind": "file",
+   "urls": [
+    "https://mirrors.edge.kernel.org/pub/software/scm/git/git-htmldocs-2.56.0.tar.xz"
+   ],
+   "max_mb": 800
+  },
+  "expect": {
+   "min_docs": 150,
+   "entry": "git.html"
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "07D04",
+  "cat": "07",
+  "cross": [
+   "11",
+   "12"
+  ],
+  "type": "docs",
+  "title": "Linux man-pages 6.20（系统调用与库函数手册源）",
+  "authors": "Linux man-pages project",
+  "school": "",
+  "year": "2026",
+  "version": "6.20",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "Linux",
+  "source": "https://mirrors.edge.kernel.org/pub/linux/docs/man-pages/man-pages-6.20.tar.xz",
+  "license": "多种自由许可（见各页）",
+  "goal": "man2 系统调用、man3 库函数、man7 概述（进程、信号、套接字等）",
+  "order": 23,
+  "out": "official_docs/linux_man_pages_6.20_en.tar.xz",
+  "get": {
+   "kind": "file",
+   "urls": [
+    "https://mirrors.edge.kernel.org/pub/linux/docs/man-pages/man-pages-6.20.tar.xz"
+   ],
+   "max_mb": 800
+  },
+  "expect": {
+   "min_docs": 1,
+   "must_have": [
+    "man2/"
+   ]
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "07X01",
+  "cat": "07",
+  "cross": [],
+  "type": "practice",
+  "title": "Software Carpentry: The Unix Shell",
+  "authors": "The Carpentries",
+  "school": "",
+  "year": "2025",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "bash",
+  "source": "https://github.com/swcarpentry/shell-novice",
+  "license": "CC BY 4.0",
+  "goal": "带练习的 Shell 课堂教程（导航、管道、循环、脚本、查找）",
+  "order": 30,
+  "out": "practice/swcarpentry_shell_novice_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/swcarpentry/shell-novice"
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "07X02",
+  "cat": "07",
+  "cross": [],
+  "type": "practice",
+  "title": "Software Carpentry: Version Control with Git",
+  "authors": "The Carpentries",
+  "school": "",
+  "year": "2025",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "Shell 基础",
+  "stack": "Git",
+  "source": "https://github.com/swcarpentry/git-novice",
+  "license": "CC BY 4.0",
+  "goal": "带练习的 Git 课堂教程（提交、历史、远程、冲突）",
+  "order": 31,
+  "out": "practice/swcarpentry_git_novice_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/swcarpentry/git-novice"
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "07X03",
+  "cat": "07",
+  "cross": [],
+  "type": "practice",
+  "title": "Linux From Scratch 12.x 书籍源（从源码构建 Linux 系统的实践项目）",
+  "authors": "Gerard Beekmans 等",
+  "school": "",
+  "year": "2025",
+  "version": "trunk 提交",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "Linux 熟练",
+  "stack": "",
+  "source": "https://git.linuxfromscratch.org/lfs.git",
+  "license": "CC BY-NC-SA 2.0（文本）/ MIT（命令）",
+  "goal": "工具链、包构建、系统启动的完整动手项目",
+  "order": 32,
+  "out": "practice/lfs_book_trunk_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://git.linuxfromscratch.org/lfs.git"
+  },
+  "expect": {
+   "min_docs": 1,
+   "need_license": false,
+   "must_have": [
+    "chapter\\d+/.*\\.xml$"
+   ]
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "仓库许可声明在书内 appendices，不在根目录 LICENSE",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "08B01",
+  "cat": "08",
+  "cross": [],
+  "type": "book",
+  "title": "Readings in Database Systems (5th ed., Red Book)",
+  "authors": "Peter Bailis, Joseph M. Hellerstein, Michael Stonebraker（编）",
+  "school": "",
+  "year": "2015",
+  "version": "5th ed.",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "数据库基础",
+  "stack": "",
+  "source": "http://www.redbook.io/pdf/redbook-5th-edition.pdf",
+  "license": "CC BY-NC-SA",
+  "goal": "关系系统、事务、查询优化、分析型与流式系统的导读",
+  "order": 1,
+  "out": "books/Bailis_ReadingsInDatabaseSystems_5thEd_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "http://www.redbook.io/pdf/redbook-5th-edition.pdf",
+    "https://www.redbook.io/pdf/redbook-5th-edition.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Readings",
+    "Database",
+    "Systems"
+   ],
+   "min_pages": 40
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "08B02",
+  "cat": "08",
+  "cross": [],
+  "type": "book",
+  "title": "Architecture of a Database System",
+  "authors": "Joseph M. Hellerstein, Michael Stonebraker, James Hamilton",
+  "school": "",
+  "year": "2007",
+  "version": "FnT Databases 1(2)",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "数据库基础",
+  "stack": "",
+  "source": "http://dsf.berkeley.edu/papers/fntdb07-architecture.pdf",
+  "license": "作者网站公开",
+  "goal": "进程模型、并行架构、查询处理、存储与事务管理的整体结构",
+  "order": 2,
+  "out": "books/Hellerstein_ArchitectureOfADatabaseSystem_2007_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "http://dsf.berkeley.edu/papers/fntdb07-architecture.pdf",
+    "https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Architecture",
+    "Database",
+    "System"
+   ],
+   "min_pages": 100
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "08B03",
+  "cat": "08",
+  "cross": [],
+  "type": "book",
+  "title": "Foundations of Databases",
+  "authors": "Serge Abiteboul, Richard Hull, Victor Vianu",
+  "school": "",
+  "year": "1995",
+  "version": "Webdam 版",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "离散数学",
+  "stack": "",
+  "source": "http://webdam.inria.fr/Alice/pdfs/all.pdf",
+  "license": "作者授权免费分发",
+  "goal": "关系模型、查询语言、依赖与规范化理论",
+  "order": 3,
+  "out": "books/Abiteboul_FoundationsOfDatabases_1995_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "http://webdam.inria.fr/Alice/pdfs/all.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Conjunctive",
+    "Queries",
+    "Relational"
+   ],
+   "min_pages": 600
+  },
+  "material": "教材/参考书",
+  "use": "按需查询",
+  "note": "PDF 无封面页，以目录开头；目录与正文完整",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "08B04",
+  "cat": "08",
+  "cross": [],
+  "type": "book",
+  "title": "Use The Index, Luke!（SQL 索引与性能）",
+  "authors": "Markus Winand",
+  "school": "",
+  "year": "2024",
+  "version": "online",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "SQL 基础",
+  "stack": "SQL（多数据库）",
+  "source": "https://use-the-index-luke.com/sql/table-of-contents",
+  "license": "免费在线阅读（版权保留，个人离线保存）",
+  "goal": "B-tree 索引、执行计划、连接、排序/分组、分页、写入代价",
+  "order": 4,
+  "out": "books/Winand_UseTheIndexLuke_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://use-the-index-luke.com/sql/table-of-contents",
+   "quota_mb": 100,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/sql",
+    "/static"
+   ],
+   "reject_regex": "/(de|fr|es|ja|it)/"
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "08B05",
+  "cat": "08",
+  "cross": [],
+  "type": "book",
+  "title": "Database Design (2nd ed.)",
+  "authors": "Adrienne Watt, Nelson Eng",
+  "school": "",
+  "year": "2014",
+  "version": "2nd ed.（BCcampus Open Textbook）",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "",
+  "source": "https://opentextbc.ca/dbdesign01/",
+  "license": "CC BY 4.0",
+  "goal": "数据建模、ER 图、规范化、完整性约束与 SQL",
+  "order": 5,
+  "out": "books/Watt_DatabaseDesign_2ndEd_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://opentextbc.ca/dbdesign01/",
+   "quota_mb": 100,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/dbdesign01"
+   ]
+  },
+  "expect": {
+   "min_docs": 15
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "08C01",
+  "cat": "08",
+  "cross": [],
+  "type": "course",
+  "title": "CMU 15-445/645 Database Systems (Fall 2025) 课件与讲义",
+  "authors": "Andy Pavlo 等",
+  "school": "Carnegie Mellon University",
+  "year": "2025",
+  "version": "Fall 2025",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "C++、数据结构",
+  "stack": "",
+  "source": "",
+  "license": "课程网站公开（版权保留）",
+  "goal": "存储、缓冲池、索引、查询执行与优化、并发控制、恢复、分布式数据库",
+  "order": 10,
+  "out": "courses/CMU_15445_Fall2025_Slides_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 15,
+   "index": "https://15445.courses.cs.cmu.edu/fall2025/schedule.html",
+   "pattern": "/(slides|notes)/.*\\.pdf$"
+  },
+  "expect": {},
+  "material": "课件 PDF + 讲义 PDF（项目见 08X01 BusTub）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "08C02",
+  "cat": "08",
+  "cross": [],
+  "type": "course",
+  "title": "UC Berkeley CS 186 Introduction to Database Systems 课程讲义",
+  "authors": "CS 186 Course Staff",
+  "school": "UC Berkeley",
+  "year": "2025",
+  "version": "online notes",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "数据结构",
+  "stack": "",
+  "source": "https://cs186berkeley.net/notes/",
+  "license": "课程网站公开（版权保留）",
+  "goal": "SQL、磁盘与文件、B+ 树、排序/哈希、连接算法、优化、事务与恢复",
+  "order": 11,
+  "out": "courses/Berkeley_CS186_Notes_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://cs186berkeley.net/notes/",
+   "quota_mb": 100,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/notes",
+    "/assets"
+   ]
+  },
+  "expect": {
+   "min_docs": 15
+  },
+  "material": "讲义",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "08D01",
+  "cat": "08",
+  "cross": [],
+  "type": "docs",
+  "title": "PostgreSQL 18 官方文档（A4 PDF）",
+  "authors": "PostgreSQL Global Development Group",
+  "school": "",
+  "year": "2025",
+  "version": "18",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "PostgreSQL",
+  "source": "https://www.postgresql.org/files/documentation/pdf/18/postgresql-18-A4.pdf",
+  "license": "PostgreSQL License",
+  "goal": "SQL 语言、索引、事务隔离、性能调优、备份恢复、复制",
+  "order": 20,
+  "out": "official_docs/postgresql_18_docs_a4_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.postgresql.org/files/documentation/pdf/18/postgresql-18-A4.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "PostgreSQL",
+    "Documentation"
+   ],
+   "min_pages": 2000
+  },
+  "material": "官方文档",
+  "use": "教程通读，其余查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "08D02",
+  "cat": "08",
+  "cross": [],
+  "type": "docs",
+  "title": "SQLite 文档包（3.54.1）",
+  "authors": "SQLite 开发团队",
+  "school": "",
+  "year": "2026",
+  "version": "3.54.1",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "SQLite",
+  "source": "https://www.sqlite.org/2026/sqlite-doc-3540100.zip",
+  "license": "公有领域",
+  "goal": "SQL 方言、查询规划器、WAL、事务与文件格式",
+  "order": 21,
+  "out": "official_docs/sqlite_doc_3540100_en.zip",
+  "get": {
+   "kind": "file",
+   "urls": [
+    "https://www.sqlite.org/2026/sqlite-doc-3540100.zip"
+   ],
+   "max_mb": 800
+  },
+  "expect": {
+   "min_docs": 200
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "08D03",
+  "cat": "08",
+  "cross": [
+   "14"
+  ],
+  "type": "docs",
+  "title": "Apache Kafka 4.x 官方文档（kafka-site）",
+  "authors": "Apache Software Foundation",
+  "school": "",
+  "year": "2026",
+  "version": "asf-site 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "Kafka",
+  "source": "https://github.com/apache/kafka-site",
+  "license": "Apache-2.0",
+  "goal": "消息系统：设计、生产者/消费者、Streams、Connect、运维",
+  "order": 22,
+  "out": "official_docs/apache_kafka_site_docs_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/apache/kafka-site",
+   "ref": "asf-site",
+   "paths": [
+    "/*.html",
+    "41",
+    "40",
+    "css",
+    "js",
+    "images"
+   ]
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "08D04",
+  "cat": "08",
+  "cross": [
+   "14"
+  ],
+  "type": "docs",
+  "title": "Apache Flink 2.x 文档源（docs/content）",
+  "authors": "Apache Software Foundation",
+  "school": "",
+  "year": "2026",
+  "version": "release 分支提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "Flink",
+  "source": "https://github.com/apache/flink",
+  "license": "Apache-2.0",
+  "goal": "流处理：DataStream、状态、检查点、时间/水位线、SQL",
+  "order": 23,
+  "out": "official_docs/apache_flink_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/apache/flink",
+   "paths": [
+    "docs/content"
+   ]
+  },
+  "expect": {
+   "min_docs": 200
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "08X01",
+  "cat": "08",
+  "cross": [],
+  "type": "practice",
+  "title": "CMU BusTub（教学关系数据库系统骨架）",
+  "authors": "CMU Database Group",
+  "school": "",
+  "year": "2025",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "C++17",
+  "stack": "C++",
+  "source": "https://github.com/cmu-db/bustub",
+  "license": "MIT",
+  "goal": "实现缓冲池、B+ 树索引、查询执行器、并发控制",
+  "order": 30,
+  "out": "practice/cmu_bustub_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/cmu-db/bustub"
+  },
+  "expect": {
+   "min_docs": 3
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "08X02",
+  "cat": "08",
+  "cross": [
+   "14"
+  ],
+  "type": "practice",
+  "title": "DataTalksClub Data Engineering Zoomcamp",
+  "authors": "DataTalksClub",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Python、SQL、Docker",
+  "stack": "",
+  "source": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+  "license": "以仓库为准（见 LICENSE）",
+  "goal": "容器化、工作流编排、数据仓库、dbt、批处理（Spark）、流处理（Kafka）的项目式课程",
+  "order": 31,
+  "out": "practice/datatalksclub_de_zoomcamp_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/DataTalksClub/data-engineering-zoomcamp"
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "09B01",
+  "cat": "09",
+  "cross": [
+   "11",
+   "10"
+  ],
+  "type": "book",
+  "title": "High Performance Browser Networking",
+  "authors": "Ilya Grigorik",
+  "school": "",
+  "year": "2013",
+  "version": "online（持续更新）",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "网络基础",
+  "stack": "",
+  "source": "https://hpbn.co/",
+  "license": "免费在线阅读（O'Reilly 授权）",
+  "goal": "TCP/UDP/TLS、HTTP/1.1/2、WebSocket、SSE、WebRTC 的性能原理",
+  "order": 1,
+  "out": "books/Grigorik_HighPerformanceBrowserNetworking_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://hpbn.co/",
+   "quota_mb": 100,
+   "level": "2",
+   "wait": 0.4,
+   "no_parent": true
+  },
+  "expect": {
+   "min_docs": 15
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "09B02",
+  "cat": "09",
+  "cross": [
+   "11"
+  ],
+  "type": "book",
+  "title": "HTTP/3 explained",
+  "authors": "Daniel Stenberg",
+  "school": "",
+  "year": "2024",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "HTTP/1.1、TCP 基础",
+  "stack": "",
+  "source": "https://github.com/bagder/http3-explained",
+  "license": "CC BY 4.0",
+  "goal": "QUIC 与 HTTP/3 的动机、连接、流、QPACK 与部署现状（curl 作者撰写）",
+  "order": 2,
+  "out": "books/Stenberg_HTTP3Explained_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/bagder/http3-explained"
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "09D06",
+  "cat": "09",
+  "cross": [],
+  "type": "docs",
+  "title": "Microsoft REST API Guidelines",
+  "authors": "Microsoft",
+  "school": "",
+  "year": "2025",
+  "version": "vNext 分支提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "REST",
+  "source": "https://github.com/microsoft/api-guidelines",
+  "license": "CC BY 4.0",
+  "goal": "REST 资源设计、版本化、错误格式、分页、长时操作",
+  "order": 25,
+  "out": "official_docs/microsoft_api_guidelines_vnext_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/microsoft/api-guidelines",
+   "ref": "vNext"
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "09D07",
+  "cat": "09",
+  "cross": [],
+  "type": "docs",
+  "title": "Google API Improvement Proposals（AIP）",
+  "authors": "Google / aip.dev",
+  "school": "",
+  "year": "2026",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "REST/gRPC",
+  "source": "https://github.com/aip-dev/google.aip.dev",
+  "license": "CC BY 4.0（文档，以仓库为准）",
+  "goal": "资源导向 API 设计规范：命名、标准方法、分页、过滤、错误、版本",
+  "order": 26,
+  "out": "official_docs/google_aip_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/aip-dev/google.aip.dev",
+   "paths": [
+    "aip"
+   ]
+  },
+  "expect": {
+   "min_docs": 100
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "09B03",
+  "cat": "09",
+  "cross": [
+   "11"
+  ],
+  "type": "book",
+  "title": "HTTP/2 explained",
+  "authors": "Daniel Stenberg",
+  "school": "",
+  "year": "2015",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "HTTP/1.1",
+  "stack": "",
+  "source": "https://github.com/bagder/http2-explained",
+  "license": "CC BY 4.0",
+  "goal": "HTTP/1.1 的瓶颈、HTTP/2 二进制分帧、多路复用、头部压缩与服务端推送",
+  "order": 3,
+  "out": "books/Stenberg_HTTP2Explained_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/bagder/http2-explained"
+  },
+  "expect": {
+   "min_docs": 5,
+   "need_license": false
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "仓库无独立 LICENSE 文件；README 声明以 CC BY 4.0 分发",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "09C01",
+  "cat": "09",
+  "cross": [
+   "10"
+  ],
+  "type": "course",
+  "title": "Harvard CS50's Web Programming with Python and JavaScript 讲义与项目",
+  "authors": "Brian Yu, David J. Malan",
+  "school": "Harvard",
+  "year": "2026",
+  "version": "当前版（/web/，2020 版 URL 已重定向至此，页面年份为准）",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "编程基础",
+  "stack": "Django/JavaScript",
+  "source": "https://cs50.harvard.edu/web/",
+  "license": "CC BY-NC-SA 4.0",
+  "goal": "HTML/CSS、Git、Python、Django、SQL/模型/迁移、JavaScript、用户界面、测试与 CI/CD、扩展与安全",
+  "order": 10,
+  "out": "courses/Harvard_CS50W_NotesProjects_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://cs50.harvard.edu/web/",
+   "quota_mb": 150,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/web"
+   ]
+  },
+  "expect": {
+   "min_docs": 15
+  },
+  "material": "讲义 notes + 项目规格（视频仅链接）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "09C02",
+  "cat": "09",
+  "cross": [
+   "10",
+   "16"
+  ],
+  "type": "course",
+  "title": "Stanford CS 142 Web Applications 讲义",
+  "authors": "Mendel Rosenblum",
+  "school": "Stanford",
+  "year": "2024",
+  "version": "当前学期页面",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "编程基础",
+  "stack": "",
+  "source": "",
+  "license": "课程网站公开（版权保留）",
+  "goal": "浏览器、DOM、前端框架、HTTP、会话状态、数据库、Web 安全、扩展",
+  "order": 11,
+  "out": "courses/Stanford_CS142_LectureNotes_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 10,
+   "index": "https://web.stanford.edu/class/cs142/lectures.html",
+   "pattern": "\\.pdf$"
+  },
+  "expect": {},
+  "material": "讲义 PDF",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "09D51",
+  "cat": "09",
+  "cross": [],
+  "type": "docs",
+  "title": "Django 6.0 官方文档（HTML 包）",
+  "authors": "Django Software Foundation",
+  "school": "",
+  "year": "2025",
+  "version": "6.0",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "Django",
+  "source": "https://media.djangoproject.com/docs/django-docs-6.0-en.zip",
+  "license": "BSD-3-Clause",
+  "goal": "教程、模型/ORM、视图、表单、认证、测试、缓存、部署检查清单",
+  "order": 20,
+  "out": "official_docs/django_6.0_docs_html_en.zip",
+  "get": {
+   "kind": "file",
+   "urls": [
+    "https://media.djangoproject.com/docs/django-docs-6.0-en.zip"
+   ],
+   "max_mb": 800
+  },
+  "expect": {
+   "min_docs": 300
+  },
+  "material": "官方文档",
+  "use": "教程通读，其余查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "09D02",
+  "cat": "09",
+  "cross": [],
+  "type": "docs",
+  "title": "Flask 文档源与官方教程示例（pallets/flask）",
+  "authors": "Pallets",
+  "school": "",
+  "year": "2026",
+  "version": "以标签为准（3.x）",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "Flask",
+  "source": "https://github.com/pallets/flask",
+  "license": "BSD-3-Clause",
+  "goal": "应用工厂、蓝图、请求上下文、测试、部署；examples/tutorial 完整示例",
+  "order": 21,
+  "out": "official_docs/flask_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/pallets/flask",
+   "paths": [
+    "docs",
+    "examples"
+   ]
+  },
+  "expect": {
+   "min_docs": 40
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "部分",
+  "scope": "docs/（Sphinx 源；API 页正文由 docstring 生成，未含）+ examples/"
+ },
+ {
+  "id": "09D03",
+  "cat": "09",
+  "cross": [
+   "11",
+   "16"
+  ],
+  "type": "docs",
+  "title": "HTTP 与 Web 认证核心 RFC 集",
+  "authors": "IETF",
+  "school": "",
+  "year": "1997–2022",
+  "version": "RFC 9110/9111/9112/9113/9114/6749/7519/6455/8446",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "",
+  "source": "https://www.rfc-editor.org/rfc/rfc9110.pdf",
+  "license": "IETF Trust（RFC 可自由复制）",
+  "goal": "HTTP 语义/缓存/1.1/2/3、TLS 1.3、OAuth 2.0、JWT、WebSocket 标准原文",
+  "order": 22,
+  "out": "official_docs/ietf_http_auth_rfcs_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 9,
+   "urls": [
+    "https://www.rfc-editor.org/rfc/rfc9110.pdf",
+    "https://www.rfc-editor.org/rfc/rfc9111.pdf",
+    "https://www.rfc-editor.org/rfc/rfc9112.pdf",
+    "https://www.rfc-editor.org/rfc/rfc9113.pdf",
+    "https://www.rfc-editor.org/rfc/rfc9114.pdf",
+    "https://www.rfc-editor.org/rfc/rfc8446.txt",
+    "https://www.rfc-editor.org/rfc/rfc6749.txt",
+    "https://www.rfc-editor.org/rfc/rfc7519.txt",
+    "https://www.rfc-editor.org/rfc/rfc6455.txt"
+   ]
+  },
+  "expect": {},
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "09D04",
+  "cat": "09",
+  "cross": [],
+  "type": "docs",
+  "title": "OpenAPI Specification（含 3.1/3.2 版本全文）",
+  "authors": "OpenAPI Initiative",
+  "school": "",
+  "year": "2025",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "OpenAPI",
+  "source": "https://github.com/OAI/OpenAPI-Specification",
+  "license": "Apache-2.0",
+  "goal": "接口描述规范：路径、模式、安全方案、回调",
+  "order": 23,
+  "out": "official_docs/openapi_specification_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/OAI/OpenAPI-Specification",
+   "paths": [
+    "versions",
+    "src"
+   ]
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "09D05",
+  "cat": "09",
+  "cross": [],
+  "type": "docs",
+  "title": "Celery 文档源（异步任务队列）",
+  "authors": "Celery 项目",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "Celery",
+  "source": "https://github.com/celery/celery",
+  "license": "BSD-3-Clause",
+  "goal": "任务、Worker、调度、路由、重试与监控",
+  "order": 24,
+  "out": "official_docs/celery_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/celery/celery",
+   "paths": [
+    "docs",
+    "examples"
+   ]
+  },
+  "expect": {
+   "min_docs": 60
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "部分",
+  "scope": "docs/（Sphinx 源；API 参考由 docstring 生成，未含）+ examples/"
+ },
+ {
+  "id": "09X01",
+  "cat": "09",
+  "cross": [
+   "10"
+  ],
+  "type": "practice",
+  "title": "RealWorld（Conduit）API 规范与测试",
+  "authors": "RealWorld 社区",
+  "school": "",
+  "year": "2025",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "任一后端框架",
+  "stack": "",
+  "source": "https://github.com/gothinkster/realworld",
+  "license": "MIT",
+  "goal": "统一规范的博客应用后端/前端：认证、CRUD、分页、接口测试",
+  "order": 30,
+  "out": "practice/realworld_spec_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/gothinkster/realworld"
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "09X02",
+  "cat": "09",
+  "cross": [
+   "10",
+   "14"
+  ],
+  "type": "practice",
+  "title": "Full Stack FastAPI Template（官方全栈模板）",
+  "authors": "FastAPI（Sebastián Ramírez）",
+  "school": "",
+  "year": "2026",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Python、Docker",
+  "stack": "FastAPI/React/Docker",
+  "source": "https://github.com/fastapi/full-stack-fastapi-template",
+  "license": "MIT",
+  "goal": "FastAPI + SQLModel + PostgreSQL + React + Docker Compose + 测试 + CI 的参考实现",
+  "order": 31,
+  "out": "practice/fastapi_full_stack_template_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/fastapi/full-stack-fastapi-template"
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "10B01",
+  "cat": "10",
+  "cross": [],
+  "type": "book",
+  "title": "Eloquent JavaScript (4th ed.)",
+  "authors": "Marijn Haverbeke",
+  "school": "",
+  "year": "2024",
+  "version": "4th ed.",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "JavaScript",
+  "source": "https://eloquentjavascript.net/Eloquent_JavaScript.pdf",
+  "license": "CC BY-NC 3.0",
+  "goal": "JavaScript 语言、DOM、事件、异步、Node.js 与项目",
+  "order": 1,
+  "out": "books/Haverbeke_EloquentJavaScript_4thEd_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://eloquentjavascript.net/Eloquent_JavaScript.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Marijn",
+    "Haverbeke"
+   ],
+   "min_pages": 300
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "10B02",
+  "cat": "10",
+  "cross": [],
+  "type": "book",
+  "title": "You Don't Know JS Yet (2nd ed.)",
+  "authors": "Kyle Simpson",
+  "school": "",
+  "year": "2020",
+  "version": "2nd ed. 分支提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "JavaScript 基础",
+  "stack": "JavaScript",
+  "source": "https://github.com/getify/You-Dont-Know-JS",
+  "license": "CC BY-NC-ND 4.0",
+  "goal": "作用域、闭包、对象与类、类型系统的深入理解",
+  "order": 2,
+  "out": "books/Simpson_YouDontKnowJSYet_2ndEd_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/getify/You-Dont-Know-JS"
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "10B03",
+  "cat": "10",
+  "cross": [],
+  "type": "book",
+  "title": "TypeScript Deep Dive",
+  "authors": "Basarat Ali Syed",
+  "school": "",
+  "year": "2023",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "JavaScript",
+  "stack": "TypeScript",
+  "source": "https://github.com/basarat/typescript-book",
+  "license": "CC BY 4.0（以仓库为准）",
+  "goal": "TypeScript 类型系统、配置、工程实践与常见坑",
+  "order": 3,
+  "out": "books/Basarat_TypeScriptDeepDive_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/basarat/typescript-book"
+  },
+  "expect": {
+   "min_docs": 50
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "10C01",
+  "cat": "10",
+  "cross": [
+   "09",
+   "14"
+  ],
+  "type": "course",
+  "title": "University of Helsinki Full Stack Open 课程正文（英文）",
+  "authors": "Matti Luukkainen 等",
+  "school": "University of Helsinki",
+  "year": "2025",
+  "version": "source 分支提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "JavaScript 基础",
+  "stack": "React/Node/TypeScript",
+  "source": "https://github.com/fullstack-hy2020/fullstack-hy2020.github.io",
+  "license": "CC BY-NC-SA 3.0",
+  "goal": "React、状态管理、Node.js/Express REST API、测试、用户管理、GraphQL、TypeScript、CI/CD、容器、关系数据库",
+  "order": 10,
+  "out": "courses/Helsinki_FullStackOpen_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/fullstack-hy2020/fullstack-hy2020.github.io",
+   "paths": [
+    "src/content"
+   ]
+  },
+  "expect": {
+   "min_docs": 100
+  },
+  "material": "完整课程正文 + 练习说明（多语言源，保留上游结构）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "10C02",
+  "cat": "10",
+  "cross": [],
+  "type": "course",
+  "title": "MIT 6.4500 Design for the Web: Languages and User Interfaces（课程站点）",
+  "authors": "Lea Verou, David Karger",
+  "school": "MIT",
+  "year": "2026",
+  "version": "当前学期站点（页面为准）",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "编程基础",
+  "stack": "",
+  "source": "https://designftw.mit.edu/",
+  "license": "课程网站公开（版权保留）",
+  "goal": "HTML/CSS/JS、可用性、可访问性、响应式与组件化 UI 设计；讲次页、作业与工作室练习",
+  "order": 11,
+  "out": "courses/MIT_6.4500_DesignForTheWeb_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://designftw.mit.edu/",
+   "quota_mb": 300,
+   "level": "3",
+   "wait": 0.4,
+   "no_parent": true,
+   "reject_regex": "/go/"
+  },
+  "expect": {
+   "min_docs": 20,
+   "max_broken": 0.15
+  },
+  "material": "讲次页面/幻灯（HTML）+ 作业说明 + 资源页",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "10D51",
+  "cat": "10",
+  "cross": [],
+  "type": "docs",
+  "title": "MDN Web Docs 内容源（HTML、CSS、JavaScript、HTTP、可访问性、Learn）",
+  "authors": "Mozilla 与贡献者",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "HTML/CSS/JS",
+  "source": "https://github.com/mdn/content",
+  "license": "CC BY-SA 2.5（文档）/ CC0（代码示例）",
+  "goal": "Web 平台权威参考与学习区教程",
+  "order": 20,
+  "out": "official_docs/mdn_content_web_core_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/mdn/content",
+   "paths": [
+    "files/en-us/web/html",
+    "files/en-us/web/css",
+    "files/en-us/web/javascript",
+    "files/en-us/web/http",
+    "files/en-us/web/accessibility",
+    "files/en-us/learn_web_development"
+   ]
+  },
+  "expect": {
+   "min_docs": 3000
+  },
+  "material": "官方文档",
+  "use": "学习区通读，其余查询",
+  "note": "",
+  "complete": "部分",
+  "scope": "仅 HTML/CSS/JS/HTTP/可访问性/Learn 六个子树（Web API 子树体量过大未收）"
+ },
+ {
+  "id": "10D52",
+  "cat": "10",
+  "cross": [],
+  "type": "docs",
+  "title": "TypeScript Handbook 与参考文档源",
+  "authors": "Microsoft",
+  "school": "",
+  "year": "2026",
+  "version": "v2 分支提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "TypeScript",
+  "source": "https://github.com/microsoft/TypeScript-Website",
+  "license": "CC BY 4.0（文档）",
+  "goal": "TypeScript 手册、参考、tsconfig、声明文件",
+  "order": 21,
+  "out": "official_docs/typescript_handbook_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/microsoft/TypeScript-Website",
+   "ref": "v2",
+   "paths": [
+    "packages/documentation/copy/en"
+   ]
+  },
+  "expect": {
+   "min_docs": 80
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "10D03",
+  "cat": "10",
+  "cross": [],
+  "type": "docs",
+  "title": "React 官方文档源（react.dev）",
+  "authors": "Meta 与贡献者",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "React",
+  "source": "https://github.com/reactjs/react.dev",
+  "license": "CC BY 4.0",
+  "goal": "组件、状态、Effect、Hooks 参考、服务端组件",
+  "order": 22,
+  "out": "official_docs/react_dev_docs_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/reactjs/react.dev",
+   "paths": [
+    "src/content/learn",
+    "src/content/reference"
+   ]
+  },
+  "expect": {
+   "min_docs": 150
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "10D04",
+  "cat": "10",
+  "cross": [],
+  "type": "docs",
+  "title": "WAI-ARIA Authoring Practices Guide（APG）源",
+  "authors": "W3C WAI",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "HTML/ARIA",
+  "source": "https://github.com/w3c/aria-practices",
+  "license": "W3C Software and Document License",
+  "goal": "可访问组件模式与键盘交互示例",
+  "order": 23,
+  "out": "official_docs/w3c_aria_practices_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/w3c/aria-practices",
+   "paths": [
+    "content"
+   ]
+  },
+  "expect": {
+   "min_docs": 50
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "10D05",
+  "cat": "10",
+  "cross": [
+   "03"
+  ],
+  "type": "docs",
+  "title": "D3.js 官方文档源",
+  "authors": "Mike Bostock / Observable",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "D3",
+  "source": "https://github.com/d3/d3",
+  "license": "ISC",
+  "goal": "数据驱动文档：比例尺、坐标轴、形状、交互与过渡",
+  "order": 24,
+  "out": "official_docs/d3_docs_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/d3/d3",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "10X01",
+  "cat": "10",
+  "cross": [],
+  "type": "practice",
+  "title": "TodoMVC（同一应用的多框架实现）",
+  "authors": "TodoMVC 社区",
+  "school": "",
+  "year": "2025",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "JavaScript",
+  "stack": "",
+  "source": "https://github.com/tastejs/todomvc",
+  "license": "MIT",
+  "goal": "对比不同前端框架的组件、状态管理与测试",
+  "order": 30,
+  "out": "practice/todomvc_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/tastejs/todomvc"
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "10X02",
+  "cat": "10",
+  "cross": [],
+  "type": "practice",
+  "title": "The Odin Project 课程与项目说明（curriculum）",
+  "authors": "The Odin Project",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "",
+  "source": "https://github.com/TheOdinProject/curriculum",
+  "license": "CC BY-NC-SA 4.0",
+  "goal": "HTML/CSS/JS/React/Node 的项目驱动练习与评审标准",
+  "order": 31,
+  "out": "practice/theodinproject_curriculum_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/TheOdinProject/curriculum"
+  },
+  "expect": {
+   "min_docs": 200
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "11B01",
+  "cat": "11",
+  "cross": [
+   "12"
+  ],
+  "type": "book",
+  "title": "Operating Systems: Three Easy Pieces",
+  "authors": "Remzi H. Arpaci-Dusseau, Andrea C. Arpaci-Dusseau",
+  "school": "University of Wisconsin–Madison",
+  "year": "2023",
+  "version": "v1.10",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "C 基础",
+  "stack": "",
+  "source": "",
+  "license": "作者免费分发（版权保留）",
+  "goal": "虚拟化（进程、调度、内存）、并发（线程、锁、条件变量）、持久化（文件系统）",
+  "order": 1,
+  "out": "books/ArpaciDusseau_OSTEP_v1.10_chapters_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 45,
+   "index": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+   "pattern": "OSTEP/[a-z0-9-]+\\.pdf$"
+  },
+  "expect": {},
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": "按官网目录逐章下载全部章节 PDF（整本计一次）"
+ },
+ {
+  "id": "11B02",
+  "cat": "11",
+  "cross": [
+   "12"
+  ],
+  "type": "book",
+  "title": "Dive into Systems",
+  "authors": "Suzanne J. Matthews, Tia Newhall, Kevin C. Webb",
+  "school": "",
+  "year": "2022",
+  "version": "online",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "编程基础",
+  "stack": "",
+  "source": "https://diveintosystems.org/book/index.html",
+  "license": "CC BY-NC-ND 4.0",
+  "goal": "C、二进制表示、汇编、存储层次、OS、共享内存并行",
+  "order": 2,
+  "out": "books/Matthews_DiveIntoSystems_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://diveintosystems.org/book/index.html",
+   "quota_mb": 200,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/book"
+   ]
+  },
+  "expect": {
+   "min_docs": 100
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "11B03",
+  "cat": "11",
+  "cross": [],
+  "type": "book",
+  "title": "Computer Networks: A Systems Approach",
+  "authors": "Larry Peterson, Bruce Davie",
+  "school": "",
+  "year": "2023",
+  "version": "6.2（master 提交）",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "编程基础",
+  "stack": "",
+  "source": "https://github.com/SystemsApproach/book",
+  "license": "CC BY 4.0",
+  "goal": "分层、以太网与无线、IP 与路由、TCP/拥塞控制、应用协议",
+  "order": 3,
+  "out": "books/Peterson_ComputerNetworksSystemsApproach_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/SystemsApproach/book"
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "11B04",
+  "cat": "11",
+  "cross": [],
+  "type": "book",
+  "title": "The Little Book of Semaphores",
+  "authors": "Allen B. Downey",
+  "school": "",
+  "year": "2016",
+  "version": "2.2.1",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "线程基础",
+  "stack": "",
+  "source": "https://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf",
+  "license": "CC BY-NC-SA 4.0",
+  "goal": "同步原语与经典并发问题练习",
+  "order": 4,
+  "out": "books/Downey_LittleBookOfSemaphores_2.2.1_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Little",
+    "Book",
+    "Semaphores"
+   ],
+   "min_pages": 250
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "11B05",
+  "cat": "11",
+  "cross": [
+   "12"
+  ],
+  "type": "book",
+  "title": "Beej's Guide to Network Programming",
+  "authors": "Brian \"Beej Jorgensen\" Hall",
+  "school": "",
+  "year": "2025",
+  "version": "当前版（PDF 内为准）",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "C 基础",
+  "stack": "C/POSIX",
+  "source": "https://beej.us/guide/bgnet/pdf/bgnet_usl_c_1.pdf",
+  "license": "CC BY-NC-ND 3.0",
+  "goal": "BSD 套接字、TCP/UDP 客户端/服务器、select/poll、非阻塞 I/O",
+  "order": 5,
+  "out": "books/Hall_BeejsGuideNetworkProgramming_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://beej.us/guide/bgnet/pdf/bgnet_usl_c_1.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Beej",
+    "Network",
+    "Programming"
+   ],
+   "min_pages": 80
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "11C01",
+  "cat": "11",
+  "cross": [],
+  "type": "course",
+  "title": "MIT 6.1810 Operating System Engineering (Fall 2025) xv6 教材与实验",
+  "authors": "Frans Kaashoek, Robert Morris 等",
+  "school": "MIT",
+  "year": "2025",
+  "version": "Fall 2025",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "C、体系结构基础",
+  "stack": "",
+  "source": "https://pdos.csail.mit.edu/6.1810/2025/schedule.html",
+  "license": "课程网站公开（xv6 MIT 许可）",
+  "goal": "xv6 教材、讲义、实验（syscall、页表、trap、COW、多线程、网络驱动、锁、文件系统、mmap）",
+  "order": 10,
+  "out": "courses/MIT_6.1810_Fall2025_Materials_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://pdos.csail.mit.edu/6.1810/2025/schedule.html",
+   "quota_mb": 200,
+   "level": "2",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/6.1810/2025"
+   ]
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "xv6 book + 课堂讲义 + 实验说明（视频未下载）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "11C02",
+  "cat": "11",
+  "cross": [
+   "12"
+  ],
+  "type": "course",
+  "title": "CMU 15-213/18-213 Introduction to Computer Systems 课件与讲义",
+  "authors": "CMU 15-213 Staff",
+  "school": "Carnegie Mellon University",
+  "year": "2025",
+  "version": "当前学期页面",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "C 基础",
+  "stack": "",
+  "source": "",
+  "license": "课程网站公开（版权保留）",
+  "goal": "数据表示、机器级程序、存储层次、链接、异常控制流、虚拟内存、网络与并发编程",
+  "order": 11,
+  "out": "courses/CMU_15213_Slides_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 20,
+   "index": "https://www.cs.cmu.edu/~213/schedule.html",
+   "pattern": "\\.pdf$"
+  },
+  "expect": {},
+  "material": "课件 PDF（实验见 11X03 CS:APP labs）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "11D01",
+  "cat": "11",
+  "cross": [],
+  "type": "docs",
+  "title": "互联网核心协议 RFC 集（IP、TCP、UDP、DNS、QUIC）",
+  "authors": "IETF",
+  "school": "",
+  "year": "1980–2022",
+  "version": "RFC 791/768/9293/1034/1035/9000/8200",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "",
+  "source": "https://www.rfc-editor.org/rfc/rfc791.txt",
+  "license": "IETF Trust",
+  "goal": "网络协议标准原文",
+  "order": 20,
+  "out": "official_docs/ietf_core_internet_rfcs_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 7,
+   "urls": [
+    "https://www.rfc-editor.org/rfc/rfc791.txt",
+    "https://www.rfc-editor.org/rfc/rfc768.txt",
+    "https://www.rfc-editor.org/rfc/rfc9293.pdf",
+    "https://www.rfc-editor.org/rfc/rfc1034.txt",
+    "https://www.rfc-editor.org/rfc/rfc1035.txt",
+    "https://www.rfc-editor.org/rfc/rfc9000.pdf",
+    "https://www.rfc-editor.org/rfc/rfc8200.txt"
+   ]
+  },
+  "expect": {},
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "11D02",
+  "cat": "11",
+  "cross": [],
+  "type": "docs",
+  "title": "Linux 内核官方文档（Documentation/ 源）",
+  "authors": "Linux kernel community",
+  "school": "",
+  "year": "2026",
+  "version": "master 提交（版本见 Makefile）",
+  "lang": "en",
+  "level": "进阶-高级",
+  "prereq": "操作系统基础",
+  "stack": "",
+  "source": "https://github.com/torvalds/linux",
+  "license": "GPL-2.0（文档以各文件声明为准）",
+  "goal": "进程调度、内存管理、文件系统、网络、cgroup、管理指南、开发流程",
+  "order": 21,
+  "out": "official_docs/linux_kernel_documentation_master_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/torvalds/linux",
+   "paths": [
+    "Documentation"
+   ]
+  },
+  "expect": {
+   "min_docs": 2000,
+   "need_license": false,
+   "must_have": [
+    "Documentation/admin-guide/"
+   ]
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "仓库根 COPYING 不在稀疏范围内时以 LICENSES/ 与各文件 SPDX 头为准",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "11X02",
+  "cat": "11",
+  "cross": [],
+  "type": "practice",
+  "title": "xv6-riscv（MIT 教学操作系统源码）",
+  "authors": "MIT PDOS",
+  "school": "",
+  "year": "2025",
+  "version": "riscv 分支提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "C、RISC-V 基础",
+  "stack": "",
+  "source": "https://github.com/mit-pdos/xv6-riscv",
+  "license": "MIT",
+  "goal": "约 6000 行可读的 Unix v6 RISC-V 实现",
+  "order": 31,
+  "out": "practice/mit_xv6_riscv_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/mit-pdos/xv6-riscv"
+  },
+  "expect": {
+   "min_docs": 0
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "11X03",
+  "cat": "11",
+  "cross": [
+   "12"
+  ],
+  "type": "practice",
+  "title": "CS:APP 3e 自学实验包（Data/Bomb/Attack/Cache/Shell/Malloc/Proxy Lab 讲义与自学包）",
+  "authors": "Randal E. Bryant, David R. O'Hallaron",
+  "school": "",
+  "year": "2016–2023",
+  "version": "官网当前版本",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "C、15-213 课件",
+  "stack": "",
+  "source": "https://csapp.cs.cmu.edu/3e/labs.html",
+  "license": "作者为自学公开（版权保留）",
+  "goal": "位运算、逆向、缓冲区溢出、缓存模拟、Shell、内存分配器、代理服务器",
+  "order": 32,
+  "out": "practice/csapp_3e_selfstudy_labs_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://csapp.cs.cmu.edu/3e/labs.html",
+   "quota_mb": 200,
+   "level": "1",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/3e",
+    "/im"
+   ]
+  },
+  "expect": {
+   "min_docs": 2
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "下载 labs.html 页面直接链接的讲义 PDF 与 self-study tar（不运行）",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "11X04",
+  "cat": "11",
+  "cross": [],
+  "type": "practice",
+  "title": "Nand2Tetris 软件与项目包",
+  "authors": "Noam Nisan, Shimon Schocken",
+  "school": "",
+  "year": "2024",
+  "version": "官网当前包",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "",
+  "source": "",
+  "license": "CC BY-NC-SA 3.0",
+  "goal": "从逻辑门到计算机、汇编器、虚拟机、编译器与 OS 的 12 个项目说明",
+  "order": 33,
+  "out": "practice/nand2tetris_projects_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 1,
+   "index": "https://www.nand2tetris.org/project01",
+   "pattern": "\\.pdf$"
+  },
+  "expect": {},
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "部分",
+  "scope": "项目说明 PDF；官方 IDE 软件包未下载（属工具构建产物）"
+ },
+ {
+  "id": "12B01",
+  "cat": "12",
+  "cross": [],
+  "type": "book",
+  "title": "Modern C",
+  "authors": "Jens Gustedt",
+  "school": "",
+  "year": "2019",
+  "version": "2nd ed.（HAL 免费版）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "编程基础",
+  "stack": "C17",
+  "source": "https://inria.hal.science/hal-02383654/document",
+  "license": "CC BY-NC-ND 4.0",
+  "goal": "C17 语言、内存模型、指针、并发与性能习惯",
+  "order": 1,
+  "out": "books/Gustedt_ModernC_2019_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://inria.hal.science/hal-02383654/document"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Modern",
+    "C"
+   ],
+   "min_pages": 250
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "第 3 版（2024, C23）为出版社商业版，未收录",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "12B02",
+  "cat": "12",
+  "cross": [],
+  "type": "book",
+  "title": "Beej's Guide to C Programming",
+  "authors": "Brian \"Beej Jorgensen\" Hall",
+  "school": "",
+  "year": "2025",
+  "version": "当前版",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "编程基础",
+  "stack": "C",
+  "source": "https://beej.us/guide/bgc/pdf/bgc_usl_c_1.pdf",
+  "license": "CC BY-NC-ND 3.0",
+  "goal": "C 语言教程与库参考",
+  "order": 2,
+  "out": "books/Hall_BeejsGuideCProgramming_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://beej.us/guide/bgc/pdf/bgc_usl_c_1.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Beej",
+    "C",
+    "Programming"
+   ],
+   "min_pages": 300
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "12B03",
+  "cat": "12",
+  "cross": [],
+  "type": "book",
+  "title": "Performance Analysis and Tuning on Modern CPUs (2nd ed.)",
+  "authors": "Denis Bakhvalov",
+  "school": "",
+  "year": "2024",
+  "version": "2nd ed.",
+  "lang": "en",
+  "level": "进阶-高级",
+  "prereq": "C/C++、体系结构",
+  "stack": "perf/VTune",
+  "source": "https://github.com/dendibakh/perf-book/releases/download/2.0_release/PerformanceAnalysisAndTuningOnModernCPUs_SecondEdition.pdf",
+  "license": "CC BY 4.0（以书内声明为准）",
+  "goal": "性能测量、PMU、Top-Down 分析、前端/后端/内存瓶颈优化",
+  "order": 3,
+  "out": "books/Bakhvalov_PerformanceAnalysisTuningModernCPUs_2ndEd_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://github.com/dendibakh/perf-book/releases/download/2.0_release/PerformanceAnalysisAndTuningOnModernCPUs_SecondEdition.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Performance",
+    "Analysis",
+    "Tuning"
+   ],
+   "min_pages": 250
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "12B04",
+  "cat": "12",
+  "cross": [],
+  "type": "book",
+  "title": "What Every Programmer Should Know About Memory",
+  "authors": "Ulrich Drepper",
+  "school": "",
+  "year": "2007",
+  "version": "1.0",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "C、体系结构",
+  "stack": "",
+  "source": "https://people.freebsd.org/~lstewart/articles/cpumemory.pdf",
+  "license": "作者公开（经典）",
+  "goal": "缓存、TLB、NUMA、预取与内存访问优化",
+  "order": 4,
+  "out": "books/Drepper_WhatEveryProgrammerShouldKnowAboutMemory_2007_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://people.freebsd.org/~lstewart/articles/cpumemory.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Every",
+    "Programmer",
+    "Memory"
+   ],
+   "min_pages": 100
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "12B05",
+  "cat": "12",
+  "cross": [
+   "02"
+  ],
+  "type": "book",
+  "title": "Algorithms for Modern Hardware",
+  "authors": "Sergey Slotin",
+  "school": "",
+  "year": "2022",
+  "version": "online（en.algorithmica.org/hpc）",
+  "lang": "en",
+  "level": "进阶-高级",
+  "prereq": "C++",
+  "stack": "",
+  "source": "https://en.algorithmica.org/hpc/",
+  "license": "CC BY-NC 4.0",
+  "goal": "SIMD、缓存友好数据结构、分支预测、性能剖析与编译器优化",
+  "order": 5,
+  "out": "books/Slotin_AlgorithmsForModernHardware_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://en.algorithmica.org/hpc/",
+   "quota_mb": 200,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/hpc"
+   ]
+  },
+  "expect": {
+   "min_docs": 60
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "12B06",
+  "cat": "12",
+  "cross": [],
+  "type": "book",
+  "title": "How To Write Shared Libraries",
+  "authors": "Ulrich Drepper",
+  "school": "",
+  "year": "2011",
+  "version": "4.1.2",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "C、链接基础",
+  "stack": "",
+  "source": "https://www.akkadia.org/drepper/dsohowto.pdf",
+  "license": "作者公开",
+  "goal": "ELF、动态链接、符号可见性、重定位与 ABI",
+  "order": 6,
+  "out": "books/Drepper_HowToWriteSharedLibraries_2011_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.akkadia.org/drepper/dsohowto.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Shared",
+    "Libraries"
+   ],
+   "min_pages": 40
+  },
+  "material": "教材/参考书",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "12C01",
+  "cat": "12",
+  "cross": [
+   "13"
+  ],
+  "type": "course",
+  "title": "MIT 6.172 Performance Engineering of Software Systems (Fall 2018) OCW 课程包",
+  "authors": "Charles Leiserson, Julian Shun",
+  "school": "MIT",
+  "year": "2018",
+  "version": "Fall 2018",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "C、算法",
+  "stack": "",
+  "source": "https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/6.172-fall-2018.zip",
+  "license": "CC BY-NC-SA 4.0",
+  "goal": "位技巧、缓存、向量化、多线程（Cilk）、性能剖析与项目",
+  "order": 10,
+  "out": "courses/MIT_6.172_Fall2018_OCW_en.zip",
+  "get": {
+   "kind": "file",
+   "urls": [
+    "https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/6.172-fall-2018.zip"
+   ],
+   "max_mb": 800
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "课件+讲义+作业/项目说明（OCW 包）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "12C02",
+  "cat": "12",
+  "cross": [
+   "11"
+  ],
+  "type": "course",
+  "title": "Stanford CS 107 Computer Organization & Systems 指南与讲义",
+  "authors": "CS 107 Course Staff",
+  "school": "Stanford",
+  "year": "2026",
+  "version": "cs107.1272 学期站点（课程主页当前指向）",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "编程基础",
+  "stack": "",
+  "source": "https://web.stanford.edu/class/archive/cs/cs107/cs107.1272/",
+  "license": "课程网站公开（版权保留）",
+  "goal": "C、指针与内存、泛型、汇编、堆分配器；gdb/valgrind/make 指南",
+  "order": 11,
+  "out": "courses/Stanford_CS107_Guides_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://web.stanford.edu/class/archive/cs/cs107/cs107.1272/",
+   "quota_mb": 300,
+   "level": "3",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/class/archive/cs/cs107/cs107.1272"
+   ]
+  },
+  "expect": {
+   "min_docs": 15
+  },
+  "material": "课程指南（guides）+ 讲义页 + 作业说明",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "12D01",
+  "cat": "12",
+  "cross": [],
+  "type": "docs",
+  "title": "GCC 16.2 手册（PDF）",
+  "authors": "Free Software Foundation",
+  "school": "",
+  "year": "2026",
+  "version": "16.2.0",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "GCC",
+  "source": "https://gcc.gnu.org/onlinedocs/gcc-16.2.0/gcc.pdf",
+  "license": "GFDL",
+  "goal": "编译选项、优化、扩展、内建函数",
+  "order": 20,
+  "out": "official_docs/gcc_16.2.0_manual_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://gcc.gnu.org/onlinedocs/gcc-16.2.0/gcc.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "GCC"
+   ],
+   "min_pages": 500
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "12D02",
+  "cat": "12",
+  "cross": [],
+  "type": "docs",
+  "title": "GNU Make Manual",
+  "authors": "Free Software Foundation",
+  "school": "",
+  "year": "2025",
+  "version": "当前版",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "Make",
+  "source": "https://www.gnu.org/software/make/manual/make.pdf",
+  "license": "GFDL",
+  "goal": "规则、变量、函数、递归构建",
+  "order": 21,
+  "out": "official_docs/gnu_make_manual_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.gnu.org/software/make/manual/make.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "GNU",
+    "make"
+   ],
+   "min_pages": 150
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "12D03",
+  "cat": "12",
+  "cross": [],
+  "type": "docs",
+  "title": "GDB 手册（Debugging with GDB）",
+  "authors": "Free Software Foundation",
+  "school": "",
+  "year": "2026",
+  "version": "current",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "GDB",
+  "source": "https://sourceware.org/gdb/current/onlinedocs/gdb.pdf",
+  "license": "GFDL",
+  "goal": "断点、栈、多线程、远程调试、Python 扩展",
+  "order": 22,
+  "out": "official_docs/gdb_manual_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://sourceware.org/gdb/current/onlinedocs/gdb.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Debugging",
+    "GDB"
+   ],
+   "min_pages": 500
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "12D04",
+  "cat": "12",
+  "cross": [],
+  "type": "docs",
+  "title": "CMake 帮助文档源（含官方教程 Help/guide）",
+  "authors": "Kitware",
+  "school": "",
+  "year": "2026",
+  "version": "以最新 v4.x 标签为准",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "CMake",
+  "source": "https://gitlab.kitware.com/cmake/cmake.git",
+  "license": "BSD-3-Clause",
+  "goal": "CMake 教程、命令、变量、属性、模块与工具链参考（reStructuredText 源）",
+  "order": 23,
+  "out": "official_docs/cmake_help_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://gitlab.kitware.com/cmake/cmake.git",
+   "paths": [
+    "Help"
+   ]
+  },
+  "expect": {
+   "min_docs": 500
+  },
+  "material": "官方文档",
+  "use": "教程通读，其余查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "12D05",
+  "cat": "12",
+  "cross": [],
+  "type": "docs",
+  "title": "C++ Core Guidelines",
+  "authors": "Bjarne Stroustrup, Herb Sutter（编）",
+  "school": "",
+  "year": "2026",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "C++",
+  "source": "https://github.com/isocpp/CppCoreGuidelines",
+  "license": "MIT-style（见 LICENSE）",
+  "goal": "资源管理、接口、类、并发、性能的现代 C++ 规则",
+  "order": 24,
+  "out": "official_docs/isocpp_cpp_core_guidelines_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/isocpp/CppCoreGuidelines"
+  },
+  "expect": {
+   "min_docs": 1
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "12D06",
+  "cat": "12",
+  "cross": [
+   "01"
+  ],
+  "type": "docs",
+  "title": "pybind11 文档源与示例",
+  "authors": "pybind11 开发者",
+  "school": "",
+  "year": "2026",
+  "version": "以标签为准",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "C++/Python",
+  "source": "https://github.com/pybind/pybind11",
+  "license": "BSD-3-Clause",
+  "goal": "C++ 与 Python 互操作：函数/类绑定、类型转换、GIL、构建",
+  "order": 25,
+  "out": "official_docs/pybind11_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/pybind/pybind11",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "12D07",
+  "cat": "12",
+  "cross": [
+   "01",
+   "03"
+  ],
+  "type": "docs",
+  "title": "Cython 文档源",
+  "authors": "Cython 开发者",
+  "school": "",
+  "year": "2026",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "Cython",
+  "source": "https://github.com/cython/cython",
+  "license": "Apache-2.0",
+  "goal": "Cython 语言、类型化内存视图、并行、包装 C 库",
+  "order": 26,
+  "out": "official_docs/cython_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/cython/cython",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 50
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "12X01",
+  "cat": "12",
+  "cross": [],
+  "type": "practice",
+  "title": "perf-ninja（性能优化动手实验）",
+  "authors": "Denis Bakhvalov",
+  "school": "",
+  "year": "2024",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "C++",
+  "stack": "",
+  "source": "https://github.com/dendibakh/perf-ninja",
+  "license": "以仓库为准",
+  "goal": "配合 perf-book 的缓存、向量化、分支、内存优化实验",
+  "order": 30,
+  "out": "practice/dendibakh_perf_ninja_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/dendibakh/perf-ninja"
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "12X02",
+  "cat": "12",
+  "cross": [],
+  "type": "practice",
+  "title": "pybind11 python_example（扩展模块构建示例）",
+  "authors": "pybind11 开发者",
+  "school": "",
+  "year": "2025",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "C++、Python 打包",
+  "stack": "",
+  "source": "https://github.com/pybind/python_example",
+  "license": "BSD-3-Clause",
+  "goal": "setuptools/pyproject 构建 C++ 扩展的最小完整工程",
+  "order": 31,
+  "out": "practice/pybind_python_example_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/pybind/python_example"
+  },
+  "expect": {
+   "min_docs": 1
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "13B01",
+  "cat": "13",
+  "cross": [
+   "11"
+  ],
+  "type": "book",
+  "title": "Is Parallel Programming Hard, And, If So, What Can You Do About It?",
+  "authors": "Paul E. McKenney",
+  "school": "",
+  "year": "2026",
+  "version": "2026.06.21a",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "C、操作系统",
+  "stack": "",
+  "source": "https://mirrors.edge.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.2026.06.21a.pdf",
+  "license": "CC BY-SA 3.0",
+  "goal": "共享内存并行：计数、锁、RCU、内存序、形式化验证",
+  "order": 1,
+  "out": "books/McKenney_IsParallelProgrammingHard_2026.06.21a_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://mirrors.edge.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.2026.06.21a.pdf",
+    "https://kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.2026.06.21a.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Parallel",
+    "Programming",
+    "Hard"
+   ],
+   "min_pages": 500
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "13B02",
+  "cat": "13",
+  "cross": [],
+  "type": "book",
+  "title": "Introduction to High Performance Scientific Computing（The Art of HPC 卷 1）",
+  "authors": "Victor Eijkhout",
+  "school": "TACC, UT Austin",
+  "year": "2022",
+  "version": "3rd ed.（仓库提交）",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "C/Fortran、线性代数",
+  "stack": "",
+  "source": "https://raw.githubusercontent.com/victorEijkhout/TheArtofHPC_pdfs/main/vol1/EijkhoutIntroToHPC.pdf",
+  "license": "CC BY 4.0",
+  "goal": "体系结构、浮点、并行计算模型、负载均衡、数值线性代数",
+  "order": 2,
+  "out": "books/Eijkhout_IntroductionHPC_vol1_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://raw.githubusercontent.com/victorEijkhout/TheArtofHPC_pdfs/main/vol1/EijkhoutIntroToHPC.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "High",
+    "Performance",
+    "Scientific",
+    "Computing"
+   ],
+   "min_pages": 400
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "13B03",
+  "cat": "13",
+  "cross": [],
+  "type": "book",
+  "title": "Parallel Programming for Science and Engineering（The Art of HPC 卷 2：MPI/OpenMP）",
+  "authors": "Victor Eijkhout",
+  "school": "TACC, UT Austin",
+  "year": "2022",
+  "version": "仓库提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "C/C++",
+  "stack": "",
+  "source": "https://raw.githubusercontent.com/victorEijkhout/TheArtofHPC_pdfs/main/vol2/EijkhoutParallelProgramming.pdf",
+  "license": "CC BY 4.0",
+  "goal": "MPI 点对点/集合通信、OpenMP、混合并行的完整教程",
+  "order": 3,
+  "out": "books/Eijkhout_ParallelProgramming_vol2_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://raw.githubusercontent.com/victorEijkhout/TheArtofHPC_pdfs/main/vol2/EijkhoutParallelProgramming.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Parallel",
+    "Programming"
+   ],
+   "min_pages": 400
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "13B04",
+  "cat": "13",
+  "cross": [
+   "05",
+   "14"
+  ],
+  "type": "book",
+  "title": "How to Scale Your Model: A Systems View of LLMs on TPUs",
+  "authors": "Jacob Austin 等（Google DeepMind）",
+  "school": "",
+  "year": "2025",
+  "version": "online（仓库提交）",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "深度学习、JAX/PyTorch",
+  "stack": "",
+  "source": "https://github.com/jax-ml/scaling-book",
+  "license": "以仓库为准",
+  "goal": "Roofline、分片、数据/张量/流水并行、Transformer 训练与推理的算力-通信分析",
+  "order": 4,
+  "out": "books/Austin_HowToScaleYourModel_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/jax-ml/scaling-book"
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "13C01",
+  "cat": "13",
+  "cross": [],
+  "type": "course",
+  "title": "Stanford CS149 Parallel Computing (Fall 2025) 课件",
+  "authors": "Kayvon Fatahalian, Kunle Olukotun",
+  "school": "Stanford",
+  "year": "2025",
+  "version": "Fall 2025",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "C/C++、体系结构",
+  "stack": "",
+  "source": "",
+  "license": "课程网站公开（版权保留）",
+  "goal": "多核/SIMD、ISPC、CUDA、同步、缓存一致性、DSL 与硬件加速",
+  "order": 10,
+  "out": "courses/Stanford_CS149_Fall2025_Slides_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 10,
+   "index": "https://gfxcourses.stanford.edu/cs149/fall25/lecture/",
+   "pattern": "/cs149/fall25content/media/.*\\.pdf$",
+   "follow": "/cs149/fall25/lecture/[a-z0-9_-]+/$"
+  },
+  "expect": {},
+  "material": "课件 PDF（编程作业见 13X10）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "13C02",
+  "cat": "13",
+  "cross": [],
+  "type": "course",
+  "title": "University of Oxford CUDA Programming Course（讲义与实践包）",
+  "authors": "Mike Giles, Wes Armour",
+  "school": "University of Oxford",
+  "year": "2025",
+  "version": "当前版",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "C/C++",
+  "stack": "",
+  "source": "",
+  "license": "课程网站公开（版权保留）",
+  "goal": "CUDA 执行模型、内存层次、规约、库、多 GPU 与性能分析",
+  "order": 11,
+  "out": "courses/Oxford_CUDA_Course_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 6,
+   "index": "https://people.maths.ox.ac.uk/gilesm/cuda/",
+   "pattern": "people\\.maths\\.ox\\.ac\\.uk/gilesm/cuda/.*\\.pdf$"
+  },
+  "expect": {},
+  "material": "讲义 PDF + 练习说明 PDF",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "13D10",
+  "cat": "13",
+  "cross": [],
+  "type": "docs",
+  "title": "OpenMP API Specification 6.0",
+  "authors": "OpenMP ARB",
+  "school": "",
+  "year": "2024",
+  "version": "6.0",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "OpenMP",
+  "source": "https://www.openmp.org/wp-content/uploads/OpenMP-API-Specification-6-0.pdf",
+  "license": "OpenMP ARB 版权（允许复制）",
+  "goal": "共享内存并行指令、任务、设备卸载规范",
+  "order": 20,
+  "out": "official_docs/openmp_api_spec_6.0_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.openmp.org/wp-content/uploads/OpenMP-API-Specification-6-0.pdf"
+   ],
+   "max_mb": 100
+  },
+  "expect": {
+   "title_words": [
+    "OpenMP",
+    "Application",
+    "Programming",
+    "Interface"
+   ],
+   "min_pages": 500
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "13D11",
+  "cat": "13",
+  "cross": [
+   "14"
+  ],
+  "type": "docs",
+  "title": "MPI: A Message-Passing Interface Standard 4.1",
+  "authors": "MPI Forum",
+  "school": "",
+  "year": "2023",
+  "version": "4.1",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "MPI",
+  "source": "https://www.mpi-forum.org/docs/mpi-4.1/mpi41-report.pdf",
+  "license": "MPI Forum（允许复制）",
+  "goal": "消息传递标准全文",
+  "order": 21,
+  "out": "official_docs/mpi_4.1_standard_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.mpi-forum.org/docs/mpi-4.1/mpi41-report.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "MPI",
+    "Message",
+    "Passing"
+   ],
+   "min_pages": 800
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "13X51",
+  "cat": "13",
+  "cross": [
+   "05"
+  ],
+  "type": "practice",
+  "title": "llm.c（纯 C/CUDA 的 GPT-2 训练实现）",
+  "authors": "Andrej Karpathy",
+  "school": "",
+  "year": "2024",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "C、CUDA、Transformer",
+  "stack": "",
+  "source": "https://github.com/karpathy/llm.c",
+  "license": "MIT",
+  "goal": "手写 CUDA 内核、混合精度、多 GPU（NCCL）训练循环",
+  "order": 30,
+  "out": "practice/karpathy_llm_c_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/karpathy/llm.c"
+  },
+  "expect": {
+   "min_docs": 1
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "13X52",
+  "cat": "13",
+  "cross": [],
+  "type": "practice",
+  "title": "GPU MODE lectures（讲座笔记本与代码）",
+  "authors": "GPU MODE 社区",
+  "school": "",
+  "year": "2025",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "CUDA/PyTorch",
+  "stack": "",
+  "source": "https://github.com/gpu-mode/lectures",
+  "license": "以仓库为准",
+  "goal": "CUDA、Triton、性能剖析、量化与注意力内核的讲座代码",
+  "order": 31,
+  "out": "practice/gpu_mode_lectures_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/gpu-mode/lectures"
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "13X10",
+  "cat": "13",
+  "cross": [],
+  "type": "practice",
+  "title": "Stanford CS149 编程作业（asst1–asst4 公开仓库）",
+  "authors": "Stanford CS149 Staff",
+  "school": "",
+  "year": "2025",
+  "version": "各仓库默认分支提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "C++、CUDA",
+  "stack": "",
+  "source": "",
+  "license": "以各仓库为准",
+  "goal": "SIMD/多线程（asst1）、任务调度（asst2）、CUDA 渲染器（asst3）；asst4 无公开仓库",
+  "order": 32,
+  "out": "practice/stanford_cs149_assignments_en",
+  "get": {
+   "kind": "multi_git",
+   "repos": [
+    "https://github.com/stanford-cs149/asst1",
+    "https://github.com/stanford-cs149/asst2",
+    "https://github.com/stanford-cs149/asst3"
+   ]
+  },
+  "expect": {},
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "14B01",
+  "cat": "14",
+  "cross": [],
+  "type": "book",
+  "title": "Site Reliability Engineering: How Google Runs Production Systems",
+  "authors": "Betsy Beyer 等（编）",
+  "school": "",
+  "year": "2016",
+  "version": "online",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "系统基础",
+  "stack": "",
+  "source": "https://sre.google/sre-book/table-of-contents/",
+  "license": "CC BY-NC-ND 4.0",
+  "goal": "SLO、错误预算、监控、事故响应、发布工程、负载均衡与过载",
+  "order": 1,
+  "out": "books/Beyer_SiteReliabilityEngineering_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://sre.google/sre-book/table-of-contents/",
+   "quota_mb": 200,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": false,
+   "include": [
+    "/sre-book",
+    "/img",
+    "/css"
+   ]
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "14B02",
+  "cat": "14",
+  "cross": [],
+  "type": "book",
+  "title": "The Site Reliability Workbook",
+  "authors": "Betsy Beyer 等（编）",
+  "school": "",
+  "year": "2018",
+  "version": "online",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "SRE 基础",
+  "stack": "",
+  "source": "https://sre.google/workbook/table-of-contents/",
+  "license": "CC BY-NC-ND 4.0",
+  "goal": "SLO 实施、告警、值班、配置管理、金丝雀发布的实践案例",
+  "order": 2,
+  "out": "books/Beyer_SiteReliabilityWorkbook_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://sre.google/workbook/table-of-contents/",
+   "quota_mb": 200,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": false,
+   "include": [
+    "/workbook",
+    "/img",
+    "/css"
+   ]
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "14B03",
+  "cat": "14",
+  "cross": [],
+  "type": "book",
+  "title": "Notes on Theory of Distributed Systems",
+  "authors": "James Aspnes",
+  "school": "Yale",
+  "year": "2025",
+  "version": "Yale CPSC 465 notes（PDF 内日期为准）",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "算法",
+  "stack": "",
+  "source": "https://www.cs.yale.edu/homes/aspnes/classes/465/notes.pdf",
+  "license": "作者公开（CC BY-SA，以文内为准）",
+  "goal": "消息传递模型、共识、FLP、故障检测、共享内存与随机化算法",
+  "order": 3,
+  "out": "books/Aspnes_NotesTheoryDistributedSystems_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.cs.yale.edu/homes/aspnes/classes/465/notes.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Theory",
+    "Distributed",
+    "Systems"
+   ],
+   "min_pages": 300
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "14B04",
+  "cat": "14",
+  "cross": [],
+  "type": "book",
+  "title": "Distributed Systems for Fun and Profit",
+  "authors": "Mikito Takada",
+  "school": "",
+  "year": "2013",
+  "version": "online ebook",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "无",
+  "stack": "",
+  "source": "https://book.mixu.net/distsys/ebook.html",
+  "license": "CC BY-NC-SA 3.0",
+  "goal": "可扩展性、时间与顺序、复制、一致性模型的简明入门",
+  "order": 4,
+  "out": "books/Takada_DistributedSystemsForFunAndProfit_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://book.mixu.net/distsys/ebook.html",
+   "quota_mb": 30,
+   "level": "1",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/distsys"
+   ]
+  },
+  "expect": {
+   "min_docs": 1
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "14C01",
+  "cat": "14",
+  "cross": [],
+  "type": "course",
+  "title": "MIT 6.5840 Distributed Systems (Spring 2026) 讲义与实验",
+  "authors": "Robert Morris, Frans Kaashoek 等",
+  "school": "MIT",
+  "year": "2026",
+  "version": "Spring 2026",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Go、操作系统",
+  "stack": "",
+  "source": "https://pdos.csail.mit.edu/6.824/schedule.html",
+  "license": "课程网站公开（版权保留）",
+  "goal": "MapReduce、Raft、线性一致性、分片 KV、Spanner、Zookeeper 等论文讲义与 Go 实验说明",
+  "order": 10,
+  "out": "courses/MIT_6.5840_Spring2026_Materials_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://pdos.csail.mit.edu/6.824/schedule.html",
+   "quota_mb": 300,
+   "level": "2",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/6.824"
+   ],
+   "reject_regex": "\\.(mp4|webm)$"
+  },
+  "expect": {
+   "min_docs": 30,
+   "max_broken": 0.45
+  },
+  "material": "课堂讲义（txt/pdf）+ 论文 + 实验说明（视频未下载）",
+  "use": "通读",
+  "note": "",
+  "complete": "部分",
+  "scope": "课程日程页两层链接内的讲义、论文与实验说明；日程以外页面引用的旧学期论文未下载（链接抽样断链约 40%）"
+ },
+ {
+  "id": "14C02",
+  "cat": "14",
+  "cross": [],
+  "type": "course",
+  "title": "University of Cambridge Concurrent and Distributed Systems 讲义",
+  "authors": "Martin Kleppmann, David Greaves 等",
+  "school": "University of Cambridge",
+  "year": "2024",
+  "version": "2024–25",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "并发基础",
+  "stack": "",
+  "source": "https://www.cl.cam.ac.uk/teaching/2425/ConcDisSys/dist-sys-notes.pdf",
+  "license": "课程网站公开（CC BY-SA，以文内为准）",
+  "goal": "时钟、广播、复制、共识（Raft）、一致性模型与 CRDT",
+  "order": 11,
+  "out": "courses/Cambridge_ConcDisSys_2024_DistSysNotes_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.cl.cam.ac.uk/teaching/2425/ConcDisSys/dist-sys-notes.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Distributed",
+    "Systems"
+   ],
+   "min_pages": 50
+  },
+  "material": "讲义 PDF",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "14C03",
+  "cat": "14",
+  "cross": [],
+  "type": "course",
+  "title": "Princeton COS 418 Distributed Systems (Fall 2025) 课件与习题课讲义",
+  "authors": "Princeton COS 418 Staff",
+  "school": "Princeton",
+  "year": "2025",
+  "version": "Fall 2025",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Go、操作系统",
+  "stack": "",
+  "source": "",
+  "license": "课程网站公开（版权保留）",
+  "goal": "RPC、时钟、复制、Paxos/Raft、事务、一致性、拜占庭容错与大规模系统案例；Go 习题课",
+  "order": 12,
+  "out": "courses/Princeton_COS418_Fall2025_Slides_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 15,
+   "index": "https://www.cs.princeton.edu/courses/archive/fall25/cos418/schedule.html",
+   "pattern": "/cos418/docs/.*\\.pdf$",
+   "max_missing": 3
+  },
+  "expect": {},
+  "material": "讲课 PDF + 习题课（precept）PDF；作业代码未下载",
+  "use": "通读",
+  "note": "",
+  "complete": "部分",
+  "scope": "日程页链接的全部 PDF；其中课程站自身失效（404）的链接见 state/items/14C03.json 的 missing_upstream_404"
+ },
+ {
+  "id": "14D20",
+  "cat": "14",
+  "cross": [],
+  "type": "docs",
+  "title": "Prometheus 文档源（概念、查询、告警、最佳实践）",
+  "authors": "Prometheus Authors (CNCF)",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "Prometheus",
+  "source": "https://github.com/prometheus/docs",
+  "license": "Apache-2.0",
+  "goal": "指标类型、PromQL、记录/告警规则、导出器与仪表板实践",
+  "order": 20,
+  "out": "official_docs/prometheus_docs_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/prometheus/docs",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "14D21",
+  "cat": "14",
+  "cross": [],
+  "type": "docs",
+  "title": "OpenTelemetry 文档源",
+  "authors": "OpenTelemetry Authors (CNCF)",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "OpenTelemetry",
+  "source": "https://github.com/open-telemetry/opentelemetry.io",
+  "license": "CC BY 4.0",
+  "goal": "追踪、指标、日志信号；Collector；Python 等语言 SDK",
+  "order": 21,
+  "out": "official_docs/opentelemetry_docs_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/open-telemetry/opentelemetry.io",
+   "paths": [
+    "content/en/docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 200
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "14D22",
+  "cat": "14",
+  "cross": [],
+  "type": "docs",
+  "title": "Helm 文档源",
+  "authors": "Helm Authors (CNCF)",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "Helm",
+  "source": "https://github.com/helm/helm-www",
+  "license": "CC BY 4.0（以仓库为准）",
+  "goal": "Chart 结构、模板、仓库与发布管理",
+  "order": 22,
+  "out": "official_docs/helm_docs_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/helm/helm-www",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "14D23",
+  "cat": "14",
+  "cross": [],
+  "type": "docs",
+  "title": "KServe 文档源（Kubernetes 模型服务）",
+  "authors": "KServe 社区",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "KServe/Kubernetes",
+  "source": "https://github.com/kserve/website",
+  "license": "Apache-2.0",
+  "goal": "InferenceService、模型存储、自动扩缩、推理协议与生成式模型服务",
+  "order": 23,
+  "out": "official_docs/kserve_website_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/kserve/website",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "14X10",
+  "cat": "14",
+  "cross": [],
+  "type": "practice",
+  "title": "Kubernetes The Hard Way",
+  "authors": "Kelsey Hightower",
+  "school": "",
+  "year": "2025",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Linux、Kubernetes 基础",
+  "stack": "",
+  "source": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
+  "license": "Apache-2.0",
+  "goal": "手动搭建集群：证书、etcd、控制平面、网络与冒烟测试",
+  "order": 30,
+  "out": "practice/kubernetes_the_hard_way_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/kelseyhightower/kubernetes-the-hard-way"
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "14X11",
+  "cat": "14",
+  "cross": [],
+  "type": "practice",
+  "title": "The System Design Primer",
+  "authors": "Donne Martin",
+  "school": "",
+  "year": "2024",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "",
+  "source": "https://github.com/donnemartin/system-design-primer",
+  "license": "CC BY 4.0",
+  "goal": "缓存、负载均衡、数据库扩展、异步、可用性模式与设计练习题",
+  "order": 31,
+  "out": "practice/system_design_primer_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/donnemartin/system-design-primer",
+   "paths": [
+    "README.md",
+    "solutions",
+    "LICENSE.txt"
+   ]
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "15B01",
+  "cat": "15",
+  "cross": [],
+  "type": "book",
+  "title": "Introduction to Information Retrieval",
+  "authors": "Christopher D. Manning, Prabhakar Raghavan, Hinrich Schütze",
+  "school": "Stanford",
+  "year": "2008",
+  "version": "online reading edition",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "线性代数、概率",
+  "stack": "",
+  "source": "https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf",
+  "license": "作者网站免费 PDF（版权保留）",
+  "goal": "倒排索引、评分、评测指标、向量空间、聚类：RAG 检索的基础",
+  "order": 1,
+  "out": "books/Manning_IntroductionInformationRetrieval_2008_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Introduction",
+    "Information",
+    "Retrieval"
+   ],
+   "min_pages": 500
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "15B02",
+  "cat": "15",
+  "cross": [],
+  "type": "book",
+  "title": "Speech and Language Processing (3rd ed. draft)",
+  "authors": "Daniel Jurafsky, James H. Martin",
+  "school": "",
+  "year": "2026",
+  "version": "3rd ed. draft (Aug 2026)",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "ML 基础",
+  "stack": "",
+  "source": "https://web.stanford.edu/~jurafsky/slp3/ed3book_aug26.pdf",
+  "license": "作者网站免费草稿",
+  "goal": "LLM、提示、检索与 RAG、问答、评测章节",
+  "order": 2,
+  "out": "books/Jurafsky_SpeechAndLanguageProcessing_3rdEdDraft_aug26_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://web.stanford.edu/~jurafsky/slp3/ed3book_aug26.pdf"
+   ],
+   "max_mb": 100
+  },
+  "expect": {
+   "title_words": [
+    "Speech",
+    "Language",
+    "Processing"
+   ],
+   "min_pages": 500
+  },
+  "material": "教材/参考书",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "15B03",
+  "cat": "15",
+  "cross": [],
+  "type": "book",
+  "title": "Foundations of Large Language Models",
+  "authors": "Tong Xiao, Jingbo Zhu",
+  "school": "",
+  "year": "2025",
+  "version": "arXiv 版",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "深度学习",
+  "stack": "",
+  "source": "https://arxiv.org/pdf/2501.09223",
+  "license": "arXiv 非独占许可",
+  "goal": "预训练、对齐、提示、推理与长上下文",
+  "order": 3,
+  "out": "books/Xiao_FoundationsOfLargeLanguageModels_2025_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2501.09223"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Foundations",
+    "Large",
+    "Language",
+    "Models"
+   ],
+   "min_pages": 150
+  },
+  "material": "教材/参考书",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "15C01",
+  "cat": "15",
+  "cross": [],
+  "type": "course",
+  "title": "UC Berkeley CS294/194-196 Large Language Model Agents (Fall 2024) 课件",
+  "authors": "Dawn Song, Xinyun Chen",
+  "school": "UC Berkeley",
+  "year": "2024",
+  "version": "Fall 2024",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "LLM 基础",
+  "stack": "",
+  "source": "",
+  "license": "课程网站公开（版权保留）",
+  "goal": "推理、规划、工具使用、多智能体、代码智能体、安全",
+  "order": 10,
+  "out": "courses/Berkeley_CS294_LLMAgents_Fall2024_Slides_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 8,
+   "index": "https://rdi.berkeley.edu/llm-agents/f24",
+   "pattern": "\\.pdf$"
+  },
+  "expect": {},
+  "material": "课件 PDF（视频未下载）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "15C02",
+  "cat": "15",
+  "cross": [],
+  "type": "course",
+  "title": "UC Berkeley Advanced Large Language Model Agents (Spring 2025) 课件",
+  "authors": "Dawn Song, Xinyun Chen, Kaiyu Yang",
+  "school": "UC Berkeley",
+  "year": "2025",
+  "version": "Spring 2025",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "15C01",
+  "stack": "",
+  "source": "",
+  "license": "课程网站公开（版权保留）",
+  "goal": "推理时扩展、代码生成与验证、Web/计算机使用智能体、安全",
+  "order": 11,
+  "out": "courses/Berkeley_AdvLLMAgents_Spring2025_Slides_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 6,
+   "index": "https://rdi.berkeley.edu/adv-llm-agents/sp25",
+   "pattern": "\\.pdf$"
+  },
+  "expect": {},
+  "material": "课件 PDF",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "15C03",
+  "cat": "15",
+  "cross": [
+   "05",
+   "13"
+  ],
+  "type": "course",
+  "title": "Stanford CS336 Language Modeling from Scratch (Spring 2025) 讲义与作业",
+  "authors": "Tatsunori Hashimoto, Percy Liang",
+  "school": "Stanford",
+  "year": "2025",
+  "version": "Spring 2025",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "PyTorch、深度学习",
+  "stack": "",
+  "source": "",
+  "license": "以各仓库为准",
+  "goal": "分词器、Transformer、GPU 内核与分布式、扩展律、数据、对齐的从零实现",
+  "order": 12,
+  "out": "courses/Stanford_CS336_Spring2025_src_en",
+  "get": {
+   "kind": "multi_git",
+   "repos": [
+    "https://github.com/stanford-cs336/spring2025-lectures",
+    "https://github.com/stanford-cs336/assignment1-basics",
+    "https://github.com/stanford-cs336/assignment2-systems",
+    "https://github.com/stanford-cs336/assignment3-scaling",
+    "https://github.com/stanford-cs336/assignment4-data",
+    "https://github.com/stanford-cs336/assignment5-alignment"
+   ]
+  },
+  "expect": {},
+  "material": "可执行讲义源 + 作业框架与说明",
+  "use": "通读",
+  "note": "",
+  "complete": "部分",
+  "scope": "讲义仓库 + assignment1–4；assignment5-alignment 仓库无许可证文件未收录"
+ },
+ {
+  "id": "15D10",
+  "cat": "15",
+  "cross": [],
+  "type": "docs",
+  "title": "Model Context Protocol 规范与文档",
+  "authors": "Model Context Protocol 项目（Anthropic 发起）",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "MCP",
+  "source": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+  "license": "MIT（以仓库为准）",
+  "goal": "工具/资源/提示协议、传输、授权、各版本规范与 JSON Schema",
+  "order": 20,
+  "out": "official_docs/mcp_specification_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+   "paths": [
+    "docs",
+    "schema"
+   ]
+  },
+  "expect": {
+   "min_docs": 50
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "15D11",
+  "cat": "15",
+  "cross": [],
+  "type": "docs",
+  "title": "Language Server Protocol 规范",
+  "authors": "Microsoft",
+  "school": "",
+  "year": "2026",
+  "version": "gh-pages 提交（含 3.17/3.18 规范）",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "LSP",
+  "source": "https://github.com/microsoft/language-server-protocol",
+  "license": "CC BY 4.0 / MIT",
+  "goal": "编辑器-语言服务器协议：诊断、补全、代码操作、工作区编辑（IDE 集成基础）",
+  "order": 21,
+  "out": "official_docs/lsp_specification_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/microsoft/language-server-protocol",
+   "ref": "gh-pages",
+   "paths": [
+    "_specifications"
+   ]
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "15D12",
+  "cat": "15",
+  "cross": [],
+  "type": "docs",
+  "title": "VS Code 扩展 API 文档源",
+  "authors": "Microsoft",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "VS Code",
+  "source": "https://github.com/microsoft/vscode-docs",
+  "license": "CC BY 4.0",
+  "goal": "扩展开发、语言特性、Webview、测试与发布（IDE 集成）",
+  "order": 22,
+  "out": "official_docs/vscode_extension_api_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/microsoft/vscode-docs",
+   "paths": [
+    "api"
+   ]
+  },
+  "expect": {
+   "min_docs": 50
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "15D13",
+  "cat": "15",
+  "cross": [],
+  "type": "docs",
+  "title": "DSPy 文档源",
+  "authors": "Stanford NLP",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "DSPy",
+  "source": "https://github.com/stanfordnlp/dspy",
+  "license": "MIT",
+  "goal": "声明式 LM 程序、模块、优化器与评测",
+  "order": 23,
+  "out": "official_docs/dspy_docs_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/stanfordnlp/dspy",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "部分",
+  "scope": "docs/ Markdown 源；API 页由 mkdocstrings 生成，未含"
+ },
+ {
+  "id": "15D14",
+  "cat": "15",
+  "cross": [],
+  "type": "docs",
+  "title": "OpenAI Agents SDK（Python）文档源与示例",
+  "authors": "OpenAI",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "Python",
+  "source": "https://github.com/openai/openai-agents-python",
+  "license": "MIT",
+  "goal": "智能体、工具、交接、护栏、追踪；examples 目录",
+  "order": 24,
+  "out": "official_docs/openai_agents_python_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/openai/openai-agents-python",
+   "paths": [
+    "docs",
+    "examples"
+   ]
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "部分",
+  "scope": "docs/（ref/ 为 mkdocstrings 指令，API 正文未含）+ examples/"
+ },
+ {
+  "id": "15X51",
+  "cat": "15",
+  "cross": [],
+  "type": "practice",
+  "title": "Anthropic Claude Cookbooks",
+  "authors": "Anthropic",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Python、LLM API",
+  "stack": "",
+  "source": "https://github.com/anthropics/claude-cookbooks",
+  "license": "MIT",
+  "goal": "工具调用、RAG、上下文管理、评测、智能体模式的可运行笔记本",
+  "order": 30,
+  "out": "practice/anthropic_claude_cookbooks_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/anthropics/claude-cookbooks"
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "15X52",
+  "cat": "15",
+  "cross": [],
+  "type": "practice",
+  "title": "OpenAI Cookbook",
+  "authors": "OpenAI",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Python、LLM API",
+  "stack": "",
+  "source": "https://github.com/openai/openai-cookbook",
+  "license": "MIT",
+  "goal": "嵌入检索、函数调用、评测、微调示例",
+  "order": 31,
+  "out": "practice/openai_cookbook_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/openai/openai-cookbook",
+   "paths": [
+    "examples",
+    "articles",
+    "registry.yaml"
+   ]
+  },
+  "expect": {
+   "min_docs": 50
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "15X03",
+  "cat": "15",
+  "cross": [
+   "16"
+  ],
+  "type": "practice",
+  "title": "SWE-bench（代码智能体评测框架）",
+  "authors": "Princeton NLP / SWE-bench 团队",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "Python、Docker",
+  "stack": "",
+  "source": "https://github.com/SWE-bench/SWE-bench",
+  "license": "MIT",
+  "goal": "真实 GitHub issue 修复评测：容器化执行隔离、补丁评估",
+  "order": 32,
+  "out": "practice/swe_bench_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/SWE-bench/SWE-bench"
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "15X04",
+  "cat": "15",
+  "cross": [],
+  "type": "practice",
+  "title": "mini-SWE-agent（约百行的参考代码智能体）",
+  "authors": "SWE-agent 团队（Princeton/Stanford）",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Python",
+  "stack": "",
+  "source": "https://github.com/SWE-agent/mini-swe-agent",
+  "license": "MIT",
+  "goal": "最小代码编辑智能体：bash 动作、环境隔离、轨迹与评测",
+  "order": 33,
+  "out": "practice/mini_swe_agent_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/SWE-agent/mini-swe-agent"
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "15X05",
+  "cat": "15",
+  "cross": [],
+  "type": "practice",
+  "title": "Aider（终端 AI 结对编程工具源码）",
+  "authors": "Paul Gauthier",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "Python",
+  "stack": "",
+  "source": "https://github.com/Aider-AI/aider",
+  "license": "Apache-2.0",
+  "goal": "代码库地图、编辑格式、Git 集成与 lint/test 循环的实现参考",
+  "order": 34,
+  "out": "practice/aider_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/Aider-AI/aider"
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "16B01",
+  "cat": "16",
+  "cross": [
+   "14"
+  ],
+  "type": "book",
+  "title": "Building Secure and Reliable Systems",
+  "authors": "Heather Adkins 等（Google）",
+  "school": "",
+  "year": "2020",
+  "version": "online",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "系统基础",
+  "stack": "",
+  "source": "https://google.github.io/building-secure-and-reliable-systems/raw/toc.html",
+  "license": "CC BY-NC-ND 4.0",
+  "goal": "最小权限、设计安全、代码审查、测试、部署、事故响应",
+  "order": 1,
+  "out": "books/Adkins_BuildingSecureReliableSystems_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://google.github.io/building-secure-and-reliable-systems/raw/toc.html",
+   "quota_mb": 150,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/building-secure-and-reliable-systems"
+   ]
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "16B02",
+  "cat": "16",
+  "cross": [],
+  "type": "book",
+  "title": "Security Engineering (2nd ed.)",
+  "authors": "Ross Anderson",
+  "school": "University of Cambridge",
+  "year": "2008",
+  "version": "2nd ed.（作者网站全书免费）",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "无",
+  "stack": "",
+  "source": "",
+  "license": "作者网站免费（版权保留）",
+  "goal": "协议、访问控制、密码学应用、物理与网络安全、安全经济学",
+  "order": 2,
+  "out": "books/Anderson_SecurityEngineering_2ndEd_chapters_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 20,
+   "index": "https://www.cl.cam.ac.uk/archive/rja14/book.html",
+   "pattern": "SEv2-[^/]*\\.pdf$"
+  },
+  "expect": {},
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": "作者网站第 2 版全部章节 PDF；第 3 版为出版社商业版未收"
+ },
+ {
+  "id": "16B03",
+  "cat": "16",
+  "cross": [],
+  "type": "book",
+  "title": "Secure Programming HOWTO",
+  "authors": "David A. Wheeler",
+  "school": "",
+  "year": "2015",
+  "version": "3.72",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "C 或任一语言",
+  "stack": "",
+  "source": "https://dwheeler.com/secure-programs/Secure-Programs-HOWTO.pdf",
+  "license": "GFDL / GPL",
+  "goal": "输入校验、缓冲区溢出、最小权限、输出编码、密码学误用",
+  "order": 3,
+  "out": "books/Wheeler_SecureProgrammingHOWTO_3.72_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://dwheeler.com/secure-programs/Secure-Programs-HOWTO.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Secure",
+    "Programming"
+   ],
+   "min_pages": 150
+  },
+  "material": "教材/参考书",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "16B04",
+  "cat": "16",
+  "cross": [],
+  "type": "book",
+  "title": "The Cyber Security Body of Knowledge (CyBOK) v1.1",
+  "authors": "CyBOK Project（University of Bristol 牵头）",
+  "school": "",
+  "year": "2021",
+  "version": "1.1.0",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "无",
+  "stack": "",
+  "source": "https://www.cybok.org/media/downloads/CyBOK_v1.1.0.pdf",
+  "license": "Open Government Licence",
+  "goal": "软件安全、Web 与移动安全、安全生命周期、认证授权、形式化方法等 21 个知识域",
+  "order": 4,
+  "out": "books/CyBOK_v1.1.0_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.cybok.org/media/downloads/CyBOK_v1.1.0.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Cyber",
+    "Security",
+    "Body",
+    "Knowledge"
+   ],
+   "min_pages": 800
+  },
+  "material": "教材/参考书",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "16C01",
+  "cat": "16",
+  "cross": [
+   "09",
+   "10"
+  ],
+  "type": "course",
+  "title": "Stanford CS 253 Web Security 课件",
+  "authors": "Feross Aboukhadijeh",
+  "school": "Stanford",
+  "year": "2025",
+  "version": "当前版",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Web 基础",
+  "stack": "",
+  "source": "",
+  "license": "课程网站公开（版权保留）",
+  "goal": "同源策略、XSS、CSRF、CSP、Cookie、认证、HTTPS、注入与 Web 安全模型",
+  "order": 10,
+  "out": "courses/Stanford_CS253_Slides_en",
+  "get": {
+   "kind": "pdfset",
+   "min_files": 10,
+   "index": "https://web.stanford.edu/class/cs253/",
+   "pattern": "/class/cs253/lectures/.*\\.pdf$"
+  },
+  "expect": {},
+  "material": "课件 PDF",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "16C02",
+  "cat": "16",
+  "cross": [],
+  "type": "course",
+  "title": "UC Berkeley CS 161 Computer Security 教材（textbook.cs161.org）",
+  "authors": "CS 161 Course Staff",
+  "school": "UC Berkeley",
+  "year": "2025",
+  "version": "online",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "C、网络基础",
+  "stack": "",
+  "source": "https://textbook.cs161.org/",
+  "license": "课程网站公开（版权保留）",
+  "goal": "内存安全、密码学、Web 安全、网络安全的课程教材",
+  "order": 11,
+  "out": "courses/Berkeley_CS161_Textbook_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://textbook.cs161.org/",
+   "quota_mb": 100,
+   "level": "inf",
+   "wait": 0.4,
+   "no_parent": true
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "material": "课程教材（HTML）",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "16C03",
+  "cat": "16",
+  "cross": [],
+  "type": "course",
+  "title": "MIT 6.5660 (6.858) Computer Systems Security 讲义与实验说明",
+  "authors": "Nickolai Zeldovich 等",
+  "school": "MIT",
+  "year": "2024",
+  "version": "Spring 2024",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "操作系统、C",
+  "stack": "",
+  "source": "https://css.csail.mit.edu/6.5660/2024/",
+  "license": "课程网站公开（版权保留）",
+  "goal": "权限分离、沙箱、内存安全、Web 安全、网络与系统安全论文讲义与实验",
+  "order": 12,
+  "out": "courses/MIT_6.5660_Spring2024_Materials_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://css.csail.mit.edu/6.5660/2024/",
+   "quota_mb": 150,
+   "level": "2",
+   "wait": 0.4,
+   "no_parent": true,
+   "include": [
+    "/6.5660/2024"
+   ]
+  },
+  "expect": {
+   "min_docs": 10,
+   "max_broken": 0.2
+  },
+  "material": "讲义/论文阅读页 + 实验说明",
+  "use": "通读",
+  "note": "断链抽样主要为 questions.html?q=… 的查询参数页（离线镜像无法保存查询变体）",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "16D01",
+  "cat": "16",
+  "cross": [],
+  "type": "docs",
+  "title": "OWASP Cheat Sheet Series",
+  "authors": "OWASP Foundation",
+  "school": "",
+  "year": "2026",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "（通用）",
+  "source": "https://github.com/OWASP/CheatSheetSeries",
+  "license": "CC BY-SA 4.0",
+  "goal": "输入校验、认证、会话、密钥管理、日志、反序列化等 90+ 主题速查",
+  "order": 20,
+  "out": "official_docs/owasp_cheatsheet_series_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/OWASP/CheatSheetSeries",
+   "paths": [
+    "cheatsheets",
+    "Index.md",
+    "IndexASVS.md",
+    "IndexTopTen.md"
+   ]
+  },
+  "expect": {
+   "min_docs": 80
+  },
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "16D02",
+  "cat": "16",
+  "cross": [],
+  "type": "docs",
+  "title": "OWASP ASVS 5.0（应用安全验证标准）",
+  "authors": "OWASP Foundation",
+  "school": "",
+  "year": "2025",
+  "version": "5.0（仓库提交）",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "",
+  "source": "https://github.com/OWASP/ASVS",
+  "license": "CC BY-SA 4.0",
+  "goal": "按章节的可验证安全要求清单（审计与安全测试依据）",
+  "order": 21,
+  "out": "official_docs/owasp_asvs_5.0_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/OWASP/ASVS",
+   "paths": [
+    "5.0/en"
+   ]
+  },
+  "expect": {
+   "min_docs": 15
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "16D03",
+  "cat": "16",
+  "cross": [],
+  "type": "docs",
+  "title": "OWASP Web Security Testing Guide（WSTG）",
+  "authors": "OWASP Foundation",
+  "school": "",
+  "year": "2026",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "",
+  "source": "https://github.com/OWASP/wstg",
+  "license": "CC BY-SA 4.0",
+  "goal": "Web 安全测试方法与逐项测试用例",
+  "order": 22,
+  "out": "official_docs/owasp_wstg_master_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/OWASP/wstg",
+   "paths": [
+    "document"
+   ]
+  },
+  "expect": {
+   "min_docs": 100
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "16D04",
+  "cat": "16",
+  "cross": [],
+  "type": "docs",
+  "title": "NIST SP 800-218 Secure Software Development Framework (SSDF) 1.1",
+  "authors": "NIST",
+  "school": "",
+  "year": "2022",
+  "version": "1.1",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "",
+  "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf",
+  "license": "美国政府作品（公有领域）",
+  "goal": "安全开发实践框架：准备、保护、生产、响应",
+  "order": 23,
+  "out": "official_docs/nist_sp800_218_ssdf_1.1_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Secure",
+    "Software",
+    "Development",
+    "Framework"
+   ],
+   "min_pages": 20
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "16D05",
+  "cat": "16",
+  "cross": [],
+  "type": "docs",
+  "title": "NIST SP 800-63B-4 Digital Identity Guidelines: Authentication",
+  "authors": "NIST",
+  "school": "",
+  "year": "2025",
+  "version": "Rev. 4",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "",
+  "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63B-4.pdf",
+  "license": "美国政府作品（公有领域）",
+  "goal": "认证器、口令策略、多因素认证、会话管理要求",
+  "order": 24,
+  "out": "official_docs/nist_sp800_63b_4_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63B-4.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Digital",
+    "Identity",
+    "Guidelines"
+   ],
+   "min_pages": 40
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "16D06",
+  "cat": "16",
+  "cross": [],
+  "type": "docs",
+  "title": "SLSA 供应链安全规范",
+  "authors": "OpenSSF",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "",
+  "stack": "",
+  "source": "https://github.com/slsa-framework/slsa",
+  "license": "Community Specification License 1.0",
+  "goal": "构建来源证明、构建级别、依赖与供应链威胁",
+  "order": 25,
+  "out": "official_docs/slsa_spec_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/slsa-framework/slsa",
+   "paths": [
+    "spec"
+   ]
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "16D07",
+  "cat": "16",
+  "cross": [
+   "15",
+   "14"
+  ],
+  "type": "docs",
+  "title": "gVisor 文档源（容器沙箱）",
+  "authors": "Google",
+  "school": "",
+  "year": "2026",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "高级",
+  "prereq": "",
+  "stack": "",
+  "source": "https://github.com/google/gvisor",
+  "license": "Apache-2.0",
+  "goal": "用户态内核沙箱架构、安全模型、运行时配置（执行隔离）",
+  "order": 26,
+  "out": "official_docs/gvisor_docs_master_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/google/gvisor",
+   "paths": [
+    "g3doc"
+   ]
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ },
+ {
+  "id": "16D08",
+  "cat": "16",
+  "cross": [],
+  "type": "docs",
+  "title": "Bandit 文档源（Python 安全静态分析）",
+  "authors": "PyCQA",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门",
+  "prereq": "",
+  "stack": "Python",
+  "source": "https://github.com/PyCQA/bandit",
+  "license": "Apache-2.0",
+  "goal": "Python 常见安全问题检测规则与配置",
+  "order": 27,
+  "out": "official_docs/bandit_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/PyCQA/bandit",
+   "paths": [
+    "doc"
+   ]
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "material": "官方文档",
+  "use": "通读",
+  "note": "",
+  "complete": "部分",
+  "scope": "doc/source（Sphinx 源；插件 API 由 docstring 生成部分未含）"
+ },
+ {
+  "id": "16X01",
+  "cat": "16",
+  "cross": [],
+  "type": "practice",
+  "title": "OWASP Juice Shop（含漏洞的现代 Web 应用靶场）",
+  "authors": "OWASP Foundation",
+  "school": "",
+  "year": "2026",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Web 基础",
+  "stack": "",
+  "source": "https://github.com/juice-shop/juice-shop",
+  "license": "MIT",
+  "goal": "注入、XSS、认证缺陷、访问控制等 100+ 挑战（仅阅读源码与说明，不部署）",
+  "order": 30,
+  "out": "practice/owasp_juice_shop_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/juice-shop/juice-shop"
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": "完整仓库（大文件按规则剔除）"
+ },
+ {
+  "id": "16X02",
+  "cat": "16",
+  "cross": [],
+  "type": "practice",
+  "title": "OWASP WebGoat（安全教学应用）",
+  "authors": "OWASP Foundation",
+  "school": "",
+  "year": "2026",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "进阶",
+  "prereq": "Java、Web 基础",
+  "stack": "",
+  "source": "https://github.com/WebGoat/WebGoat",
+  "license": "GPL-2.0",
+  "goal": "按课程组织的漏洞原理与修复练习",
+  "order": 31,
+  "out": "practice/owasp_webgoat_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/WebGoat/WebGoat"
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "material": "实践项目",
+  "use": "通读",
+  "note": "",
+  "complete": "完整",
+  "scope": ""
+ }
+]

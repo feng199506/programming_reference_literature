@@ -1,0 +1,64 @@
+{
+ "id": "04C02",
+ "started": "2026-10-29T18:05:11Z",
+ "dropped_large_files": [
+  "CMU_17645_MLinProduction_2025_src_en/lectures/04_mistakes/rc-car.mp4 (7662 KiB)",
+  "CMU_17645_MLinProduction_2025_src_en/lectures/24_summary/rc-car.mp4 (7662 KiB)"
+ ],
+ "dropped_count": 2,
+ "download_url": "https://github.com/mlip-cmu/s2025",
+ "ref": "(默认分支)",
+ "commit": "f5b313389c6988416cf661a05640625b5f49993d",
+ "commit_date": "2025-09-25T22:23:02-04:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：903 个文件（HTML 4，文档源 48）",
+ "info": {
+  "files": 903,
+  "html": 4,
+  "md_rst_ipynb": 48,
+  "top_ext": [
+   [
+    "png",
+    432
+   ],
+   [
+    "jpg",
+    234
+   ],
+   [
+    "svg",
+    126
+   ],
+   [
+    "md",
+    48
+   ],
+   [
+    "jpeg",
+    23
+   ],
+   [
+    "gif",
+    11
+   ],
+   [
+    "json",
+    7
+   ],
+   [
+    "pdf",
+    5
+   ]
+  ],
+  "license_files": [
+   "CMU_17645_MLinProduction_2025_src_en/LICENSE.md"
+  ]
+ },
+ "bytes": 327086080,
+ "sha256": "b32292856e0473c8894d48836d18eaf18dc81de03be24d919f9136cf290a1a0c",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:05:31Z"
+}

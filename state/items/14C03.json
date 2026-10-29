@@ -1,0 +1,18 @@
+{
+ "id": "14C03",
+ "started": "2026-10-29T19:21:47Z",
+ "missing_upstream_404": [
+  "https://www.cs.princeton.edu/courses/archive/fall25/cos418/docs/L14-raft.pdf: 404",
+  "https://www.cs.princeton.edu/courses/archive/fall25/cos418/docs/p6-viewstamped.pdf: 404"
+ ],
+ "download_url": "https://www.cs.princeton.edu/courses/archive/fall25/cos418/schedule.html",
+ "verify": "通过：32 个文件均可解析（PDF 共 873 页）；课程站失效链接 2 个（404，已记录）",
+ "info": {
+  "chapters": 32,
+  "pages": 873
+ },
+ "bytes": 28335135,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:22:24Z"
+}

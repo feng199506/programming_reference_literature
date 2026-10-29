@@ -1,0 +1,14 @@
+{
+ "id": "08C01",
+ "started": "2026-10-29T17:49:07Z",
+ "download_url": "https://15445.courses.cs.cmu.edu/fall2025/schedule.html",
+ "verify": "通过：49 个章节 PDF 均可解析，共 2713 页",
+ "info": {
+  "chapters": 49,
+  "pages": 2713
+ },
+ "bytes": 78321705,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:50:10Z"
+}

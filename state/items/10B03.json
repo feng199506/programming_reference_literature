@@ -1,0 +1,62 @@
+{
+ "id": "10B03",
+ "started": "2026-10-29T17:47:12Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/basarat/typescript-book",
+ "ref": "(默认分支)",
+ "commit": "e31fe92c3afeea1bbcac4381d290e75e5b3ab6e3",
+ "commit_date": "2024-06-29T21:46:59+10:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：323 个文件（HTML 1，文档源 140）",
+ "info": {
+  "files": 323,
+  "html": 1,
+  "md_rst_ipynb": 140,
+  "top_ext": [
+   [
+    "md",
+    140
+   ],
+   [
+    "ts",
+    70
+   ],
+   [
+    "js",
+    58
+   ],
+   [
+    "json",
+    23
+   ],
+   [
+    "",
+    8
+   ],
+   [
+    "png",
+    7
+   ],
+   [
+    "yml",
+    3
+   ],
+   [
+    "cmd",
+    3
+   ]
+  ],
+  "license_files": [
+   "Basarat_TypeScriptDeepDive_src_en/LICENSE.md",
+   "Basarat_TypeScriptDeepDive_src_en/code/compiler/node_modules/ntypescript/LICENCE"
+  ]
+ },
+ "bytes": 18360320,
+ "sha256": "e002ca97b5e598fc9f775a09e183d29f538f216c7d05a9183b9e34679beb18ea",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:13Z"
+}

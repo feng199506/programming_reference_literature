@@ -1,0 +1,61 @@
+{
+ "id": "01C03",
+ "started": "2026-10-29T17:45:09Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/rage/programming-24",
+ "ref": "(默认分支)",
+ "commit": "a71c56cac4ff2b90f0478112977423c8593e1589",
+ "commit_date": "2025-02-15T11:42:51+02:00",
+ "sparse_paths": [
+  "data"
+ ],
+ "verify": "通过：444 个文件（HTML 0，文档源 90）",
+ "info": {
+  "files": 444,
+  "html": 0,
+  "md_rst_ipynb": 90,
+  "top_ext": [
+   [
+    "png",
+    272
+   ],
+   [
+    "md",
+    90
+   ],
+   [
+    "gif",
+    62
+   ],
+   [
+    "ora",
+    11
+   ],
+   [
+    "jpg",
+    4
+   ],
+   [
+    "wav",
+    2
+   ],
+   [
+    "py",
+    1
+   ],
+   [
+    "old",
+    1
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 55234560,
+ "sha256": "3a9540e0af07eb77451199740ea9dbc29c3be6d918b66fae1d6c76cdf5a1be0f",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:13Z",
+ "reverified": "2026-10-29T17:50:44Z"
+}

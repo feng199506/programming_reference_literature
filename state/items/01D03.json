@@ -1,0 +1,62 @@
+{
+ "id": "01D03",
+ "started": "2026-10-29T17:25:49Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/pypa/packaging.python.org",
+ "ref": "(默认分支)",
+ "commit": "6c2e8ea5c6d5281d2ceb95c7b20949de91d622f6",
+ "commit_date": "2026-10-29T14:55:07Z",
+ "sparse_paths": [
+  "source"
+ ],
+ "verify": "通过：102 个文件（HTML 0，文档源 93）",
+ "info": {
+  "files": 102,
+  "html": 0,
+  "md_rst_ipynb": 93,
+  "top_ext": [
+   [
+    "rst",
+    91
+   ],
+   [
+    "png",
+    3
+   ],
+   [
+    "txt",
+    2
+   ],
+   [
+    "yml",
+    2
+   ],
+   [
+    "py",
+    1
+   ],
+   [
+    "cmd",
+    1
+   ],
+   [
+    "json",
+    1
+   ],
+   [
+    "toml",
+    1
+   ]
+  ],
+  "entry": "python_packaging_user_guide_main_src_en/source/index.rst",
+  "license_files": [
+   "python_packaging_user_guide_main_src_en/source/specifications/license-expression.rst"
+  ]
+ },
+ "bytes": 1249280,
+ "sha256": "43477f48c14b6932154f908a4fa36a70fbf9f8526ceee345a6c450260651e434",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:25:51Z"
+}

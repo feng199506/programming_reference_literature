@@ -1,0 +1,19 @@
+{
+ "id": "14B03",
+ "started": "2026-10-29T17:52:50Z",
+ "download_url": "https://www.cs.yale.edu/homes/aspnes/classes/465/notes.pdf",
+ "final_url": "https://www.cs.yale.edu/homes/aspnes/classes/465/notes.pdf",
+ "http_last_modified": "Fri, 23 Oct 2026 17:11:47 GMT",
+ "verify": "通过：pypdf 可解析 587 页；标题词匹配 1.0",
+ "info": {
+  "pages": 587,
+  "meta_title": "Notes on Theory of Distributed Systems",
+  "body_sample_chars": 6382,
+  "title_match": 1.0
+ },
+ "bytes": 2564151,
+ "sha256": "7391fffb8210c7e36a0becc9a213d0776ccd5f5bee5551f10bc79acca0a17ee0",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:51Z"
+}

@@ -1,0 +1,61 @@
+{
+ "id": "04X03",
+ "started": "2026-10-29T17:27:17Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/microsoft/LightGBM",
+ "ref": "v4.7.0",
+ "commit": "8f7036f03627054d5a54a6f965b13f4b9ff2cb63",
+ "commit_date": "2026-07-18T15:10:03-05:00",
+ "sparse_paths": [
+  "examples"
+ ],
+ "verify": "通过：66 个文件（HTML 0，文档源 18）",
+ "info": {
+  "files": 66,
+  "html": 0,
+  "md_rst_ipynb": 18,
+  "top_ext": [
+   [
+    "md",
+    14
+   ],
+   [
+    "conf",
+    13
+   ],
+   [
+    "py",
+    11
+   ],
+   [
+    "test",
+    6
+   ],
+   [
+    "train",
+    6
+   ],
+   [
+    "query",
+    4
+   ],
+   [
+    "txt",
+    3
+   ],
+   [
+    "json",
+    3
+   ]
+  ],
+  "license_files": [
+   "lightgbm_4.7.0_examples_en/LICENSE"
+  ]
+ },
+ "bytes": 12134400,
+ "sha256": "e6042e563d652ca82534d3d48bdf14f634cd1cc6e09401b1f85881e1dc1b3fb0",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:27:19Z"
+}

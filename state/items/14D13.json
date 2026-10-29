@@ -1,0 +1,38 @@
+{
+ "id": "14D13",
+ "started": "2026-10-29T18:10:30Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/docker/cli",
+ "ref": "(默认分支)",
+ "commit": "66786b775ad2f71a4f6de79965a6f3d2efb08852",
+ "commit_date": "2026-10-27T10:20:11+01:00",
+ "sparse_paths": [
+  "docs/reference"
+ ],
+ "verify": "通过：191 个文件（HTML 0，文档源 189）",
+ "info": {
+  "files": 191,
+  "html": 0,
+  "md_rst_ipynb": 189,
+  "top_ext": [
+   [
+    "md",
+    189
+   ],
+   [
+    "",
+    2
+   ]
+  ],
+  "license_files": [
+   "docker_cli_reference_master_en/LICENSE",
+   "docker_cli_reference_master_en/NOTICE"
+  ]
+ },
+ "bytes": 1484800,
+ "sha256": "0863f19eb89efb5a67e75b1f9d37ee0164487a0b09c5318c697573029e86b2ec",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:10:32Z"
+}

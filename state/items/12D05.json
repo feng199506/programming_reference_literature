@@ -1,0 +1,61 @@
+{
+ "id": "12D05",
+ "started": "2026-10-29T17:48:03Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/isocpp/CppCoreGuidelines",
+ "ref": "(默认分支)",
+ "commit": "d1dda82eb60d9cecf16b227cf94ffceb659003c2",
+ "commit_date": "2026-10-26T15:20:28Z",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：49 个文件（HTML 4，文档源 7）",
+ "info": {
+  "files": 49,
+  "html": 4,
+  "md_rst_ipynb": 7,
+  "top_ext": [
+   [
+    "pdf",
+    10
+   ],
+   [
+    "png",
+    8
+   ],
+   [
+    "md",
+    7
+   ],
+   [
+    "yml",
+    4
+   ],
+   [
+    "html",
+    4
+   ],
+   [
+    "css",
+    3
+   ],
+   [
+    "py",
+    3
+   ],
+   [
+    "",
+    2
+   ]
+  ],
+  "license_files": [
+   "isocpp_cpp_core_guidelines_master_en/LICENSE"
+  ]
+ },
+ "bytes": 13977600,
+ "sha256": "a82601b21e73449f38b834a8ccb800dc2866619a79a94cf17b299ab8edc23d3c",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:05Z"
+}

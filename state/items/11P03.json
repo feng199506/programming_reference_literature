@@ -1,0 +1,19 @@
+{
+ "id": "11P03",
+ "started": "2026-10-29T17:52:24Z",
+ "download_url": "https://people.ece.ubc.ca/sasha/papers/eurosys16-final29.pdf",
+ "final_url": "https://people.ece.ubc.ca/sasha/papers/eurosys16-final29.pdf",
+ "http_last_modified": "Sun, 17 Apr 2016 22:23:58 GMT",
+ "verify": "通过：pypdf 可解析 16 页；标题词匹配 1.0",
+ "info": {
+  "pages": 16,
+  "meta_title": "",
+  "body_sample_chars": 22226,
+  "title_match": 1.0
+ },
+ "bytes": 373198,
+ "sha256": "c0d99ee07a3ec791e0e75b60a2834a6f46afb41c0959230aae4110d5321f9515",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:29Z"
+}

@@ -1,0 +1,61 @@
+{
+ "id": "13B04",
+ "started": "2026-10-29T17:48:14Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/jax-ml/scaling-book",
+ "ref": "(默认分支)",
+ "commit": "173fb0851d7e654872f0327aff2e17607cf24106",
+ "commit_date": "2026-10-19T12:44:10-07:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：345 个文件（HTML 3，文档源 16）",
+ "info": {
+  "files": 345,
+  "html": 3,
+  "md_rst_ipynb": 16,
+  "top_ext": [
+   [
+    "png",
+    89
+   ],
+   [
+    "js",
+    71
+   ],
+   [
+    "liquid",
+    56
+   ],
+   [
+    "scss",
+    32
+   ],
+   [
+    "md",
+    15
+   ],
+   [
+    "css",
+    11
+   ],
+   [
+    "gif",
+    11
+   ],
+   [
+    "rb",
+    9
+   ]
+  ],
+  "license_files": [
+   "Austin_HowToScaleYourModel_src_en/LICENSE"
+  ]
+ },
+ "bytes": 67778560,
+ "sha256": "9bdbc7ca02c766ac169ea7732ec6ffd68c89c62679878645515028a345e0462d",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:17Z"
+}

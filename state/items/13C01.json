@@ -1,0 +1,14 @@
+{
+ "id": "13C01",
+ "started": "2026-10-29T18:28:26Z",
+ "download_url": "https://gfxcourses.stanford.edu/cs149/fall25/lecture/",
+ "verify": "通过：18 个文件均可解析（PDF 共 1196 页）",
+ "info": {
+  "chapters": 18,
+  "pages": 1196
+ },
+ "bytes": 95410825,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:29:26Z"
+}

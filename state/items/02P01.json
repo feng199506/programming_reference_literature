@@ -1,0 +1,19 @@
+{
+ "id": "02P01",
+ "started": "2026-10-29T17:48:41Z",
+ "download_url": "https://arxiv.org/pdf/2504.17033v2",
+ "final_url": "https://arxiv.org/pdf/2504.17033v2",
+ "http_last_modified": "Thu, 31 Jul 2025 00:40:03 GMT",
+ "verify": "通过：pypdf 可解析 17 页；标题词匹配 1.0",
+ "info": {
+  "pages": 17,
+  "meta_title": "Breaking the Sorting Barrier for Directed Single-Source Shortest Paths",
+  "body_sample_chars": 12318,
+  "title_match": 1.0
+ },
+ "bytes": 380096,
+ "sha256": "b3aa56d83f19c6a10ee32bd8d6265d9b5e7a207d20cba244b0b32217726ee421",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:41Z"
+}

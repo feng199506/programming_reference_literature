@@ -1,0 +1,64 @@
+{
+ "id": "03X02",
+ "started": "2026-10-29T17:45:46Z",
+ "dropped_large_files": [
+  "guipsamora_pandas_exercises_master_en/06_Stats/US_Baby_Names/US_Baby_Names_right.csv (34924 KiB)",
+  "guipsamora_pandas_exercises_master_en/07_Visualization/Online_Retail/Online_Retail.csv (42924 KiB)"
+ ],
+ "dropped_count": 2,
+ "download_url": "https://github.com/guipsamora/pandas_exercises",
+ "ref": "(默认分支)",
+ "commit": "daf0fd2c7c34724aba5b7ec6006aaf9873a2913b",
+ "commit_date": "2025-10-17T15:44:30+02:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：109 个文件（HTML 0，文档源 88）",
+ "info": {
+  "files": 109,
+  "html": 0,
+  "md_rst_ipynb": 88,
+  "top_ext": [
+   [
+    "ipynb",
+    85
+   ],
+   [
+    "ds_store",
+    8
+   ],
+   [
+    "csv",
+    8
+   ],
+   [
+    "md",
+    2
+   ],
+   [
+    "yml",
+    1
+   ],
+   [
+    "gitignore",
+    1
+   ],
+   [
+    "data",
+    1
+   ],
+   [
+    "desc",
+    1
+   ]
+  ],
+  "license_files": [
+   "guipsamora_pandas_exercises_master_en/LICENSE"
+  ]
+ },
+ "bytes": 4290560,
+ "sha256": "3fbd919f0b57e77ef28815922702ce07b6e4e56f5c1a84b102570a8c4c639c42",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:48Z"
+}

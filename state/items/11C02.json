@@ -1,0 +1,14 @@
+{
+ "id": "11C02",
+ "started": "2026-10-29T18:08:26Z",
+ "download_url": "https://www.cs.cmu.edu/~213/schedule.html",
+ "verify": "通过：48 个文件均可解析（PDF 共 1944 页）",
+ "info": {
+  "chapters": 48,
+  "pages": 1944
+ },
+ "bytes": 66641289,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:10:07Z"
+}

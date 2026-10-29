@@ -1,0 +1,54 @@
+{
+ "id": "05D10",
+ "started": "2026-10-29T17:45:48Z",
+ "download_url": "https://github.com/opencv/opencv/releases/download/5.0.0/opencv-5.0.0-docs.zip",
+ "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/5108051/c67f2ffc-0faa-4b03-9a95-2e59556ab81f?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-29T18%3A43%3A18Z&rscd=attachment%3B+filename%3Dopencv-5.0.0-docs.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab",
+ "http_last_modified": "Sat, 06 Jun 2026 09:10:33 GMT",
+ "verify": "通过：24312 个文件（HTML 7810，文档源 4）",
+ "info": {
+  "files": 24312,
+  "html": 7810,
+  "md_rst_ipynb": 4,
+  "top_ext": [
+   [
+    "html",
+    7810
+   ],
+   [
+    "svg",
+    5081
+   ],
+   [
+    "md5",
+    5059
+   ],
+   [
+    "map",
+    5058
+   ],
+   [
+    "jpg",
+    557
+   ],
+   [
+    "js",
+    363
+   ],
+   [
+    "png",
+    334
+   ],
+   [
+    "jpeg",
+    11
+   ]
+  ],
+  "entry": "doc/doxygen/html/index.html",
+  "license_files": []
+ },
+ "bytes": 132911876,
+ "sha256": "c6fca369db63b6f00ff3d30ae28a74d6a49093f5bb21fb10d3849a37a446c768",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:51Z"
+}

@@ -1,0 +1,69 @@
+{
+ "id": "09B01",
+ "started": "2026-10-29T18:32:11Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://hpbn.co/",
+ "mirror_scope": {
+  "start": [
+   "https://hpbn.co/"
+  ],
+  "include": [],
+  "level": "2"
+ },
+ "verify": "通过：152 个文件（HTML 31，文档源 1）",
+ "info": {
+  "files": 152,
+  "html": 31,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "svg",
+    97
+   ],
+   [
+    "html",
+    31
+   ],
+   [
+    "png",
+    20
+   ],
+   [
+    "json",
+    1
+   ],
+   [
+    "js",
+    1
+   ],
+   [
+    "css",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 1962,
+   "broken": 55,
+   "examples": [
+    "Grigorik_HighPerformanceBrowserNetworking_html_en/thumbnail.jpg",
+    "Grigorik_HighPerformanceBrowserNetworking_html_en/main.js",
+    "Grigorik_HighPerformanceBrowserNetworking_html_en/x",
+    "Grigorik_HighPerformanceBrowserNetworking_html_en/main.js",
+    "Grigorik_HighPerformanceBrowserNetworking_html_en/#A"
+   ]
+  }
+ },
+ "bytes": 7413760,
+ "sha256": "c2bbdfc75e0d0583a6db4a31a5f98dddef7cd614a6dfa7b1a26e71bfd63fd5d7",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:34:27Z"
+}

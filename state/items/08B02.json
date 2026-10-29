@@ -1,0 +1,8 @@
+{
+ "id": "08B02",
+ "started": "2026-10-29T18:22:33Z",
+ "error": "http://dsf.berkeley.edu/papers/fntdb07-architecture.pdf: 404 HTTP 404 | https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf: 0 URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+ "status": "failed",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:23:09Z"
+}

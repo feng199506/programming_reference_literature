@@ -1,0 +1,44 @@
+{
+ "id": "16D01",
+ "started": "2026-10-29T17:50:17Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/OWASP/CheatSheetSeries",
+ "ref": "(默认分支)",
+ "commit": "920293be317721982fa50324a6f26af3f29dc45e",
+ "commit_date": "2026-10-28T12:44:36+01:00",
+ "sparse_paths": [
+  "cheatsheets",
+  "Index.md",
+  "IndexASVS.md",
+  "IndexTopTen.md"
+ ],
+ "verify": "通过：158 个文件（HTML 0，文档源 157）",
+ "info": {
+  "files": 158,
+  "html": 0,
+  "md_rst_ipynb": 157,
+  "top_ext": [
+   [
+    "md",
+    156
+   ],
+   [
+    "json",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [
+   "owasp_cheatsheet_series_master_en/LICENSE.md"
+  ]
+ },
+ "bytes": 3112960,
+ "sha256": "777fa4969745d578617d83e27a970ffc17a79ae819d0ef72641b0c510bc8dc52",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:50:19Z"
+}

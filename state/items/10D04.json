@@ -1,0 +1,61 @@
+{
+ "id": "10D04",
+ "started": "2026-10-29T17:47:36Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/w3c/aria-practices",
+ "ref": "(默认分支)",
+ "commit": "0f765e4dc33e966026114ac12a8380db1de3b787",
+ "commit_date": "2026-09-29T22:17:08-07:00",
+ "sparse_paths": [
+  "content"
+ ],
+ "verify": "通过：368 个文件（HTML 130，文档源 4）",
+ "info": {
+  "files": 368,
+  "html": 130,
+  "md_rst_ipynb": 4,
+  "top_ext": [
+   [
+    "html",
+    130
+   ],
+   [
+    "js",
+    84
+   ],
+   [
+    "css",
+    59
+   ],
+   [
+    "svg",
+    48
+   ],
+   [
+    "png",
+    31
+   ],
+   [
+    "jpg",
+    7
+   ],
+   [
+    "md",
+    4
+   ],
+   [
+    "csv",
+    2
+   ]
+  ],
+  "license_files": [
+   "w3c_aria_practices_main_en/LICENSE.md"
+  ]
+ },
+ "bytes": 7874560,
+ "sha256": "8e0001d829460cc4593e0b6bd0a085d49c54f23e0083e54c25c3ae6b8dbcbb66",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:38Z"
+}

@@ -1,0 +1,73 @@
+{
+ "id": "10C02",
+ "started": "2026-10-29T19:09:08Z",
+ "wget_rc": 6,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://designftw.mit.edu/",
+ "mirror_scope": {
+  "start": [
+   "https://designftw.mit.edu/"
+  ],
+  "include": [],
+  "level": "3"
+ },
+ "verify": "通过：777 个文件（HTML 94，文档源 1）",
+ "info": {
+  "files": 777,
+  "html": 94,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "png",
+    374
+   ],
+   [
+    "jpg",
+    168
+   ],
+   [
+    "html",
+    94
+   ],
+   [
+    "svg",
+    43
+   ],
+   [
+    "css",
+    36
+   ],
+   [
+    "js",
+    24
+   ],
+   [
+    "gif",
+    16
+   ],
+   [
+    "ttf",
+    5
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 2216,
+   "broken": 117,
+   "examples": [
+    "MIT_6.4500_DesignForTheWeb_html_en/assignments/img/calc-osx.png",
+    "MIT_6.4500_DesignForTheWeb_html_en/assignments/img/calc-osx.png",
+    "MIT_6.4500_DesignForTheWeb_html_en/assignments/img/calc-win10.png",
+    "MIT_6.4500_DesignForTheWeb_html_en/assignments/img/calc-win10.png",
+    "MIT_6.4500_DesignForTheWeb_html_en/lectures/apis/map.jpg"
+   ]
+  }
+ },
+ "bytes": 210882560,
+ "sha256": "e1c9134ac41caa189240833bcca3c83ea5f3114e7135604a84254ade40c75723",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:20:42Z"
+}

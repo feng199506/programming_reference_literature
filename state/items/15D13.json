@@ -1,0 +1,61 @@
+{
+ "id": "15D13",
+ "started": "2026-10-29T17:49:08Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/stanfordnlp/dspy",
+ "ref": "(默认分支)",
+ "commit": "25162c4fc05c2d2d019b0ffb5b6b2a9f315ec007",
+ "commit_date": "2026-10-29T09:15:19-04:00",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：267 个文件（HTML 2，文档源 194）",
+ "info": {
+  "files": 267,
+  "html": 2,
+  "md_rst_ipynb": 194,
+  "top_ext": [
+   [
+    "md",
+    173
+   ],
+   [
+    "png",
+    31
+   ],
+   [
+    "ipynb",
+    20
+   ],
+   [
+    "svg",
+    15
+   ],
+   [
+    "py",
+    8
+   ],
+   [
+    "js",
+    4
+   ],
+   [
+    "css",
+    3
+   ],
+   [
+    "",
+    2
+   ]
+  ],
+  "license_files": [
+   "dspy_docs_main_src_en/LICENSE"
+  ]
+ },
+ "bytes": 20305920,
+ "sha256": "0d2bc0a4029eb71c40894df7d0bc6c00b4052cd32a6a52e196d276757ff187a8",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:49:11Z"
+}

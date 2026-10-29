@@ -1,0 +1,61 @@
+{
+ "id": "05X01",
+ "started": "2026-10-29T17:28:47Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/pytorch/examples",
+ "ref": "(默认分支)",
+ "commit": "acc295dc7b90714f1bf47f06004fc19a7fe235c4",
+ "commit_date": "2025-09-01T10:21:46-07:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：238 个文件（HTML 0，文档源 96）",
+ "info": {
+  "files": 238,
+  "html": 0,
+  "md_rst_ipynb": 96,
+  "top_ext": [
+   [
+    "py",
+    93
+   ],
+   [
+    "md",
+    49
+   ],
+   [
+    "txt",
+    46
+   ],
+   [
+    "sh",
+    12
+   ],
+   [
+    "jpg",
+    10
+   ],
+   [
+    "cpp",
+    9
+   ],
+   [
+    "",
+    4
+   ],
+   [
+    "yml",
+    3
+   ]
+  ],
+  "license_files": [
+   "pytorch_examples_main_en/LICENSE"
+  ]
+ },
+ "bytes": 17940480,
+ "sha256": "0f2806aeb2587c2e800f879ba7ee94629e3fe1541f8a817718d3724ee7e8ae48",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:28:48Z"
+}

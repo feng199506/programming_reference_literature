@@ -1,0 +1,19 @@
+{
+ "id": "11P07",
+ "started": "2026-10-29T17:52:36Z",
+ "download_url": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44271.pdf",
+ "final_url": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44271.pdf",
+ "http_last_modified": "Sun, 25 Jun 2023 02:58:00 GMT",
+ "verify": "通过：pypdf 可解析 12 页；标题词匹配 0.75",
+ "info": {
+  "pages": 12,
+  "meta_title": "",
+  "body_sample_chars": 24134,
+  "title_match": 0.75
+ },
+ "bytes": 494028,
+ "sha256": "31451863831f1596238292b01c565161f09e1c777fe266cb9308b38aba37f0a3",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:37Z"
+}

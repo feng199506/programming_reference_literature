@@ -1,0 +1,66 @@
+{
+ "id": "03X03",
+ "started": "2026-10-29T17:45:48Z",
+ "dropped_large_files": [
+  "rougier_from_python_to_numpy_master_en/data/game-of-life.mp4 (20252 KiB)"
+ ],
+ "dropped_count": 1,
+ "download_url": "https://github.com/rougier/from-python-to-numpy",
+ "ref": "(默认分支)",
+ "commit": "8a5f0d9973fe7513ef8463291ec71bf0f2453688",
+ "commit_date": "2025-05-06T07:34:35+02:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：144 个文件（HTML 1，文档源 16）",
+ "info": {
+  "files": 144,
+  "html": 1,
+  "md_rst_ipynb": 16,
+  "top_ext": [
+   [
+    "py",
+    44
+   ],
+   [
+    "png",
+    28
+   ],
+   [
+    "pdf",
+    13
+   ],
+   [
+    "svg",
+    12
+   ],
+   [
+    "rst",
+    11
+   ],
+   [
+    "jpg",
+    9
+   ],
+   [
+    "mp4",
+    8
+   ],
+   [
+    "woff",
+    6
+   ]
+  ],
+  "license_files": [
+   "rougier_from_python_to_numpy_master_en/LICENSE-book.txt",
+   "rougier_from_python_to_numpy_master_en/LICENSE-code.txt",
+   "rougier_from_python_to_numpy_master_en/code/LICENSE.txt",
+   "rougier_from_python_to_numpy_master_en/fonts/LICENSE.txt"
+  ]
+ },
+ "bytes": 21299200,
+ "sha256": "c81081c317c50a4aee50644c4f83bdcfaa5952cc53c744c26d59b1039b756691",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:56Z"
+}

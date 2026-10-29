@@ -1,0 +1,63 @@
+{
+ "id": "09D05",
+ "started": "2026-10-29T17:47:08Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/celery/celery",
+ "ref": "(默认分支)",
+ "commit": "2ef8265b0a1dd977abdbcb087d3208b6575842c1",
+ "commit_date": "2026-10-28T21:32:21+06:00",
+ "sparse_paths": [
+  "docs",
+  "examples"
+ ],
+ "verify": "通过：325 个文件（HTML 4，文档源 252）",
+ "info": {
+  "files": 325,
+  "html": 4,
+  "md_rst_ipynb": 252,
+  "top_ext": [
+   [
+    "rst",
+    240
+   ],
+   [
+    "py",
+    46
+   ],
+   [
+    "txt",
+    11
+   ],
+   [
+    "png",
+    8
+   ],
+   [
+    "html",
+    4
+   ],
+   [
+    "",
+    3
+   ],
+   [
+    "svg",
+    3
+   ],
+   [
+    "sh",
+    2
+   ]
+  ],
+  "license_files": [
+   "celery_docs_src_en/LICENSE",
+   "celery_docs_src_en/docs/copyright.rst"
+  ]
+ },
+ "bytes": 3102720,
+ "sha256": "9d8b4fbdf431d92c8f36e1aff6404a58a21f27f846703c43a4762746df38a870",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:09Z"
+}

@@ -1,0 +1,70 @@
+{
+ "id": "14D09",
+ "started": "2026-10-29T19:11:35Z",
+ "wget_rc": 0,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://docs.bentoml.com/en/latest/",
+ "mirror_scope": {
+  "start": [
+   "https://docs.bentoml.com/en/latest/"
+  ],
+  "include": [
+   "/en/latest"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：139 个文件（HTML 82，文档源 1）",
+ "info": {
+  "files": 139,
+  "html": 82,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    82
+   ],
+   [
+    "png",
+    22
+   ],
+   [
+    "css",
+    15
+   ],
+   [
+    "js",
+    6
+   ],
+   [
+    "svg",
+    2
+   ],
+   [
+    "js?v=2cd50e6c",
+    1
+   ],
+   [
+    "js?v=a7894cd8",
+    1
+   ],
+   [
+    "js?v=f42a5055",
+    1
+   ]
+  ],
+  "entry": "bentoml_docs_mirror_en/en/latest/build-with-bentoml/observability/index.html",
+  "license_files": [],
+  "link_sample": {
+   "links": 10444,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 10270720,
+ "sha256": "84161960408406fad8315749983274a043e3f573780595d4a3cde500961688bc",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:12:50Z"
+}

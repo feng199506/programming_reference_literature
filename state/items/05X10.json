@@ -1,0 +1,57 @@
+{
+ "id": "05X10",
+ "started": "2026-10-29T17:30:09Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/huggingface/transformers",
+ "ref": "v5.22.0",
+ "commit": "0f01f27e9c939328b69e9057bfa0d0b25544915b",
+ "commit_date": "2026-10-29T15:12:24+01:00",
+ "sparse_paths": [
+  "examples"
+ ],
+ "verify": "通过：56 个文件（HTML 0，文档源 10）",
+ "info": {
+  "files": 56,
+  "html": 0,
+  "md_rst_ipynb": 10,
+  "top_ext": [
+   [
+    "py",
+    42
+   ],
+   [
+    "md",
+    9
+   ],
+   [
+    "cff",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "txt",
+    1
+   ],
+   [
+    "sh",
+    1
+   ],
+   [
+    "toml",
+    1
+   ]
+  ],
+  "license_files": [
+   "hf_transformers_v5.22.0_examples_en/LICENSE"
+  ]
+ },
+ "bytes": 604160,
+ "sha256": "8a7255c1adcf03b1bbeaff38106209b6037bc47bace1a2c56cc2ad8f880fcf0c",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:30:11Z"
+}

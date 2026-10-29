@@ -1,0 +1,62 @@
+{
+ "id": "15D14",
+ "started": "2026-10-29T17:49:11Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/openai/openai-agents-python",
+ "ref": "(默认分支)",
+ "commit": "cd26bbbc52847845fde73b9952b51e62e2bcbdc0",
+ "commit_date": "2026-10-27T19:22:01Z",
+ "sparse_paths": [
+  "docs",
+  "examples"
+ ],
+ "verify": "通过：744 个文件（HTML 2，文档源 478）",
+ "info": {
+  "files": 744,
+  "html": 2,
+  "md_rst_ipynb": 478,
+  "top_ext": [
+   [
+    "md",
+    463
+   ],
+   [
+    "py",
+    229
+   ],
+   [
+    "txt",
+    14
+   ],
+   [
+    "json",
+    9
+   ],
+   [
+    "png",
+    4
+   ],
+   [
+    "js",
+    4
+   ],
+   [
+    "",
+    3
+   ],
+   [
+    "pdf",
+    3
+   ]
+  ],
+  "license_files": [
+   "openai_agents_python_docs_src_en/LICENSE"
+  ]
+ },
+ "bytes": 9154560,
+ "sha256": "ade5f19071314ed22dae8f95539604f3e55735fa37d8902de2b44e9fa4b47141",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:49:14Z"
+}

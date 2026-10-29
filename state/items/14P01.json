@@ -1,0 +1,19 @@
+{
+ "id": "14P01",
+ "started": "2026-10-29T17:50:33Z",
+ "download_url": "https://arxiv.org/pdf/2309.06180v1",
+ "final_url": "https://arxiv.org/pdf/2309.06180v1",
+ "http_last_modified": "Sat, 16 Sep 2023 00:05:16 GMT",
+ "verify": "通过：pypdf 可解析 16 页；标题词匹配 1.0",
+ "info": {
+  "pages": 16,
+  "meta_title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+  "body_sample_chars": 23204,
+  "title_match": 1.0
+ },
+ "bytes": 1459631,
+ "sha256": "55b3b324d779a67c59dac2519445e3b07c14e6ff5c656fadb47a3d7b5997469e",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:50:37Z"
+}

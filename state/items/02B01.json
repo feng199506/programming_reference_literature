@@ -1,0 +1,19 @@
+{
+ "id": "02B01",
+ "started": "2026-10-29T17:45:46Z",
+ "download_url": "https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf",
+ "final_url": "https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf",
+ "http_last_modified": "Sat, 15 Jun 2019 19:30:57 GMT",
+ "verify": "通过：pypdf 可解析 472 页；标题词匹配 1.0",
+ "info": {
+  "pages": 472,
+  "meta_title": "",
+  "body_sample_chars": 5356,
+  "title_match": 1.0
+ },
+ "bytes": 25055430,
+ "sha256": "00295b82ff725c52a71351a0bb1ee1bdb1584e594a62395d3fb382aefd0f4d42",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:55Z"
+}

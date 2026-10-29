@@ -1,0 +1,55 @@
+{
+ "id": "05D22",
+ "started": "2026-10-29T17:55:52Z",
+ "download_url": "https://huggingface.co/datasets/hf-doc-build/doc-build/resolve/main/tokenizers/v0.23.3.zip",
+ "final_url": "https://us.aws.cdn.hf.co/xet-bridge-us/6356b19985da6f13863228bd/2e4f3802fef77631f4f3612ae36dc1a85ff3d6ca4a5d5d20084477beabb838b4?X-Xet-Cas-Uid=public&user_id=public&xip=vzlH9V57VH8&response-content-type=application%2Fzip&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27v0.23.3.zip%3B+fi",
+ "http_last_modified": "",
+ "verify": "通过：53 个文件（HTML 18，文档源 20）",
+ "info": {
+  "files": 53,
+  "html": 18,
+  "md_rst_ipynb": 20,
+  "top_ext": [
+   [
+    "md",
+    18
+   ],
+   [
+    "html",
+    18
+   ],
+   [
+    "js",
+    9
+   ],
+   [
+    "txt",
+    2
+   ],
+   [
+    "yml",
+    2
+   ],
+   [
+    "css",
+    1
+   ],
+   [
+    "json",
+    1
+   ],
+   [
+    "inv",
+    1
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 296894,
+ "sha256": "7ac4be2441118316c6a7123ae1f7cb11517985539872987dc44dbe6f585e6e9e",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:55:53Z",
+ "error": "",
+ "reverified": "2026-10-29T18:05:43Z"
+}

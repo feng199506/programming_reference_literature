@@ -1,0 +1,19 @@
+{
+ "id": "11P01",
+ "started": "2026-10-29T17:52:22Z",
+ "download_url": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/46403.pdf",
+ "final_url": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/46403.pdf",
+ "http_last_modified": "Tue, 03 Mar 2020 20:15:00 GMT",
+ "verify": "通过：pypdf 可解析 14 页；标题词匹配 1.0",
+ "info": {
+  "pages": 14,
+  "meta_title": "The QUIC Transport Protocol:Design and Internet-Scale Deployment",
+  "body_sample_chars": 23712,
+  "title_match": 1.0
+ },
+ "bytes": 1531512,
+ "sha256": "e0e622044a20fe5affb16963cb1838a868027c68af7399da00e5ce6fc724843f",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:23Z"
+}

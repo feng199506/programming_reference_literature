@@ -1,0 +1,57 @@
+{
+ "id": "14D11",
+ "started": "2026-10-29T17:32:14Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/kubernetes/website",
+ "ref": "(默认分支)",
+ "commit": "be44f0fb4230bec1dd3e0ecce420fb52ab8faea3",
+ "commit_date": "2026-10-29T15:57:48Z",
+ "sparse_paths": [
+  "content/en/docs"
+ ],
+ "verify": "通过：1796 个文件（HTML 6，文档源 1726）",
+ "info": {
+  "files": 1796,
+  "html": 6,
+  "md_rst_ipynb": 1726,
+  "top_ext": [
+   [
+    "md",
+    1726
+   ],
+   [
+    "svg",
+    47
+   ],
+   [
+    "png",
+    11
+   ],
+   [
+    "html",
+    6
+   ],
+   [
+    "",
+    3
+   ],
+   [
+    "json",
+    2
+   ],
+   [
+    "py",
+    1
+   ]
+  ],
+  "license_files": [
+   "kubernetes_docs_main_src_en/LICENSE"
+  ]
+ },
+ "bytes": 21084160,
+ "sha256": "4c47d890fd454baf838cc6909fce9a4b746479879715875bfc2ed9c1dc23e9e2",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:17Z"
+}

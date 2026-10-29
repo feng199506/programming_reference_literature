@@ -1,0 +1,71 @@
+{
+ "id": "05D04",
+ "started": "2026-10-29T18:10:18Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/pytorch/audio",
+ "ref": "gh-pages",
+ "commit": "383056264ec3d569807f52462a4a56397629138b",
+ "commit_date": "2026-08-02T14:56:18+01:00",
+ "sparse_paths": [
+  "2.11.0"
+ ],
+ "verify": "通过：780 个文件（HTML 310，文档源 271）",
+ "info": {
+  "files": 780,
+  "html": 310,
+  "md_rst_ipynb": 271,
+  "top_ext": [
+   [
+    "html",
+    310
+   ],
+   [
+    "txt",
+    257
+   ],
+   [
+    "png",
+    106
+   ],
+   [
+    "svg",
+    29
+   ],
+   [
+    "js",
+    15
+   ],
+   [
+    "ipynb",
+    13
+   ],
+   [
+    "py",
+    13
+   ],
+   [
+    "woff",
+    12
+   ]
+  ],
+  "entry": "torchaudio_2.11_docs_html_en/2.11.0/index.html",
+  "license_files": [],
+  "link_sample": {
+   "links": 7899,
+   "broken": 361,
+   "examples": [
+    "torchaudio_2.11_docs_html_en/versions.html",
+    "torchaudio_2.11_docs_html_en/2.11.0/_modules/torchaudio/models/decoder/_ctc_decoder.html",
+    "torchaudio_2.11_docs_html_en/2.11.0/_modules/www.linuxfoundation.org/policies",
+    "torchaudio_2.11_docs_html_en/2.11.0/_modules/www.lfprojects.org/policies",
+    "torchaudio_2.11_docs_html_en/versions.html"
+   ]
+  }
+ },
+ "bytes": 63375360,
+ "sha256": "51ac884b57d73712df456fc4851aae356d4df654be6bea5d8dc49f4bdd702e66",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:10:24Z"
+}

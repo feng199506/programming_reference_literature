@@ -1,0 +1,19 @@
+{
+ "id": "01B02",
+ "started": "2026-10-29T17:45:44Z",
+ "download_url": "https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf",
+ "final_url": "https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf",
+ "http_last_modified": "Thu, 29 Oct 2026 16:58:39 GMT",
+ "verify": "通过：pypdf 可解析 241 页；标题词匹配 1.0",
+ "info": {
+  "pages": 241,
+  "meta_title": "Python for Everybody",
+  "body_sample_chars": 9564,
+  "title_match": 1.0
+ },
+ "bytes": 2369098,
+ "sha256": "f2a7055a55c2c4eba650f30f2d17ae2d1f9a3d2a269c2abd4dd0efd600fb2fac",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:45Z"
+}

@@ -1,0 +1,61 @@
+{
+ "id": "14D23",
+ "started": "2026-10-29T17:48:37Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/kserve/website",
+ "ref": "(默认分支)",
+ "commit": "3f4067ea87dd84194bddb1b563051c84306c7997",
+ "commit_date": "2026-10-20T17:04:41-04:00",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：235 个文件（HTML 0，文档源 157）",
+ "info": {
+  "files": 235,
+  "html": 0,
+  "md_rst_ipynb": 157,
+  "top_ext": [
+   [
+    "md",
+    141
+   ],
+   [
+    "png",
+    25
+   ],
+   [
+    "json",
+    17
+   ],
+   [
+    "mdx",
+    10
+   ],
+   [
+    "py",
+    8
+   ],
+   [
+    "svg",
+    7
+   ],
+   [
+    "yaml",
+    6
+   ],
+   [
+    "",
+    4
+   ]
+  ],
+  "license_files": [
+   "kserve_website_main_src_en/LICENSE"
+  ]
+ },
+ "bytes": 10905600,
+ "sha256": "df35b3dd77114c12a8a005a356f6b917c1fd0c79a76fe9ebe5c9e16b91e2074c",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:40Z"
+}

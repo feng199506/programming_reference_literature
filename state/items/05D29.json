@@ -1,0 +1,53 @@
+{
+ "id": "05D29",
+ "started": "2026-10-29T18:37:44Z",
+ "download_url": "https://huggingface.co/datasets/hf-doc-build/doc-build/resolve/main/optimum-onnx/v0.1.0.zip",
+ "final_url": "https://us.aws.cdn.hf.co/xet-bridge-us/6356b19985da6f13863228bd/d9b8dfdef3b0cf8b0901a820c32ab72fbbea17a7ca318e469700c40cdec34c62?X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27v0.1.0.zip%3B+filename%3D%22v0.1.0.zip%22%3B&xip=vzlH9V57VH8&response-content-type=appli",
+ "http_last_modified": "",
+ "verify": "通过：148 个文件（HTML 23，文档源 25）",
+ "info": {
+  "files": 148,
+  "html": 23,
+  "md_rst_ipynb": 25,
+  "top_ext": [
+   [
+    "js",
+    94
+   ],
+   [
+    "md",
+    23
+   ],
+   [
+    "html",
+    23
+   ],
+   [
+    "txt",
+    2
+   ],
+   [
+    "css",
+    2
+   ],
+   [
+    "png",
+    1
+   ],
+   [
+    "inv",
+    1
+   ],
+   [
+    "json",
+    1
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 1537700,
+ "sha256": "beba125f82f8d52c1b6cfa7d353e0e699044a5ab3586f3c6d643099e75c2ad91",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:37:46Z"
+}

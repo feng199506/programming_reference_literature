@@ -1,0 +1,63 @@
+{
+ "id": "06X01",
+ "started": "2026-10-29T17:46:30Z",
+ "dropped_large_files": [
+  "aosabook_500lines_master_en/ocr/code/data.csv (25720 KiB)"
+ ],
+ "dropped_count": 1,
+ "download_url": "https://github.com/aosabook/500lines",
+ "ref": "(默认分支)",
+ "commit": "fba689d101eb5600f5c8f4d7fd79912498e950e2",
+ "commit_date": "2017-02-11T08:21:44-05:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：787 个文件（HTML 29，文档源 105）",
+ "info": {
+  "files": 787,
+  "html": 29,
+  "md_rst_ipynb": 105,
+  "top_ext": [
+   [
+    "png",
+    165
+   ],
+   [
+    "py",
+    142
+   ],
+   [
+    "txt",
+    61
+   ],
+   [
+    "rb",
+    43
+   ],
+   [
+    "js",
+    40
+   ],
+   [
+    "md",
+    31
+   ],
+   [
+    "html",
+    29
+   ],
+   [
+    "",
+    24
+   ]
+  ],
+  "license_files": [
+   "aosabook_500lines_master_en/LICENSE.md"
+  ]
+ },
+ "bytes": 50759680,
+ "sha256": "97e7140e0d6bc8b88856677b41189efb5aec4f5c259ebc48435376cd5223a512",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:36Z"
+}

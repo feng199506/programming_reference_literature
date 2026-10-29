@@ -1,0 +1,63 @@
+{
+ "id": "06B03",
+ "started": "2026-10-29T18:03:35Z",
+ "wget_rc": 0,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://www.obeythetestinggoat.com/book/preface.html",
+ "mirror_scope": {
+  "start": [
+   "https://www.obeythetestinggoat.com/book/preface.html"
+  ],
+  "include": [
+   "/book"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：125 个文件（HTML 40，文档源 1）",
+ "info": {
+  "files": 125,
+  "html": 40,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "png",
+    81
+   ],
+   [
+    "html",
+    40
+   ],
+   [
+    "css",
+    2
+   ],
+   [
+    "svg",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 649,
+   "broken": 7,
+   "examples": [
+    "Percival_TDDWithPython_3rdEd_html_en/book/lib/jasmine-4.6.1/boot1.js",
+    "Percival_TDDWithPython_3rdEd_html_en/book/src/Player.js",
+    "Percival_TDDWithPython_3rdEd_html_en/book/src/Song.js",
+    "Percival_TDDWithPython_3rdEd_html_en/lists.js",
+    "Percival_TDDWithPython_3rdEd_html_en/book/spec/SpecHelper.js"
+   ]
+  }
+ },
+ "bytes": 15380480,
+ "sha256": "37837c671a4fc6283e0f7c2707d160088f42501ca7291f22325a3889431690ba",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:13:50Z"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "08C02",
+ "started": "2026-10-29T18:30:34Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://cs186berkeley.net/notes/",
+ "mirror_scope": {
+  "start": [
+   "https://cs186berkeley.net/notes/"
+  ],
+  "include": [
+   "/notes",
+   "/assets"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：178 个文件（HTML 21，文档源 0）",
+ "info": {
+  "files": 178,
+  "html": 21,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "png",
+    153
+   ],
+   [
+    "html",
+    21
+   ],
+   [
+    "js",
+    2
+   ],
+   [
+    "css",
+    1
+   ],
+   [
+    "jpg",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 1014,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 14028800,
+ "sha256": "2e540e7978ee7ee0b54da51da4d863bcbebec5b9252e8f72ddcb3e45c67feae8",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:32:11Z"
+}

@@ -1,0 +1,62 @@
+{
+ "id": "05X11",
+ "started": "2026-10-29T17:30:11Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/huggingface/notebooks",
+ "ref": "(默认分支)",
+ "commit": "210a0734db7d1fcd983bf904c711ed5a7285111b",
+ "commit_date": "2026-10-28T15:20:12Z",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：1624 个文件（HTML 0，文档源 1542）",
+ "info": {
+  "files": 1624,
+  "html": 0,
+  "md_rst_ipynb": 1542,
+  "top_ext": [
+   [
+    "ipynb",
+    1525
+   ],
+   [
+    "py",
+    29
+   ],
+   [
+    "png",
+    29
+   ],
+   [
+    "md",
+    9
+   ],
+   [
+    "txt",
+    8
+   ],
+   [
+    "gif",
+    5
+   ],
+   [
+    "svg",
+    4
+   ],
+   [
+    "gitignore",
+    2
+   ]
+  ],
+  "license_files": [
+   "hf_notebooks_main_examples_en/LICENSE",
+   "hf_notebooks_main_examples_en/sagemaker/23_stable_diffusion_inference/imgs/license.png"
+  ]
+ },
+ "bytes": 147066880,
+ "sha256": "0359dd82a690eb33b28864df781a6a78562d84abf6e1b23c2115e917b6df142e",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:30:22Z"
+}

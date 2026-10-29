@@ -1,0 +1,72 @@
+{
+ "id": "14D10",
+ "started": "2026-10-29T17:32:10Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/docker/docs",
+ "ref": "(默认分支)",
+ "commit": "6a5bbded169026418c5fe97bafcf012954505142",
+ "commit_date": "2026-10-29T16:47:14+01:00",
+ "sparse_paths": [
+  "content/manuals/engine",
+  "content/manuals/compose",
+  "content/manuals/build",
+  "content/get-started",
+  "content/guides",
+  "content/reference/dockerfile.md",
+  "content/reference/compose-file",
+  "content/manuals/desktop/setup",
+  "data/engine-cli",
+  "data/buildx"
+ ],
+ "verify": "通过：574 个文件（HTML 0，文档源 430）",
+ "info": {
+  "files": 574,
+  "html": 0,
+  "md_rst_ipynb": 430,
+  "top_ext": [
+   [
+    "md",
+    430
+   ],
+   [
+    "webp",
+    91
+   ],
+   [
+    "png",
+    20
+   ],
+   [
+    "gliffy",
+    8
+   ],
+   [
+    "svg",
+    7
+   ],
+   [
+    "avif",
+    5
+   ],
+   [
+    "",
+    3
+   ],
+   [
+    "jpg",
+    3
+   ]
+  ],
+  "license_files": [
+   "docker_docs_main_src_en/LICENSE"
+  ]
+ },
+ "bytes": 13393920,
+ "sha256": "f4fb13165cea68ec77bd7e99ef82560ef81a2d0c510b19c8251d2de6a6b65301",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:32:12Z",
+ "reverified": "2026-10-29T17:51:40Z"
+}

@@ -1,0 +1,62 @@
+{
+ "id": "15D10",
+ "started": "2026-10-29T17:48:59Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+ "ref": "(默认分支)",
+ "commit": "84d845729393f79b3fd3d392aa17cb86f5b6f95c",
+ "commit_date": "2026-10-29T11:37:15Z",
+ "sparse_paths": [
+  "docs",
+  "schema"
+ ],
+ "verify": "通过：741 个文件（HTML 0，文档源 375）",
+ "info": {
+  "files": 741,
+  "html": 0,
+  "md_rst_ipynb": 375,
+  "top_ext": [
+   [
+    "mdx",
+    365
+   ],
+   [
+    "json",
+    266
+   ],
+   [
+    "png",
+    67
+   ],
+   [
+    "svg",
+    12
+   ],
+   [
+    "md",
+    9
+   ],
+   [
+    "gif",
+    8
+   ],
+   [
+    "ts",
+    6
+   ],
+   [
+    "js",
+    2
+   ]
+  ],
+  "license_files": [
+   "mcp_specification_main_en/LICENSE"
+  ]
+ },
+ "bytes": 45496320,
+ "sha256": "553047198ec97f0309a5ce6af92865513c706ab1139f0e03abc073ea0d85250d",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:49:04Z"
+}

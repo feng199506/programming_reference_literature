@@ -1,0 +1,61 @@
+{
+ "id": "13X51",
+ "started": "2026-10-29T17:48:17Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/karpathy/llm.c",
+ "ref": "(默认分支)",
+ "commit": "f1e2ace651495b74ae22d45d1723443fd00ecd3a",
+ "commit_date": "2025-05-10T16:24:10-07:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：102 个文件（HTML 0，文档源 8）",
+ "info": {
+  "files": 102,
+  "html": 0,
+  "md_rst_ipynb": 8,
+  "top_ext": [
+   [
+    "cu",
+    28
+   ],
+   [
+    "py",
+    14
+   ],
+   [
+    "h",
+    14
+   ],
+   [
+    "sh",
+    11
+   ],
+   [
+    "cuh",
+    10
+   ],
+   [
+    "md",
+    6
+   ],
+   [
+    "c",
+    6
+   ],
+   [
+    "",
+    4
+   ]
+  ],
+  "license_files": [
+   "karpathy_llm_c_master_en/LICENSE"
+  ]
+ },
+ "bytes": 1454080,
+ "sha256": "2ae4dc3f0025ab023cbb183335cf9e62aa6c189136dbfd3cd0a2b029475c4652",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:18Z"
+}

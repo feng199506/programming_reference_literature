@@ -1,0 +1,49 @@
+{
+ "id": "16D06",
+ "started": "2026-10-29T18:21:24Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/slsa-framework/slsa",
+ "ref": "(默认分支)",
+ "commit": "4d3f9d44a803aaa52eef08fdafd04a7409c263e7",
+ "commit_date": "2026-10-28T21:52:49+01:00",
+ "sparse_paths": [
+  "spec"
+ ],
+ "verify": "通过：49 个文件（HTML 0，文档源 38）",
+ "info": {
+  "files": 49,
+  "html": 0,
+  "md_rst_ipynb": 38,
+  "top_ext": [
+   [
+    "md",
+    38
+   ],
+   [
+    "svg",
+    8
+   ],
+   [
+    "json",
+    1
+   ],
+   [
+    "cue",
+    1
+   ],
+   [
+    "proto",
+    1
+   ]
+  ],
+  "license_files": [
+   "slsa_spec_main_en/LICENSE.md"
+  ]
+ },
+ "bytes": 1771520,
+ "sha256": "484e5aca1b6b7a6c2cffbb4a32d176eac0a9fd907e04047e815d638f34f8a895",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:21:25Z"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "15C50",
+ "started": "2026-10-29T17:30:29Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/huggingface/agents-course",
+ "ref": "(默认分支)",
+ "commit": "3c469e773ec04e5f338b727ff20e3a6ea823ff81",
+ "commit_date": "2026-10-06T11:31:03+02:00",
+ "sparse_paths": [
+  "units/en",
+  "README.md",
+  "LICENSE"
+ ],
+ "verify": "通过：80 个文件（HTML 0，文档源 78）",
+ "info": {
+  "files": 80,
+  "html": 0,
+  "md_rst_ipynb": 78,
+  "top_ext": [
+   [
+    "mdx",
+    74
+   ],
+   [
+    "md",
+    4
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "yml",
+    1
+   ]
+  ],
+  "license_files": [
+   "hf_agents_course_main_src_en/LICENSE"
+  ]
+ },
+ "bytes": 655360,
+ "sha256": "760443667b80da526832e5be24e06e1ea8fe4eb3b947fc84f897abda2a9e699f",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:30:30Z"
+}

@@ -1,0 +1,56 @@
+{
+ "id": "04D04",
+ "started": "2026-10-29T17:27:19Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/catboost/catboost",
+ "ref": "v1.2.10",
+ "commit": "b1bd2a6d77219e82a1acfcedfccb8e6f6c1ee084",
+ "commit_date": "2026-02-17T20:46:58+03:00",
+ "sparse_paths": [
+  "catboost/docs/en"
+ ],
+ "verify": "通过：1124 个文件（HTML 0，文档源 1071）",
+ "info": {
+  "files": 1124,
+  "html": 0,
+  "md_rst_ipynb": 1071,
+  "top_ext": [
+   [
+    "md",
+    1056
+   ],
+   [
+    "png",
+    42
+   ],
+   [
+    "txt",
+    15
+   ],
+   [
+    "jpg",
+    7
+   ],
+   [
+    "yaml",
+    3
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "entry": "catboost_1.2.10_docs_src_en/catboost/docs/en/toc.yaml",
+  "license_files": [
+   "catboost_1.2.10_docs_src_en/LICENSE"
+  ]
+ },
+ "bytes": 6164480,
+ "sha256": "f43b7879669ee863fc27e2ed5685a2bfa34991e87eb136512d573086972c7e0c",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:27:22Z",
+ "reverified": "2026-10-29T17:29:47Z"
+}

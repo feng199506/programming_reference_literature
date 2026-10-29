@@ -1,0 +1,59 @@
+{
+ "id": "05X21",
+ "started": "2026-10-29T17:46:24Z",
+ "parts": [
+  {
+   "repo": "https://github.com/dlsyscourse/hw0",
+   "commit": "64862053e2d82ca465307a76b25ef0bd30dd08fb",
+   "commit_date": "2025-08-24T21:47:18-04:00",
+   "file": "hw0_6486205_en.tar",
+   "files": 9,
+   "license_files": [],
+   "dropped": 1
+  },
+  {
+   "repo": "https://github.com/dlsyscourse/hw1",
+   "commit": "aef53fc0a64652fb280a392d9194ee70d14d093a",
+   "commit_date": "2025-09-25T11:23:33-04:00",
+   "file": "hw1_aef53fc_en.tar",
+   "files": 14,
+   "license_files": [],
+   "dropped": 1
+  },
+  {
+   "repo": "https://github.com/dlsyscourse/hw2",
+   "commit": "efd456b97e22fd3ce49d338bad1249a104147816",
+   "commit_date": "2026-09-24T13:04:51-04:00",
+   "file": "hw2_efd456b_en.tar",
+   "files": 29,
+   "license_files": [],
+   "dropped": 1
+  },
+  {
+   "repo": "https://github.com/dlsyscourse/hw3",
+   "commit": "b8e8825b983e7f0ef494d978a1e272406b482b72",
+   "commit_date": "2026-10-08T23:08:48-04:00",
+   "file": "hw3_b8e8825_en.tar",
+   "files": 33,
+   "license_files": [],
+   "dropped": 0
+  },
+  {
+   "repo": "https://github.com/dlsyscourse/hw4",
+   "commit": "f12d0b734e3663c8ceb63c4ade615bfd9e9f87af",
+   "commit_date": "2025-11-07T21:38:28-05:00",
+   "file": "hw4_f12d0b7_en.tar",
+   "files": 40,
+   "license_files": [],
+   "dropped": 0
+  }
+ ],
+ "download_url": "https://github.com/dlsyscourse/hw0",
+ "bytes": 6768640,
+ "verify": "通过：5 个仓库完整归档；无许可证文件：5 个（见 parts）",
+ "status": "failed",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:30Z",
+ "excluded": true,
+ "error": "各作业仓库均无许可证文件；按\"许可证允许时保存源码\"规则未收录（已移出库目录）"
+}

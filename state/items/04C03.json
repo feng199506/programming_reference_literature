@@ -1,0 +1,49 @@
+{
+ "id": "04C03",
+ "started": "2026-10-29T18:01:44Z",
+ "wget_rc": 0,
+ "quota_hit": false,
+ "dropped_large_files": [
+  "Stanford_CS329S_2022_Notes_html_en/2021/slides/cs329s_13_slides_monitoring.pdf (30800 KiB)"
+ ],
+ "dropped_count": 1,
+ "download_url": "https://stanford-cs329s.github.io/syllabus.html",
+ "mirror_scope": {
+  "start": [
+   "https://stanford-cs329s.github.io/syllabus.html"
+  ],
+  "include": [],
+  "level": "2"
+ },
+ "verify": "文档文件数 2 < 期望 10",
+ "info": {
+  "files": 11,
+  "html": 2,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "pdf",
+    5
+   ],
+   [
+    "js",
+    2
+   ],
+   [
+    "css",
+    2
+   ],
+   [
+    "html",
+    2
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 24719360,
+ "sha256": "834d991baa5d8e6b3f2954131d887ecd7d1dab475244365e4053799f599a350b",
+ "error": "课程讲义与课件全部为 Google Docs/Slides 链接，课程站无可下载文件；按规则（视频/外链不算已下载课程）不计入",
+ "status": "failed",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:01:53Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "12B06",
+ "started": "2026-10-29T17:51:30Z",
+ "download_url": "https://www.akkadia.org/drepper/dsohowto.pdf",
+ "final_url": "https://www.akkadia.org/drepper/dsohowto.pdf",
+ "http_last_modified": "Thu, 21 Dec 2017 08:38:04 GMT",
+ "verify": "通过：pypdf 可解析 47 页；标题词匹配 1.0",
+ "info": {
+  "pages": 47,
+  "meta_title": "How To Write Shared Libraries",
+  "body_sample_chars": 23748,
+  "title_match": 1.0
+ },
+ "bytes": 766590,
+ "sha256": "c94c3f4b59a9a8bf2367596c6cd3459eebd1d9ee93f370f5a52aecc8e444bf66",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:31Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "11P02",
+ "started": "2026-10-29T17:52:23Z",
+ "download_url": "https://www.cidrdb.org/cidr2022/papers/p13-crotty.pdf",
+ "final_url": "https://www.cidrdb.org/cidr2022/papers/p13-crotty.pdf",
+ "http_last_modified": "Wed, 01 Apr 2026 13:34:26 GMT",
+ "verify": "通过：pypdf 可解析 7 页；标题词匹配 1.0",
+ "info": {
+  "pages": 7,
+  "meta_title": "Are You Sure You Want to Use MMAP in Your Database Management System?",
+  "body_sample_chars": 19480,
+  "title_match": 1.0
+ },
+ "bytes": 742351,
+ "sha256": "5987a4221959b0319a45a54bada972f260f23c7be846cf5537b1c261d8e7ce80",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:24Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "12D01",
+ "started": "2026-10-29T17:51:32Z",
+ "download_url": "https://gcc.gnu.org/onlinedocs/gcc-16.2.0/gcc.pdf",
+ "final_url": "https://gcc.gnu.org/onlinedocs/gcc-16.2.0/gcc.pdf",
+ "http_last_modified": "Fri, 07 Aug 2026 07:59:58 GMT",
+ "verify": "通过：pypdf 可解析 1241 页；标题词匹配 1.0",
+ "info": {
+  "pages": 1241,
+  "meta_title": "",
+  "body_sample_chars": 16084,
+  "title_match": 1.0
+ },
+ "bytes": 3330725,
+ "sha256": "ac1736093d36f88f122b4559f99bebfe08bda4f590a45aee9038b99085b37815",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:34Z"
+}

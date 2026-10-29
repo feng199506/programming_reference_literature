@@ -1,0 +1,19 @@
+{
+ "id": "13B01",
+ "started": "2026-10-29T17:51:38Z",
+ "download_url": "https://mirrors.edge.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.2026.06.21a.pdf",
+ "final_url": "https://mirrors.edge.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.2026.06.21a.pdf",
+ "http_last_modified": "Sun, 21 Jun 2026 18:53:52 GMT",
+ "verify": "通过：pypdf 可解析 702 页；标题词匹配 1.0",
+ "info": {
+  "pages": 702,
+  "meta_title": " Is Parallel Programming Hard, And, If So,  What Can You Do About It?",
+  "body_sample_chars": 16622,
+  "title_match": 1.0
+ },
+ "bytes": 9428188,
+ "sha256": "67c34f6b387dbcb4d52dad501391adb5d4876cff15634f281305c5b23443e83f",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:39Z"
+}

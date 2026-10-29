@@ -1,0 +1,76 @@
+{
+ "id": "13D05",
+ "started": "2026-10-29T18:34:12Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://deepspeed.readthedocs.io/en/latest/",
+ "mirror_scope": {
+  "start": [
+   "https://deepspeed.readthedocs.io/en/latest/"
+  ],
+  "include": [
+   "/en/latest"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：70 个文件（HTML 36，文档源 1）",
+ "info": {
+  "files": 70,
+  "html": 36,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    36
+   ],
+   [
+    "js",
+    9
+   ],
+   [
+    "png",
+    3
+   ],
+   [
+    "css",
+    3
+   ],
+   [
+    "woff2?9984f4a9bda09be08e83f2506954adbe",
+    1
+   ],
+   [
+    "woff?bed5564a116b05148e3b3bea6fb1162a",
+    1
+   ],
+   [
+    "woff2?7abf5b8d04d26a2cafea937019bca958",
+    1
+   ],
+   [
+    "woff?c1be9284088d487c5e3ff0a10a92e58c",
+    1
+   ]
+  ],
+  "entry": "deepspeed_api_rtd_mirror_en/en/latest/_modules/index.html",
+  "license_files": [],
+  "link_sample": {
+   "links": 2231,
+   "broken": 36,
+   "examples": [
+    "deepspeed_api_rtd_mirror_en/en/latest/_static/js/html5shiv.min.js",
+    "deepspeed_api_rtd_mirror_en/en/latest/_static/js/html5shiv.min.js",
+    "deepspeed_api_rtd_mirror_en/en/latest/_static/js/html5shiv.min.js",
+    "deepspeed_api_rtd_mirror_en/en/latest/_static/js/html5shiv.min.js",
+    "deepspeed_api_rtd_mirror_en/en/latest/_static/js/html5shiv.min.js"
+   ]
+  }
+ },
+ "bytes": 6000640,
+ "sha256": "0c02229170ff67ce7bf708a90cdb6df4db961d6b060d7f0f85dabb25e9b7939a",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:34:49Z"
+}

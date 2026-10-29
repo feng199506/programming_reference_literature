@@ -1,0 +1,62 @@
+{
+ "id": "14D21",
+ "started": "2026-10-29T17:48:34Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/open-telemetry/opentelemetry.io",
+ "ref": "(默认分支)",
+ "commit": "28b7d1c46b3cde4034bc59abaf11077590c3cc8d",
+ "commit_date": "2026-10-29T16:31:20Z",
+ "sparse_paths": [
+  "content/en/docs"
+ ],
+ "verify": "通过：509 个文件（HTML 0，文档源 452）",
+ "info": {
+  "files": 509,
+  "html": 0,
+  "md_rst_ipynb": 452,
+  "top_ext": [
+   [
+    "md",
+    451
+   ],
+   [
+    "png",
+    31
+   ],
+   [
+    "svg",
+    19
+   ],
+   [
+    "",
+    2
+   ],
+   [
+    "mmd",
+    2
+   ],
+   [
+    "txt",
+    1
+   ],
+   [
+    "yml",
+    1
+   ],
+   [
+    "gitignore",
+    1
+   ]
+  ],
+  "license_files": [
+   "opentelemetry_docs_main_src_en/LICENSE",
+   "opentelemetry_docs_main_src_en/LICENSE-CODE"
+  ]
+ },
+ "bytes": 12185600,
+ "sha256": "ed239188f4c81c6fa680e2211992677b19cbbb9fc0d184645e5d9fd2100bff8d",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:48:36Z"
+}

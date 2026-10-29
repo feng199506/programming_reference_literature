@@ -1,0 +1,66 @@
+{
+ "id": "01D04",
+ "started": "2026-10-29T17:25:51Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/astral-sh/uv",
+ "ref": "0.13.6",
+ "commit": "329bf9448afd9f9088d14a4d57fbc61eb454f117",
+ "commit_date": "2026-10-26T18:59:05-05:00",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：103 个文件（HTML 2，文档源 88）",
+ "info": {
+  "files": 103,
+  "html": 2,
+  "md_rst_ipynb": 88,
+  "top_ext": [
+   [
+    "md",
+    88
+   ],
+   [
+    "png",
+    5
+   ],
+   [
+    "",
+    2
+   ],
+   [
+    "html",
+    2
+   ],
+   [
+    "gitignore",
+    1
+   ],
+   [
+    "ico",
+    1
+   ],
+   [
+    "svg",
+    1
+   ],
+   [
+    "js",
+    1
+   ]
+  ],
+  "entry": "uv_0.13.6_docs_src_en/docs/index.md",
+  "license_files": [
+   "uv_0.13.6_docs_src_en/LICENSE-APACHE",
+   "uv_0.13.6_docs_src_en/LICENSE-MIT",
+   "uv_0.13.6_docs_src_en/docs/reference/policies/license.md"
+  ]
+ },
+ "bytes": 1095680,
+ "sha256": "e6c1a0f09087f215d3b3163248f80034839b2cc6d0aafc8da59275f2ab1b2a90",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:25:53Z",
+ "reverified": "2026-10-29T17:29:45Z"
+}

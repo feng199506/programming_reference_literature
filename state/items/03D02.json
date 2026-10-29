@@ -1,0 +1,61 @@
+{
+ "id": "03D02",
+ "started": "2026-10-29T18:10:16Z",
+ "download_url": "https://docs.scipy.org/doc/scipy-1.18.0/scipy-html-1.18.0.zip",
+ "final_url": "https://static.scipy.org/doc/scipy-1.18.0/scipy-html-1.18.0.zip",
+ "http_last_modified": "Fri, 19 Jun 2026 16:39:06 GMT",
+ "verify": "通过：8530 个文件（HTML 4981，文档源 1707）",
+ "info": {
+  "files": 8530,
+  "html": 4981,
+  "md_rst_ipynb": 1707,
+  "top_ext": [
+   [
+    "html",
+    4981
+   ],
+   [
+    "ipynb",
+    1690
+   ],
+   [
+    "png",
+    885
+   ],
+   [
+    "js",
+    476
+   ],
+   [
+    "map",
+    235
+   ],
+   [
+    "json",
+    151
+   ],
+   [
+    "woff",
+    25
+   ],
+   [
+    "svg",
+    19
+   ]
+  ],
+  "entry": "lite/repl/index.html",
+  "license_files": [
+   "_static/scipy-mathjax/LICENSE"
+  ],
+  "link_sample": {
+   "links": 8120,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 76758514,
+ "sha256": "104a6fb25067eb7c75f26ba931cb36b9bb9f05b3624b575e2d8496a0783c4400",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:10:17Z"
+}

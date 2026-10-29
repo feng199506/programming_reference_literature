@@ -1,0 +1,69 @@
+{
+ "id": "14C01",
+ "started": "2026-10-29T18:48:35Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://pdos.csail.mit.edu/6.824/schedule.html",
+ "mirror_scope": {
+  "start": [
+   "https://pdos.csail.mit.edu/6.824/schedule.html"
+  ],
+  "include": [
+   "/6.824"
+  ],
+  "level": "2"
+ },
+ "verify": "通过：159 个文件（HTML 40，文档源 39）",
+ "info": {
+  "files": 159,
+  "html": 40,
+  "md_rst_ipynb": 39,
+  "top_ext": [
+   [
+    "pdf",
+    76
+   ],
+   [
+    "html",
+    40
+   ],
+   [
+    "txt",
+    39
+   ],
+   [
+    "js",
+    2
+   ],
+   [
+    "png",
+    1
+   ],
+   [
+    "css",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 954,
+   "broken": 397,
+   "examples": [
+    "MIT_6.5840_Spring2026_Materials_html_en/6.824/papers/ficus.pdf",
+    "MIT_6.5840_Spring2026_Materials_html_en/6.824/papers/li-dsm.pdf",
+    "MIT_6.5840_Spring2026_Materials_html_en/6.824/notes/ivy-code.txt",
+    "MIT_6.5840_Spring2026_Materials_html_en/6.824/papers/keleher-treadmarks.pdf",
+    "MIT_6.5840_Spring2026_Materials_html_en/6.824/papers/munin.pdf"
+   ]
+  }
+ },
+ "bytes": 33402880,
+ "sha256": "53a5c2f12cc00c055b0e8119676e17dd8767d07a2fbc189c6fce9c9fa9c11305",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:50:21Z",
+ "reverified": "2026-10-29T18:54:47Z"
+}

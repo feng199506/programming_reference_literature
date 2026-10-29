@@ -28,6 +28,13 @@ UA = "Mozilla/5.0 (compatible; programming_reference_literature/1.0; personal re
 ACCESS_DATE = time.strftime("%Y-%m-%d", time.gmtime())
 
 INTERVAL = {"arxiv.org": 4.0, "export.arxiv.org": 4.0, "api.github.com": 2.0}
+RTD_HOSTS = ("readthedocs.io", "docs.pytest.org", "docs.jax.dev", "pillow.readthedocs.io")
+
+
+def interval_for(key):
+    if key in INTERVAL:
+        return INTERVAL[key]
+    return 15.0 if key.endswith(RTD_HOSTS) else 1.0
 
 CATS = {
     "01": "Python 编程", "02": "数据结构与算法", "03": "科学计算与数据处理",
@@ -64,12 +71,12 @@ def wait(key, interval):
         f.write(str(time.time()))
 
 
-def http(url, method="GET", timeout=120, tries=3, headers=None, dest=None, max_bytes=None):
+def http(url, method="GET", timeout=120, tries=4, headers=None, dest=None, max_bytes=None):
     """GET/HEAD. Returns dict(status, body|None, url, ctype, length, err). With dest, streams to file."""
     key = host_key(url)
     err = ""
     for attempt in range(tries):
-        wait(key, INTERVAL.get(key, 1.0))
+        wait(key, interval_for(key))
         try:
             h = {"User-Agent": UA, "Accept": "*/*", **(headers or {})}
             req = urllib.request.Request(url, headers=h, method=method)
@@ -101,7 +108,8 @@ def http(url, method="GET", timeout=120, tries=3, headers=None, dest=None, max_b
         except urllib.error.HTTPError as e:
             err = f"HTTP {e.code}"
             if e.code == 429:
-                time.sleep(30 * (attempt + 1))
+                ra = e.headers.get("Retry-After", "") if e.headers else ""
+                time.sleep(min(int(ra), 600) if ra.isdigit() else 60 * (attempt + 1))
                 continue
             if e.code in (500, 502, 503, 504):
                 time.sleep(5 * (attempt + 1))

@@ -1,0 +1,66 @@
+{
+ "id": "12C01",
+ "started": "2026-10-29T17:51:31Z",
+ "download_url": "https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/6.172-fall-2018.zip",
+ "final_url": "https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/6.172-fall-2018.zip",
+ "http_last_modified": "Thu, 15 Oct 2026 13:03:12 GMT",
+ "verify": "通过：719 个文件（HTML 182，文档源 3）",
+ "info": {
+  "files": 719,
+  "html": 182,
+  "md_rst_ipynb": 3,
+  "top_ext": [
+   [
+    "json",
+    191
+   ],
+   [
+    "html",
+    182
+   ],
+   [
+    "js",
+    92
+   ],
+   [
+    "pdf",
+    79
+   ],
+   [
+    "vtt",
+    45
+   ],
+   [
+    "srt",
+    24
+   ],
+   [
+    "svg",
+    22
+   ],
+   [
+    "png",
+    17
+   ]
+  ],
+  "license_files": [
+   "static_shared/mathjax/LICENSE.42368b5a19b817284b3c"
+  ],
+  "link_sample": {
+   "links": 6675,
+   "broken": 291,
+   "examples": [
+    "../../index.html",
+    "../../index.html",
+    "../../index.html",
+    "../../index.html",
+    "../../index.html"
+   ]
+  }
+ },
+ "bytes": 104367876,
+ "sha256": "724dc005fa564aa581d7d074407dafb5f5ccee07153b7ffbc03aca3dce6eb5c6",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:32Z"
+}

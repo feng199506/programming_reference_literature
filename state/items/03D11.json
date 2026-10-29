@@ -1,0 +1,64 @@
+{
+ "id": "03D11",
+ "started": "2026-10-29T17:45:44Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/apache/parquet-format",
+ "ref": "(默认分支)",
+ "commit": "8c91fac200074c47af7ea5f1a87b0511245bb8a9",
+ "commit_date": "2026-10-27T21:33:40+01:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：52 个文件（HTML 0，文档源 20）",
+ "info": {
+  "files": 52,
+  "html": 0,
+  "md_rst_ipynb": 20,
+  "top_ext": [
+   [
+    "md",
+    19
+   ],
+   [
+    "yaml",
+    5
+   ],
+   [
+    "",
+    5
+   ],
+   [
+    "png",
+    5
+   ],
+   [
+    "yml",
+    4
+   ],
+   [
+    "sh",
+    4
+   ],
+   [
+    "svg",
+    3
+   ],
+   [
+    "gif",
+    2
+   ]
+  ],
+  "license_files": [
+   "apache_parquet_format_master_en/LICENSE",
+   "apache_parquet_format_master_en/NOTICE",
+   "apache_parquet_format_master_en/licenses/LICENSE.slf4j.txt",
+   "apache_parquet_format_master_en/src/main/resources/META-INF/LICENSE"
+  ]
+ },
+ "bytes": 1044480,
+ "sha256": "b0dd38fa25c7d4d4c9ed5c3c7094f7280e9dd8f220177778b1f7f58b7f3a4571",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:45Z"
+}

@@ -1,0 +1,63 @@
+{
+ "id": "07X03",
+ "started": "2026-10-29T17:46:46Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://git.linuxfromscratch.org/lfs.git",
+ "ref": "(默认分支)",
+ "commit": "108cce8daf9c7d15fb79388f78c6c8bf0b05ab7d",
+ "commit_date": "2026-10-26T21:59:57-06:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：331 个文件（HTML 0，文档源 1）",
+ "info": {
+  "files": 331,
+  "html": 0,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "xml",
+    216
+   ],
+   [
+    "",
+    39
+   ],
+   [
+    "xsl",
+    29
+   ],
+   [
+    "png",
+    12
+   ],
+   [
+    "sh",
+    7
+   ],
+   [
+    "toml",
+    6
+   ],
+   [
+    "py",
+    3
+   ],
+   [
+    "ent",
+    3
+   ]
+  ],
+  "license_files": [
+   "lfs_book_trunk_en/appendices/license.xml"
+  ]
+ },
+ "bytes": 2723840,
+ "sha256": "5a1d7b10880ea2d0ed8beddd6f70d493af9d7eb7390567f21eafbd6e5fecfc8e",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:46:48Z",
+ "reverified": "2026-10-29T17:50:44Z"
+}

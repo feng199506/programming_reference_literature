@@ -1,0 +1,61 @@
+{
+ "id": "10X02",
+ "started": "2026-10-29T17:47:44Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/TheOdinProject/curriculum",
+ "ref": "(默认分支)",
+ "commit": "a03cb8924192b5d3476fd5d8bec7b64b1e33fcec",
+ "commit_date": "2026-10-29T06:25:02-04:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：740 个文件（HTML 0，文档源 582）",
+ "info": {
+  "files": 740,
+  "html": 0,
+  "md_rst_ipynb": 582,
+  "top_ext": [
+   [
+    "md",
+    582
+   ],
+   [
+    "png",
+    107
+   ],
+   [
+    "js",
+    28
+   ],
+   [
+    "yml",
+    8
+   ],
+   [
+    "jpg",
+    4
+   ],
+   [
+    "yaml",
+    2
+   ],
+   [
+    "csv",
+    2
+   ],
+   [
+    "json",
+    2
+   ]
+  ],
+  "license_files": [
+   "theodinproject_curriculum_main_en/license.md"
+  ]
+ },
+ "bytes": 38092800,
+ "sha256": "75d7c13446861cc58304194e83e75ce8aea604faa5a3c9fd052925c9d0b14f80",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:47Z"
+}

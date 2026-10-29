@@ -1,0 +1,19 @@
+{
+ "id": "16D05",
+ "started": "2026-10-29T18:04:37Z",
+ "download_url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63B-4.pdf",
+ "final_url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63B-4.pdf",
+ "http_last_modified": "Fri, 01 Aug 2025 16:51:53 GMT",
+ "verify": "通过：pypdf 可解析 129 页；标题词匹配 1.0",
+ "info": {
+  "pages": 129,
+  "meta_title": "Digital Identity Guidelines: Authentication and Authenticator Management",
+  "body_sample_chars": 8826,
+  "title_match": 1.0
+ },
+ "bytes": 993734,
+ "sha256": "d9ab89576b5ae2cfb3ba37781110788dea27a85a5079496dbfc1a79834670afd",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:04:39Z"
+}

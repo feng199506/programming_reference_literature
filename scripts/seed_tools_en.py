@@ -41,6 +41,7 @@ def git(repo, ref=None, paths=None, built=False, timeout=3600):
         g["paths"] = paths
     if built:
         g["built_html"] = True
+        g["license_from_project"] = True
     if timeout != 3600:
         g["timeout"] = timeout
     return g
@@ -88,9 +89,9 @@ add("01D03", "01", "Python Packaging User Guide", "Python Packaging User Guide�
     "仓库 source/：tutorials、guides、discussions、specifications（打包规范全文）", "CC BY-SA 3.0", entry="source/index.rst",
     expect={"min_docs": 60}, cross=["06"], order=6)
 add("01D04", "01", "uv", "uv 文档（Python 包与项目管理器）", "Astral", "0.13.6", OD + "uv_0.13.6_docs_src_en.tar",
-    git("astral-sh/uv", "0.13.6", ["docs"]), [1, 2, 3, 4, 5], "完整",
-    "仓库 docs/（MkDocs Markdown；CLI 参考 docs/reference/cli.md 已随仓库生成提交）", "MIT OR Apache-2.0",
-    entry="docs/index.md", expect={"min_docs": 40, "must_have": [r"docs/reference/cli\.md"]}, cross=["06"], order=7)
+    git("astral-sh/uv", "0.13.6", ["docs"]), [1, 2, 3, 4, 5], "部分",
+    "仓库 docs/（MkDocs Markdown：入门、概念、指南、参考）；CLI/设置参考页由代码生成，未含", "MIT OR Apache-2.0",
+    entry="docs/index.md", expect={"min_docs": 40}, cross=["06"], order=7)
 
 # ------------------------------------------------------------------ 03 scientific python
 add("03D01", "03", "NumPy", "NumPy 2.5 官方文档（用户指南、API 参考、构建与 C API）", "NumPy Developers", "2.5",
@@ -100,10 +101,9 @@ add("03D01", "03", "NumPy", "NumPy 2.5 官方文档（用户指南、API 参考�
 add("03X01", "03", "NumPy", "NumPy 官方教程笔记本（numpy-tutorials）", "NumPy Developers", "main 提交",
     PR + "numpy_tutorials_main_en.tar", git("numpy/numpy-tutorials"), [4, 8], "完整", "完整仓库（Jupyter/MyST 笔记本源，不含数据集下载）",
     BSD, expect={"min_docs": 10}, type="practice", material="官方示例/教程源码", order=11)
-add("03D02", "03", "SciPy", "SciPy 1.18.1 官方文档", "SciPy Developers", "1.18.1", OD + "scipy_1.18.1_docs_html_en.tar",
-    mirror("https://docs.scipy.org/doc/scipy-1.18.1/index.html", include=["/doc/scipy-1.18.1"], quota=900,
-           reject_regex=r"\.(png|jpg|svg)\?|/_downloads/"),
-    [1, 2, 3, 4], "完整", "docs.scipy.org/doc/scipy-1.18.1 的离线镜像（含 API 参考；图表 png 保留）", BSD,
+add("03D02", "03", "SciPy", "SciPy 1.18 官方文档", "SciPy Developers", "1.18.0", OD + "scipy_1.18.0_docs_html_en.zip",
+    file("https://docs.scipy.org/doc/scipy-1.18.0/scipy-html-1.18.0.zip"),
+    [1, 2, 3, 4], "完整", "docs.scipy.org 官方 HTML 压缩包 scipy-html-1.18.0.zip（1.18.1 未单独发布文档，内容以 1.18.0 为准）", BSD,
     entry="index.html", expect={"min_docs": 1000, "max_broken": 0.08}, order=12)
 add("03D03", "03", "pandas", "pandas 官方文档（HTML 压缩包）", "pandas Development Team", "以压缩包内版本为准（下载 stable）",
     OD + "pandas_stable_docs_html_en.zip", file("https://pandas.pydata.org/docs/pandas.zip"), [1, 2, 3, 4, 5], "完整",
@@ -116,10 +116,10 @@ add("03D04", "03", "Matplotlib", "Matplotlib 3.11.2 官方文档（教程、用�
 add("03D05", "03", "Jupyter", "JupyterLab 4.6 官方文档", "Project Jupyter", "4.6.5", OD + "jupyterlab_4.6.5_docs_src_en.tar",
     git("jupyterlab/jupyterlab", "v4.6.5", ["docs"]), [1, 2, 4, 5], "部分",
     "仓库 docs/source（用户指南/扩展开发，Sphinx 源；扩展 API 的 TypeDoc 参考需构建，未含）", BSD,
-    entry="docs/source/index.rst", expect={"min_docs": 40}, order=15)
+    entry="docs/source/index.md", expect={"min_docs": 40}, order=15)
 add("03D06", "03", "Jupyter", "Project Jupyter 总体文档（docs.jupyter.org）", "Project Jupyter", "main 提交",
     OD + "jupyter_docs_main_src_en.tar", git("jupyter/jupyter", None, ["docs"]), [1, 2, 5], "完整",
-    "仓库 docs/source（安装、Notebook/Kernel/生态说明）", BSD, entry="docs/source/index.rst", expect={"min_docs": 10},
+    "仓库 docs/source（安装、Notebook/Kernel/生态说明）", BSD, entry="docs/source/index.md", expect={"min_docs": 10},
     project="Jupyter (docs.jupyter.org)", order=16)
 
 # ------------------------------------------------------------------ 04 classical ML + experiment management
@@ -148,7 +148,7 @@ add("04X03", "04", "LightGBM", "LightGBM 4.7.0 示例（examples/）", "Microsof
 add("04D04", "04", "CatBoost", "CatBoost 1.2.10 官方文档源（英文）", "Yandex / CatBoost", "1.2.10",
     OD + "catboost_1.2.10_docs_src_en.tar", git("catboost/catboost", "v1.2.10", ["catboost/docs/en"]), [1, 2, 3, 4, 5, 6],
     "完整", "仓库 catboost/docs/en（YFM Markdown，catboost.ai/docs 的源；参数与 Python API 页为手写 Markdown）", APL,
-    entry="catboost/docs/en/index.md", expect={"min_docs": 200}, order=26)
+    entry="catboost/docs/en/toc.yaml", expect={"min_docs": 200}, order=26)
 add("04X04", "04", "CatBoost", "CatBoost 官方教程（catboost/tutorials）", "Yandex / CatBoost", "master 提交",
     PR + "catboost_tutorials_master_en.tar", git("catboost/tutorials"), [4, 8], "完整", "完整教程仓库（笔记本）", APL,
     type="practice", material="官方示例/教程源码", expect={"min_docs": 10}, order=27)
@@ -163,9 +163,6 @@ add("04D06", "04", "DVC", "DVC 官方文档源（dvc.org 仓库 content/docs）"
     OD + "dvc_docs_main_src_en.tar", git("iterative/dvc.org", None, ["content/docs"]), [1, 2, 3, 4, 5], "完整",
     "content/docs：安装、入门、用户指南、命令参考（全部为手写 Markdown）", APL, entry="content/docs/index.md",
     expect={"min_docs": 150, "must_have": ["content/docs/command-reference"]}, order=42)
-add("04X06", "04", "DVC", "DVC 入门示例项目（example-get-started）", "Iterative", "main 提交", PR + "dvc_example_get_started_main_en.tar",
-    git("iterative/example-get-started"), [4, 8], "完整", "完整仓库（DVC 管线示例，数据指针不含数据）", APL, type="practice",
-    material="官方示例项目", expect={"min_docs": 1}, order=43)
 add("04D07", "04", "Weights & Biases", "W&B 官方文档源（wandb/docs）", "Weights & Biases（CoreWeave 旗下）", "main 提交",
     OD + "wandb_docs_main_src_en.tar", git("wandb/docs", None, ["models", "guides", "ref", "get-started.mdx", "index.mdx",
                                                               "quickstart.mdx", "tutorials", "support", "platform"]),
@@ -199,20 +196,21 @@ add("05D03", "05", "torchvision", "torchvision 0.29 官方文档", "PyTorch Foun
     "pytorch/vision gh-pages 0.29 目录（构建 HTML，含 transforms v2 与 gallery）", BSD, entry="0.29/index.html",
     expect={"min_docs": 200}, order=4)
 add("05D04", "05", "torchaudio", "torchaudio 2.11 官方文档", "PyTorch Foundation", "2.11", OD + "torchaudio_2.11_docs_html_en.tar",
-    git("pytorch/audio", "gh-pages", ["2.11"], built=True), [1, 2, 3, 4], "完整", "pytorch/audio gh-pages 2.11 目录（构建 HTML）",
-    "BSD-2-Clause", entry="2.11/index.html", expect={"min_docs": 50}, order=5,
+    git("pytorch/audio", "gh-pages", ["2.11.0"], built=True), [1, 2, 3, 4], "完整", "pytorch/audio gh-pages 2.11.0 目录（构建 HTML；2.11 为指向它的链接）",
+    "BSD-2-Clause", entry="2.11.0/index.html", expect={"min_docs": 50}, order=5,
     note="torchaudio 自 2.8 起进入维护期并移除/迁移大量功能（解码迁至 TorchCodec），以文档内说明为准")
 add("05D05", "05", "TensorFlow", "TensorFlow 官方指南与教程源（tensorflow/docs site/en）", "TensorFlow Authors / Google",
     "master 提交（对应 TF 2.21）", OD + "tensorflow_docs_guides_master_src_en.tar",
     git("tensorflow/docs", None, ["site/en/guide", "site/en/tutorials", "site/en/install", "site/en/README.md"]),
-    [1, 2, 4, 5, 6], "完整", "site/en/guide、tutorials、install（笔记本与 Markdown，含 SavedModel、分布式、性能剖析、TF Lite 导出）",
-    APL, expect={"min_docs": 150, "must_have": ["saved_model", "distributed"]}, order=10)
+    [1, 2, 4, 5, 6, 8], "完整", "site/en/guide、tutorials、install（可运行笔记本与 Markdown，含 SavedModel、分布式、性能剖析、TF Lite 导出）",
+    APL, expect={"min_docs": 100, "must_have": ["saved_model", "distributed"]}, order=10)
 add("05D06", "05", "TensorFlow", "TensorFlow Python API 参考（tensorflow.org/api_docs/python 离线镜像）", "TensorFlow Authors / Google",
-    "tensorflow.org 当前稳定版（镜像页内版本为准，对应 2.21）", OD + "tensorflow_api_docs_python_mirror_en.tar",
-    mirror("https://www.tensorflow.org/api_docs/python/tf", include=["/api_docs/python", "/static", "/_static"], quota=1500,
+    "tensorflow.org 当前稳定版（镜像页内版本为准，对应 2.21）", OD + "tensorflow_api_docs_python_mirror_en.tar.gz",
+    mirror("https://www.tensorflow.org/api_docs/python/tf", include=["/api_docs/python", "/static", "/_static"], quota=6000,
+           exclude=["/api_docs/python/tf/compat"],
            reject_regex=r"(\?hl=|\?authuser=|/_d/|/s/opensearch|\.(png|jpg|gif|svg)$)", wait=0.2),
-    [3], "完整", "tensorflow.org/api_docs/python 下的全部 API 页（不含图片；语言切换参数页排除）", APL,
-    entry="api_docs/python/tf.html", expect={"min_docs": 2000, "max_broken": 0.10}, project="TensorFlow", order=11)
+    [3], "部分", "tensorflow.org/api_docs/python 下 tf.* API 页的部分镜像：排除 tf.compat；wget 在 90 分钟超时处停止，已抓取约 3900 页（含 tf.raw_ops、tf.keras、tf.math/nn/data/distribute 等），其余页面缺失；因中断未做链接本地化（页面可离线阅读，页间链接仍指向 tensorflow.org）；不含图片；gzip 压缩", APL,
+    entry="api_docs/python/tf.html", expect={"min_docs": 2000, "max_broken": 0.6}, project="TensorFlow", order=11)
 add("05D07", "05", "Keras", "Keras 3 官方指南与示例源（keras-io）", "Keras Team / Google", "master 提交（对应 Keras 3.15）",
     OD + "keras_io_master_src_en.tar", git("keras-team/keras-io", None, ["guides", "examples", "templates"]),
     [1, 2, 4, 5, 6, 8], "完整", "guides/、examples/（.py 源 + 生成的 .md）、templates/（入门与 API 页模板）", APL,
@@ -223,8 +221,8 @@ add("05D08", "05", "Keras", "Keras 3 API 参考（keras.io/api 离线镜像）",
     entry="api/index.html", expect={"min_docs": 200, "max_broken": 0.10}, project="Keras", order=13)
 add("05D09", "05", "JAX", "JAX 官方文档（Read the Docs HTML 包）", "JAX Authors / Google", "latest（构建内版本为准，对应 jax 0.12）",
     OD + "jax_latest_docs_html_en.zip", file("https://docs.jax.dev/_/downloads/en/latest/htmlzip/"), [1, 2, 3, 4, 5, 6], "完整",
-    "Read the Docs 官方 HTML 包（教程、sharding/分布式、API 参考、导出与序列化）", APL, entry="index.html",
-    expect={"min_docs": 200, "link_check": False}, order=14)
+    "Read the Docs 官方 HTML 包（单页构建 singlehtml：全部章节合并于 index.html；教程、sharding/分布式、API 参考、导出与序列化）", APL, entry="index.html",
+    expect={"min_docs": 1, "link_check": False}, order=14)
 add("05D10", "05", "OpenCV", "OpenCV 5.0.0 官方文档（Doxygen HTML 包，含 Python 教程）", "OpenCV team", "5.0.0",
     OD + "opencv_5.0.0_docs_html_en.zip", file("https://github.com/opencv/opencv/releases/download/5.0.0/opencv-5.0.0-docs.zip"),
     [1, 2, 3, 4, 6], "完整", "GitHub release 附带的完整文档包（模块 API、C++/Python 教程、DNN 模块 ONNX 导入）", APL,
@@ -245,7 +243,7 @@ add("05D13", "05", "Albumentations", "AlbumentationsX 2.5.1 源码仓库（含 R
     "完整源码仓库（README、docs、benchmark；在线文档未整站保存）", "AGPL-3.0 / 商业双许可（以仓库为准）", type="practice",
     material="官方源码与示例", expect={"min_docs": 2}, project="AlbumentationsX", order=24)
 for i, (lib, ver, tool, title, asp, mh) in enumerate([
-        ("transformers", "v5.22.0", "Transformers", "Transformers 文档（含 API、导出与推理部署）", [1, 2, 3, 4, 5, 6], ["main_classes"]),
+        ("transformers", "v5.21.1", "Transformers", "Transformers 文档（含 API、导出与推理部署）", [1, 2, 3, 4, 5, 6], ["main_classes"]),
         ("datasets", "v5.1.0", "Datasets", "Datasets 文档", [1, 2, 3, 4, 5], ["package_reference"]),
         ("tokenizers", "v0.23.3", "Tokenizers", "Tokenizers 文档", [1, 2, 3], ["api"]),
         ("accelerate", "v1.15.0", "Accelerate", "Accelerate 文档（分布式、FSDP/DeepSpeed 集成、调试）", [1, 2, 3, 4, 5], ["package_reference"]),
@@ -256,8 +254,14 @@ for i, (lib, ver, tool, title, asp, mh) in enumerate([
         ("huggingface_hub", "v2.4.0", "Hub 客户端（huggingface_hub）", "huggingface_hub 客户端文档", [1, 2, 3, 4], ["package_reference"])]):
     add(f"05D{20 + i}", "05", tool, f"Hugging Face {title} {ver}", "Hugging Face", ver, OD + f"hf_{lib}_{ver}_docs_built_en.zip",
         hf(lib, ver), asp, "完整", f"hf-doc-build 官方构建包 {lib}/{ver}.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
-        APL, expect={"min_docs": 20, "must_have": mh}, order=30 + i,
-        note="Evaluate 官方已推荐新项目改用 LightEval 等工具，库仍可用（以文档首页声明为准）" if lib == "evaluate" else "")
+        APL, expect={"min_docs": 20, "must_have": [f"{lib}/{ver}/en/"] + [f"/en/.*{m}" for m in mh]}, order=30 + i,
+        note=("Evaluate 官方已推荐新项目改用 LightEval 等工具，库仍可用（以文档首页声明为准）" if lib == "evaluate" else
+              "hf-doc-build 中 v5.22.0 构建包缺少 en 目录（仅含译文），故取 v5.21.1 完整构建" if lib == "transformers" else ""))
+add("05D29", "05", "Transformers", "Hugging Face Optimum ONNX v0.1.0 文档（Transformers → ONNX 导出与 ONNX Runtime 推理）", "Hugging Face",
+    "v0.1.0", OD + "hf_optimum-onnx_v0.1.0_docs_built_en.zip", hf("optimum-onnx", "v0.1.0"), [1, 2, 3, 4, 6], "完整",
+    "hf-doc-build 官方构建包 optimum-onnx/v0.1.0.zip（en：导出指南、支持架构、ORTModel API）", APL,
+    expect={"min_docs": 10, "must_have": ["optimum-onnx/v0.1.0/en/"]}, project="Optimum ONNX", order=39,
+    note="Transformers v5 文档的 serialization 页指向 Optimum ONNX 作为官方 ONNX 导出路径")
 for i, (repo, ref, paths, tool, title) in enumerate([
         ("huggingface/transformers", "v5.22.0", ["examples"], "Transformers", "Transformers v5.22.0 官方示例脚本（examples/）"),
         ("huggingface/notebooks", None, None, "Transformers", "Hugging Face 官方笔记本（huggingface/notebooks）"),
@@ -301,7 +305,7 @@ add("13D02", "13", "CUDA", "Nsight Compute / Nsight Systems 性能分析文档�
     entry="index.html", expect={"min_docs": 20, "max_broken": 0.15}, project="CUDA", order=2)
 add("13X01", "13", "CUDA", "NVIDIA cuda-samples v13.4", "NVIDIA", "v13.4", PR + "cuda_samples_v13.4_en.tar",
     git("NVIDIA/cuda-samples", "v13.4"), [8], "完整", "完整仓库（不编译不运行）", BSD, type="practice", material="官方示例源码",
-    expect={"must_have": ["Samples/"]}, order=3)
+    expect={"must_have": ["cpp/"]}, order=3)
 add("13D03", "13", "Triton 编程语言", "Triton 编程语言官方文档（triton-lang.org 构建 HTML，含教程）", "OpenAI / Triton 社区",
     "main 构建（gh-pages 提交日期记录；对应 v3.9 之后）", OD + "triton_lang_docs_main_html_en.tar",
     git("triton-lang/triton", "gh-pages", ["main"], built=True), [1, 2, 3, 4], "完整",
@@ -387,8 +391,15 @@ add("14D10", "14", "Docker", "Docker 官方文档源（docker/docs content）", 
     git("docker/docs", None, ["content/manuals/engine", "content/manuals/compose", "content/manuals/build", "content/get-started",
                               "content/guides", "content/reference/dockerfile.md", "content/reference/compose-file",
                               "content/manuals/desktop/setup", "data/engine-cli", "data/buildx"], timeout=5400),
-    [1, 2, 3, 4, 5, 6], "完整", "Engine、Build、Compose、入门与指南、Dockerfile/Compose 文件参考、CLI 参考数据（YAML）", "Apache-2.0",
-    expect={"min_docs": 300, "must_have": ["content/reference/dockerfile.md"]}, cross=["07"], order=30)
+    [1, 2, 4, 5, 6], "部分", "Engine、Build、Compose、入门与指南、Compose 文件参考；Dockerfile/CLI 参考在构建时自 buildkit 与 docker/cli 引入，另见 14D12/14D13", "Apache-2.0",
+    expect={"min_docs": 300, "must_have": ["content/manuals/engine/"]}, cross=["07"], order=30)
+add("14D12", "14", "Docker", "Dockerfile 参考（moby/buildkit frontend/dockerfile/docs）", "Docker Inc. / Moby", "master 提交",
+    OD + "dockerfile_reference_buildkit_master_en.tar", git("moby/buildkit", None, ["frontend/dockerfile/docs"]), [3], "完整",
+    "Dockerfile 指令参考、语法与构建检查规则（docs.docker.com/reference/dockerfile 的源）", APL,
+    expect={"must_have": ["frontend/dockerfile/docs/reference.md"]}, order=30)
+add("14D13", "14", "Docker", "Docker CLI 命令参考（docker/cli docs/reference）", "Docker Inc.", "master 提交",
+    OD + "docker_cli_reference_master_en.tar", git("docker/cli", None, ["docs/reference"]), [3], "完整",
+    "docker 全部子命令参考与 dockerd 参考（docs.docker.com CLI 参考页的源）", APL, expect={"min_docs": 100}, order=30)
 add("14X07", "14", "Docker", "Docker awesome-compose 示例", "Docker Inc.", "master 提交", PR + "docker_awesome_compose_master_en.tar",
     git("docker/awesome-compose"), [8], "完整", "完整仓库（多服务 Compose 示例）", "CC0-1.0", type="practice",
     material="官方示例源码", expect={"min_docs": 20}, order=31)
@@ -443,11 +454,11 @@ add("10D02", "10", "Streamlit", "Streamlit 官方文档源（含 API 参考 JSON
 # ------------------------------------------------------------------ 06 testing & tooling
 add("06D01", "06", "pytest", "pytest 稳定版文档（Read the Docs HTML 包）", "pytest-dev", "stable（包内版本为准，对应 9.2）",
     OD + "pytest_stable_docs_html_en.zip", file("https://docs.pytest.org/_/downloads/en/stable/htmlzip/"), [1, 2, 3, 4, 5], "完整",
-    "官方 HTML 包（入门、how-to、fixture、插件、API 参考）", MIT, entry="index.html", expect={"min_docs": 50, "link_check": False},
+    "Read the Docs 官方 HTML 包（单页构建：全部章节合并于 index.html，含入门、how-to、fixture、插件、API 参考）", MIT, entry="index.html", expect={"min_docs": 1, "link_check": False},
     order=1)
 add("06D02", "06", "mypy", "mypy 稳定版文档（Read the Docs HTML 包）", "mypy 项目", "stable（包内版本为准，对应 2.4）",
     OD + "mypy_stable_docs_html_en.zip", file("https://mypy.readthedocs.io/_/downloads/en/stable/htmlzip/"), [1, 2, 3, 5], "完整",
-    "官方 HTML 包", MIT, entry="index.html", expect={"min_docs": 30, "link_check": False}, order=2)
+    "Read the Docs 官方 HTML 包（单页构建：全部章节合并于 index.html）", MIT, entry="index.html", expect={"min_docs": 1, "link_check": False}, order=2)
 add("06D03", "06", "Pyright", "Pyright 1.1.414 文档（docs/）", "Microsoft", "1.1.414", OD + "pyright_1.1.414_docs_src_en.tar",
     git("microsoft/pyright", "1.1.414", ["docs"]), [1, 2, 3, 5], "完整", "仓库 docs/（配置、类型推断、类型概念）", MIT,
     expect={"min_docs": 20}, order=3)

@@ -1,0 +1,71 @@
+{
+ "id": "14X02",
+ "started": "2026-10-29T17:30:58Z",
+ "dropped_large_files": [
+  "onnxruntime_inference_examples_main_en/c_cxx/QNN_EP/mobilenetv2_classification/libmobilenetv2-12.serialized.bin (5340 KiB)",
+  "onnxruntime_inference_examples_main_en/mobile/examples/Maui/MauiVisionSample/MauiVisionSample/Resources/Raw/mobilenetv2-12.onnx (13637 KiB)",
+  "onnxruntime_inference_examples_main_en/mobile/examples/object_detection/android/app/src/main/res/raw/yolov8n_with_pre_post_processing.onnx (12547 KiB)",
+  "onnxruntime_inference_examples_main_en/mobile/examples/phi-3/ios/LocalLLM/LocalLLM/lib/libonnxruntime.1.19.0.dylib (23320 KiB)",
+  "onnxruntime_inference_examples_main_en/mobile/examples/question_answering/android/app/src/main/res/raw/csarron_mobilebert_uncased_squad_v2_quant_with_pre_post_processing.onnx (26042 KiB)",
+  "onnxruntime_inference_examples_main_en/mobile/examples/question_answering/ios/ORTQuestionAnswering/ORTQuestionAnswering/csarron_mobilebert_uncased_squad_v2_quant_with_pre_post_processing.onnx (26257 KiB)",
+  "onnxruntime_inference_examples_main_en/mobile/examples/whisper/local/android/app/src/main/res/raw/whisper_cpu_int8_model.onnx (73069 KiB)",
+  "onnxruntime_inference_examples_main_en/plugin_execution_providers/basic/android/basicpluginepusage/lib/onnxruntime-android-1.24.0-dev+commit-75d35474.aar (40306 KiB)",
+  "onnxruntime_inference_examples_main_en/quantization/image_classification/cpu/mobilenetv2-7.onnx (13635 KiB)"
+ ],
+ "dropped_count": 9,
+ "download_url": "https://github.com/microsoft/onnxruntime-inference-examples",
+ "ref": "(默认分支)",
+ "commit": "16e32e87c81648773b8da2a80434a672e3b9dad6",
+ "commit_date": "2026-09-05T23:28:53-07:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：1260 个文件（HTML 8，文档源 143）",
+ "info": {
+  "files": 1260,
+  "html": 8,
+  "md_rst_ipynb": 143,
+  "top_ext": [
+   [
+    "xml",
+    140
+   ],
+   [
+    "png",
+    126
+   ],
+   [
+    "webp",
+    95
+   ],
+   [
+    "md",
+    89
+   ],
+   [
+    "py",
+    77
+   ],
+   [
+    "cs",
+    70
+   ],
+   [
+    "h",
+    69
+   ],
+   [
+    "json",
+    56
+   ]
+  ],
+  "license_files": [
+   "onnxruntime_inference_examples_main_en/LICENSE"
+  ]
+ },
+ "bytes": 107970560,
+ "sha256": "173ab650bf4dfd66b01b1aeb8972e5727e2777fd115fda65943fafcfc05d5dbd",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:31:18Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "13P14",
+ "started": "2026-10-29T17:50:17Z",
+ "download_url": "https://arxiv.org/pdf/2006.15704v1",
+ "final_url": "https://arxiv.org/pdf/2006.15704v1",
+ "http_last_modified": "Mon, 23 Jan 2023 05:43:04 GMT",
+ "verify": "通过：pypdf 可解析 14 页；标题词匹配 1.0",
+ "info": {
+  "pages": 14,
+  "meta_title": "",
+  "body_sample_chars": 23358,
+  "title_match": 1.0
+ },
+ "bytes": 1189823,
+ "sha256": "246af7a675cfb58a4110c1f92b952baa571038e0a57457459137e8c49f8fcf96",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:50:21Z"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "04B01",
+ "reused_from": "/root/industrial_process_monitoring_literature/books/James_IntroductionStatisticalLearningPython_1stEd_en.pdf",
+ "status": "ok",
+ "verify": "通过：pypdf 可解析 613 页；标题词匹配 1.0",
+ "info": {
+  "pages": 613,
+  "meta_title": "",
+  "body_sample_chars": 9015,
+  "title_match": 1.0
+ },
+ "bytes": 20053984,
+ "sha256": "278d3bdd49a8a480c2ff8e03245822caad8a3a48e81afd6d039c52c8fc13ad60",
+ "error": "",
+ "access_date": "2026-10-29"
+}

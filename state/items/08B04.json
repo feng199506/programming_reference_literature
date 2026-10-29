@@ -1,0 +1,70 @@
+{
+ "id": "08B04",
+ "started": "2026-10-29T18:21:34Z",
+ "wget_rc": 0,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://use-the-index-luke.com/sql/table-of-contents",
+ "mirror_scope": {
+  "start": [
+   "https://use-the-index-luke.com/sql/table-of-contents"
+  ],
+  "include": [
+   "/sql",
+   "/static"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：177 个文件（HTML 156，文档源 1）",
+ "info": {
+  "files": 177,
+  "html": 156,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    156
+   ],
+   [
+    "png",
+    11
+   ],
+   [
+    "jpg",
+    3
+   ],
+   [
+    "svg",
+    2
+   ],
+   [
+    "gif",
+    2
+   ],
+   [
+    "txt",
+    1
+   ],
+   [
+    "css",
+    1
+   ],
+   [
+    "js",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 4757,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 3921920,
+ "sha256": "e0d3c18aa67440637139a857b08f75d4ce6eb76a60d9db216d850efac9db804e",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:22:54Z"
+}

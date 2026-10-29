@@ -1,0 +1,58 @@
+{
+ "id": "03B01",
+ "started": "2026-10-29T17:45:24Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/jakevdp/PythonDataScienceHandbook",
+ "ref": "(默认分支)",
+ "commit": "d66231454ef753818dc9213c9b5942e067266966",
+ "commit_date": "2023-05-05T16:20:45-07:00",
+ "sparse_paths": [
+  "notebooks"
+ ],
+ "verify": "通过：113 个文件（HTML 0，文档源 69）",
+ "info": {
+  "files": 113,
+  "html": 0,
+  "md_rst_ipynb": 69,
+  "top_ext": [
+   [
+    "ipynb",
+    67
+   ],
+   [
+    "png",
+    36
+   ],
+   [
+    "csv",
+    5
+   ],
+   [
+    "",
+    2
+   ],
+   [
+    "md",
+    1
+   ],
+   [
+    "py",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [
+   "VanderPlas_PythonDataScienceHandbook_notebooks_en/LICENSE-CODE",
+   "VanderPlas_PythonDataScienceHandbook_notebooks_en/LICENSE-TEXT"
+  ]
+ },
+ "bytes": 16158720,
+ "sha256": "aa72c4eb046c9f2b1a922f0774248a52211a94e3ea1f502f1adae7e8f5865909",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:26Z"
+}

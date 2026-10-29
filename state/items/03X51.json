@@ -1,0 +1,61 @@
+{
+ "id": "03X51",
+ "started": "2026-10-29T17:45:45Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/rougier/numpy-100",
+ "ref": "(默认分支)",
+ "commit": "cf3b5a29749410758ccaab876302ed861bb94323",
+ "commit_date": "2026-10-23T09:11:13Z",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：18 个文件（HTML 0，文档源 10）",
+ "info": {
+  "files": 18,
+  "html": 0,
+  "md_rst_ipynb": 10,
+  "top_ext": [
+   [
+    "md",
+    5
+   ],
+   [
+    "txt",
+    3
+   ],
+   [
+    "yml",
+    2
+   ],
+   [
+    "ipynb",
+    2
+   ],
+   [
+    "py",
+    2
+   ],
+   [
+    "ktx",
+    2
+   ],
+   [
+    "gitattributes",
+    1
+   ],
+   [
+    "gitignore",
+    1
+   ]
+  ],
+  "license_files": [
+   "rougier_numpy_100_master_en/LICENSE.txt"
+  ]
+ },
+ "bytes": 215040,
+ "sha256": "a4171454add35f142826a5adfebc056c1a34a09eaf2b8fbe9f4d5175f57aeff8",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:46Z"
+}

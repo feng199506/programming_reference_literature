@@ -1,0 +1,19 @@
+{
+ "id": "14C02",
+ "started": "2026-10-29T17:52:51Z",
+ "download_url": "https://www.cl.cam.ac.uk/teaching/2425/ConcDisSys/dist-sys-notes.pdf",
+ "final_url": "https://www.cl.cam.ac.uk/teaching/2425/ConcDisSys/dist-sys-notes.pdf",
+ "http_last_modified": "Mon, 28 Oct 2024 15:09:35 GMT",
+ "verify": "通过：pypdf 可解析 92 页；标题词匹配 1.0",
+ "info": {
+  "pages": 92,
+  "meta_title": "",
+  "body_sample_chars": 14613,
+  "title_match": 1.0
+ },
+ "bytes": 5056340,
+ "sha256": "d30dd55b22aeb9f90fd93e00d6a4b2478fd5d8058b9925c0e4bc000671d372fe",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:52Z"
+}

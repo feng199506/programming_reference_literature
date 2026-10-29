@@ -1,0 +1,74 @@
+{
+ "id": "15D01",
+ "started": "2026-10-29T19:12:50Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://www.sbert.net/index.html",
+ "mirror_scope": {
+  "start": [
+   "https://www.sbert.net/index.html"
+  ],
+  "include": [
+   "/docs",
+   "/examples",
+   "/_static",
+   "/_images",
+   "/"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：213 个文件（HTML 168，文档源 1）",
+ "info": {
+  "files": 213,
+  "html": 168,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    168
+   ],
+   [
+    "png",
+    11
+   ],
+   [
+    "css",
+    5
+   ],
+   [
+    "js",
+    4
+   ],
+   [
+    "svg",
+    3
+   ],
+   [
+    "js?v=2cd50e6c",
+    1
+   ],
+   [
+    "js?v=a7894cd8",
+    1
+   ],
+   [
+    "js?v=f281be69",
+    1
+   ]
+  ],
+  "entry": "sentence_transformers_sbert_mirror_en/docs/package_reference/base/index.html",
+  "license_files": [],
+  "link_sample": {
+   "links": 99608,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 39413760,
+ "sha256": "64227e3c8227e1e8b3a7e80f7a6e0db0550ea29f4f3b3d5286993a160784478b",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:16:33Z"
+}

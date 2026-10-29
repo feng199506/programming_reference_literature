@@ -1,0 +1,61 @@
+{
+ "id": "15X51",
+ "started": "2026-10-29T17:49:14Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/anthropics/claude-cookbooks",
+ "ref": "(默认分支)",
+ "commit": "c43f56d0360b9b1f631bd090fd199231d4c880cc",
+ "commit_date": "2026-10-29T05:05:29-07:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：605 个文件（HTML 0，文档源 233）",
+ "info": {
+  "files": 605,
+  "html": 0,
+  "md_rst_ipynb": 233,
+  "top_ext": [
+   [
+    "py",
+    112
+   ],
+   [
+    "ipynb",
+    103
+   ],
+   [
+    "md",
+    82
+   ],
+   [
+    "png",
+    73
+   ],
+   [
+    "json",
+    53
+   ],
+   [
+    "txt",
+    48
+   ],
+   [
+    "csv",
+    21
+   ],
+   [
+    "yaml",
+    17
+   ]
+  ],
+  "license_files": [
+   "anthropic_claude_cookbooks_main_en/LICENSE"
+  ]
+ },
+ "bytes": 220897280,
+ "sha256": "555a9c2928b01eaa83f114dad219e441c36271c02120970edc3090d45056ffbc",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:49:23Z"
+}

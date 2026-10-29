@@ -1,0 +1,53 @@
+{
+ "id": "09D06",
+ "started": "2026-10-29T18:23:10Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/microsoft/api-guidelines",
+ "ref": "vNext",
+ "commit": "a7022a299442a8352431874e63ec4dff548a1b81",
+ "commit_date": "2026-08-04T20:06:13-04:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：42 个文件（HTML 0，文档源 37）",
+ "info": {
+  "files": 42,
+  "html": 0,
+  "md_rst_ipynb": 37,
+  "top_ext": [
+   [
+    "md",
+    36
+   ],
+   [
+    "gif",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "json",
+    1
+   ],
+   [
+    "png",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [
+   "microsoft_api_guidelines_vnext_en/license.txt"
+  ]
+ },
+ "bytes": 716800,
+ "sha256": "a67e213322fbf0bfca2b0234327f83203f1f81bb63317a9a1401b95dcf4c1237",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:23:11Z"
+}

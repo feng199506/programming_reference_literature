@@ -1,0 +1,19 @@
+{
+ "id": "02P13",
+ "started": "2026-10-29T17:52:21Z",
+ "download_url": "https://www.nature.com/articles/s41586-023-06004-9.pdf",
+ "final_url": "https://www.nature.com/articles/s41586-023-06004-9.pdf?error=cookies_not_supported&code=3a14cd95-1799-40fb-b173-6e63513276cb",
+ "http_last_modified": "Fri, 17 Nov 2023 18:36:59 GMT",
+ "verify": "通过：pypdf 可解析 17 页；标题词匹配 1.0",
+ "info": {
+  "pages": 17,
+  "meta_title": "Faster sorting algorithms discovered using deep reinforcement learning",
+  "body_sample_chars": 15432,
+  "title_match": 1.0
+ },
+ "bytes": 3077082,
+ "sha256": "4b991d29e570924c8bd93684137b0ca6065970627f18e444444bafed9d814d1f",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:52:22Z"
+}

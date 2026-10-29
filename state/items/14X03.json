@@ -1,0 +1,67 @@
+{
+ "id": "14X03",
+ "started": "2026-10-29T17:31:18Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/NVIDIA/TensorRT",
+ "ref": "v10.16",
+ "commit": "52399f555c2f80cb690a4a558b604e1a5f227e7c",
+ "commit_date": "2026-03-25T16:20:12-07:00",
+ "sparse_paths": [
+  "samples",
+  "tools",
+  "quickstart"
+ ],
+ "verify": "通过：1319 个文件（HTML 3，文档源 353）",
+ "info": {
+  "files": 1319,
+  "html": 3,
+  "md_rst_ipynb": 353,
+  "top_ext": [
+   [
+    "py",
+    583
+   ],
+   [
+    "md",
+    162
+   ],
+   [
+    "onnx",
+    124
+   ],
+   [
+    "rst",
+    94
+   ],
+   [
+    "txt",
+    77
+   ],
+   [
+    "json",
+    57
+   ],
+   [
+    "png",
+    54
+   ],
+   [
+    "cpp",
+    39
+   ]
+  ],
+  "license_files": [
+   "tensorrt_oss_v10.16_samples_en/LICENSE",
+   "tensorrt_oss_v10.16_samples_en/NOTICE",
+   "tensorrt_oss_v10.16_samples_en/tools/Polygraphy/LICENSE.txt",
+   "tensorrt_oss_v10.16_samples_en/tools/experimental/trt-engine-explorer/LICENSE.txt",
+   "tensorrt_oss_v10.16_samples_en/tools/onnx-graphsurgeon/LICENSE"
+  ]
+ },
+ "bytes": 30586880,
+ "sha256": "e8f3f3adf17fd4971a244487b2ce9d52912b4fe7d27922e10aac25ab05549cf9",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:31:21Z"
+}

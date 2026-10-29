@@ -1,0 +1,41 @@
+{
+ "id": "13X10",
+ "started": "2026-10-29T18:11:16Z",
+ "parts": [
+  {
+   "repo": "https://github.com/stanford-cs149/asst1",
+   "commit": "05e602d3445123eab76ae1d0f81c370c34441e13",
+   "commit_date": "2025-10-15T03:27:34-07:00",
+   "file": "asst1_05e602d_en.tar",
+   "files": 36,
+   "license_files": [],
+   "dropped": 0
+  },
+  {
+   "repo": "https://github.com/stanford-cs149/asst2",
+   "commit": "e2dfbb7b88144fd9e09dc4fdd9e16cd3afa367cf",
+   "commit_date": "2025-10-15T03:22:42-07:00",
+   "file": "asst2_e2dfbb7_en.tar",
+   "files": 39,
+   "license_files": [],
+   "dropped": 0
+  },
+  {
+   "repo": "https://github.com/stanford-cs149/asst3",
+   "commit": "43bf47221f471ecd9e947ad26c6c658ecd2a2130",
+   "commit_date": "2025-10-30T20:32:14-07:00",
+   "file": "asst3_43bf472_en.tar",
+   "files": 60,
+   "license_files": [],
+   "dropped": 0
+  }
+ ],
+ "download_url": "https://github.com/stanford-cs149/asst1",
+ "bytes": 13086720,
+ "verify": "通过：3 个仓库完整归档；无许可证文件：3 个（见 parts）",
+ "status": "failed",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:11:19Z",
+ "excluded": true,
+ "error": "各作业仓库均无许可证文件；按\"许可证允许时保存源码\"规则未收录（已移出库目录）"
+}

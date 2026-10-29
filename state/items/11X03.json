@@ -1,0 +1,75 @@
+{
+ "id": "11X03",
+ "started": "2026-10-29T18:42:39Z",
+ "wget_rc": 0,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://csapp.cs.cmu.edu/3e/labs.html",
+ "mirror_scope": {
+  "start": [
+   "https://csapp.cs.cmu.edu/3e/labs.html"
+  ],
+  "include": [
+   "/3e",
+   "/im"
+  ],
+  "level": "1"
+ },
+ "verify": "通过：62 个文件（HTML 24，文档源 0）",
+ "info": {
+  "files": 62,
+  "html": 24,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "html",
+    24
+   ],
+   [
+    "pdf",
+    12
+   ],
+   [
+    "",
+    11
+   ],
+   [
+    "tar",
+    11
+   ],
+   [
+    "css",
+    1
+   ],
+   [
+    "png",
+    1
+   ],
+   [
+    "jpg",
+    1
+   ],
+   [
+    "gif",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 223,
+   "broken": 4,
+   "examples": [
+    "csapp_3e_selfstudy_labs_en/3e/y86binaries/y86-linux.tar",
+    "csapp_3e_selfstudy_labs_en/3e/y86binaries/y86-linux/README",
+    "csapp_3e_selfstudy_labs_en/3e/y86binaries/y86-sunos.tar",
+    "csapp_3e_selfstudy_labs_en/3e/y86binaries/y86-sunos/README"
+   ]
+  }
+ },
+ "bytes": 11540480,
+ "sha256": "ebe53cf58d99441c12d294120e554080a4f10d033e5d85ec8769f55c97d1cc30",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:43:20Z"
+}

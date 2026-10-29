@@ -1,0 +1,61 @@
+{
+ "id": "05C03",
+ "started": "2026-10-29T18:05:47Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/phlippe/uvadlc_notebooks",
+ "ref": "(默认分支)",
+ "commit": "c7d9e18f42fee53bc8925f08ec2358371b1e9200",
+ "commit_date": "2026-06-01T12:24:51+02:00",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：282 个文件（HTML 1，文档源 73）",
+ "info": {
+  "files": 282,
+  "html": 1,
+  "md_rst_ipynb": 73,
+  "top_ext": [
+   [
+    "png",
+    98
+   ],
+   [
+    "ipynb",
+    68
+   ],
+   [
+    "svg",
+    68
+   ],
+   [
+    "py",
+    15
+   ],
+   [
+    "gif",
+    10
+   ],
+   [
+    "pyc",
+    7
+   ],
+   [
+    "md",
+    3
+   ],
+   [
+    "",
+    2
+   ]
+  ],
+  "license_files": [
+   "UvA_DL_Notebooks_src_en/LICENSE.md"
+  ]
+ },
+ "bytes": 135966720,
+ "sha256": "44a448addf0aedad3e598cdb71ac8a068eb01910ed349edf96c00a1bb7045d29",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:06:00Z"
+}

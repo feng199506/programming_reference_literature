@@ -1,0 +1,61 @@
+{
+ "id": "14X01",
+ "started": "2026-10-29T17:30:54Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/onnx/tutorials",
+ "ref": "(默认分支)",
+ "commit": "f9c135a9dc985dc6ec404724f40964fab7b7d446",
+ "commit_date": "2026-06-21T07:13:13+02:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：99 个文件（HTML 0，文档源 35）",
+ "info": {
+  "files": 99,
+  "html": 0,
+  "md_rst_ipynb": 35,
+  "top_ext": [
+   [
+    "png",
+    23
+   ],
+   [
+    "ipynb",
+    22
+   ],
+   [
+    "md",
+    11
+   ],
+   [
+    "py",
+    9
+   ],
+   [
+    "mlmodel",
+    4
+   ],
+   [
+    "swift",
+    4
+   ],
+   [
+    "jpg",
+    4
+   ],
+   [
+    "txt",
+    2
+   ]
+  ],
+  "license_files": [
+   "onnx_tutorials_main_en/LICENSE"
+  ]
+ },
+ "bytes": 40345600,
+ "sha256": "b9d91f57719812161722b985bb9833bfa4b9327c63b7dc19693f4142f3af240d",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:30:56Z"
+}

@@ -1,0 +1,57 @@
+{
+ "id": "02X02",
+ "started": "2026-10-29T17:45:23Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/kevin-wayne/algs4",
+ "ref": "(默认分支)",
+ "commit": "7bb62c32f03fec900f0cc796a548ab992feffe4e",
+ "commit_date": "2026-01-10T07:53:53-05:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：208 个文件（HTML 0，文档源 3）",
+ "info": {
+  "files": 208,
+  "html": 0,
+  "md_rst_ipynb": 3,
+  "top_ext": [
+   [
+    "java",
+    201
+   ],
+   [
+    "md",
+    2
+   ],
+   [
+    "gitignore",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "txt",
+    1
+   ],
+   [
+    "gradle",
+    1
+   ],
+   [
+    "xml",
+    1
+   ]
+  ],
+  "license_files": [
+   "algs4_master_en/LICENSE"
+  ]
+ },
+ "bytes": 2437120,
+ "sha256": "b56eb5b4840eed95afee38aa1a3ea5fddb2e2f61b11fcae776ea96630a1c2981",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:24Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "04D02",
+ "started": "2026-10-29T18:10:17Z",
+ "download_url": "https://xgboost.readthedocs.io/_/downloads/en/stable/pdf/",
+ "final_url": "https://xgboost.readthedocs.io/_/downloads/en/stable/pdf/",
+ "http_last_modified": "Tue, 15 Sep 2026 08:34:07 GMT",
+ "verify": "通过：pypdf 可解析 540 页；标题词匹配 1.0",
+ "info": {
+  "pages": 540,
+  "meta_title": "xgboost",
+  "body_sample_chars": 9197,
+  "title_match": 1.0
+ },
+ "bytes": 2648215,
+ "sha256": "60d9d1991501dd56b7a475635cb628b4b6a13e730d70bd85b3c5f744d7a65150",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:10:18Z"
+}

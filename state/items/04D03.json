@@ -1,0 +1,19 @@
+{
+ "id": "04D03",
+ "started": "2026-10-29T18:10:18Z",
+ "download_url": "https://lightgbm.readthedocs.io/_/downloads/en/stable/pdf/",
+ "final_url": "https://lightgbm.readthedocs.io/_/downloads/en/stable/pdf/",
+ "http_last_modified": "Sat, 18 Jul 2026 20:34:39 GMT",
+ "verify": "通过：pypdf 可解析 288 页；标题词匹配 1.0",
+ "info": {
+  "pages": 288,
+  "meta_title": "LightGBM",
+  "body_sample_chars": 9116,
+  "title_match": 1.0
+ },
+ "bytes": 1144724,
+ "sha256": "233fc960c380501862d54c2338b72db3a7ab6b1dc719af266a909d185f52c996",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:10:18Z"
+}

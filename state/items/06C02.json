@@ -1,0 +1,65 @@
+{
+ "id": "06C02",
+ "started": "2026-10-29T18:22:27Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/CMU-313/CMU-313.github.io",
+ "ref": "(默认分支)",
+ "commit": "692f907f8a0daf24c302d81aaca624c7d9d78640",
+ "commit_date": "2026-10-29T15:25:09Z",
+ "sparse_paths": [
+  "slides",
+  "assignments",
+  "recitations",
+  "specs",
+  "17-313 Fall 2026 Schedule - Lecture Schedule.csv"
+ ],
+ "verify": "通过：81 个文件（HTML 3，文档源 57）",
+ "info": {
+  "files": 81,
+  "html": 3,
+  "md_rst_ipynb": 57,
+  "top_ext": [
+   [
+    "md",
+    56
+   ],
+   [
+    "scss",
+    9
+   ],
+   [
+    "png",
+    4
+   ],
+   [
+    "html",
+    3
+   ],
+   [
+    "svg",
+    2
+   ],
+   [
+    "csv",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "pdf",
+    1
+   ]
+  ],
+  "license_files": [
+   "CMU_17313_FoundationsSE_src_en/LICENSE"
+  ]
+ },
+ "bytes": 1740800,
+ "sha256": "ffea387f2f9092aa6aa2f38331060205b95bcd3ef3c1c47528c98f371c9c77bc",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:22:29Z"
+}

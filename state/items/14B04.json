@@ -1,0 +1,61 @@
+{
+ "id": "14B04",
+ "started": "2026-10-29T18:48:08Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://book.mixu.net/distsys/ebook.html",
+ "mirror_scope": {
+  "start": [
+   "https://book.mixu.net/distsys/ebook.html"
+  ],
+  "include": [
+   "/distsys"
+  ],
+  "level": "1"
+ },
+ "verify": "通过：32 个文件（HTML 2，文档源 1）",
+ "info": {
+  "files": 32,
+  "html": 2,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "png",
+    23
+   ],
+   [
+    "css",
+    4
+   ],
+   [
+    "html",
+    2
+   ],
+   [
+    "js",
+    1
+   ],
+   [
+    "jpg",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [],
+  "link_sample": {
+   "links": 48,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 839680,
+ "sha256": "9f33fbd2cca23e6e8edfbcccae4114ccc39fe276db05366f85f41e4393c7fbe0",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:48:35Z"
+}

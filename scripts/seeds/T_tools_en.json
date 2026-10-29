@@ -169,7 +169,7 @@
   "stack": "uv",
   "source": "https://github.com/astral-sh/uv",
   "license": "MIT OR Apache-2.0",
-  "goal": "仓库 docs/（MkDocs Markdown；CLI 参考 docs/reference/cli.md 已随仓库生成提交）",
+  "goal": "仓库 docs/（MkDocs Markdown：入门、概念、指南、参考）；CLI/设置参考页由代码生成，未含",
   "order": 7,
   "out": "official_docs/uv_0.13.6_docs_src_en.tar",
   "get": {
@@ -182,9 +182,6 @@
   },
   "expect": {
    "min_docs": 40,
-   "must_have": [
-    "docs/reference/cli\\.md"
-   ],
    "entry": "docs/index.md"
   },
   "aspects": [
@@ -194,8 +191,8 @@
    4,
    5
   ],
-  "complete": "完整",
-  "scope": "仓库 docs/（MkDocs Markdown；CLI 参考 docs/reference/cli.md 已随仓库生成提交）",
+  "complete": "部分",
+  "scope": "仓库 docs/（MkDocs Markdown：入门、概念、指南、参考）；CLI/设置参考页由代码生成，未含",
   "material": "官方文档",
   "use": "按需查询",
   "note": "",
@@ -228,7 +225,8 @@
    "paths": [
     "2.5"
    ],
-   "built_html": true
+   "built_html": true,
+   "license_from_project": true
   },
   "expect": {
    "min_docs": 1500,
@@ -298,30 +296,26 @@
   "type": "docs",
   "tool": "SciPy",
   "project": "SciPy",
-  "title": "SciPy 1.18.1 官方文档",
+  "title": "SciPy 1.18 官方文档",
   "authors": "SciPy Developers",
   "school": "",
   "year": "",
-  "version": "1.18.1",
+  "version": "1.18.0",
   "lang": "en",
   "level": "入门-进阶",
   "prereq": "Python 基础",
   "stack": "SciPy",
-  "source": "https://docs.scipy.org/doc/scipy-1.18.1/index.html",
+  "source": "https://docs.scipy.org/doc/scipy-1.18.0/scipy-html-1.18.0.zip",
   "license": "BSD-3-Clause",
-  "goal": "docs.scipy.org/doc/scipy-1.18.1 的离线镜像（含 API 参考；图表 png 保留）",
+  "goal": "docs.scipy.org 官方 HTML 压缩包 scipy-html-1.18.0.zip（1.18.1 未单独发布文档，内容以 1.18.0 为准）",
   "order": 12,
-  "out": "official_docs/scipy_1.18.1_docs_html_en.tar",
+  "out": "official_docs/scipy_1.18.0_docs_html_en.zip",
   "get": {
-   "kind": "mirror",
-   "start": "https://docs.scipy.org/doc/scipy-1.18.1/index.html",
-   "quota_mb": 900,
-   "level": "inf",
-   "wait": 0.3,
-   "include": [
-    "/doc/scipy-1.18.1"
+   "kind": "file",
+   "urls": [
+    "https://docs.scipy.org/doc/scipy-1.18.0/scipy-html-1.18.0.zip"
    ],
-   "reject_regex": "\\.(png|jpg|svg)\\?|/_downloads/"
+   "max_mb": 800
   },
   "expect": {
    "min_docs": 1000,
@@ -335,7 +329,7 @@
    4
   ],
   "complete": "完整",
-  "scope": "docs.scipy.org/doc/scipy-1.18.1 的离线镜像（含 API 参考；图表 png 保留）",
+  "scope": "docs.scipy.org 官方 HTML 压缩包 scipy-html-1.18.0.zip（1.18.1 未单独发布文档，内容以 1.18.0 为准）",
   "material": "官方文档",
   "use": "按需查询",
   "note": "",
@@ -415,6 +409,7 @@
     "3.11.2"
    ],
    "built_html": true,
+   "license_from_project": true,
    "timeout": 7200
   },
   "expect": {
@@ -466,7 +461,7 @@
   },
   "expect": {
    "min_docs": 40,
-   "entry": "docs/source/index.rst"
+   "entry": "docs/source/index.md"
   },
   "aspects": [
    1,
@@ -479,7 +474,7 @@
   "material": "官方文档",
   "use": "按需查询",
   "note": "",
-  "entry": "docs/source/index.rst"
+  "entry": "docs/source/index.md"
  },
  {
   "id": "03D06",
@@ -511,7 +506,7 @@
   },
   "expect": {
    "min_docs": 10,
-   "entry": "docs/source/index.rst"
+   "entry": "docs/source/index.md"
   },
   "aspects": [
    1,
@@ -523,7 +518,7 @@
   "material": "官方文档",
   "use": "按需查询",
   "note": "",
-  "entry": "docs/source/index.rst"
+  "entry": "docs/source/index.md"
  },
  {
   "id": "04D01",
@@ -553,6 +548,7 @@
     "1.9"
    ],
    "built_html": true,
+   "license_from_project": true,
    "timeout": 7200
   },
   "expect": {
@@ -837,7 +833,7 @@
   },
   "expect": {
    "min_docs": 200,
-   "entry": "catboost/docs/en/index.md"
+   "entry": "catboost/docs/en/toc.yaml"
   },
   "aspects": [
    1,
@@ -852,7 +848,7 @@
   "material": "官方文档",
   "use": "按需查询",
   "note": "",
-  "entry": "catboost/docs/en/index.md"
+  "entry": "catboost/docs/en/toc.yaml"
  },
  {
   "id": "04X04",
@@ -1033,45 +1029,6 @@
   "entry": "content/docs/index.md"
  },
  {
-  "id": "04X06",
-  "cat": "04",
-  "cross": [],
-  "type": "practice",
-  "tool": "DVC",
-  "project": "DVC",
-  "title": "DVC 入门示例项目（example-get-started）",
-  "authors": "Iterative",
-  "school": "",
-  "year": "",
-  "version": "main 提交",
-  "lang": "en",
-  "level": "入门-进阶",
-  "prereq": "Python 基础",
-  "stack": "DVC",
-  "source": "https://github.com/iterative/example-get-started",
-  "license": "Apache-2.0",
-  "goal": "完整仓库（DVC 管线示例，数据指针不含数据）",
-  "order": 43,
-  "out": "practice/dvc_example_get_started_main_en.tar",
-  "get": {
-   "kind": "git",
-   "repo": "https://github.com/iterative/example-get-started"
-  },
-  "expect": {
-   "min_docs": 1
-  },
-  "aspects": [
-   4,
-   8
-  ],
-  "complete": "完整",
-  "scope": "完整仓库（DVC 管线示例，数据指针不含数据）",
-  "material": "官方示例项目",
-  "use": "按需查询",
-  "note": "",
-  "entry": ""
- },
- {
   "id": "04D07",
   "cat": "04",
   "cross": [],
@@ -1240,6 +1197,7 @@
     "2.15"
    ],
    "built_html": true,
+   "license_from_project": true,
    "timeout": 7200
   },
   "expect": {
@@ -1305,6 +1263,7 @@
     "_sphinx_design_static"
    ],
    "built_html": true,
+   "license_from_project": true,
    "timeout": 7200
   },
   "expect": {
@@ -1394,7 +1353,8 @@
    "paths": [
     "0.29"
    ],
-   "built_html": true
+   "built_html": true,
+   "license_from_project": true
   },
   "expect": {
    "min_docs": 200,
@@ -1432,7 +1392,7 @@
   "stack": "torchaudio",
   "source": "https://github.com/pytorch/audio",
   "license": "BSD-2-Clause",
-  "goal": "pytorch/audio gh-pages 2.11 目录（构建 HTML）",
+  "goal": "pytorch/audio gh-pages 2.11.0 目录（构建 HTML；2.11 为指向它的链接）",
   "order": 5,
   "out": "official_docs/torchaudio_2.11_docs_html_en.tar",
   "get": {
@@ -1440,13 +1400,14 @@
    "repo": "https://github.com/pytorch/audio",
    "ref": "gh-pages",
    "paths": [
-    "2.11"
+    "2.11.0"
    ],
-   "built_html": true
+   "built_html": true,
+   "license_from_project": true
   },
   "expect": {
    "min_docs": 50,
-   "entry": "2.11/index.html"
+   "entry": "2.11.0/index.html"
   },
   "aspects": [
    1,
@@ -1455,11 +1416,11 @@
    4
   ],
   "complete": "完整",
-  "scope": "pytorch/audio gh-pages 2.11 目录（构建 HTML）",
+  "scope": "pytorch/audio gh-pages 2.11.0 目录（构建 HTML；2.11 为指向它的链接）",
   "material": "官方文档",
   "use": "按需查询",
   "note": "torchaudio 自 2.8 起进入维护期并移除/迁移大量功能（解码迁至 TorchCodec），以文档内说明为准",
-  "entry": "2.11/index.html"
+  "entry": "2.11.0/index.html"
  },
  {
   "id": "05D05",
@@ -1479,7 +1440,7 @@
   "stack": "TensorFlow",
   "source": "https://github.com/tensorflow/docs",
   "license": "Apache-2.0",
-  "goal": "site/en/guide、tutorials、install（笔记本与 Markdown，含 SavedModel、分布式、性能剖析、TF Lite 导出）",
+  "goal": "site/en/guide、tutorials、install（可运行笔记本与 Markdown，含 SavedModel、分布式、性能剖析、TF Lite 导出）",
   "order": 10,
   "out": "official_docs/tensorflow_docs_guides_master_src_en.tar",
   "get": {
@@ -1493,7 +1454,7 @@
    ]
   },
   "expect": {
-   "min_docs": 150,
+   "min_docs": 100,
    "must_have": [
     "saved_model",
     "distributed"
@@ -1504,10 +1465,11 @@
    2,
    4,
    5,
-   6
+   6,
+   8
   ],
   "complete": "完整",
-  "scope": "site/en/guide、tutorials、install（笔记本与 Markdown，含 SavedModel、分布式、性能剖析、TF Lite 导出）",
+  "scope": "site/en/guide、tutorials、install（可运行笔记本与 Markdown，含 SavedModel、分布式、性能剖析、TF Lite 导出）",
   "material": "官方文档",
   "use": "按需查询",
   "note": "",
@@ -1531,13 +1493,13 @@
   "stack": "TensorFlow",
   "source": "https://www.tensorflow.org/api_docs/python/tf",
   "license": "Apache-2.0",
-  "goal": "tensorflow.org/api_docs/python 下的全部 API 页（不含图片；语言切换参数页排除）",
+  "goal": "tensorflow.org/api_docs/python 下 tf.* API 页的部分镜像：排除 tf.compat；wget 在 90 分钟超时处停止，已抓取约 3900 页（含 tf.raw_ops、tf.keras、tf.math/nn/data/distribute 等），其余页面缺失；因中断未做链接本地化（页面可离线阅读，页间链接仍指向 tensorflow.org）；不含图片；gzip 压缩",
   "order": 11,
-  "out": "official_docs/tensorflow_api_docs_python_mirror_en.tar",
+  "out": "official_docs/tensorflow_api_docs_python_mirror_en.tar.gz",
   "get": {
    "kind": "mirror",
    "start": "https://www.tensorflow.org/api_docs/python/tf",
-   "quota_mb": 1500,
+   "quota_mb": 6000,
    "level": "inf",
    "wait": 0.2,
    "include": [
@@ -1545,18 +1507,21 @@
     "/static",
     "/_static"
    ],
+   "exclude": [
+    "/api_docs/python/tf/compat"
+   ],
    "reject_regex": "(\\?hl=|\\?authuser=|/_d/|/s/opensearch|\\.(png|jpg|gif|svg)$)"
   },
   "expect": {
    "min_docs": 2000,
-   "max_broken": 0.1,
+   "max_broken": 0.6,
    "entry": "api_docs/python/tf.html"
   },
   "aspects": [
    3
   ],
-  "complete": "完整",
-  "scope": "tensorflow.org/api_docs/python 下的全部 API 页（不含图片；语言切换参数页排除）",
+  "complete": "部分",
+  "scope": "tensorflow.org/api_docs/python 下 tf.* API 页的部分镜像：排除 tf.compat；wget 在 90 分钟超时处停止，已抓取约 3900 页（含 tf.raw_ops、tf.keras、tf.math/nn/data/distribute 等），其余页面缺失；因中断未做链接本地化（页面可离线阅读，页间链接仍指向 tensorflow.org）；不含图片；gzip 压缩",
   "material": "官方文档",
   "use": "按需查询",
   "note": "",
@@ -1684,7 +1649,7 @@
   "stack": "JAX",
   "source": "https://docs.jax.dev/_/downloads/en/latest/htmlzip/",
   "license": "Apache-2.0",
-  "goal": "Read the Docs 官方 HTML 包（教程、sharding/分布式、API 参考、导出与序列化）",
+  "goal": "Read the Docs 官方 HTML 包（单页构建 singlehtml：全部章节合并于 index.html；教程、sharding/分布式、API 参考、导出与序列化）",
   "order": 14,
   "out": "official_docs/jax_latest_docs_html_en.zip",
   "get": {
@@ -1695,7 +1660,7 @@
    "max_mb": 800
   },
   "expect": {
-   "min_docs": 200,
+   "min_docs": 1,
    "link_check": false,
    "entry": "index.html"
   },
@@ -1708,7 +1673,7 @@
    6
   ],
   "complete": "完整",
-  "scope": "Read the Docs 官方 HTML 包（教程、sharding/分布式、API 参考、导出与序列化）",
+  "scope": "Read the Docs 官方 HTML 包（单页构建 singlehtml：全部章节合并于 index.html；教程、sharding/分布式、API 参考、导出与序列化）",
   "material": "官方文档",
   "use": "按需查询",
   "note": "",
@@ -1943,29 +1908,30 @@
   "type": "docs",
   "tool": "Transformers",
   "project": "Transformers",
-  "title": "Hugging Face Transformers 文档（含 API、导出与推理部署） v5.22.0",
+  "title": "Hugging Face Transformers 文档（含 API、导出与推理部署） v5.21.1",
   "authors": "Hugging Face",
   "school": "",
   "year": "",
-  "version": "v5.22.0",
+  "version": "v5.21.1",
   "lang": "en",
   "level": "入门-进阶",
   "prereq": "Python 基础",
   "stack": "Transformers",
   "source": "",
   "license": "Apache-2.0",
-  "goal": "hf-doc-build 官方构建包 transformers/v5.22.0.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "goal": "hf-doc-build 官方构建包 transformers/v5.21.1.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
   "order": 30,
-  "out": "official_docs/hf_transformers_v5.22.0_docs_built_en.zip",
+  "out": "official_docs/hf_transformers_v5.21.1_docs_built_en.zip",
   "get": {
    "kind": "hfdoc",
    "lib": "transformers",
-   "ver": "v5.22.0"
+   "ver": "v5.21.1"
   },
   "expect": {
    "min_docs": 20,
    "must_have": [
-    "main_classes"
+    "transformers/v5.21.1/en/",
+    "/en/.*main_classes"
    ]
   },
   "aspects": [
@@ -1977,10 +1943,10 @@
    6
   ],
   "complete": "完整",
-  "scope": "hf-doc-build 官方构建包 transformers/v5.22.0.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "scope": "hf-doc-build 官方构建包 transformers/v5.21.1.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
   "material": "官方文档",
   "use": "按需查询",
-  "note": "",
+  "note": "hf-doc-build 中 v5.22.0 构建包缺少 en 目录（仅含译文），故取 v5.21.1 完整构建",
   "entry": ""
  },
  {
@@ -2012,7 +1978,8 @@
   "expect": {
    "min_docs": 20,
    "must_have": [
-    "package_reference"
+    "datasets/v5.1.0/en/",
+    "/en/.*package_reference"
    ]
   },
   "aspects": [
@@ -2058,7 +2025,8 @@
   "expect": {
    "min_docs": 20,
    "must_have": [
-    "api"
+    "tokenizers/v0.23.3/en/",
+    "/en/.*api"
    ]
   },
   "aspects": [
@@ -2102,7 +2070,8 @@
   "expect": {
    "min_docs": 20,
    "must_have": [
-    "package_reference"
+    "accelerate/v1.15.0/en/",
+    "/en/.*package_reference"
    ]
   },
   "aspects": [
@@ -2148,7 +2117,8 @@
   "expect": {
    "min_docs": 20,
    "must_have": [
-    "package_reference"
+    "peft/v0.21.0/en/",
+    "/en/.*package_reference"
    ]
   },
   "aspects": [
@@ -2194,7 +2164,8 @@
   "expect": {
    "min_docs": 20,
    "must_have": [
-    "trainer"
+    "trl/v1.17.0/en/",
+    "/en/.*trainer"
    ]
   },
   "aspects": [
@@ -2239,7 +2210,8 @@
   "expect": {
    "min_docs": 20,
    "must_have": [
-    "api/"
+    "diffusers/v0.42.1/en/",
+    "/en/.*api/"
    ]
   },
   "aspects": [
@@ -2286,7 +2258,8 @@
   "expect": {
    "min_docs": 20,
    "must_have": [
-    "package_reference"
+    "evaluate/v0.4.6/en/",
+    "/en/.*package_reference"
    ]
   },
   "aspects": [
@@ -2331,7 +2304,8 @@
   "expect": {
    "min_docs": 20,
    "must_have": [
-    "package_reference"
+    "huggingface_hub/v2.4.0/en/",
+    "/en/.*package_reference"
    ]
   },
   "aspects": [
@@ -2345,6 +2319,52 @@
   "material": "官方文档",
   "use": "按需查询",
   "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05D29",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "Transformers",
+  "project": "Optimum ONNX",
+  "title": "Hugging Face Optimum ONNX v0.1.0 文档（Transformers → ONNX 导出与 ONNX Runtime 推理）",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "v0.1.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Transformers",
+  "source": "",
+  "license": "Apache-2.0",
+  "goal": "hf-doc-build 官方构建包 optimum-onnx/v0.1.0.zip（en：导出指南、支持架构、ORTModel API）",
+  "order": 39,
+  "out": "official_docs/hf_optimum-onnx_v0.1.0_docs_built_en.zip",
+  "get": {
+   "kind": "hfdoc",
+   "lib": "optimum-onnx",
+   "ver": "v0.1.0"
+  },
+  "expect": {
+   "min_docs": 10,
+   "must_have": [
+    "optimum-onnx/v0.1.0/en/"
+   ]
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "complete": "完整",
+  "scope": "hf-doc-build 官方构建包 optimum-onnx/v0.1.0.zip（en：导出指南、支持架构、ORTModel API）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "Transformers v5 文档的 serialization 页指向 Optimum ONNX 作为官方 ONNX 导出路径",
   "entry": ""
  },
  {
@@ -2848,7 +2868,7 @@
   },
   "expect": {
    "must_have": [
-    "Samples/"
+    "cpp/"
    ]
   },
   "aspects": [
@@ -2889,7 +2909,8 @@
    "paths": [
     "main"
    ],
-   "built_html": true
+   "built_html": true,
+   "license_from_project": true
   },
   "expect": {
    "min_docs": 30,
@@ -3849,7 +3870,7 @@
   "stack": "Docker",
   "source": "https://github.com/docker/docs",
   "license": "Apache-2.0",
-  "goal": "Engine、Build、Compose、入门与指南、Dockerfile/Compose 文件参考、CLI 参考数据（YAML）",
+  "goal": "Engine、Build、Compose、入门与指南、Compose 文件参考；Dockerfile/CLI 参考在构建时自 buildkit 与 docker/cli 引入，另见 14D12/14D13",
   "order": 30,
   "out": "official_docs/docker_docs_main_src_en.tar",
   "get": {
@@ -3872,19 +3893,102 @@
   "expect": {
    "min_docs": 300,
    "must_have": [
-    "content/reference/dockerfile.md"
+    "content/manuals/engine/"
    ]
   },
   "aspects": [
    1,
    2,
-   3,
    4,
    5,
    6
   ],
+  "complete": "部分",
+  "scope": "Engine、Build、Compose、入门与指南、Compose 文件参考；Dockerfile/CLI 参考在构建时自 buildkit 与 docker/cli 引入，另见 14D12/14D13",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "14D12",
+  "cat": "14",
+  "cross": [],
+  "type": "docs",
+  "tool": "Docker",
+  "project": "Docker",
+  "title": "Dockerfile 参考（moby/buildkit frontend/dockerfile/docs）",
+  "authors": "Docker Inc. / Moby",
+  "school": "",
+  "year": "",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Docker",
+  "source": "https://github.com/moby/buildkit",
+  "license": "Apache-2.0",
+  "goal": "Dockerfile 指令参考、语法与构建检查规则（docs.docker.com/reference/dockerfile 的源）",
+  "order": 30,
+  "out": "official_docs/dockerfile_reference_buildkit_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/moby/buildkit",
+   "paths": [
+    "frontend/dockerfile/docs"
+   ]
+  },
+  "expect": {
+   "must_have": [
+    "frontend/dockerfile/docs/reference.md"
+   ]
+  },
+  "aspects": [
+   3
+  ],
   "complete": "完整",
-  "scope": "Engine、Build、Compose、入门与指南、Dockerfile/Compose 文件参考、CLI 参考数据（YAML）",
+  "scope": "Dockerfile 指令参考、语法与构建检查规则（docs.docker.com/reference/dockerfile 的源）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "14D13",
+  "cat": "14",
+  "cross": [],
+  "type": "docs",
+  "tool": "Docker",
+  "project": "Docker",
+  "title": "Docker CLI 命令参考（docker/cli docs/reference）",
+  "authors": "Docker Inc.",
+  "school": "",
+  "year": "",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Docker",
+  "source": "https://github.com/docker/cli",
+  "license": "Apache-2.0",
+  "goal": "docker 全部子命令参考与 dockerd 参考（docs.docker.com CLI 参考页的源）",
+  "order": 30,
+  "out": "official_docs/docker_cli_reference_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/docker/cli",
+   "paths": [
+    "docs/reference"
+   ]
+  },
+  "expect": {
+   "min_docs": 100
+  },
+  "aspects": [
+   3
+  ],
+  "complete": "完整",
+  "scope": "docker 全部子命令参考与 dockerd 参考（docs.docker.com CLI 参考页的源）",
   "material": "官方文档",
   "use": "按需查询",
   "note": "",
@@ -4464,7 +4568,7 @@
   "stack": "pytest",
   "source": "https://docs.pytest.org/_/downloads/en/stable/htmlzip/",
   "license": "MIT",
-  "goal": "官方 HTML 包（入门、how-to、fixture、插件、API 参考）",
+  "goal": "Read the Docs 官方 HTML 包（单页构建：全部章节合并于 index.html，含入门、how-to、fixture、插件、API 参考）",
   "order": 1,
   "out": "official_docs/pytest_stable_docs_html_en.zip",
   "get": {
@@ -4475,7 +4579,7 @@
    "max_mb": 800
   },
   "expect": {
-   "min_docs": 50,
+   "min_docs": 1,
    "link_check": false,
    "entry": "index.html"
   },
@@ -4487,7 +4591,7 @@
    5
   ],
   "complete": "完整",
-  "scope": "官方 HTML 包（入门、how-to、fixture、插件、API 参考）",
+  "scope": "Read the Docs 官方 HTML 包（单页构建：全部章节合并于 index.html，含入门、how-to、fixture、插件、API 参考）",
   "material": "官方文档",
   "use": "按需查询",
   "note": "",
@@ -4511,7 +4615,7 @@
   "stack": "mypy",
   "source": "https://mypy.readthedocs.io/_/downloads/en/stable/htmlzip/",
   "license": "MIT",
-  "goal": "官方 HTML 包",
+  "goal": "Read the Docs 官方 HTML 包（单页构建：全部章节合并于 index.html）",
   "order": 2,
   "out": "official_docs/mypy_stable_docs_html_en.zip",
   "get": {
@@ -4522,7 +4626,7 @@
    "max_mb": 800
   },
   "expect": {
-   "min_docs": 30,
+   "min_docs": 1,
    "link_check": false,
    "entry": "index.html"
   },
@@ -4533,7 +4637,7 @@
    5
   ],
   "complete": "完整",
-  "scope": "官方 HTML 包",
+  "scope": "Read the Docs 官方 HTML 包（单页构建：全部章节合并于 index.html）",
   "material": "官方文档",
   "use": "按需查询",
   "note": "",

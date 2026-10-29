@@ -1,0 +1,19 @@
+{
+ "id": "13B03",
+ "started": "2026-10-29T17:51:42Z",
+ "download_url": "https://raw.githubusercontent.com/victorEijkhout/TheArtofHPC_pdfs/main/vol2/EijkhoutParallelProgramming.pdf",
+ "final_url": "https://raw.githubusercontent.com/victorEijkhout/TheArtofHPC_pdfs/main/vol2/EijkhoutParallelProgramming.pdf",
+ "http_last_modified": "",
+ "verify": "通过：pypdf 可解析 658 页；标题词匹配 1.0",
+ "info": {
+  "pages": 658,
+  "meta_title": "",
+  "body_sample_chars": 4568,
+  "title_match": 1.0
+ },
+ "bytes": 34521366,
+ "sha256": "1d6617e696a03f2d4b73b2c423783fac3139d55200542b02f2751b51dd9ab46a",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:51:46Z"
+}

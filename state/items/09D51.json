@@ -1,0 +1,60 @@
+{
+ "id": "09D51",
+ "started": "2026-10-29T17:50:57Z",
+ "download_url": "https://media.djangoproject.com/docs/django-docs-6.0-en.zip",
+ "final_url": "https://media.djangoproject.com/docs/django-docs-6.0-en.zip",
+ "http_last_modified": "Tue, 27 Oct 2026 17:50:01 GMT",
+ "verify": "通过：1400 个文件（HTML 673，文档源 672）",
+ "info": {
+  "files": 1400,
+  "html": 673,
+  "md_rst_ipynb": 672,
+  "top_ext": [
+   [
+    "html",
+    673
+   ],
+   [
+    "txt",
+    671
+   ],
+   [
+    "png",
+    29
+   ],
+   [
+    "js",
+    9
+   ],
+   [
+    "css",
+    8
+   ],
+   [
+    "svg",
+    3
+   ],
+   [
+    "inv",
+    1
+   ],
+   [
+    "buildinfo",
+    1
+   ]
+  ],
+  "license_files": [
+   "_static/fontawesome/LICENSE.txt"
+  ],
+  "link_sample": {
+   "links": 5570,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 7916811,
+ "sha256": "ab56d6903d3ae22c15b7d8777fd683828aac3fc227c98e44bd1f56ae331fce72",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:50:57Z"
+}

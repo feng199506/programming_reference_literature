@@ -1,0 +1,61 @@
+{
+ "id": "02X01",
+ "started": "2026-10-29T17:45:21Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/TheAlgorithms/Python",
+ "ref": "(默认分支)",
+ "commit": "6e03a48579ca212a08b36be00378f887dc41a003",
+ "commit_date": "2026-10-19T19:31:26-09:30",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：1737 个文件（HTML 0，文档源 75）",
+ "info": {
+  "files": 1737,
+  "html": 0,
+  "md_rst_ipynb": 75,
+  "top_ext": [
+   [
+    "py",
+    1608
+   ],
+   [
+    "txt",
+    38
+   ],
+   [
+    "md",
+    37
+   ],
+   [
+    "yml",
+    16
+   ],
+   [
+    "jpg",
+    9
+   ],
+   [
+    "sh",
+    7
+   ],
+   [
+    "",
+    6
+   ],
+   [
+    "png",
+    4
+   ]
+  ],
+  "license_files": [
+   "TheAlgorithms_Python_master_en/LICENSE.md"
+  ]
+ },
+ "bytes": 19118080,
+ "sha256": "579e394677562d2cfd044724d6a5fab169d20470d1fc23a418dd100de4bce412",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:45:23Z"
+}

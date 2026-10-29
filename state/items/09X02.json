@@ -1,0 +1,61 @@
+{
+ "id": "09X02",
+ "started": "2026-10-29T17:47:10Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/fastapi/full-stack-fastapi-template",
+ "ref": "(默认分支)",
+ "commit": "f4bcfaba7c85be3c6332cc74a20819f586dcdbc6",
+ "commit_date": "2026-10-26T10:47:35Z",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：248 个文件（HTML 4，文档源 10）",
+ "info": {
+  "files": 248,
+  "html": 4,
+  "md_rst_ipynb": 10,
+  "top_ext": [
+   [
+    "tsx",
+    70
+   ],
+   [
+    "py",
+    43
+   ],
+   [
+    "ts",
+    39
+   ],
+   [
+    "yml",
+    22
+   ],
+   [
+    "json",
+    14
+   ],
+   [
+    "md",
+    10
+   ],
+   [
+    "png",
+    9
+   ],
+   [
+    "sh",
+    8
+   ]
+  ],
+  "license_files": [
+   "fastapi_full_stack_template_master_en/LICENSE"
+  ]
+ },
+ "bytes": 2426880,
+ "sha256": "e6234ca289e891f39cd74c3565becef5dfe027dfdbb4b85e1c2a974fcaffe5c3",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:47:11Z"
+}

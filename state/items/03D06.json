@@ -1,0 +1,64 @@
+{
+ "id": "03D06",
+ "started": "2026-10-29T17:26:44Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/jupyter/jupyter",
+ "ref": "(默认分支)",
+ "commit": "6b5eb0f469c7bc3ea43d6d2a0ba1057853c9a3a5",
+ "commit_date": "2026-07-09T09:05:40-07:00",
+ "sparse_paths": [
+  "docs"
+ ],
+ "verify": "通过：228 个文件（HTML 0，文档源 122）",
+ "info": {
+  "files": 228,
+  "html": 0,
+  "md_rst_ipynb": 122,
+  "top_ext": [
+   [
+    "rst",
+    64
+   ],
+   [
+    "md",
+    57
+   ],
+   [
+    "po",
+    51
+   ],
+   [
+    "png",
+    34
+   ],
+   [
+    "svg",
+    10
+   ],
+   [
+    "",
+    3
+   ],
+   [
+    "py",
+    3
+   ],
+   [
+    "css",
+    2
+   ]
+  ],
+  "entry": "jupyter_docs_main_src_en/docs/source/index.md",
+  "license_files": [
+   "jupyter_docs_main_src_en/LICENSE"
+  ]
+ },
+ "bytes": 8826880,
+ "sha256": "fbaa4ff959773a29658f9b5264aa4f901ae08ed1bb51fc1aa9282ab0c8c0d1cc",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:26:46Z",
+ "reverified": "2026-10-29T17:29:45Z"
+}

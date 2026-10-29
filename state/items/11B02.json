@@ -1,0 +1,72 @@
+{
+ "id": "11B02",
+ "started": "2026-10-29T18:34:28Z",
+ "wget_rc": 0,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://diveintosystems.org/book/index.html",
+ "mirror_scope": {
+  "start": [
+   "https://diveintosystems.org/book/index.html"
+  ],
+  "include": [
+   "/book"
+  ],
+  "level": "inf"
+ },
+ "verify": "通过：599 个文件（HTML 189，文档源 2）",
+ "info": {
+  "files": 599,
+  "html": 189,
+  "md_rst_ipynb": 2,
+  "top_ext": [
+   [
+    "png",
+    325
+   ],
+   [
+    "html",
+    189
+   ],
+   [
+    "c",
+    52
+   ],
+   [
+    "woff",
+    6
+   ],
+   [
+    "woff2",
+    6
+   ],
+   [
+    "svg",
+    6
+   ],
+   [
+    "sh",
+    3
+   ],
+   [
+    "js",
+    3
+   ]
+  ],
+  "license_files": [
+   "Matthews_DiveIntoSystems_html_en/book/_images/copyright.png",
+   "Matthews_DiveIntoSystems_html_en/book/copyright.html"
+  ],
+  "link_sample": {
+   "links": 23991,
+   "broken": 0,
+   "examples": []
+  }
+ },
+ "bytes": 34836480,
+ "sha256": "f350dcc7cb39b152122f586ac1681d485ca099c4d669cccd82dca7d20578603c",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:40:28Z"
+}
