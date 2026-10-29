@@ -1,0 +1,65 @@
+{
+ "id": "01D01",
+ "started": "2026-10-29T17:19:06Z",
+ "download_url": "https://docs.python.org/3/archives/python-3.15-docs-html.tar.bz2",
+ "final_url": "https://docs.python.org/3/archives/python-3.15-docs-html.tar.bz2",
+ "http_last_modified": "Sat, 24 Oct 2026 00:15:52 GMT",
+ "verify": "通过：660 个文件（HTML 596，文档源 0）",
+ "info": {
+  "files": 660,
+  "html": 596,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "html",
+    596
+   ],
+   [
+    "png",
+    28
+   ],
+   [
+    "js",
+    15
+   ],
+   [
+    "css",
+    8
+   ],
+   [
+    "svg",
+    4
+   ],
+   [
+    "json",
+    2
+   ],
+   [
+    "gif",
+    2
+   ],
+   [
+    "inv",
+    1
+   ]
+  ],
+  "entry": "python-3.15-docs-html/whatsnew/index.html",
+  "license_files": [
+   "python-3.15-docs-html/license.html",
+   "python-3.15-docs-html/copyright.html"
+  ],
+  "link_sample": {
+   "links": 16587,
+   "broken": 2,
+   "examples": [
+    "python-3.15-docs-html/whatsnew/limburger.jpg",
+    "python-3.15-docs-html/library/python-logo.png"
+   ]
+  }
+ },
+ "bytes": 19709582,
+ "sha256": "73d43d9d0a7eec89ac99b65eebb1b53992430e10fae743b67a148f514fe28220",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:19:13Z"
+}

@@ -1,0 +1,65 @@
+{
+ "id": "03D03",
+ "started": "2026-10-29T17:19:13Z",
+ "download_url": "https://pandas.pydata.org/docs/pandas.zip",
+ "final_url": "https://pandas.pydata.org/docs/pandas.zip",
+ "http_last_modified": "Thu, 29 Oct 2026 00:43:37 GMT",
+ "verify": "通过：4516 个文件（HTML 4034，文档源 3）",
+ "info": {
+  "files": 4516,
+  "html": 4034,
+  "md_rst_ipynb": 3,
+  "top_ext": [
+   [
+    "html",
+    4034
+   ],
+   [
+    "png",
+    375
+   ],
+   [
+    "svg",
+    66
+   ],
+   [
+    "js",
+    16
+   ],
+   [
+    "css",
+    12
+   ],
+   [
+    "map",
+    4
+   ],
+   [
+    "woff2",
+    3
+   ],
+   [
+    "txt",
+    2
+   ]
+  ],
+  "entry": "index.html",
+  "license_files": [],
+  "link_sample": {
+   "links": 17792,
+   "broken": 8,
+   "examples": [
+    "reference/api/pandas.core.groupby.DataFrameGroupBy.mean.html",
+    "reference/api/pandas.core.groupby.SeriesGroupBy.value_counts.html",
+    "reference/api/pandas.core.groupby.DataFrameGroupBy.ngroup.html",
+    "reference/api/pandas.core.groupby.DataFrameGroupBy.any.html",
+    "reference/api/pandas.core.groupby.DataFrameGroupBy.transform.html"
+   ]
+  }
+ },
+ "bytes": 34046887,
+ "sha256": "53a32b651f1e55913f6ee7adbdb23d8e9721499ceb6cf520fb7c3917915c5fe1",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T17:19:14Z"
+}

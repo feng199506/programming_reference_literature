@@ -1,0 +1,4673 @@
+[
+ {
+  "id": "01D01",
+  "cat": "01",
+  "cross": [
+   "06",
+   "12"
+  ],
+  "type": "docs",
+  "tool": "Python",
+  "project": "Python",
+  "title": "Python 3.15 官方文档（教程、语言参考、标准库、C API、打包与扩展）",
+  "authors": "Python Software Foundation",
+  "school": "",
+  "year": "",
+  "version": "3.15（docs.python.org 3.15 HTML 归档，补丁版以归档内 index 为准）",
+  "lang": "en",
+  "level": "入门-高级",
+  "prereq": "无",
+  "stack": "Python",
+  "source": "https://docs.python.org/3/archives/python-3.15-docs-html.tar.bz2",
+  "license": "PSF-2.0（文档 PSF 许可）",
+  "goal": "整个 docs.python.org/3.15 HTML 归档：tutorial/ library/ reference/ c-api/ extending/ howto/ faq/",
+  "order": 1,
+  "out": "official_docs/python_3.15_docs_html_en.tar.bz2",
+  "get": {
+   "kind": "file",
+   "urls": [
+    "https://docs.python.org/3/archives/python-3.15-docs-html.tar.bz2"
+   ],
+   "max_mb": 800
+  },
+  "expect": {
+   "min_docs": 400,
+   "must_have": [
+    "tutorial/",
+    "c-api/",
+    "extending/"
+   ],
+   "entry": "index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "complete": "完整",
+  "scope": "整个 docs.python.org/3.15 HTML 归档：tutorial/ library/ reference/ c-api/ extending/ howto/ faq/",
+  "material": "官方文档",
+  "use": "通读教程，其余按需查询",
+  "note": "",
+  "entry": "index.html"
+ },
+ {
+  "id": "01D02",
+  "cat": "01",
+  "cross": [
+   "06"
+  ],
+  "type": "docs",
+  "tool": "pip",
+  "project": "pip",
+  "title": "pip 用户指南与参考",
+  "authors": "Python Packaging Authority",
+  "school": "",
+  "year": "",
+  "version": "26.2.2",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "pip",
+  "source": "https://github.com/pypa/pip",
+  "license": "MIT",
+  "goal": "pip 仓库 docs/html（Sphinx/MyST 源，CLI 参考由同目录 rst 指令生成参数表）",
+  "order": 5,
+  "out": "official_docs/pip_26.2.2_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/pypa/pip",
+   "ref": "26.2.2",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 40,
+   "entry": "docs/html/index.md"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   5
+  ],
+  "complete": "完整",
+  "scope": "pip 仓库 docs/html（Sphinx/MyST 源，CLI 参考由同目录 rst 指令生成参数表）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "docs/html/index.md"
+ },
+ {
+  "id": "01D03",
+  "cat": "01",
+  "cross": [
+   "06"
+  ],
+  "type": "docs",
+  "tool": "Python Packaging User Guide",
+  "project": "Python Packaging User Guide",
+  "title": "Python Packaging User Guide（PyPA 官方打包指南）",
+  "authors": "Python Packaging Authority",
+  "school": "",
+  "year": "",
+  "version": "main 提交（无版本号，按提交日期记录）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Python Packaging User Guide",
+  "source": "https://github.com/pypa/packaging.python.org",
+  "license": "CC BY-SA 3.0",
+  "goal": "仓库 source/：tutorials、guides、discussions、specifications（打包规范全文）",
+  "order": 6,
+  "out": "official_docs/python_packaging_user_guide_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/pypa/packaging.python.org",
+   "paths": [
+    "source"
+   ]
+  },
+  "expect": {
+   "min_docs": 60,
+   "entry": "source/index.rst"
+  },
+  "aspects": [
+   1,
+   2,
+   4,
+   6
+  ],
+  "complete": "完整",
+  "scope": "仓库 source/：tutorials、guides、discussions、specifications（打包规范全文）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "source/index.rst"
+ },
+ {
+  "id": "01D04",
+  "cat": "01",
+  "cross": [
+   "06"
+  ],
+  "type": "docs",
+  "tool": "uv",
+  "project": "uv",
+  "title": "uv 文档（Python 包与项目管理器）",
+  "authors": "Astral",
+  "school": "",
+  "year": "",
+  "version": "0.13.6",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "uv",
+  "source": "https://github.com/astral-sh/uv",
+  "license": "MIT OR Apache-2.0",
+  "goal": "仓库 docs/（MkDocs Markdown；CLI 参考 docs/reference/cli.md 已随仓库生成提交）",
+  "order": 7,
+  "out": "official_docs/uv_0.13.6_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/astral-sh/uv",
+   "ref": "0.13.6",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 40,
+   "must_have": [
+    "docs/reference/cli\\.md"
+   ],
+   "entry": "docs/index.md"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "complete": "完整",
+  "scope": "仓库 docs/（MkDocs Markdown；CLI 参考 docs/reference/cli.md 已随仓库生成提交）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "docs/index.md"
+ },
+ {
+  "id": "03D01",
+  "cat": "03",
+  "cross": [],
+  "type": "docs",
+  "tool": "NumPy",
+  "project": "NumPy",
+  "title": "NumPy 2.5 官方文档（用户指南、API 参考、构建与 C API）",
+  "authors": "NumPy Developers",
+  "school": "",
+  "year": "",
+  "version": "2.5",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "NumPy",
+  "source": "https://github.com/numpy/doc",
+  "license": "BSD-3-Clause",
+  "goal": "numpy/doc 仓库中 numpy.org/doc/2.5 的官方构建 HTML",
+  "order": 10,
+  "out": "official_docs/numpy_2.5_docs_html_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/numpy/doc",
+   "paths": [
+    "2.5"
+   ],
+   "built_html": true
+  },
+  "expect": {
+   "min_docs": 1500,
+   "must_have": [
+    "2.5/reference/",
+    "2.5/user/"
+   ],
+   "entry": "2.5/index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "complete": "完整",
+  "scope": "numpy/doc 仓库中 numpy.org/doc/2.5 的官方构建 HTML",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "2.5/index.html"
+ },
+ {
+  "id": "03X01",
+  "cat": "03",
+  "cross": [],
+  "type": "practice",
+  "tool": "NumPy",
+  "project": "NumPy",
+  "title": "NumPy 官方教程笔记本（numpy-tutorials）",
+  "authors": "NumPy Developers",
+  "school": "",
+  "year": "",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "NumPy",
+  "source": "https://github.com/numpy/numpy-tutorials",
+  "license": "BSD-3-Clause",
+  "goal": "完整仓库（Jupyter/MyST 笔记本源，不含数据集下载）",
+  "order": 11,
+  "out": "practice/numpy_tutorials_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/numpy/numpy-tutorials"
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "aspects": [
+   4,
+   8
+  ],
+  "complete": "完整",
+  "scope": "完整仓库（Jupyter/MyST 笔记本源，不含数据集下载）",
+  "material": "官方示例/教程源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "03D02",
+  "cat": "03",
+  "cross": [],
+  "type": "docs",
+  "tool": "SciPy",
+  "project": "SciPy",
+  "title": "SciPy 1.18.1 官方文档",
+  "authors": "SciPy Developers",
+  "school": "",
+  "year": "",
+  "version": "1.18.1",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "SciPy",
+  "source": "https://docs.scipy.org/doc/scipy-1.18.1/index.html",
+  "license": "BSD-3-Clause",
+  "goal": "docs.scipy.org/doc/scipy-1.18.1 的离线镜像（含 API 参考；图表 png 保留）",
+  "order": 12,
+  "out": "official_docs/scipy_1.18.1_docs_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://docs.scipy.org/doc/scipy-1.18.1/index.html",
+   "quota_mb": 900,
+   "level": "inf",
+   "wait": 0.3,
+   "include": [
+    "/doc/scipy-1.18.1"
+   ],
+   "reject_regex": "\\.(png|jpg|svg)\\?|/_downloads/"
+  },
+  "expect": {
+   "min_docs": 1000,
+   "max_broken": 0.08,
+   "entry": "index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "complete": "完整",
+  "scope": "docs.scipy.org/doc/scipy-1.18.1 的离线镜像（含 API 参考；图表 png 保留）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "index.html"
+ },
+ {
+  "id": "03D03",
+  "cat": "03",
+  "cross": [],
+  "type": "docs",
+  "tool": "pandas",
+  "project": "pandas",
+  "title": "pandas 官方文档（HTML 压缩包）",
+  "authors": "pandas Development Team",
+  "school": "",
+  "year": "",
+  "version": "以压缩包内版本为准（下载 stable）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "pandas",
+  "source": "https://pandas.pydata.org/docs/pandas.zip",
+  "license": "BSD-3-Clause",
+  "goal": "pandas.pydata.org 官方提供的整站 HTML 压缩包",
+  "order": 13,
+  "out": "official_docs/pandas_stable_docs_html_en.zip",
+  "get": {
+   "kind": "file",
+   "urls": [
+    "https://pandas.pydata.org/docs/pandas.zip"
+   ],
+   "max_mb": 800
+  },
+  "expect": {
+   "min_docs": 1000,
+   "entry": "index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "complete": "完整",
+  "scope": "pandas.pydata.org 官方提供的整站 HTML 压缩包",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "index.html"
+ },
+ {
+  "id": "03D04",
+  "cat": "03",
+  "cross": [],
+  "type": "docs",
+  "tool": "Matplotlib",
+  "project": "Matplotlib",
+  "title": "Matplotlib 3.11.2 官方文档（教程、用户指南、示例图库、API）",
+  "authors": "Matplotlib Development Team",
+  "school": "",
+  "year": "",
+  "version": "3.11.2",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Matplotlib",
+  "source": "https://github.com/matplotlib/matplotlib.github.com",
+  "license": "Matplotlib License (PSF-based)",
+  "goal": "matplotlib.github.com 仓库 3.11.2 目录（官方构建 HTML，含 gallery）",
+  "order": 14,
+  "out": "official_docs/matplotlib_3.11.2_docs_html_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/matplotlib/matplotlib.github.com",
+   "paths": [
+    "3.11.2"
+   ],
+   "built_html": true,
+   "timeout": 7200
+  },
+  "expect": {
+   "min_docs": 1500,
+   "entry": "3.11.2/index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   8
+  ],
+  "complete": "完整",
+  "scope": "matplotlib.github.com 仓库 3.11.2 目录（官方构建 HTML，含 gallery）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "3.11.2/index.html"
+ },
+ {
+  "id": "03D05",
+  "cat": "03",
+  "cross": [],
+  "type": "docs",
+  "tool": "Jupyter",
+  "project": "Jupyter",
+  "title": "JupyterLab 4.6 官方文档",
+  "authors": "Project Jupyter",
+  "school": "",
+  "year": "",
+  "version": "4.6.5",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Jupyter",
+  "source": "https://github.com/jupyterlab/jupyterlab",
+  "license": "BSD-3-Clause",
+  "goal": "仓库 docs/source（用户指南/扩展开发，Sphinx 源；扩展 API 的 TypeDoc 参考需构建，未含）",
+  "order": 15,
+  "out": "official_docs/jupyterlab_4.6.5_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/jupyterlab/jupyterlab",
+   "ref": "v4.6.5",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 40,
+   "entry": "docs/source/index.rst"
+  },
+  "aspects": [
+   1,
+   2,
+   4,
+   5
+  ],
+  "complete": "部分",
+  "scope": "仓库 docs/source（用户指南/扩展开发，Sphinx 源；扩展 API 的 TypeDoc 参考需构建，未含）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "docs/source/index.rst"
+ },
+ {
+  "id": "03D06",
+  "cat": "03",
+  "cross": [],
+  "type": "docs",
+  "tool": "Jupyter",
+  "project": "Jupyter (docs.jupyter.org)",
+  "title": "Project Jupyter 总体文档（docs.jupyter.org）",
+  "authors": "Project Jupyter",
+  "school": "",
+  "year": "",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Jupyter",
+  "source": "https://github.com/jupyter/jupyter",
+  "license": "BSD-3-Clause",
+  "goal": "仓库 docs/source（安装、Notebook/Kernel/生态说明）",
+  "order": 16,
+  "out": "official_docs/jupyter_docs_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/jupyter/jupyter",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 10,
+   "entry": "docs/source/index.rst"
+  },
+  "aspects": [
+   1,
+   2,
+   5
+  ],
+  "complete": "完整",
+  "scope": "仓库 docs/source（安装、Notebook/Kernel/生态说明）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "docs/source/index.rst"
+ },
+ {
+  "id": "04D01",
+  "cat": "04",
+  "cross": [],
+  "type": "docs",
+  "tool": "scikit-learn",
+  "project": "scikit-learn",
+  "title": "scikit-learn 1.9 官方文档（用户指南、API、示例图库）",
+  "authors": "scikit-learn developers",
+  "school": "",
+  "year": "",
+  "version": "1.9",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "scikit-learn",
+  "source": "https://github.com/scikit-learn/scikit-learn.github.io",
+  "license": "BSD-3-Clause",
+  "goal": "scikit-learn.github.io 仓库 1.9 目录（官方构建 HTML，含 auto_examples 与模型持久化章节）",
+  "order": 20,
+  "out": "official_docs/scikit-learn_1.9_docs_html_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/scikit-learn/scikit-learn.github.io",
+   "paths": [
+    "1.9"
+   ],
+   "built_html": true,
+   "timeout": 7200
+  },
+  "expect": {
+   "min_docs": 1000,
+   "must_have": [
+    "model_persistence"
+   ],
+   "entry": "1.9/index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8
+  ],
+  "complete": "完整",
+  "scope": "scikit-learn.github.io 仓库 1.9 目录（官方构建 HTML，含 auto_examples 与模型持久化章节）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "1.9/index.html"
+ },
+ {
+  "id": "04X01",
+  "cat": "04",
+  "cross": [],
+  "type": "practice",
+  "tool": "scikit-learn",
+  "project": "scikit-learn",
+  "title": "scikit-learn 1.9.1 示例源码（examples/）",
+  "authors": "scikit-learn developers",
+  "school": "",
+  "year": "",
+  "version": "1.9.1",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "scikit-learn",
+  "source": "https://github.com/scikit-learn/scikit-learn",
+  "license": "BSD-3-Clause",
+  "goal": "仓库 examples/ 全部示例脚本",
+  "order": 21,
+  "out": "practice/scikit-learn_1.9.1_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/scikit-learn/scikit-learn",
+   "ref": "1.9.1",
+   "paths": [
+    "examples"
+   ]
+  },
+  "expect": {
+   "min_docs": 1,
+   "must_have": [
+    "examples/.*\\.py$"
+   ]
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "仓库 examples/ 全部示例脚本",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "04D02",
+  "cat": "04",
+  "cross": [],
+  "type": "docs",
+  "tool": "XGBoost",
+  "project": "XGBoost",
+  "title": "XGBoost 稳定版文档（PDF）",
+  "authors": "XGBoost Contributors / DMLC",
+  "school": "",
+  "year": "",
+  "version": "stable（PDF 内版本为准，对应 3.4.x）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "XGBoost",
+  "source": "https://xgboost.readthedocs.io/_/downloads/en/stable/pdf/",
+  "license": "Apache-2.0",
+  "goal": "Read the Docs 官方构建 PDF（全部章节含 Python API 参考）",
+  "order": 22,
+  "out": "official_docs/xgboost_stable_docs_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://xgboost.readthedocs.io/_/downloads/en/stable/pdf/"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "xgboost"
+   ],
+   "min_pages": 150
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "complete": "完整",
+  "scope": "Read the Docs 官方构建 PDF（全部章节含 Python API 参考）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "04X02",
+  "cat": "04",
+  "cross": [],
+  "type": "practice",
+  "tool": "XGBoost",
+  "project": "XGBoost",
+  "title": "XGBoost 3.4.2 示例与演示（demo/）",
+  "authors": "XGBoost Contributors",
+  "school": "",
+  "year": "",
+  "version": "3.4.2",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "XGBoost",
+  "source": "https://github.com/dmlc/xgboost",
+  "license": "Apache-2.0",
+  "goal": "仓库 demo/（指南示例脚本，不含大数据）",
+  "order": 23,
+  "out": "practice/xgboost_3.4.2_demo_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/dmlc/xgboost",
+   "ref": "v3.4.2",
+   "paths": [
+    "demo"
+   ]
+  },
+  "expect": {
+   "must_have": [
+    "demo/guide-python/"
+   ]
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "仓库 demo/（指南示例脚本，不含大数据）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "04D03",
+  "cat": "04",
+  "cross": [],
+  "type": "docs",
+  "tool": "LightGBM",
+  "project": "LightGBM",
+  "title": "LightGBM 稳定版文档（PDF）",
+  "authors": "Microsoft",
+  "school": "",
+  "year": "",
+  "version": "stable（PDF 内版本为准，对应 4.7.x）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "LightGBM",
+  "source": "https://lightgbm.readthedocs.io/_/downloads/en/stable/pdf/",
+  "license": "MIT",
+  "goal": "Read the Docs 官方构建 PDF（参数、Python API、调参、GPU）",
+  "order": 24,
+  "out": "official_docs/lightgbm_stable_docs_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://lightgbm.readthedocs.io/_/downloads/en/stable/pdf/"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "lightgbm"
+   ],
+   "min_pages": 80
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "complete": "完整",
+  "scope": "Read the Docs 官方构建 PDF（参数、Python API、调参、GPU）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "04X03",
+  "cat": "04",
+  "cross": [],
+  "type": "practice",
+  "tool": "LightGBM",
+  "project": "LightGBM",
+  "title": "LightGBM 4.7.0 示例（examples/）",
+  "authors": "Microsoft",
+  "school": "",
+  "year": "",
+  "version": "4.7.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "LightGBM",
+  "source": "https://github.com/microsoft/LightGBM",
+  "license": "MIT",
+  "goal": "仓库 examples/",
+  "order": 25,
+  "out": "practice/lightgbm_4.7.0_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/microsoft/LightGBM",
+   "ref": "v4.7.0",
+   "paths": [
+    "examples"
+   ]
+  },
+  "expect": {
+   "must_have": [
+    "examples/python-guide"
+   ]
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "仓库 examples/",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "04D04",
+  "cat": "04",
+  "cross": [],
+  "type": "docs",
+  "tool": "CatBoost",
+  "project": "CatBoost",
+  "title": "CatBoost 1.2.10 官方文档源（英文）",
+  "authors": "Yandex / CatBoost",
+  "school": "",
+  "year": "",
+  "version": "1.2.10",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "CatBoost",
+  "source": "https://github.com/catboost/catboost",
+  "license": "Apache-2.0",
+  "goal": "仓库 catboost/docs/en（YFM Markdown，catboost.ai/docs 的源；参数与 Python API 页为手写 Markdown）",
+  "order": 26,
+  "out": "official_docs/catboost_1.2.10_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/catboost/catboost",
+   "ref": "v1.2.10",
+   "paths": [
+    "catboost/docs/en"
+   ]
+  },
+  "expect": {
+   "min_docs": 200,
+   "entry": "catboost/docs/en/index.md"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "complete": "完整",
+  "scope": "仓库 catboost/docs/en（YFM Markdown，catboost.ai/docs 的源；参数与 Python API 页为手写 Markdown）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "catboost/docs/en/index.md"
+ },
+ {
+  "id": "04X04",
+  "cat": "04",
+  "cross": [],
+  "type": "practice",
+  "tool": "CatBoost",
+  "project": "CatBoost",
+  "title": "CatBoost 官方教程（catboost/tutorials）",
+  "authors": "Yandex / CatBoost",
+  "school": "",
+  "year": "",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "CatBoost",
+  "source": "https://github.com/catboost/tutorials",
+  "license": "Apache-2.0",
+  "goal": "完整教程仓库（笔记本）",
+  "order": 27,
+  "out": "practice/catboost_tutorials_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/catboost/tutorials"
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "aspects": [
+   4,
+   8
+  ],
+  "complete": "完整",
+  "scope": "完整教程仓库（笔记本）",
+  "material": "官方示例/教程源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "04D05",
+  "cat": "04",
+  "cross": [],
+  "type": "docs",
+  "tool": "MLflow",
+  "project": "MLflow",
+  "title": "MLflow 3.17.2 文档源（Docusaurus）",
+  "authors": "MLflow Project (LF AI & Data)",
+  "school": "",
+  "year": "",
+  "version": "3.17.2",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "MLflow",
+  "source": "https://github.com/mlflow/mlflow",
+  "license": "Apache-2.0",
+  "goal": "docs/docs（经典 ML 与 GenAI 指南、部署、模型格式）+ docs/api_reference/source（Sphinx 源；API 正文由 docstring 生成，未含）",
+  "order": 40,
+  "out": "official_docs/mlflow_3.17.2_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/mlflow/mlflow",
+   "ref": "v3.17.2",
+   "paths": [
+    "docs/docs",
+    "docs/api_reference/source"
+   ]
+  },
+  "expect": {
+   "min_docs": 200,
+   "entry": "docs/docs/classic-ml/index.mdx"
+  },
+  "aspects": [
+   1,
+   2,
+   4,
+   5,
+   6
+  ],
+  "complete": "部分",
+  "scope": "docs/docs（经典 ML 与 GenAI 指南、部署、模型格式）+ docs/api_reference/source（Sphinx 源；API 正文由 docstring 生成，未含）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "docs/docs/classic-ml/index.mdx"
+ },
+ {
+  "id": "04X05",
+  "cat": "04",
+  "cross": [],
+  "type": "practice",
+  "tool": "MLflow",
+  "project": "MLflow",
+  "title": "MLflow 3.17.2 示例（examples/）",
+  "authors": "MLflow Project",
+  "school": "",
+  "year": "",
+  "version": "3.17.2",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "MLflow",
+  "source": "https://github.com/mlflow/mlflow",
+  "license": "Apache-2.0",
+  "goal": "仓库 examples/",
+  "order": 41,
+  "out": "practice/mlflow_3.17.2_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/mlflow/mlflow",
+   "ref": "v3.17.2",
+   "paths": [
+    "examples"
+   ]
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "仓库 examples/",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "04D06",
+  "cat": "04",
+  "cross": [],
+  "type": "docs",
+  "tool": "DVC",
+  "project": "DVC",
+  "title": "DVC 官方文档源（dvc.org 仓库 content/docs）",
+  "authors": "Iterative / DVC 维护方",
+  "school": "",
+  "year": "",
+  "version": "main 提交（对应 DVC 3.67.x）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "DVC",
+  "source": "https://github.com/iterative/dvc.org",
+  "license": "Apache-2.0",
+  "goal": "content/docs：安装、入门、用户指南、命令参考（全部为手写 Markdown）",
+  "order": 42,
+  "out": "official_docs/dvc_docs_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/iterative/dvc.org",
+   "paths": [
+    "content/docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 150,
+   "must_have": [
+    "content/docs/command-reference"
+   ],
+   "entry": "content/docs/index.md"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "complete": "完整",
+  "scope": "content/docs：安装、入门、用户指南、命令参考（全部为手写 Markdown）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "content/docs/index.md"
+ },
+ {
+  "id": "04X06",
+  "cat": "04",
+  "cross": [],
+  "type": "practice",
+  "tool": "DVC",
+  "project": "DVC",
+  "title": "DVC 入门示例项目（example-get-started）",
+  "authors": "Iterative",
+  "school": "",
+  "year": "",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "DVC",
+  "source": "https://github.com/iterative/example-get-started",
+  "license": "Apache-2.0",
+  "goal": "完整仓库（DVC 管线示例，数据指针不含数据）",
+  "order": 43,
+  "out": "practice/dvc_example_get_started_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/iterative/example-get-started"
+  },
+  "expect": {
+   "min_docs": 1
+  },
+  "aspects": [
+   4,
+   8
+  ],
+  "complete": "完整",
+  "scope": "完整仓库（DVC 管线示例，数据指针不含数据）",
+  "material": "官方示例项目",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "04D07",
+  "cat": "04",
+  "cross": [],
+  "type": "docs",
+  "tool": "Weights & Biases",
+  "project": "Weights & Biases",
+  "title": "W&B 官方文档源（wandb/docs）",
+  "authors": "Weights & Biases（CoreWeave 旗下）",
+  "school": "",
+  "year": "",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Weights & Biases",
+  "source": "https://github.com/wandb/docs",
+  "license": "Apache-2.0（以仓库 LICENSE 为准）",
+  "goal": "wandb/docs 仓库英文主体（Mintlify MDX；SDK 参考 ref/ 已生成提交）",
+  "order": 44,
+  "out": "official_docs/wandb_docs_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/wandb/docs",
+   "paths": [
+    "models",
+    "guides",
+    "ref",
+    "get-started.mdx",
+    "index.mdx",
+    "quickstart.mdx",
+    "tutorials",
+    "support",
+    "platform"
+   ]
+  },
+  "expect": {
+   "min_docs": 200
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "complete": "完整",
+  "scope": "wandb/docs 仓库英文主体（Mintlify MDX；SDK 参考 ref/ 已生成提交）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "04X07",
+  "cat": "04",
+  "cross": [],
+  "type": "practice",
+  "tool": "Weights & Biases",
+  "project": "Weights & Biases",
+  "title": "W&B 官方示例（wandb/examples）",
+  "authors": "Weights & Biases",
+  "school": "",
+  "year": "",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Weights & Biases",
+  "source": "https://github.com/wandb/examples",
+  "license": "MIT",
+  "goal": "完整示例仓库（笔记本与脚本）",
+  "order": 45,
+  "out": "practice/wandb_examples_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/wandb/examples"
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "aspects": [
+   4,
+   8
+  ],
+  "complete": "完整",
+  "scope": "完整示例仓库（笔记本与脚本）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "04D08",
+  "cat": "04",
+  "cross": [
+   "05"
+  ],
+  "type": "docs",
+  "tool": "TensorBoard",
+  "project": "TensorBoard",
+  "title": "TensorBoard 2.21.0 官方指南（docs/）",
+  "authors": "TensorFlow Authors",
+  "school": "",
+  "year": "",
+  "version": "2.21.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "TensorBoard",
+  "source": "https://github.com/tensorflow/tensorboard",
+  "license": "Apache-2.0",
+  "goal": "仓库 docs/：入门、标量/图像/图/超参/性能剖析笔记本与调试器 V2 指南",
+  "order": 46,
+  "out": "official_docs/tensorboard_2.21.0_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/tensorflow/tensorboard",
+   "ref": "2.21.0",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 10,
+   "entry": "docs/get_started.ipynb"
+  },
+  "aspects": [
+   1,
+   2,
+   4,
+   5
+  ],
+  "complete": "完整",
+  "scope": "仓库 docs/：入门、标量/图像/图/超参/性能剖析笔记本与调试器 V2 指南",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "docs/get_started.ipynb"
+ },
+ {
+  "id": "05D01",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "PyTorch",
+  "project": "PyTorch",
+  "title": "PyTorch 2.15 官方文档（含 torch.distributed、torch.export、ONNX 导出、profiler、编译）",
+  "authors": "PyTorch Foundation",
+  "school": "",
+  "year": "",
+  "version": "2.15",
+  "lang": "en",
+  "level": "入门-高级",
+  "prereq": "Python 基础",
+  "stack": "PyTorch",
+  "source": "https://github.com/pytorch/docs",
+  "license": "BSD-3-Clause",
+  "goal": "pytorch/docs 仓库（docs.pytorch.org 发布分支）2.15 目录的官方构建 HTML",
+  "order": 1,
+  "out": "official_docs/pytorch_2.15_docs_html_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/pytorch/docs",
+   "ref": "site",
+   "paths": [
+    "2.15"
+   ],
+   "built_html": true,
+   "timeout": 7200
+  },
+  "expect": {
+   "min_docs": 1500,
+   "must_have": [
+    "2.15/distributed",
+    "2.15/export",
+    "2.15/onnx",
+    "2.15/profiler"
+   ],
+   "entry": "2.15/index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   5,
+   6
+  ],
+  "complete": "完整",
+  "scope": "pytorch/docs 仓库（docs.pytorch.org 发布分支）2.15 目录的官方构建 HTML",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "2.15/index.html"
+ },
+ {
+  "id": "05D02",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "PyTorch",
+  "project": "PyTorch Tutorials",
+  "title": "PyTorch 官方教程（构建 HTML，含入门、分布式、导出、性能剖析）",
+  "authors": "PyTorch Foundation",
+  "school": "",
+  "year": "",
+  "version": "gh-pages 提交（按提交日期记录）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "PyTorch",
+  "source": "https://github.com/pytorch/tutorials",
+  "license": "BSD-3-Clause",
+  "goal": "docs.pytorch.org/tutorials 发布分支的构建 HTML（不含 _downloads 下的笔记本压缩包）",
+  "order": 2,
+  "out": "official_docs/pytorch_tutorials_html_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/pytorch/tutorials",
+   "ref": "gh-pages",
+   "paths": [
+    "*.html",
+    "_static",
+    "_images",
+    "_sources",
+    "beginner",
+    "intermediate",
+    "advanced",
+    "recipes",
+    "prototype",
+    "unstable",
+    "_sphinx_design_static"
+   ],
+   "built_html": true,
+   "timeout": 7200
+  },
+  "expect": {
+   "min_docs": 200,
+   "max_broken": 0.1,
+   "entry": "index.html"
+  },
+  "aspects": [
+   1,
+   4,
+   5,
+   6,
+   7
+  ],
+  "complete": "完整",
+  "scope": "docs.pytorch.org/tutorials 发布分支的构建 HTML（不含 _downloads 下的笔记本压缩包）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "index.html"
+ },
+ {
+  "id": "05X01",
+  "cat": "05",
+  "cross": [],
+  "type": "practice",
+  "tool": "PyTorch",
+  "project": "PyTorch",
+  "title": "PyTorch 官方示例（pytorch/examples）",
+  "authors": "PyTorch Foundation",
+  "school": "",
+  "year": "",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "PyTorch",
+  "source": "https://github.com/pytorch/examples",
+  "license": "BSD-3-Clause",
+  "goal": "完整仓库（MNIST、ImageNet、DDP/FSDP、C++ 前端等）",
+  "order": 3,
+  "out": "practice/pytorch_examples_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/pytorch/examples"
+  },
+  "expect": {
+   "must_have": [
+    "distributed/"
+   ]
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "完整仓库（MNIST、ImageNet、DDP/FSDP、C++ 前端等）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05D03",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "torchvision",
+  "project": "torchvision",
+  "title": "torchvision 0.29 官方文档",
+  "authors": "PyTorch Foundation",
+  "school": "",
+  "year": "",
+  "version": "0.29",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "torchvision",
+  "source": "https://github.com/pytorch/vision",
+  "license": "BSD-3-Clause",
+  "goal": "pytorch/vision gh-pages 0.29 目录（构建 HTML，含 transforms v2 与 gallery）",
+  "order": 4,
+  "out": "official_docs/torchvision_0.29_docs_html_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/pytorch/vision",
+   "ref": "gh-pages",
+   "paths": [
+    "0.29"
+   ],
+   "built_html": true
+  },
+  "expect": {
+   "min_docs": 200,
+   "entry": "0.29/index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   8
+  ],
+  "complete": "完整",
+  "scope": "pytorch/vision gh-pages 0.29 目录（构建 HTML，含 transforms v2 与 gallery）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "0.29/index.html"
+ },
+ {
+  "id": "05D04",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "torchaudio",
+  "project": "torchaudio",
+  "title": "torchaudio 2.11 官方文档",
+  "authors": "PyTorch Foundation",
+  "school": "",
+  "year": "",
+  "version": "2.11",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "torchaudio",
+  "source": "https://github.com/pytorch/audio",
+  "license": "BSD-2-Clause",
+  "goal": "pytorch/audio gh-pages 2.11 目录（构建 HTML）",
+  "order": 5,
+  "out": "official_docs/torchaudio_2.11_docs_html_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/pytorch/audio",
+   "ref": "gh-pages",
+   "paths": [
+    "2.11"
+   ],
+   "built_html": true
+  },
+  "expect": {
+   "min_docs": 50,
+   "entry": "2.11/index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "complete": "完整",
+  "scope": "pytorch/audio gh-pages 2.11 目录（构建 HTML）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "torchaudio 自 2.8 起进入维护期并移除/迁移大量功能（解码迁至 TorchCodec），以文档内说明为准",
+  "entry": "2.11/index.html"
+ },
+ {
+  "id": "05D05",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "TensorFlow",
+  "project": "TensorFlow",
+  "title": "TensorFlow 官方指南与教程源（tensorflow/docs site/en）",
+  "authors": "TensorFlow Authors / Google",
+  "school": "",
+  "year": "",
+  "version": "master 提交（对应 TF 2.21）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "TensorFlow",
+  "source": "https://github.com/tensorflow/docs",
+  "license": "Apache-2.0",
+  "goal": "site/en/guide、tutorials、install（笔记本与 Markdown，含 SavedModel、分布式、性能剖析、TF Lite 导出）",
+  "order": 10,
+  "out": "official_docs/tensorflow_docs_guides_master_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/tensorflow/docs",
+   "paths": [
+    "site/en/guide",
+    "site/en/tutorials",
+    "site/en/install",
+    "site/en/README.md"
+   ]
+  },
+  "expect": {
+   "min_docs": 150,
+   "must_have": [
+    "saved_model",
+    "distributed"
+   ]
+  },
+  "aspects": [
+   1,
+   2,
+   4,
+   5,
+   6
+  ],
+  "complete": "完整",
+  "scope": "site/en/guide、tutorials、install（笔记本与 Markdown，含 SavedModel、分布式、性能剖析、TF Lite 导出）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05D06",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "TensorFlow",
+  "project": "TensorFlow",
+  "title": "TensorFlow Python API 参考（tensorflow.org/api_docs/python 离线镜像）",
+  "authors": "TensorFlow Authors / Google",
+  "school": "",
+  "year": "",
+  "version": "tensorflow.org 当前稳定版（镜像页内版本为准，对应 2.21）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "TensorFlow",
+  "source": "https://www.tensorflow.org/api_docs/python/tf",
+  "license": "Apache-2.0",
+  "goal": "tensorflow.org/api_docs/python 下的全部 API 页（不含图片；语言切换参数页排除）",
+  "order": 11,
+  "out": "official_docs/tensorflow_api_docs_python_mirror_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://www.tensorflow.org/api_docs/python/tf",
+   "quota_mb": 1500,
+   "level": "inf",
+   "wait": 0.2,
+   "include": [
+    "/api_docs/python",
+    "/static",
+    "/_static"
+   ],
+   "reject_regex": "(\\?hl=|\\?authuser=|/_d/|/s/opensearch|\\.(png|jpg|gif|svg)$)"
+  },
+  "expect": {
+   "min_docs": 2000,
+   "max_broken": 0.1,
+   "entry": "api_docs/python/tf.html"
+  },
+  "aspects": [
+   3
+  ],
+  "complete": "完整",
+  "scope": "tensorflow.org/api_docs/python 下的全部 API 页（不含图片；语言切换参数页排除）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "api_docs/python/tf.html"
+ },
+ {
+  "id": "05D07",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "Keras",
+  "project": "Keras",
+  "title": "Keras 3 官方指南与示例源（keras-io）",
+  "authors": "Keras Team / Google",
+  "school": "",
+  "year": "",
+  "version": "master 提交（对应 Keras 3.15）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Keras",
+  "source": "https://github.com/keras-team/keras-io",
+  "license": "Apache-2.0",
+  "goal": "guides/、examples/（.py 源 + 生成的 .md）、templates/（入门与 API 页模板）",
+  "order": 12,
+  "out": "official_docs/keras_io_master_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/keras-team/keras-io",
+   "paths": [
+    "guides",
+    "examples",
+    "templates"
+   ]
+  },
+  "expect": {
+   "min_docs": 200,
+   "must_have": [
+    "guides/md/",
+    "examples/vision/md/"
+   ]
+  },
+  "aspects": [
+   1,
+   2,
+   4,
+   5,
+   6,
+   8
+  ],
+  "complete": "完整",
+  "scope": "guides/、examples/（.py 源 + 生成的 .md）、templates/（入门与 API 页模板）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05D08",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "Keras",
+  "project": "Keras",
+  "title": "Keras 3 API 参考（keras.io/api 离线镜像）",
+  "authors": "Keras Team / Google",
+  "school": "",
+  "year": "",
+  "version": "keras.io 当前版本（3.15）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Keras",
+  "source": "https://keras.io/api/",
+  "license": "Apache-2.0",
+  "goal": "keras.io/api/ 全部 API 页面 + 入门页",
+  "order": 13,
+  "out": "official_docs/keras_api_reference_mirror_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://keras.io/api/",
+   "quota_mb": 400,
+   "level": "inf",
+   "wait": 0.3,
+   "include": [
+    "/api",
+    "/css",
+    "/js",
+    "/img",
+    "/getting_started"
+   ]
+  },
+  "expect": {
+   "min_docs": 200,
+   "max_broken": 0.1,
+   "entry": "api/index.html"
+  },
+  "aspects": [
+   1,
+   3,
+   6
+  ],
+  "complete": "完整",
+  "scope": "keras.io/api/ 全部 API 页面 + 入门页",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "api/index.html"
+ },
+ {
+  "id": "05D09",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "JAX",
+  "project": "JAX",
+  "title": "JAX 官方文档（Read the Docs HTML 包）",
+  "authors": "JAX Authors / Google",
+  "school": "",
+  "year": "",
+  "version": "latest（构建内版本为准，对应 jax 0.12）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "JAX",
+  "source": "https://docs.jax.dev/_/downloads/en/latest/htmlzip/",
+  "license": "Apache-2.0",
+  "goal": "Read the Docs 官方 HTML 包（教程、sharding/分布式、API 参考、导出与序列化）",
+  "order": 14,
+  "out": "official_docs/jax_latest_docs_html_en.zip",
+  "get": {
+   "kind": "file",
+   "urls": [
+    "https://docs.jax.dev/_/downloads/en/latest/htmlzip/"
+   ],
+   "max_mb": 800
+  },
+  "expect": {
+   "min_docs": 200,
+   "link_check": false,
+   "entry": "index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "complete": "完整",
+  "scope": "Read the Docs 官方 HTML 包（教程、sharding/分布式、API 参考、导出与序列化）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "index.html"
+ },
+ {
+  "id": "05D10",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "OpenCV",
+  "project": "OpenCV",
+  "title": "OpenCV 5.0.0 官方文档（Doxygen HTML 包，含 Python 教程）",
+  "authors": "OpenCV team",
+  "school": "",
+  "year": "",
+  "version": "5.0.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "OpenCV",
+  "source": "https://github.com/opencv/opencv/releases/download/5.0.0/opencv-5.0.0-docs.zip",
+  "license": "Apache-2.0",
+  "goal": "GitHub release 附带的完整文档包（模块 API、C++/Python 教程、DNN 模块 ONNX 导入）",
+  "order": 20,
+  "out": "official_docs/opencv_5.0.0_docs_html_en.zip",
+  "get": {
+   "kind": "file",
+   "urls": [
+    "https://github.com/opencv/opencv/releases/download/5.0.0/opencv-5.0.0-docs.zip"
+   ],
+   "max_mb": 800
+  },
+  "expect": {
+   "min_docs": 2000,
+   "link_check": false,
+   "entry": "index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "complete": "完整",
+  "scope": "GitHub release 附带的完整文档包（模块 API、C++/Python 教程、DNN 模块 ONNX 导入）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "index.html"
+ },
+ {
+  "id": "05X02",
+  "cat": "05",
+  "cross": [],
+  "type": "practice",
+  "tool": "OpenCV",
+  "project": "OpenCV",
+  "title": "OpenCV 5.0.0 示例（samples/）",
+  "authors": "OpenCV team",
+  "school": "",
+  "year": "",
+  "version": "5.0.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "OpenCV",
+  "source": "https://github.com/opencv/opencv",
+  "license": "Apache-2.0",
+  "goal": "仓库 samples/（python、cpp、dnn 示例；大于 5MB 的数据文件剔除）",
+  "order": 21,
+  "out": "practice/opencv_5.0.0_samples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/opencv/opencv",
+   "ref": "5.0.0",
+   "paths": [
+    "samples"
+   ]
+  },
+  "expect": {
+   "must_have": [
+    "samples/python/"
+   ]
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "仓库 samples/（python、cpp、dnn 示例；大于 5MB 的数据文件剔除）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05D11",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "Pillow",
+  "project": "Pillow",
+  "title": "Pillow 稳定版文档（PDF）",
+  "authors": "Jeffrey A. Clark and contributors",
+  "school": "",
+  "year": "",
+  "version": "stable（PDF 内版本为准，对应 13.0）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Pillow",
+  "source": "https://pillow.readthedocs.io/_/downloads/en/stable/pdf/",
+  "license": "MIT-CMU",
+  "goal": "Read the Docs 官方构建 PDF（手册、参考、图像格式）",
+  "order": 22,
+  "out": "official_docs/pillow_stable_docs_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://pillow.readthedocs.io/_/downloads/en/stable/pdf/"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "pillow"
+   ],
+   "min_pages": 100
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "complete": "完整",
+  "scope": "Read the Docs 官方构建 PDF（手册、参考、图像格式）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05D12",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "Albumentations",
+  "project": "Albumentations",
+  "title": "Albumentations 2.0.8 文档源与 README（原项目，已转维护）",
+  "authors": "Albumentations Team",
+  "school": "",
+  "year": "",
+  "version": "2.0.8",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Albumentations",
+  "source": "https://github.com/albumentations-team/albumentations",
+  "license": "MIT",
+  "goal": "仓库 README 与 docs/（变换列表与贡献说明；albumentations.ai 在线文档已转向 AlbumentationsX，未整站保存）",
+  "order": 23,
+  "out": "official_docs/albumentations_2.0.8_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/albumentations-team/albumentations",
+   "ref": "2.0.8",
+   "paths": [
+    "docs",
+    "README.md"
+   ]
+  },
+  "expect": {
+   "min_docs": 2
+  },
+  "aspects": [
+   1,
+   2,
+   4
+  ],
+  "complete": "部分",
+  "scope": "仓库 README 与 docs/（变换列表与贡献说明；albumentations.ai 在线文档已转向 AlbumentationsX，未整站保存）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "原 albumentations 仓库已停止活跃开发，后续版本以 AlbumentationsX（AGPL-3.0/商业双许可）发布，执行时以 README 声明为准",
+  "entry": ""
+ },
+ {
+  "id": "05D13",
+  "cat": "05",
+  "cross": [],
+  "type": "practice",
+  "tool": "Albumentations",
+  "project": "AlbumentationsX",
+  "title": "AlbumentationsX 2.5.1 源码仓库（含 README 与示例）",
+  "authors": "Albumentations Team",
+  "school": "",
+  "year": "",
+  "version": "2.5.1",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Albumentations",
+  "source": "https://github.com/albumentations-team/AlbumentationsX",
+  "license": "AGPL-3.0 / 商业双许可（以仓库为准）",
+  "goal": "完整源码仓库（README、docs、benchmark；在线文档未整站保存）",
+  "order": 24,
+  "out": "practice/albumentationsx_2.5.1_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/albumentations-team/AlbumentationsX",
+   "ref": "2.5.1"
+  },
+  "expect": {
+   "min_docs": 2
+  },
+  "aspects": [
+   1,
+   8
+  ],
+  "complete": "部分",
+  "scope": "完整源码仓库（README、docs、benchmark；在线文档未整站保存）",
+  "material": "官方源码与示例",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05D20",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "Transformers",
+  "project": "Transformers",
+  "title": "Hugging Face Transformers 文档（含 API、导出与推理部署） v5.22.0",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "v5.22.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Transformers",
+  "source": "",
+  "license": "Apache-2.0",
+  "goal": "hf-doc-build 官方构建包 transformers/v5.22.0.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "order": 30,
+  "out": "official_docs/hf_transformers_v5.22.0_docs_built_en.zip",
+  "get": {
+   "kind": "hfdoc",
+   "lib": "transformers",
+   "ver": "v5.22.0"
+  },
+  "expect": {
+   "min_docs": 20,
+   "must_have": [
+    "main_classes"
+   ]
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "complete": "完整",
+  "scope": "hf-doc-build 官方构建包 transformers/v5.22.0.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05D21",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "Datasets",
+  "project": "Datasets",
+  "title": "Hugging Face Datasets 文档 v5.1.0",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "v5.1.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Datasets",
+  "source": "",
+  "license": "Apache-2.0",
+  "goal": "hf-doc-build 官方构建包 datasets/v5.1.0.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "order": 31,
+  "out": "official_docs/hf_datasets_v5.1.0_docs_built_en.zip",
+  "get": {
+   "kind": "hfdoc",
+   "lib": "datasets",
+   "ver": "v5.1.0"
+  },
+  "expect": {
+   "min_docs": 20,
+   "must_have": [
+    "package_reference"
+   ]
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "complete": "完整",
+  "scope": "hf-doc-build 官方构建包 datasets/v5.1.0.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05D22",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "Tokenizers",
+  "project": "Tokenizers",
+  "title": "Hugging Face Tokenizers 文档 v0.23.3",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "v0.23.3",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Tokenizers",
+  "source": "",
+  "license": "Apache-2.0",
+  "goal": "hf-doc-build 官方构建包 tokenizers/v0.23.3.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "order": 32,
+  "out": "official_docs/hf_tokenizers_v0.23.3_docs_built_en.zip",
+  "get": {
+   "kind": "hfdoc",
+   "lib": "tokenizers",
+   "ver": "v0.23.3"
+  },
+  "expect": {
+   "min_docs": 20,
+   "must_have": [
+    "api"
+   ]
+  },
+  "aspects": [
+   1,
+   2,
+   3
+  ],
+  "complete": "完整",
+  "scope": "hf-doc-build 官方构建包 tokenizers/v0.23.3.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05D23",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "Accelerate",
+  "project": "Accelerate",
+  "title": "Hugging Face Accelerate 文档（分布式、FSDP/DeepSpeed 集成、调试） v1.15.0",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "v1.15.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Accelerate",
+  "source": "",
+  "license": "Apache-2.0",
+  "goal": "hf-doc-build 官方构建包 accelerate/v1.15.0.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "order": 33,
+  "out": "official_docs/hf_accelerate_v1.15.0_docs_built_en.zip",
+  "get": {
+   "kind": "hfdoc",
+   "lib": "accelerate",
+   "ver": "v1.15.0"
+  },
+  "expect": {
+   "min_docs": 20,
+   "must_have": [
+    "package_reference"
+   ]
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "complete": "完整",
+  "scope": "hf-doc-build 官方构建包 accelerate/v1.15.0.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05D24",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "PEFT",
+  "project": "PEFT",
+  "title": "Hugging Face PEFT 文档（LoRA 等参数高效微调） v0.21.0",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "v0.21.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "PEFT",
+  "source": "",
+  "license": "Apache-2.0",
+  "goal": "hf-doc-build 官方构建包 peft/v0.21.0.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "order": 34,
+  "out": "official_docs/hf_peft_v0.21.0_docs_built_en.zip",
+  "get": {
+   "kind": "hfdoc",
+   "lib": "peft",
+   "ver": "v0.21.0"
+  },
+  "expect": {
+   "min_docs": 20,
+   "must_have": [
+    "package_reference"
+   ]
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "complete": "完整",
+  "scope": "hf-doc-build 官方构建包 peft/v0.21.0.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05D25",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "TRL",
+  "project": "TRL",
+  "title": "Hugging Face TRL 文档（SFT/DPO/GRPO 等训练器） v1.17.0",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "v1.17.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "TRL",
+  "source": "",
+  "license": "Apache-2.0",
+  "goal": "hf-doc-build 官方构建包 trl/v1.17.0.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "order": 35,
+  "out": "official_docs/hf_trl_v1.17.0_docs_built_en.zip",
+  "get": {
+   "kind": "hfdoc",
+   "lib": "trl",
+   "ver": "v1.17.0"
+  },
+  "expect": {
+   "min_docs": 20,
+   "must_have": [
+    "trainer"
+   ]
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "complete": "完整",
+  "scope": "hf-doc-build 官方构建包 trl/v1.17.0.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05D26",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "Diffusers",
+  "project": "Diffusers",
+  "title": "Hugging Face Diffusers 文档 v0.42.1",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "v0.42.1",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Diffusers",
+  "source": "",
+  "license": "Apache-2.0",
+  "goal": "hf-doc-build 官方构建包 diffusers/v0.42.1.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "order": 36,
+  "out": "official_docs/hf_diffusers_v0.42.1_docs_built_en.zip",
+  "get": {
+   "kind": "hfdoc",
+   "lib": "diffusers",
+   "ver": "v0.42.1"
+  },
+  "expect": {
+   "min_docs": 20,
+   "must_have": [
+    "api/"
+   ]
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "complete": "完整",
+  "scope": "hf-doc-build 官方构建包 diffusers/v0.42.1.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05D27",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "Evaluate",
+  "project": "Evaluate",
+  "title": "Hugging Face Evaluate 文档 v0.4.6",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "v0.4.6",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Evaluate",
+  "source": "",
+  "license": "Apache-2.0",
+  "goal": "hf-doc-build 官方构建包 evaluate/v0.4.6.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "order": 37,
+  "out": "official_docs/hf_evaluate_v0.4.6_docs_built_en.zip",
+  "get": {
+   "kind": "hfdoc",
+   "lib": "evaluate",
+   "ver": "v0.4.6"
+  },
+  "expect": {
+   "min_docs": 20,
+   "must_have": [
+    "package_reference"
+   ]
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "complete": "完整",
+  "scope": "hf-doc-build 官方构建包 evaluate/v0.4.6.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "Evaluate 官方已推荐新项目改用 LightEval 等工具，库仍可用（以文档首页声明为准）",
+  "entry": ""
+ },
+ {
+  "id": "05D28",
+  "cat": "05",
+  "cross": [],
+  "type": "docs",
+  "tool": "Hub 客户端（huggingface_hub）",
+  "project": "Hub 客户端（huggingface_hub）",
+  "title": "Hugging Face huggingface_hub 客户端文档 v2.4.0",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "v2.4.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Hub 客户端（huggingface_hub）",
+  "source": "",
+  "license": "Apache-2.0",
+  "goal": "hf-doc-build 官方构建包 huggingface_hub/v2.4.0.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "order": 38,
+  "out": "official_docs/hf_huggingface_hub_v2.4.0_docs_built_en.zip",
+  "get": {
+   "kind": "hfdoc",
+   "lib": "huggingface_hub",
+   "ver": "v2.4.0"
+  },
+  "expect": {
+   "min_docs": 20,
+   "must_have": [
+    "package_reference"
+   ]
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "complete": "完整",
+  "scope": "hf-doc-build 官方构建包 huggingface_hub/v2.4.0.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05X10",
+  "cat": "05",
+  "cross": [],
+  "type": "practice",
+  "tool": "Transformers",
+  "project": "Transformers",
+  "title": "Transformers v5.22.0 官方示例脚本（examples/）",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "v5.22.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Transformers",
+  "source": "https://github.com/huggingface/transformers",
+  "license": "Apache-2.0",
+  "goal": "官方仓库示例目录（不下载模型权重/数据集）",
+  "order": 40,
+  "out": "practice/hf_transformers_v5.22.0_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/huggingface/transformers",
+   "ref": "v5.22.0",
+   "paths": [
+    "examples"
+   ]
+  },
+  "expect": {
+   "min_docs": 1
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "官方仓库示例目录（不下载模型权重/数据集）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05X11",
+  "cat": "05",
+  "cross": [],
+  "type": "practice",
+  "tool": "Transformers",
+  "project": "Transformers",
+  "title": "Hugging Face 官方笔记本（huggingface/notebooks）",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Transformers",
+  "source": "https://github.com/huggingface/notebooks",
+  "license": "Apache-2.0",
+  "goal": "官方仓库示例目录（不下载模型权重/数据集）",
+  "order": 41,
+  "out": "practice/hf_notebooks_main_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/huggingface/notebooks"
+  },
+  "expect": {
+   "min_docs": 1
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "官方仓库示例目录（不下载模型权重/数据集）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05X12",
+  "cat": "05",
+  "cross": [],
+  "type": "practice",
+  "tool": "Diffusers",
+  "project": "Diffusers",
+  "title": "Diffusers v0.42.1 训练/推理示例（examples/）",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "v0.42.1",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Diffusers",
+  "source": "https://github.com/huggingface/diffusers",
+  "license": "Apache-2.0",
+  "goal": "官方仓库示例目录（不下载模型权重/数据集）",
+  "order": 42,
+  "out": "practice/hf_diffusers_v0.42.1_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/huggingface/diffusers",
+   "ref": "v0.42.1",
+   "paths": [
+    "examples"
+   ]
+  },
+  "expect": {
+   "min_docs": 1
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "官方仓库示例目录（不下载模型权重/数据集）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05X13",
+  "cat": "05",
+  "cross": [],
+  "type": "practice",
+  "tool": "PEFT",
+  "project": "PEFT",
+  "title": "PEFT v0.21.2 示例（examples/）",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "v0.21.2",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "PEFT",
+  "source": "https://github.com/huggingface/peft",
+  "license": "Apache-2.0",
+  "goal": "官方仓库示例目录（不下载模型权重/数据集）",
+  "order": 43,
+  "out": "practice/hf_peft_v0.21.2_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/huggingface/peft",
+   "ref": "v0.21.2",
+   "paths": [
+    "examples"
+   ]
+  },
+  "expect": {
+   "min_docs": 1
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "官方仓库示例目录（不下载模型权重/数据集）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05X14",
+  "cat": "05",
+  "cross": [],
+  "type": "practice",
+  "tool": "TRL",
+  "project": "TRL",
+  "title": "TRL v1.17.0 示例（examples/）",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "v1.17.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "TRL",
+  "source": "https://github.com/huggingface/trl",
+  "license": "Apache-2.0",
+  "goal": "官方仓库示例目录（不下载模型权重/数据集）",
+  "order": 44,
+  "out": "practice/hf_trl_v1.17.0_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/huggingface/trl",
+   "ref": "v1.17.0",
+   "paths": [
+    "examples"
+   ]
+  },
+  "expect": {
+   "min_docs": 1
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "官方仓库示例目录（不下载模型权重/数据集）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05X15",
+  "cat": "05",
+  "cross": [],
+  "type": "practice",
+  "tool": "Accelerate",
+  "project": "Accelerate",
+  "title": "Accelerate v1.15.0 示例（examples/）",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "v1.15.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Accelerate",
+  "source": "https://github.com/huggingface/accelerate",
+  "license": "Apache-2.0",
+  "goal": "官方仓库示例目录（不下载模型权重/数据集）",
+  "order": 45,
+  "out": "practice/hf_accelerate_v1.15.0_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/huggingface/accelerate",
+   "ref": "v1.15.0",
+   "paths": [
+    "examples"
+   ]
+  },
+  "expect": {
+   "min_docs": 1
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "官方仓库示例目录（不下载模型权重/数据集）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05C50",
+  "cat": "05",
+  "cross": [],
+  "type": "course",
+  "tool": "Transformers",
+  "project": "Hugging Face LLM Course",
+  "title": "Hugging Face LLM Course（构建版，含 Transformers/Datasets/Tokenizers/微调/推理）",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "main 构建包",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Transformers",
+  "source": "",
+  "license": "Apache-2.0",
+  "goal": "hf-doc-build course/main.zip（全部章节；仅保留其中英文与中文在包内原样）",
+  "order": 60,
+  "out": "courses/hf_llm_course_main_built_en.zip",
+  "get": {
+   "kind": "hfdoc",
+   "lib": "course",
+   "ver": "main"
+  },
+  "expect": {
+   "min_docs": 50
+  },
+  "aspects": [
+   7,
+   4
+  ],
+  "complete": "完整",
+  "scope": "hf-doc-build course/main.zip（全部章节；仅保留其中英文与中文在包内原样）",
+  "material": "官方课程（非大学）",
+  "use": "通读",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "15C50",
+  "cat": "15",
+  "cross": [],
+  "type": "course",
+  "tool": "smolagents / Agents",
+  "project": "Hugging Face Agents Course",
+  "title": "Hugging Face Agents Course（仓库源）",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "smolagents / Agents",
+  "source": "https://github.com/huggingface/agents-course",
+  "license": "Apache-2.0",
+  "goal": "units/en 全部单元（MDX 与笔记本）",
+  "order": 60,
+  "out": "courses/hf_agents_course_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/huggingface/agents-course",
+   "paths": [
+    "units/en",
+    "README.md",
+    "LICENSE"
+   ]
+  },
+  "expect": {
+   "min_docs": 30
+  },
+  "aspects": [
+   7,
+   4,
+   8
+  ],
+  "complete": "完整",
+  "scope": "units/en 全部单元（MDX 与笔记本）",
+  "material": "官方课程（非大学）",
+  "use": "通读",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "05C51",
+  "cat": "05",
+  "cross": [],
+  "type": "course",
+  "tool": "Diffusers",
+  "project": "Hugging Face Diffusion Models Class",
+  "title": "Hugging Face Diffusion Models Class（仓库源）",
+  "authors": "Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Diffusers",
+  "source": "https://github.com/huggingface/diffusion-models-class",
+  "license": "Apache-2.0",
+  "goal": "完整课程仓库（各单元 Markdown 与笔记本）",
+  "order": 61,
+  "out": "courses/hf_diffusion_models_class_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/huggingface/diffusion-models-class"
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "aspects": [
+   7,
+   4,
+   8
+  ],
+  "complete": "完整",
+  "scope": "完整课程仓库（各单元 Markdown 与笔记本）",
+  "material": "官方课程（非大学）",
+  "use": "通读",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "13D01",
+  "cat": "13",
+  "cross": [],
+  "type": "docs",
+  "tool": "CUDA",
+  "project": "CUDA",
+  "title": "CUDA Toolkit 核心指南 PDF 集（编程指南、最佳实践、PTX ISA）",
+  "authors": "NVIDIA",
+  "school": "",
+  "year": "",
+  "version": "CUDA 13.x（PDF 内版本为准）",
+  "lang": "en",
+  "level": "进阶-高级",
+  "prereq": "C/C++、计算机体系结构",
+  "stack": "CUDA",
+  "source": "https://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf",
+  "license": "NVIDIA 文档许可（仅个人保存）",
+  "goal": "docs.nvidia.com/cuda/pdf 下 5 份官方 PDF",
+  "order": 1,
+  "out": "official_docs/cuda_toolkit_guides_pdf_en",
+  "get": {
+   "kind": "pdfset",
+   "urls": [
+    "https://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf",
+    "https://docs.nvidia.com/cuda/pdf/CUDA_C_Best_Practices_Guide.pdf",
+    "https://docs.nvidia.com/cuda/pdf/ptx_isa_9.0.pdf",
+    "https://docs.nvidia.com/cuda/pdf/CUDA_Installation_Guide_Linux.pdf",
+    "https://docs.nvidia.com/cuda/pdf/CUDA_Runtime_API.pdf"
+   ],
+   "min_files": 5
+  },
+  "expect": {},
+  "aspects": [
+   1,
+   2,
+   3,
+   5
+  ],
+  "complete": "完整",
+  "scope": "docs.nvidia.com/cuda/pdf 下 5 份官方 PDF",
+  "material": "官方文档",
+  "use": "编程指南通读，其余查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "13D02",
+  "cat": "13",
+  "cross": [],
+  "type": "docs",
+  "tool": "CUDA",
+  "project": "CUDA",
+  "title": "Nsight Compute / Nsight Systems 性能分析文档（离线镜像）",
+  "authors": "NVIDIA",
+  "school": "",
+  "year": "",
+  "version": "当前版本（镜像页内为准）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "CUDA",
+  "source": [
+   "https://docs.nvidia.com/nsight-compute/index.html",
+   "https://docs.nvidia.com/nsight-systems/index.html"
+  ],
+  "license": "NVIDIA 文档许可（仅个人保存）",
+  "goal": "docs.nvidia.com/nsight-compute 与 nsight-systems 文档页（深度 4）",
+  "order": 2,
+  "out": "official_docs/nsight_profiling_docs_mirror_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://docs.nvidia.com/nsight-compute/index.html",
+    "https://docs.nvidia.com/nsight-systems/index.html"
+   ],
+   "quota_mb": 500,
+   "level": "4",
+   "wait": 0.3,
+   "include": [
+    "/nsight-compute",
+    "/nsight-systems",
+    "/_static"
+   ]
+  },
+  "expect": {
+   "min_docs": 20,
+   "max_broken": 0.15,
+   "entry": "index.html"
+  },
+  "aspects": [
+   5
+  ],
+  "complete": "完整",
+  "scope": "docs.nvidia.com/nsight-compute 与 nsight-systems 文档页（深度 4）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "index.html"
+ },
+ {
+  "id": "13X01",
+  "cat": "13",
+  "cross": [],
+  "type": "practice",
+  "tool": "CUDA",
+  "project": "CUDA",
+  "title": "NVIDIA cuda-samples v13.4",
+  "authors": "NVIDIA",
+  "school": "",
+  "year": "",
+  "version": "v13.4",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "CUDA",
+  "source": "https://github.com/NVIDIA/cuda-samples",
+  "license": "BSD-3-Clause",
+  "goal": "完整仓库（不编译不运行）",
+  "order": 3,
+  "out": "practice/cuda_samples_v13.4_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/NVIDIA/cuda-samples",
+   "ref": "v13.4"
+  },
+  "expect": {
+   "must_have": [
+    "Samples/"
+   ]
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "完整仓库（不编译不运行）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "13D03",
+  "cat": "13",
+  "cross": [],
+  "type": "docs",
+  "tool": "Triton 编程语言",
+  "project": "Triton 编程语言",
+  "title": "Triton 编程语言官方文档（triton-lang.org 构建 HTML，含教程）",
+  "authors": "OpenAI / Triton 社区",
+  "school": "",
+  "year": "",
+  "version": "main 构建（gh-pages 提交日期记录；对应 v3.9 之后）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Triton 编程语言",
+  "source": "https://github.com/triton-lang/triton",
+  "license": "MIT",
+  "goal": "gh-pages 分支 main/ 目录（入门、矩阵乘/融合注意力等教程、Python API）",
+  "order": 10,
+  "out": "official_docs/triton_lang_docs_main_html_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/triton-lang/triton",
+   "ref": "gh-pages",
+   "paths": [
+    "main"
+   ],
+   "built_html": true
+  },
+  "expect": {
+   "min_docs": 30,
+   "entry": "main/index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "complete": "完整",
+  "scope": "gh-pages 分支 main/ 目录（入门、矩阵乘/融合注意力等教程、Python API）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "Triton 编程语言（GPU 内核 DSL），与 NVIDIA Triton Inference Server 无关",
+  "entry": "main/index.html"
+ },
+ {
+  "id": "13X02",
+  "cat": "13",
+  "cross": [],
+  "type": "practice",
+  "tool": "Triton 编程语言",
+  "project": "Triton 编程语言",
+  "title": "Triton v3.9.0 教程源码（python/tutorials）",
+  "authors": "OpenAI / Triton 社区",
+  "school": "",
+  "year": "",
+  "version": "v3.9.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Triton 编程语言",
+  "source": "https://github.com/triton-lang/triton",
+  "license": "MIT",
+  "goal": "仓库 python/tutorials",
+  "order": 11,
+  "out": "practice/triton_lang_v3.9.0_tutorials_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/triton-lang/triton",
+   "ref": "v3.9.0",
+   "paths": [
+    "python/tutorials"
+   ]
+  },
+  "expect": {
+   "must_have": [
+    "python/tutorials/"
+   ]
+  },
+  "aspects": [
+   4,
+   8
+  ],
+  "complete": "完整",
+  "scope": "仓库 python/tutorials",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "13D04",
+  "cat": "13",
+  "cross": [],
+  "type": "docs",
+  "tool": "DeepSpeed",
+  "project": "DeepSpeed",
+  "title": "DeepSpeed 0.19.8 文档（教程站点源 + Read the Docs API 源）",
+  "authors": "DeepSpeed (LF AI & Data)",
+  "school": "",
+  "year": "",
+  "version": "0.19.8",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "DeepSpeed",
+  "source": "https://github.com/deepspeedai/DeepSpeed",
+  "license": "Apache-2.0",
+  "goal": "docs/_tutorials、_pages（ZeRO、配置 JSON、推理）+ docs/code-docs（Sphinx 源；API 正文由 docstring 生成，未含）",
+  "order": 12,
+  "out": "official_docs/deepspeed_0.19.8_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/deepspeedai/DeepSpeed",
+   "ref": "v0.19.8",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 60,
+   "must_have": [
+    "docs/_tutorials/"
+   ]
+  },
+  "aspects": [
+   1,
+   2,
+   4,
+   5
+  ],
+  "complete": "部分",
+  "scope": "docs/_tutorials、_pages（ZeRO、配置 JSON、推理）+ docs/code-docs（Sphinx 源；API 正文由 docstring 生成，未含）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "13D05",
+  "cat": "13",
+  "cross": [],
+  "type": "docs",
+  "tool": "DeepSpeed",
+  "project": "DeepSpeed",
+  "title": "DeepSpeed API 参考（deepspeed.readthedocs.io 离线镜像）",
+  "authors": "DeepSpeed",
+  "school": "",
+  "year": "",
+  "version": "latest（页内版本为准）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "DeepSpeed",
+  "source": "https://deepspeed.readthedocs.io/en/latest/",
+  "license": "Apache-2.0",
+  "goal": "deepspeed.readthedocs.io/en/latest 全部页面",
+  "order": 13,
+  "out": "official_docs/deepspeed_api_rtd_mirror_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://deepspeed.readthedocs.io/en/latest/",
+   "quota_mb": 200,
+   "level": "inf",
+   "wait": 0.3,
+   "include": [
+    "/en/latest"
+   ]
+  },
+  "expect": {
+   "min_docs": 20,
+   "entry": "index.html"
+  },
+  "aspects": [
+   3
+  ],
+  "complete": "完整",
+  "scope": "deepspeed.readthedocs.io/en/latest 全部页面",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "index.html"
+ },
+ {
+  "id": "13X03",
+  "cat": "13",
+  "cross": [],
+  "type": "practice",
+  "tool": "DeepSpeed",
+  "project": "DeepSpeed",
+  "title": "DeepSpeedExamples",
+  "authors": "DeepSpeed",
+  "school": "",
+  "year": "",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "DeepSpeed",
+  "source": "https://github.com/deepspeedai/DeepSpeedExamples",
+  "license": "Apache-2.0",
+  "goal": "完整示例仓库（训练/推理/压缩）",
+  "order": 14,
+  "out": "practice/deepspeed_examples_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/deepspeedai/DeepSpeedExamples"
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "完整示例仓库（训练/推理/压缩）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "13D06",
+  "cat": "13",
+  "cross": [],
+  "type": "docs",
+  "tool": "NCCL",
+  "project": "NCCL",
+  "title": "NCCL 用户指南（离线镜像）",
+  "authors": "NVIDIA",
+  "school": "",
+  "year": "",
+  "version": "当前版本（页内为准）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "NCCL",
+  "source": "https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/index.html",
+  "license": "NVIDIA 文档许可（仅个人保存）",
+  "goal": "NCCL 用户指南全部页面（集合通信、环境变量、排障）",
+  "order": 15,
+  "out": "official_docs/nccl_user_guide_mirror_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/index.html",
+   "quota_mb": 100,
+   "level": "inf",
+   "wait": 0.3,
+   "include": [
+    "/deeplearning/nccl/user-guide"
+   ]
+  },
+  "expect": {
+   "min_docs": 15,
+   "entry": "index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   5
+  ],
+  "complete": "完整",
+  "scope": "NCCL 用户指南全部页面（集合通信、环境变量、排障）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "index.html"
+ },
+ {
+  "id": "14D01",
+  "cat": "14",
+  "cross": [],
+  "type": "docs",
+  "tool": "ONNX",
+  "project": "ONNX",
+  "title": "ONNX 官方文档（onnx.ai/onnx 离线镜像：概念、Python API、算子）",
+  "authors": "ONNX (LF AI & Data)",
+  "school": "",
+  "year": "",
+  "version": "当前站点（对应 1.23.x）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "ONNX",
+  "source": "https://onnx.ai/onnx/",
+  "license": "Apache-2.0",
+  "goal": "onnx.ai/onnx/ 下全部页面（intro、api、operators、repo-docs）",
+  "order": 1,
+  "out": "official_docs/onnx_docs_site_mirror_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://onnx.ai/onnx/",
+   "quota_mb": 600,
+   "level": "inf",
+   "wait": 0.3,
+   "include": [
+    "/onnx"
+   ]
+  },
+  "expect": {
+   "min_docs": 300,
+   "max_broken": 0.08,
+   "entry": "onnx/index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "complete": "完整",
+  "scope": "onnx.ai/onnx/ 下全部页面（intro、api、operators、repo-docs）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "onnx/index.html"
+ },
+ {
+  "id": "14D02",
+  "cat": "14",
+  "cross": [],
+  "type": "docs",
+  "tool": "ONNX",
+  "project": "ONNX",
+  "title": "ONNX v1.23.2 规范与设计文档（docs/）",
+  "authors": "ONNX",
+  "school": "",
+  "year": "",
+  "version": "1.23.2",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "ONNX",
+  "source": "https://github.com/onnx/onnx",
+  "license": "Apache-2.0",
+  "goal": "仓库 docs/（IR.md、Operators.md、Versioning、PythonAPIOverview 等）",
+  "order": 2,
+  "out": "official_docs/onnx_1.23.2_spec_docs_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/onnx/onnx",
+   "ref": "v1.23.2",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "must_have": [
+    "docs/IR\\.md",
+    "docs/Operators\\.md"
+   ]
+  },
+  "aspects": [
+   2,
+   3,
+   6
+  ],
+  "complete": "完整",
+  "scope": "仓库 docs/（IR.md、Operators.md、Versioning、PythonAPIOverview 等）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "14X01",
+  "cat": "14",
+  "cross": [],
+  "type": "practice",
+  "tool": "ONNX",
+  "project": "ONNX",
+  "title": "ONNX 官方教程仓库（onnx/tutorials）",
+  "authors": "ONNX",
+  "school": "",
+  "year": "",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "ONNX",
+  "source": "https://github.com/onnx/tutorials",
+  "license": "Apache-2.0",
+  "goal": "完整仓库（各框架转换教程笔记本）",
+  "order": 3,
+  "out": "practice/onnx_tutorials_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/onnx/tutorials"
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "aspects": [
+   4,
+   6,
+   8
+  ],
+  "complete": "完整",
+  "scope": "完整仓库（各框架转换教程笔记本）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "仓库更新较少，部分转换器已过时，以 README 为准",
+  "entry": ""
+ },
+ {
+  "id": "14D03",
+  "cat": "14",
+  "cross": [],
+  "type": "docs",
+  "tool": "ONNX Runtime",
+  "project": "ONNX Runtime",
+  "title": "ONNX Runtime 官方文档（onnxruntime.ai/docs 源 + 已构建 API 页）",
+  "authors": "Microsoft",
+  "school": "",
+  "year": "",
+  "version": "gh-pages 提交（对应 1.31.x）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "ONNX Runtime",
+  "source": "https://github.com/microsoft/onnxruntime",
+  "license": "MIT",
+  "goal": "gh-pages docs/：安装、执行提供程序、性能调优、模型优化/量化、各语言 API（python API 为构建 HTML）",
+  "order": 4,
+  "out": "official_docs/onnxruntime_docs_ghpages_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/microsoft/onnxruntime",
+   "ref": "gh-pages",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 150,
+   "must_have": [
+    "docs/performance",
+    "docs/execution-providers",
+    "docs/api/python"
+   ],
+   "entry": "docs/index.md"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "complete": "完整",
+  "scope": "gh-pages docs/：安装、执行提供程序、性能调优、模型优化/量化、各语言 API（python API 为构建 HTML）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "docs/index.md"
+ },
+ {
+  "id": "14X02",
+  "cat": "14",
+  "cross": [],
+  "type": "practice",
+  "tool": "ONNX Runtime",
+  "project": "ONNX Runtime",
+  "title": "ONNX Runtime 推理示例（onnxruntime-inference-examples）",
+  "authors": "Microsoft",
+  "school": "",
+  "year": "",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "ONNX Runtime",
+  "source": "https://github.com/microsoft/onnxruntime-inference-examples",
+  "license": "MIT",
+  "goal": "完整示例仓库（Python/C++/C#/移动端/量化）",
+  "order": 5,
+  "out": "practice/onnxruntime_inference_examples_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/microsoft/onnxruntime-inference-examples"
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "完整示例仓库（Python/C++/C#/移动端/量化）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "14D04",
+  "cat": "14",
+  "cross": [],
+  "type": "docs",
+  "tool": "TensorRT",
+  "project": "TensorRT",
+  "title": "TensorRT 官方文档（离线镜像）",
+  "authors": "NVIDIA",
+  "school": "",
+  "year": "",
+  "version": "latest（页内版本为准，对应 10.x）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "TensorRT",
+  "source": "https://docs.nvidia.com/deeplearning/tensorrt/latest/index.html",
+  "license": "NVIDIA 文档许可（仅个人保存）",
+  "goal": "docs.nvidia.com/deeplearning/tensorrt/latest 全部页面（安装、开发者指南、API、性能、ONNX 解析）",
+  "order": 6,
+  "out": "official_docs/tensorrt_docs_latest_mirror_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://docs.nvidia.com/deeplearning/tensorrt/latest/index.html",
+   "quota_mb": 800,
+   "level": "inf",
+   "wait": 0.3,
+   "include": [
+    "/deeplearning/tensorrt/latest"
+   ]
+  },
+  "expect": {
+   "min_docs": 50,
+   "max_broken": 0.1,
+   "entry": "index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   5,
+   6
+  ],
+  "complete": "完整",
+  "scope": "docs.nvidia.com/deeplearning/tensorrt/latest 全部页面（安装、开发者指南、API、性能、ONNX 解析）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "index.html"
+ },
+ {
+  "id": "14X03",
+  "cat": "14",
+  "cross": [],
+  "type": "practice",
+  "tool": "TensorRT",
+  "project": "TensorRT",
+  "title": "TensorRT OSS v10.16 示例与工具（samples、tools）",
+  "authors": "NVIDIA",
+  "school": "",
+  "year": "",
+  "version": "v10.16",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "TensorRT",
+  "source": "https://github.com/NVIDIA/TensorRT",
+  "license": "Apache-2.0",
+  "goal": "samples/、tools/（Polygraphy 等）、quickstart/",
+  "order": 7,
+  "out": "practice/tensorrt_oss_v10.16_samples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/NVIDIA/TensorRT",
+   "ref": "v10.16",
+   "paths": [
+    "samples",
+    "tools",
+    "quickstart"
+   ]
+  },
+  "expect": {
+   "must_have": [
+    "samples/"
+   ]
+  },
+  "aspects": [
+   4,
+   8
+  ],
+  "complete": "完整",
+  "scope": "samples/、tools/（Polygraphy 等）、quickstart/",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "14D05",
+  "cat": "14",
+  "cross": [],
+  "type": "docs",
+  "tool": "OpenVINO",
+  "project": "OpenVINO",
+  "title": "OpenVINO 2026.4.1 文档源（articles_en）",
+  "authors": "Intel",
+  "school": "",
+  "year": "",
+  "version": "2026.4.1",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "OpenVINO",
+  "source": "https://github.com/openvinotoolkit/openvino",
+  "license": "Apache-2.0",
+  "goal": "docs/articles_en（RST 源：安装、模型转换、推理、优化）；Python/C++ API 参考由构建生成，未含",
+  "order": 8,
+  "out": "official_docs/openvino_2026.4.1_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/openvinotoolkit/openvino",
+   "ref": "2026.4.1",
+   "paths": [
+    "docs/articles_en",
+    "docs/snippets",
+    "docs/optimization_guide"
+   ]
+  },
+  "expect": {
+   "min_docs": 300
+  },
+  "aspects": [
+   1,
+   2,
+   4,
+   5,
+   6
+  ],
+  "complete": "部分",
+  "scope": "docs/articles_en（RST 源：安装、模型转换、推理、优化）；Python/C++ API 参考由构建生成，未含",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "14X04",
+  "cat": "14",
+  "cross": [],
+  "type": "practice",
+  "tool": "OpenVINO",
+  "project": "OpenVINO",
+  "title": "OpenVINO Notebooks（官方教程笔记本）",
+  "authors": "Intel",
+  "school": "",
+  "year": "",
+  "version": "latest 分支提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "OpenVINO",
+  "source": "https://github.com/openvinotoolkit/openvino_notebooks",
+  "license": "Apache-2.0",
+  "goal": "完整仓库（教程笔记本，不含模型）",
+  "order": 9,
+  "out": "practice/openvino_notebooks_latest_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/openvinotoolkit/openvino_notebooks",
+   "ref": "latest"
+  },
+  "expect": {
+   "min_docs": 50
+  },
+  "aspects": [
+   4,
+   8
+  ],
+  "complete": "完整",
+  "scope": "完整仓库（教程笔记本，不含模型）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "14D06",
+  "cat": "14",
+  "cross": [],
+  "type": "docs",
+  "tool": "vLLM",
+  "project": "vLLM",
+  "title": "vLLM v0.32.0 文档源与示例",
+  "authors": "vLLM 项目",
+  "school": "",
+  "year": "",
+  "version": "0.32.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "vLLM",
+  "source": "https://github.com/vllm-project/vllm",
+  "license": "Apache-2.0",
+  "goal": "docs/（入门、部署、服务、配置、设计）+ examples/；API 参考页由 mkdocstrings 生成，未含",
+  "order": 20,
+  "out": "official_docs/vllm_0.32.0_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/vllm-project/vllm",
+   "ref": "v0.32.0",
+   "paths": [
+    "docs",
+    "examples"
+   ]
+  },
+  "expect": {
+   "min_docs": 150,
+   "entry": "docs/README.md"
+  },
+  "aspects": [
+   1,
+   2,
+   4,
+   5,
+   6,
+   8
+  ],
+  "complete": "部分",
+  "scope": "docs/（入门、部署、服务、配置、设计）+ examples/；API 参考页由 mkdocstrings 生成，未含",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "docs/README.md"
+ },
+ {
+  "id": "14D07",
+  "cat": "14",
+  "cross": [],
+  "type": "docs",
+  "tool": "llama.cpp",
+  "project": "llama.cpp",
+  "title": "llama.cpp b11985 文档、工具说明与示例",
+  "authors": "ggml-org",
+  "school": "",
+  "year": "",
+  "version": "b11985",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "llama.cpp",
+  "source": "https://github.com/ggml-org/llama.cpp",
+  "license": "MIT",
+  "goal": "docs/（构建、后端、量化）、tools/（server、quantize 等 README 与源码）、examples/",
+  "order": 21,
+  "out": "official_docs/llama.cpp_b11985_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/ggml-org/llama.cpp",
+   "ref": "b11985",
+   "paths": [
+    "docs",
+    "examples",
+    "tools",
+    "grammars",
+    "gguf-py/README.md"
+   ]
+  },
+  "expect": {
+   "min_docs": 40,
+   "must_have": [
+    "docs/build.md",
+    "tools/server/README.md"
+   ]
+  },
+  "aspects": [
+   1,
+   2,
+   4,
+   5,
+   6,
+   8
+  ],
+  "complete": "完整",
+  "scope": "docs/（构建、后端、量化）、tools/（server、quantize 等 README 与源码）、examples/",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "14D08",
+  "cat": "14",
+  "cross": [],
+  "type": "docs",
+  "tool": "Triton Inference Server",
+  "project": "Triton Inference Server",
+  "title": "NVIDIA Triton Inference Server v2.73.0 文档（server/docs）",
+  "authors": "NVIDIA",
+  "school": "",
+  "year": "",
+  "version": "2.73.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Triton Inference Server",
+  "source": "https://github.com/triton-inference-server/server",
+  "license": "BSD-3-Clause",
+  "goal": "仓库 docs/（用户指南、模型仓库/配置、协议、性能分析器、后端），即 NVIDIA 文档站的源",
+  "order": 22,
+  "out": "official_docs/triton_inference_server_2.73.0_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/triton-inference-server/server",
+   "ref": "v2.73.0",
+   "paths": [
+    "docs",
+    "qa/README.md"
+   ]
+  },
+  "expect": {
+   "min_docs": 60,
+   "entry": "docs/index.md"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "complete": "完整",
+  "scope": "仓库 docs/（用户指南、模型仓库/配置、协议、性能分析器、后端），即 NVIDIA 文档站的源",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "推理服务器（NVIDIA，2025 起品牌为 Dynamo Triton），与 Triton 编程语言无关",
+  "entry": "docs/index.md"
+ },
+ {
+  "id": "14X05",
+  "cat": "14",
+  "cross": [],
+  "type": "practice",
+  "tool": "Triton Inference Server",
+  "project": "Triton Inference Server",
+  "title": "Triton Inference Server 官方教程（tutorials）",
+  "authors": "NVIDIA",
+  "school": "",
+  "year": "",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Triton Inference Server",
+  "source": "https://github.com/triton-inference-server/tutorials",
+  "license": "BSD-3-Clause",
+  "goal": "完整教程仓库（概念指南、部署示例）",
+  "order": 23,
+  "out": "practice/triton_inference_server_tutorials_main_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/triton-inference-server/tutorials"
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "aspects": [
+   4,
+   8
+  ],
+  "complete": "完整",
+  "scope": "完整教程仓库（概念指南、部署示例）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "14D09",
+  "cat": "14",
+  "cross": [],
+  "type": "docs",
+  "tool": "BentoML",
+  "project": "BentoML",
+  "title": "BentoML 文档（docs.bentoml.com 离线镜像）",
+  "authors": "BentoML",
+  "school": "",
+  "year": "",
+  "version": "latest（页内版本为准，对应 1.4.40）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "BentoML",
+  "source": "https://docs.bentoml.com/en/latest/",
+  "license": "Apache-2.0",
+  "goal": "docs.bentoml.com/en/latest 全部页面（含 API 参考）",
+  "order": 24,
+  "out": "official_docs/bentoml_docs_mirror_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://docs.bentoml.com/en/latest/",
+   "quota_mb": 400,
+   "level": "inf",
+   "wait": 0.3,
+   "include": [
+    "/en/latest"
+   ]
+  },
+  "expect": {
+   "min_docs": 60,
+   "max_broken": 0.1,
+   "entry": "index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "complete": "完整",
+  "scope": "docs.bentoml.com/en/latest 全部页面（含 API 参考）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "index.html"
+ },
+ {
+  "id": "14X06",
+  "cat": "14",
+  "cross": [],
+  "type": "practice",
+  "tool": "BentoML",
+  "project": "BentoML",
+  "title": "BentoML v1.4.40 示例（examples/）",
+  "authors": "BentoML",
+  "school": "",
+  "year": "",
+  "version": "1.4.40",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "BentoML",
+  "source": "https://github.com/bentoml/BentoML",
+  "license": "Apache-2.0",
+  "goal": "仓库 examples/",
+  "order": 25,
+  "out": "practice/bentoml_1.4.40_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/bentoml/BentoML",
+   "ref": "v1.4.40",
+   "paths": [
+    "examples"
+   ]
+  },
+  "expect": {
+   "min_docs": 5
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "仓库 examples/",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "14D10",
+  "cat": "14",
+  "cross": [
+   "07"
+  ],
+  "type": "docs",
+  "tool": "Docker",
+  "project": "Docker",
+  "title": "Docker 官方文档源（docker/docs content）",
+  "authors": "Docker Inc.",
+  "school": "",
+  "year": "",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Docker",
+  "source": "https://github.com/docker/docs",
+  "license": "Apache-2.0",
+  "goal": "Engine、Build、Compose、入门与指南、Dockerfile/Compose 文件参考、CLI 参考数据（YAML）",
+  "order": 30,
+  "out": "official_docs/docker_docs_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/docker/docs",
+   "paths": [
+    "content/manuals/engine",
+    "content/manuals/compose",
+    "content/manuals/build",
+    "content/get-started",
+    "content/guides",
+    "content/reference/dockerfile.md",
+    "content/reference/compose-file",
+    "content/manuals/desktop/setup",
+    "data/engine-cli",
+    "data/buildx"
+   ],
+   "timeout": 5400
+  },
+  "expect": {
+   "min_docs": 300,
+   "must_have": [
+    "content/reference/dockerfile.md"
+   ]
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "complete": "完整",
+  "scope": "Engine、Build、Compose、入门与指南、Dockerfile/Compose 文件参考、CLI 参考数据（YAML）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "14X07",
+  "cat": "14",
+  "cross": [],
+  "type": "practice",
+  "tool": "Docker",
+  "project": "Docker",
+  "title": "Docker awesome-compose 示例",
+  "authors": "Docker Inc.",
+  "school": "",
+  "year": "",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Docker",
+  "source": "https://github.com/docker/awesome-compose",
+  "license": "CC0-1.0",
+  "goal": "完整仓库（多服务 Compose 示例）",
+  "order": 31,
+  "out": "practice/docker_awesome_compose_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/docker/awesome-compose"
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "完整仓库（多服务 Compose 示例）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "14D11",
+  "cat": "14",
+  "cross": [],
+  "type": "docs",
+  "tool": "Kubernetes",
+  "project": "Kubernetes",
+  "title": "Kubernetes 官方文档源（website content/en）",
+  "authors": "Kubernetes Authors (CNCF)",
+  "school": "",
+  "year": "",
+  "version": "main 提交（对应当前发布版）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Kubernetes",
+  "source": "https://github.com/kubernetes/website",
+  "license": "CC BY 4.0",
+  "goal": "content/en/docs：概念、任务、教程、参考（kubectl 与 API 参考页已生成提交）",
+  "order": 32,
+  "out": "official_docs/kubernetes_docs_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/kubernetes/website",
+   "paths": [
+    "content/en/docs"
+   ],
+   "timeout": 5400
+  },
+  "expect": {
+   "min_docs": 800,
+   "must_have": [
+    "content/en/docs/reference/kubernetes-api"
+   ]
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "complete": "完整",
+  "scope": "content/en/docs：概念、任务、教程、参考（kubectl 与 API 参考页已生成提交）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "14X08",
+  "cat": "14",
+  "cross": [],
+  "type": "practice",
+  "tool": "Kubernetes",
+  "project": "Kubernetes",
+  "title": "Kubernetes 官方示例（kubernetes/examples）",
+  "authors": "Kubernetes Authors",
+  "school": "",
+  "year": "",
+  "version": "master 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Kubernetes",
+  "source": "https://github.com/kubernetes/examples",
+  "license": "Apache-2.0",
+  "goal": "完整仓库",
+  "order": 33,
+  "out": "practice/kubernetes_examples_master_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/kubernetes/examples"
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "完整仓库",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "15D01",
+  "cat": "15",
+  "cross": [],
+  "type": "docs",
+  "tool": "Sentence Transformers",
+  "project": "Sentence Transformers",
+  "title": "Sentence Transformers 文档（sbert.net 离线镜像）",
+  "authors": "UKP Lab / Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "当前站点（对应 v6.2.0）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Sentence Transformers",
+  "source": "https://www.sbert.net/index.html",
+  "license": "Apache-2.0",
+  "goal": "sbert.net 全站（用户指南、包参考、示例说明）",
+  "order": 1,
+  "out": "official_docs/sentence_transformers_sbert_mirror_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": "https://www.sbert.net/index.html",
+   "quota_mb": 400,
+   "level": "inf",
+   "wait": 0.3,
+   "include": [
+    "/docs",
+    "/examples",
+    "/_static",
+    "/_images",
+    "/"
+   ],
+   "reject_regex": "/(_modules)/"
+  },
+  "expect": {
+   "min_docs": 80,
+   "max_broken": 0.1,
+   "entry": "index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "complete": "完整",
+  "scope": "sbert.net 全站（用户指南、包参考、示例说明）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "index.html"
+ },
+ {
+  "id": "15X01",
+  "cat": "15",
+  "cross": [],
+  "type": "practice",
+  "tool": "Sentence Transformers",
+  "project": "Sentence Transformers",
+  "title": "Sentence Transformers v6.2.0 示例（examples/）",
+  "authors": "UKP Lab / Hugging Face",
+  "school": "",
+  "year": "",
+  "version": "6.2.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Sentence Transformers",
+  "source": "https://github.com/UKPLab/sentence-transformers",
+  "license": "Apache-2.0",
+  "goal": "仓库 examples/（训练、检索、重排）",
+  "order": 2,
+  "out": "practice/sentence_transformers_6.2.0_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/UKPLab/sentence-transformers",
+   "ref": "v6.2.0",
+   "paths": [
+    "examples"
+   ]
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "aspects": [
+   8
+  ],
+  "complete": "完整",
+  "scope": "仓库 examples/（训练、检索、重排）",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "15D02",
+  "cat": "15",
+  "cross": [],
+  "type": "docs",
+  "tool": "FAISS",
+  "project": "FAISS",
+  "title": "FAISS Wiki（官方使用文档）",
+  "authors": "Meta AI (FAIR)",
+  "school": "",
+  "year": "",
+  "version": "wiki 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "FAISS",
+  "source": "https://github.com/facebookresearch/faiss.wiki",
+  "license": "MIT",
+  "goal": "GitHub wiki 全部页面（入门、索引选择、GPU、FAQ、调优）",
+  "order": 3,
+  "out": "official_docs/faiss_wiki_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/facebookresearch/faiss.wiki"
+  },
+  "expect": {
+   "min_docs": 30,
+   "need_license": false
+  },
+  "aspects": [
+   1,
+   2,
+   4,
+   5
+  ],
+  "complete": "完整",
+  "scope": "GitHub wiki 全部页面（入门、索引选择、GPU、FAQ、调优）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "15X02",
+  "cat": "15",
+  "cross": [],
+  "type": "practice",
+  "tool": "FAISS",
+  "project": "FAISS",
+  "title": "FAISS v1.15.1 教程与基准（tutorial/、benchs/）",
+  "authors": "Meta AI (FAIR)",
+  "school": "",
+  "year": "",
+  "version": "1.15.1",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "FAISS",
+  "source": "https://github.com/facebookresearch/faiss",
+  "license": "MIT",
+  "goal": "tutorial/（Python/C++）、benchs/、INSTALL.md",
+  "order": 4,
+  "out": "practice/faiss_1.15.1_tutorial_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/facebookresearch/faiss",
+   "ref": "v1.15.1",
+   "paths": [
+    "tutorial",
+    "benchs",
+    "INSTALL.md"
+   ]
+  },
+  "expect": {
+   "must_have": [
+    "tutorial/python"
+   ]
+  },
+  "aspects": [
+   4,
+   8
+  ],
+  "complete": "完整",
+  "scope": "tutorial/（Python/C++）、benchs/、INSTALL.md",
+  "material": "官方示例源码",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "15D03",
+  "cat": "15",
+  "cross": [],
+  "type": "docs",
+  "tool": "LangChain",
+  "project": "LangChain",
+  "title": "LangChain / LangGraph 官方文档源（docs.langchain.com）",
+  "authors": "LangChain Inc.",
+  "school": "",
+  "year": "",
+  "version": "main 提交（对应 langchain 1.4.x）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "LangChain",
+  "source": "https://github.com/langchain-ai/docs",
+  "license": "MIT",
+  "goal": "src/oss（LangChain、LangGraph Python/JS 指南与集成页，MDX）；API 参考在 reference.langchain.com 单独生成，未含",
+  "order": 5,
+  "out": "official_docs/langchain_docs_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/langchain-ai/docs",
+   "paths": [
+    "src/oss"
+   ]
+  },
+  "expect": {
+   "min_docs": 200
+  },
+  "aspects": [
+   1,
+   2,
+   4,
+   5,
+   6
+  ],
+  "complete": "部分",
+  "scope": "src/oss（LangChain、LangGraph Python/JS 指南与集成页，MDX）；API 参考在 reference.langchain.com 单独生成，未含",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "15D04",
+  "cat": "15",
+  "cross": [],
+  "type": "docs",
+  "tool": "LlamaIndex",
+  "project": "LlamaIndex",
+  "title": "LlamaIndex v0.14.25 文档源（含示例笔记本）",
+  "authors": "LlamaIndex Inc.",
+  "school": "",
+  "year": "",
+  "version": "0.14.25",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "LlamaIndex",
+  "source": "https://github.com/run-llama/llama_index",
+  "license": "MIT",
+  "goal": "docs/src（框架指南）+ docs/examples（笔记本）；api_reference 由 mkdocstrings 生成，未含",
+  "order": 6,
+  "out": "official_docs/llamaindex_0.14.25_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/run-llama/llama_index",
+   "ref": "v0.14.25",
+   "paths": [
+    "docs/src",
+    "docs/examples"
+   ]
+  },
+  "expect": {
+   "min_docs": 300
+  },
+  "aspects": [
+   1,
+   2,
+   4,
+   6,
+   8
+  ],
+  "complete": "部分",
+  "scope": "docs/src（框架指南）+ docs/examples（笔记本）；api_reference 由 mkdocstrings 生成，未含",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "09D01",
+  "cat": "09",
+  "cross": [],
+  "type": "docs",
+  "tool": "FastAPI",
+  "project": "FastAPI",
+  "title": "FastAPI 0.162.0 文档（英文）与文档示例源码",
+  "authors": "FastAPI（Sebastián Ramírez）",
+  "school": "",
+  "year": "",
+  "version": "0.162.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "FastAPI",
+  "source": "https://github.com/fastapi/fastapi",
+  "license": "MIT",
+  "goal": "docs/en（教程、高级用户指南、部署）+ docs_src（全部示例代码）；docs/en/docs/reference 为 mkdocstrings 指令，正文未含",
+  "order": 1,
+  "out": "official_docs/fastapi_0.162.0_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/fastapi/fastapi",
+   "ref": "0.162.0",
+   "paths": [
+    "docs/en",
+    "docs_src"
+   ]
+  },
+  "expect": {
+   "min_docs": 150,
+   "must_have": [
+    "docs/en/docs/tutorial/",
+    "docs/en/docs/deployment/"
+   ],
+   "entry": "docs/en/docs/index.md"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8
+  ],
+  "complete": "部分",
+  "scope": "docs/en（教程、高级用户指南、部署）+ docs_src（全部示例代码）；docs/en/docs/reference 为 mkdocstrings 指令，正文未含",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "docs/en/docs/index.md"
+ },
+ {
+  "id": "10D01",
+  "cat": "10",
+  "cross": [
+   "15"
+  ],
+  "type": "docs",
+  "tool": "Gradio",
+  "project": "Gradio",
+  "title": "Gradio 6.31.0 指南与演示源码",
+  "authors": "Gradio（Hugging Face）",
+  "school": "",
+  "year": "",
+  "version": "6.31.0",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Gradio",
+  "source": "https://github.com/gradio-app/gradio",
+  "license": "Apache-2.0",
+  "goal": "guides/（全部指南 Markdown）+ demo/（演示源码）；组件 API 参考由 docstring 生成，未含",
+  "order": 30,
+  "out": "official_docs/gradio_6.31.0_guides_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/gradio-app/gradio",
+   "ref": "gradio@6.31.0",
+   "paths": [
+    "guides",
+    "demo"
+   ]
+  },
+  "expect": {
+   "min_docs": 80
+  },
+  "aspects": [
+   1,
+   2,
+   4,
+   6,
+   8
+  ],
+  "complete": "部分",
+  "scope": "guides/（全部指南 Markdown）+ demo/（演示源码）；组件 API 参考由 docstring 生成，未含",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "10D02",
+  "cat": "10",
+  "cross": [
+   "15"
+  ],
+  "type": "docs",
+  "tool": "Streamlit",
+  "project": "Streamlit",
+  "title": "Streamlit 官方文档源（含 API 参考 JSON）",
+  "authors": "Snowflake / Streamlit",
+  "school": "",
+  "year": "",
+  "version": "main 提交（对应 1.66）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Streamlit",
+  "source": "https://github.com/streamlit/docs",
+  "license": "Apache-2.0",
+  "goal": "content/（入门、概念、部署、知识库）+ python/streamlit.json（各版本 API 文档串）",
+  "order": 31,
+  "out": "official_docs/streamlit_docs_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/streamlit/docs",
+   "paths": [
+    "content",
+    "python"
+   ]
+  },
+  "expect": {
+   "min_docs": 200
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "complete": "完整",
+  "scope": "content/（入门、概念、部署、知识库）+ python/streamlit.json（各版本 API 文档串）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "06D01",
+  "cat": "06",
+  "cross": [],
+  "type": "docs",
+  "tool": "pytest",
+  "project": "pytest",
+  "title": "pytest 稳定版文档（Read the Docs HTML 包）",
+  "authors": "pytest-dev",
+  "school": "",
+  "year": "",
+  "version": "stable（包内版本为准，对应 9.2）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "pytest",
+  "source": "https://docs.pytest.org/_/downloads/en/stable/htmlzip/",
+  "license": "MIT",
+  "goal": "官方 HTML 包（入门、how-to、fixture、插件、API 参考）",
+  "order": 1,
+  "out": "official_docs/pytest_stable_docs_html_en.zip",
+  "get": {
+   "kind": "file",
+   "urls": [
+    "https://docs.pytest.org/_/downloads/en/stable/htmlzip/"
+   ],
+   "max_mb": 800
+  },
+  "expect": {
+   "min_docs": 50,
+   "link_check": false,
+   "entry": "index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "complete": "完整",
+  "scope": "官方 HTML 包（入门、how-to、fixture、插件、API 参考）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "index.html"
+ },
+ {
+  "id": "06D02",
+  "cat": "06",
+  "cross": [],
+  "type": "docs",
+  "tool": "mypy",
+  "project": "mypy",
+  "title": "mypy 稳定版文档（Read the Docs HTML 包）",
+  "authors": "mypy 项目",
+  "school": "",
+  "year": "",
+  "version": "stable（包内版本为准，对应 2.4）",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "mypy",
+  "source": "https://mypy.readthedocs.io/_/downloads/en/stable/htmlzip/",
+  "license": "MIT",
+  "goal": "官方 HTML 包",
+  "order": 2,
+  "out": "official_docs/mypy_stable_docs_html_en.zip",
+  "get": {
+   "kind": "file",
+   "urls": [
+    "https://mypy.readthedocs.io/_/downloads/en/stable/htmlzip/"
+   ],
+   "max_mb": 800
+  },
+  "expect": {
+   "min_docs": 30,
+   "link_check": false,
+   "entry": "index.html"
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   5
+  ],
+  "complete": "完整",
+  "scope": "官方 HTML 包",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": "index.html"
+ },
+ {
+  "id": "06D03",
+  "cat": "06",
+  "cross": [],
+  "type": "docs",
+  "tool": "Pyright",
+  "project": "Pyright",
+  "title": "Pyright 1.1.414 文档（docs/）",
+  "authors": "Microsoft",
+  "school": "",
+  "year": "",
+  "version": "1.1.414",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Pyright",
+  "source": "https://github.com/microsoft/pyright",
+  "license": "MIT",
+  "goal": "仓库 docs/（配置、类型推断、类型概念）",
+  "order": 3,
+  "out": "official_docs/pyright_1.1.414_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/microsoft/pyright",
+   "ref": "1.1.414",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "aspects": [
+   1,
+   2,
+   3,
+   5
+  ],
+  "complete": "完整",
+  "scope": "仓库 docs/（配置、类型推断、类型概念）",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "06D04",
+  "cat": "06",
+  "cross": [],
+  "type": "docs",
+  "tool": "Ruff",
+  "project": "Ruff",
+  "title": "Ruff 0.17.3 文档（docs/）",
+  "authors": "Astral",
+  "school": "",
+  "year": "",
+  "version": "0.17.3",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "Ruff",
+  "source": "https://github.com/astral-sh/ruff",
+  "license": "MIT",
+  "goal": "仓库 docs/（配置、linter、formatter、编辑器集成）；规则逐条页面由代码生成，未含",
+  "order": 4,
+  "out": "official_docs/ruff_0.17.3_docs_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/astral-sh/ruff",
+   "ref": "0.17.3",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 10
+  },
+  "aspects": [
+   1,
+   2,
+   5
+  ],
+  "complete": "部分",
+  "scope": "仓库 docs/（配置、linter、formatter、编辑器集成）；规则逐条页面由代码生成，未含",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ },
+ {
+  "id": "06D05",
+  "cat": "06",
+  "cross": [],
+  "type": "docs",
+  "tool": "typing",
+  "project": "typing",
+  "title": "Python 类型系统规范与指南（typing.python.org 源）",
+  "authors": "Python typing council",
+  "school": "",
+  "year": "",
+  "version": "main 提交",
+  "lang": "en",
+  "level": "入门-进阶",
+  "prereq": "Python 基础",
+  "stack": "typing",
+  "source": "https://github.com/python/typing",
+  "license": "PSF-2.0",
+  "goal": "docs/spec（类型系统规范全文）+ docs/guides",
+  "order": 5,
+  "out": "official_docs/python_typing_docs_main_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/python/typing",
+   "paths": [
+    "docs"
+   ]
+  },
+  "expect": {
+   "min_docs": 20
+  },
+  "aspects": [
+   2,
+   3
+  ],
+  "complete": "完整",
+  "scope": "docs/spec（类型系统规范全文）+ docs/guides",
+  "material": "官方文档",
+  "use": "按需查询",
+  "note": "",
+  "entry": ""
+ }
+]
